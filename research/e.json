@@ -1,0 +1,362 @@
+{
+ "places": [
+  {
+   "id": "e-wb-studio-tour-tokyo",
+   "name": "ワーナー ブラザース スタジオツアー東京 ‐ メイキング・オブ・ハリー・ポッター",
+   "zh": "華納兄弟東京影城－哈利波特製作之旅（豐島園）",
+   "cat": "park",
+   "tags": [
+    "harry-potter",
+    "studio-tour",
+    "exhibition",
+    "museum"
+   ],
+   "zone": "z5",
+   "town": "練馬・豐島園",
+   "station": "豊島園駅（西武豊島線）步行約2分／豊島園駅（都營大江戶線）步行約4分（Walkerplus）",
+   "from_base": "最省錢：戶越搭都營淺草線往北，到大門（或泉岳寺）轉都營大江戶線，坐到終點方向的豊島園。約53分、IC 377日圓（駅探，2026/10 查詢）。最快：淺草線到五反田→JR山手線外回到代代木→大江戶線，約49分、IC 659日圓。",
+   "lat": 35.745698,
+   "lng": 139.645715,
+   "geo_src": "英文維基百科條目座標",
+   "geo_approx": false,
+   "q": "ワーナー ブラザース スタジオツアー東京 練馬区春日町",
+   "addr": "東京都練馬区春日町1-1-7",
+   "price": "一般票（日期＋時段指定，浮動價）：大人（18歲以上）6,600～7,300日圓／中人（12～17歲）5,500～6,000日圓／小人（4～11歲）4,000～4,400日圓；3歲以下免費。2026/7/1 入場起的價格。無大學生／學生優惠。",
+   "hours": "每天不同，公式「運營カレンダー」公布；查不到固定時間",
+   "closed": "不定休（2026/11 有數天休館），以官網行事曆為準",
+   "flag": "star",
+   "warn": "⚠️ 必須事前買「日期＋入場時段」票，熱門時段會賣完；票不能退，改期每次 1,500日圓。出場後不能再入場（非官方來源兩家一致）。",
+   "bookable": true,
+   "bk": "官網目前（2026/10）已開賣到 2027/3/31 入場的票，可以現在就買 3/18 或 3/19。官方管道：官網、館內售票窗口、7-Eleven，以及官網列出的授權代理（含 KKday、Klook、雄獅、可樂、東南、易遊網、康迅、Trip.com 等）。在官網刷台灣信用卡需開通 3D 驗證。",
+   "url": "https://www.wbstudiotour.jp/",
+   "note": "走進電影實際使用的佈景與道具：大廳、斜角巷、9¾月台、禁忌森林等。官方建議留 3～4 小時，實際含吃飯、買紀念品常要 5～6 小時。",
+   "day": null,
+   "deep": {
+    "lead": "這是「電影製作展」，沒有遊樂設施；適合想慢慢看佈景、道具和幕後工法的人。",
+    "paras": [
+     "票是「日期＋入場時段」制，要在指定時間後 30 分鐘內入場，遲到可能被改到下一個有空位的時段，過了最後場次可能無法入場（官網 FAQ）。2026/7/1 起票價改為浮動制，大人 6,600～7,300日圓，三位都是大人，以 2027 年 3 月的實際售價為準。",
+     "官網列出的授權代理有 37 家以上，台灣常用的 KKday、Klook、雄獅旅遊、可樂旅遊、東南旅行社、易遊網都在名單上。官網明說：向未授權第三方（含拍賣網站）買的票不能入場。透過代理或超商買的票，改期要找原購買管道。",
+     "館內餐飲：大廳區有 Food Hall 與 Chocolate Frog Café（巧克力蛙咖啡），在導覽前後都能用；Backlot Café 在導覽路線中段，旁邊有號稱全球最大的奶油啤酒吧（Butterbeer Bar，官網未列價格）。午茶套票須在閉館前至少 3 小時使用。",
+     "紀念品：主商店與 9¾ 月台附近的 Railway Shop，要有門票才能進。可用現金、主要信用卡、Apple Pay（限信用卡）、PayPay、支付寶、微信支付；不收交通 IC 卡（Suica 等）、iD、QUICPay，館內沒有 ATM（官網 FAQ）。"
+    ],
+    "tips": [
+     "從戶越搭淺草線→大門轉大江戶線最便宜，約 53 分、IC 377 日圓（駅探）。",
+     "大行李寄放館外置物櫃（官網建議）；館內外都有投幣置物櫃。",
+     "三腳架、自拍棒不能在館內使用（KKday 部落格）。",
+     "外食原則禁止帶入（非官方兩家來源一致），水可帶密封容器（KKday 部落格，未經官方確認）。",
+     "建議排平日上午到中午的時段，留足 5 小時。",
+     "官方 FAQ：館內有免費 Wi-Fi。"
+    ]
+   },
+   "src": [
+    "https://www.wbstudiotour.jp/tickets/",
+    "https://www.wbstudiotour.jp/ticket-information/price/",
+    "https://www.wbstudiotour.jp/news_20251120/",
+    "https://www.wbstudiotour.jp/en/faqs/tickets/",
+    "https://www.wbstudiotour.jp/en/faqs/facilities/",
+    "https://www.wbstudiotour.jp/en/plan-your-visit/opening-times/",
+    "https://www.wbstudiotour.jp/en/tickets/authorised-distributors/",
+    "https://www.wbstudiotour.jp/en/the-experience/fooddrink/",
+    "https://www.walkerplus.com/spot/ar0313s465841/data.html",
+    "https://ekitan.com/transit/fare/sf-2611/st-2614",
+    "https://www.travelphotolover.com/entry/harry-potter-studio-tour-tokyo",
+    "https://www.kkday.com/ja/blog/56029/asia-japan-tokyo-warnerbrosstudiotour"
+   ]
+  },
+  {
+   "id": "e-tokyo-disneyland",
+   "name": "東京ディズニーランド",
+   "zh": "東京迪士尼樂園",
+   "cat": "park",
+   "tags": [
+    "disney",
+    "theme-park"
+   ],
+   "zone": "z5",
+   "town": "千葉縣浦安市 舞濱",
+   "station": "舞浜駅（JR京葉線）",
+   "from_base": "最簡單：淺草線到五反田→JR山手線內回到東京→JR京葉線到舞濱，約59分、IC 618日圓（東京站轉京葉線要走一段長通道）。最快：淺草線到東銀座→日比谷線到八丁堀→京葉線，約47分、IC 581日圓（駅探，2026/10 查詢）。",
+   "lat": 35.63278,
+   "lng": 139.88056,
+   "geo_src": "英文維基百科條目座標",
+   "geo_approx": false,
+   "q": "東京ディズニーランド 浦安市舞浜",
+   "addr": "千葉県浦安市舞浜1-1",
+   "price": "1デーパスポート（日期指定）：大人（18歲以上）8,900日圓起，2026/10/10 入園起最高 12,400日圓；中人 7,400日圓起；小人 5,300日圓起。快速通關 DPA 另計，每項每人約 1,000～2,000日圓。",
+   "hours": "依日期公布，以官網營業時間為準",
+   "flag": "warn",
+   "warn": "⚠️ 太空山（Space Mountain）改建中，官方說 2027 年才開幕，3 月時可能還在施工。免費的快速通關（Priority Pass）2026/8/31 已結束，現在只有付費 DPA。",
+   "bookable": true,
+   "bk": "每天 14:00（日本時間）開賣兩個月後同一天的票：3/17 的票 2027/1/17 14:00 開賣，3/18 的票 1/18 開賣，依此類推。官網、官方 App 購買；海外信用卡常刷不過，需 3D 驗證。",
+   "url": "https://www.tokyodisneyresort.jp/tdl/",
+   "note": "城堡、遊行和經典設施集中，適合第一次去迪士尼、想看遊行與城堡的人。本次行程是備案。",
+   "day": null,
+   "deep": {
+    "lead": "票價依日期浮動，平日便宜；快速通關全部改為付費。",
+    "paras": [
+     "票價：官網目前標示大人 8,900 日圓起；2026/10/10 起需求高的日子上限調到 12,400 日圓（Impress、Financial Field 兩家報導一致）。週末與連假通常是高價日，實際以官網價格行事曆為準。",
+     "快速通關：2026/8/31 起免費的 Priority Pass 結束，現在只剩付費的「迪士尼尊享卡」（Disney Premier Access, DPA）。須在入園後用官方 App 購買，買完一項要等 60 分鐘或用掉那一項才能再買下一項（遊樂設施類）。2026/9/1 起新增巨雷山、小熊維尼獵蜜記（各 1,500 日圓）等項目。",
+     "營運方 OLC 已公布將推出「入園前就能買 DPA」的服務，2027 年開始使用，但具體月份沒寫，3 月是否已上路不確定。",
+     "明日樂園區改建：太空山與周邊預計 2027 年開幕，《無敵破壞王》主題新設施預計 2027 年春開幕（OLC 決算資料），3 月中是否已開放未知。"
+    ],
+    "tips": [
+     "官方 App（Tokyo Disney Resort App）必裝：DPA、行動點餐、等候時間都靠它。",
+     "App 刷卡要 3D 驗證，簡訊會寄到台灣手機號碼，記得開漫遊或用 eSIM 保留原號碼（Japlanease）。",
+     "非官網買的票要在 App 用相機掃描加入，不能上傳截圖（TDR Explorer）。",
+     "售票窗口不賣當日票，務必事先買（TDR Explorer）。"
+    ]
+   },
+   "src": [
+    "https://www.tokyodisneyresort.jp/ticket/",
+    "https://travel.watch.impress.co.jp/docs/news/2129397.html",
+    "https://financial-field.com/living/entry-519603",
+    "https://financial-field.com/living/entry-506012",
+    "https://game.watch.impress.co.jp/docs/news/2129483.html",
+    "https://www.olc.co.jp/ja/news/news_olc/20260129_3/main/0/link/20260129_1.pdf",
+    "https://ekitan.com/transit/fare/sf-2611/st-3022",
+    "https://en.wikipedia.org/wiki/Tokyo_Disneyland",
+    "https://japlanease.com/buying-tokyo-disney-tickets-tips/",
+    "https://tdrexplorer.com/tokyo-disneyland-tickets/"
+   ]
+  },
+  {
+   "id": "e-tokyo-disneysea",
+   "name": "東京ディズニーシー",
+   "zh": "東京迪士尼海洋",
+   "cat": "park",
+   "tags": [
+    "disney",
+    "theme-park"
+   ],
+   "zone": "z5",
+   "town": "千葉縣浦安市 舞濱",
+   "station": "舞浜駅（JR京葉線）→ 迪士尼度假區線（單軌電車）東京ディズニーシー・ステーション",
+   "from_base": "同迪士尼樂園：到 JR 舞濱約 47～59 分（駅探，2026/10 查詢），再轉迪士尼度假區線單軌電車到海洋站（另收費）。",
+   "lat": 35.62667,
+   "lng": 139.88806,
+   "geo_src": "英文維基百科條目座標",
+   "geo_approx": false,
+   "q": "東京ディズニーシー 浦安市舞浜",
+   "addr": "千葉県浦安市舞浜1-13",
+   "price": "1デーパスポート同迪士尼樂園：大人 8,900日圓起，2026/10/10 起最高 12,400日圓。DPA：冰雪奇緣、魔髮奇緣、小飛俠各 2,000日圓；部分表演 2,500日圓（2026/9 資料）。",
+   "hours": "依日期公布，以官網營業時間為準",
+   "flag": "ok",
+   "warn": "⚠️ 熱門設施等候長，免費快速通關已取消；想省排隊只能付 DPA（每項每人 1,500～2,000日圓）。",
+   "bookable": true,
+   "bk": "同樂園：每天 14:00 開賣兩個月後同日的票（3/18 的票 2027/1/18 14:00 開賣）。官網、官方 App。",
+   "url": "https://www.tokyodisneyresort.jp/tds/",
+   "note": "港灣造景、成人感較重，2024 年開幕的「夢幻泉鄉」（Fantasy Springs）有冰雪奇緣、魔髮奇緣、小飛俠主題設施。2026/4/15～2027/3/31 是開園 25 週年活動期間。",
+   "day": null,
+   "deep": {
+    "lead": "夢幻泉鄉現在拿一般門票就能自由進出，排一般隊伍即可。",
+    "paras": [
+     "夢幻泉鄉（Fantasy Springs）2024/6/6 開幕。2025/1/28 起取消區域入場限制，2025/4/1 起停用免費的 Standby Pass，冰雪奇緣、魔髮奇緣、小飛俠、奇妙仙子四項設施改為一般排隊（Disney Tourist Blog、Castel 兩家一致）。官方保留恢復限制的權利，當天 App 的票券頁會顯示是否可隨時入場。",
+     "付費 DPA：冰雪奇緣、魔髮奇緣、小飛俠各 2,000 日圓；玩具總動員、翱翔等 2,000 日圓；驚魂古塔、地心探險、憤怒雙神等 1,500 日圓（Wandering in Disney，2026/9）。價格與項目可能再調整。",
+     "2026/4/15～2027/3/31 是迪士尼海洋 25 週年活動期間（OLC 資料），3 月中仍在活動期內。"
+    ],
+    "tips": [
+     "官方 App 必裝，DPA 只能入園後在 App 買。",
+     "舞濱站到海洋要再搭單軌電車，或步行（距離較遠）。",
+     "想買夢幻泉鄉飯店專用的「Fantasy Springs Magic」票，必須是該飯店住客，價格高很多，不建議。"
+    ]
+   },
+   "src": [
+    "https://www.tokyodisneyresort.jp/ticket/",
+    "https://www.disneytouristblog.com/fantasy-springs-standby-lines-ending-virtual-queue/",
+    "https://castel.jp/p/10007",
+    "https://wanderingindisney.com/2026/09/13/disney-premier-access-at-tokyo-disneysea-how-it-works-what-to-use-it-on/",
+    "https://www.olc.co.jp/ja/news/news_olc/20260129_3/main/0/link/20260129_1.pdf",
+    "https://ekitan.com/transit/fare/sf-2611/st-3022",
+    "https://en.wikipedia.org/wiki/Tokyo_DisneySea",
+    "https://travel.watch.impress.co.jp/docs/news/2129397.html",
+    "https://financial-field.com/living/entry-519603"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "k": "三樂園比較－票價（大人1日）",
+   "v": "哈利波特影城 6,600～7,300日圓（日期＋時段指定）；迪士尼樂園／海洋 8,900日圓起，2026/10/10 起最高 12,400日圓（日期指定）。迪士尼想少排隊另付 DPA 每項 1,000～2,000日圓。哈利波特影城無學生價，18 歲以上都算大人。",
+   "src": [
+    "https://www.wbstudiotour.jp/ticket-information/price/",
+    "https://www.wbstudiotour.jp/news_20251120/",
+    "https://www.tokyodisneyresort.jp/ticket/",
+    "https://travel.watch.impress.co.jp/docs/news/2129397.html",
+    "https://financial-field.com/living/entry-519603"
+   ]
+  },
+  {
+   "k": "三樂園比較－從戶越交通",
+   "v": "哈利波特影城：淺草線→大門轉大江戶線，約53分、IC 377日圓（或經五反田、代代木約49分、659日圓）。迪士尼：經東銀座、八丁堀轉京葉線約47分、581日圓；經五反田、東京站約59分、618日圓；海洋再加單軌電車。（駅探，2026/10 查詢）",
+   "src": [
+    "https://ekitan.com/transit/fare/sf-2611/st-2614",
+    "https://ekitan.com/transit/fare/sf-2611/st-3022"
+   ]
+  },
+  {
+   "k": "三樂園比較－適合誰",
+   "v": "哈利波特影城：電影迷、喜歡佈景道具與幕後工藝、不想玩刺激設施、體力中等（全程步行，官方建議 3～4 小時）。迪士尼樂園：第一次去迪士尼、想看城堡與遊行。迪士尼海洋：成人向造景、冰雪奇緣等新區。迪士尼都需整天，排隊時間長。",
+   "src": [
+    "https://www.wbstudiotour.jp/en/faqs/facilities/",
+    "https://www.travelphotolover.com/entry/harry-potter-studio-tour-tokyo",
+    "https://www.disneytouristblog.com/fantasy-springs-standby-lines-ending-virtual-queue/"
+   ]
+  },
+  {
+   "k": "三樂園比較－需預約程度",
+   "v": "哈利波特影城：高。須事先選日期與入場時段，熱門時段會賣完；官網已開賣到 2027/3/31，可現在就買。不可退票，改期 1,500日圓／次。迪士尼：中。日期指定票，兩個月前同日 14:00 開賣（3/18 票於 2027/1/18 開賣），一般不會一開賣就售完（Japlanease），但售票窗口不賣當日票；不可退。",
+   "src": [
+    "https://www.wbstudiotour.jp/en/plan-your-visit/opening-times/",
+    "https://www.wbstudiotour.jp/en/faqs/tickets/",
+    "https://www.tokyodisneyresort.jp/ticket/",
+    "https://japlanease.com/buying-tokyo-disney-tickets-tips/",
+    "https://tdrexplorer.com/tokyo-disneyland-tickets/"
+   ]
+  },
+  {
+   "k": "哈利波特影城 授權代理",
+   "v": "官網授權名單含 KKday、Klook、雄獅旅遊、可樂旅遊、東南旅行社、易遊網（EZ Travel）、康迅旅行社、Trip.com、Agoda、VELTRA、樂天等 37 家以上；未授權第三方（含拍賣網站）購買的票不能入場。透過代理或超商買的票，改期須找原購買管道。",
+   "src": [
+    "https://www.wbstudiotour.jp/en/tickets/authorised-distributors/",
+    "https://www.wbstudiotour.jp/en/faqs/tickets/",
+    "https://www.wbstudiotour.jp/news/"
+   ]
+  },
+  {
+   "k": "2027/3/17～3/21 日本假日",
+   "v": "3/21（日）春分之日，3/22（一）補假，所以 3/20（六）～3/22（一）是三連休。3/17（三）～3/19（五）是平日。",
+   "src": [
+    "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "https://bestcalendar.jp/2027/3/holidays"
+   ]
+  },
+  {
+   "k": "3/17～3/21 適合排樂園的日子",
+   "v": "建議 3/18（四）或 3/19（五）。理由：3/17 抵達日、3/21 回程日不適合整天行程；3/20 起是三連休，迪士尼週末與假日是高價日也最擠（TDR Explorer、Castel）。三月本身是日本學生春假與畢業旅行季，迪士尼整月偏擠，下旬又比上旬擠（TDR Explorer：三月列為『避開』；Castel 2025 年預測：3/20 前後開始擁擠）。哈利波特影城是時段制，人數有控管，但平日時段較容易買到。",
+   "src": [
+    "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "https://tdrexplorer.com/when-should-you-visit-tokyo-disney-resort/",
+    "https://castel.jp/p/9986",
+    "https://www.wbstudiotour.jp/en/faqs/tickets/"
+   ]
+  },
+  {
+   "k": "迪士尼 快速通關現況",
+   "v": "免費 Priority Pass 已於 2026/8/31 結束，只剩付費 DPA，須入園後用官方 App 購買。OLC 已預告 2027 年起推出『入園前購買 DPA』服務，開始月份未公布。",
+   "src": [
+    "https://financial-field.com/living/entry-506012",
+    "https://wanderingindisney.com/2026/09/13/disney-premier-access-at-tokyo-disneysea-how-it-works-what-to-use-it-on/",
+    "https://www.olc.co.jp/ja/news/news_olc/20260129_3/main/0/link/20260129_1.pdf"
+   ]
+  },
+  {
+   "k": "迪士尼 夢幻泉鄉入場",
+   "v": "2025/1/28 起取消區域入場限制，2025/4/1 起停用 Standby Pass，改一般排隊；DPA 每項 2,000日圓。",
+   "src": [
+    "https://www.disneytouristblog.com/fantasy-springs-standby-lines-ending-virtual-queue/",
+    "https://castel.jp/p/10007"
+   ]
+  },
+  {
+   "k": "迪士尼 官方 App 必裝",
+   "v": "DPA 只能入園後在官方 App 買；第三方買的票須用 App 掃描加入。App／官網刷海外信用卡需 3D 驗證，驗證簡訊會寄到原手機號碼。",
+   "src": [
+    "https://wanderingindisney.com/2026/09/13/disney-premier-access-at-tokyo-disneysea-how-it-works-what-to-use-it-on/",
+    "https://japlanease.com/buying-tokyo-disney-tickets-tips/",
+    "https://tdrexplorer.com/tokyo-disneyland-tickets/"
+   ]
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "哈利波特影城 2026/9/29 館內發生火災，數位導覽暫停販售",
+   "why": "只在 urtrip 一篇看到，官網新聞頁與搜尋都找不到第二來源。"
+  },
+  {
+   "claim": "哈利波特影城每天最早入場 9:00、最晚場次約 18:30",
+   "why": "只有 urtrip（且 18:30 是 2023 年資料）；官網只說依日期不同，要看行事曆。"
+  },
+  {
+   "claim": "哈利波特影城有免費衣帽寄放（cloak）",
+   "why": "KKday 部落格說有；官網 FAQ 只提投幣置物櫃與建議大行李放館外置物櫃，兩者說法不同，先以官網為準。"
+  },
+  {
+   "claim": "奶油啤酒價格",
+   "why": "官網餐飲頁未列價格，菜單 PDF 未讀到，不寫。"
+  },
+  {
+   "claim": "英文維基說西武的站名已改為『豊島園前』",
+   "why": "2026/10 的駅探查詢仍顯示『豊島園』，也找不到西武改名公告；先寫豊島園。"
+  },
+  {
+   "claim": "Klook／KKday 是東京迪士尼的官方授權通路",
+   "why": "多篇攻略（Japlanease、TDR Explorer）視為可靠通路，但 TDR 官網的海外授權名單頁面打不開，未能直接確認。"
+  },
+  {
+   "claim": "2027 年 3 月迪士尼各日的實際票價",
+   "why": "價格行事曆要到開賣時才公布，目前只能寫範圍。"
+  },
+  {
+   "claim": "太空山、無敵破壞王新設施在 2027/3 中旬是否已開放",
+   "why": "OLC 只寫『2027 年』『2027 年春』，沒有具體日期。"
+  },
+  {
+   "claim": "2027 年 3 月中旬東京中小學春假開始日",
+   "why": "只有 Castel 2025 年的推估（3/22 前後），沒有 2027 年的官方資料。"
+  },
+  {
+   "claim": "東京迪士尼樂園／海洋營業時間",
+   "why": "官網營業時間頁抓不到，各日不同，不寫固定時間。"
+  }
+ ],
+ "overturned": [
+  {
+   "claim": "哈利波特影城門票大人 6,300日圓",
+   "truth": "2026/7/1 入場起改為浮動價，大人 6,600～7,300日圓、中人 5,500～6,000、小人 4,000～4,400。",
+   "src": [
+    "https://www.wbstudiotour.jp/news_20251120/",
+    "https://www.wbstudiotour.jp/tickets/"
+   ]
+  },
+  {
+   "claim": "哈利波特影城現場完全不賣票、只能預約",
+   "truth": "官方說館內有售票窗口，但時段可能賣完，強烈建議事先買。（開幕時的報導是全預約制）",
+   "src": [
+    "https://www.wbstudiotour.jp/tickets/",
+    "https://www.wbstudiotour.jp/en/faqs/tickets/"
+   ]
+  },
+  {
+   "claim": "哈利波特影城門票通常只開放約 3 個月內",
+   "truth": "官網 2026/10 寫：目前已開賣到 2027/3/31 入場，3 月行程現在就能買。",
+   "src": [
+    "https://www.wbstudiotour.jp/en/plan-your-visit/opening-times/"
+   ]
+  },
+  {
+   "claim": "東京迪士尼一日票 7,900～10,900日圓",
+   "truth": "官網目前標示大人 8,900日圓起；2026/10/10 起高需求日上限調到 12,400日圓。",
+   "src": [
+    "https://www.tokyodisneyresort.jp/ticket/",
+    "https://travel.watch.impress.co.jp/docs/news/2129397.html",
+    "https://financial-field.com/living/entry-519603"
+   ]
+  },
+  {
+   "claim": "迪士尼有免費快速通關（Priority Pass／40週年優先卡）",
+   "truth": "Priority Pass 於 2026/8/31 結束，現在只有付費 DPA。",
+   "src": [
+    "https://financial-field.com/living/entry-506012",
+    "https://wanderingindisney.com/2026/09/13/disney-premier-access-at-tokyo-disneysea-how-it-works-what-to-use-it-on/"
+   ]
+  },
+  {
+   "claim": "迪士尼海洋夢幻泉鄉要先抽／拿 Standby Pass 才能進",
+   "truth": "2025/1/28 起取消區域入場限制，2025/4/1 起停用 Standby Pass，改一般排隊。",
+   "src": [
+    "https://www.disneytouristblog.com/fantasy-springs-standby-lines-ending-virtual-queue/",
+    "https://castel.jp/p/10007"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "apps": [
+  {
+   "id": "f-a-gmaps",
+   "name": "Google Maps",
+   "must": true,
+   "dev": "Google LLC",
+   "ios_url": "https://apps.apple.com/jp/app/id585027354",
+   "ios_id": "585027354",
+   "android_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
+   "tw_store": true,
+   "what": "地圖、步行與電車路線、店家營業時間",
+   "when": "每天找路、查店",
+   "gotchas": "店家營業時間與公休偶爾不準，重要的店再查官網或 Tabelog；轉乘有時不會選最便宜的路線",
+   "offline": "可下載離線地圖，但離線時無法查電車轉乘",
+   "src": [
+    "https://apps.apple.com/jp/app/id585027354",
+    "https://play.google.com/store/apps/details?id=com.google.android.apps.maps"
+   ],
+   "unknown": ""
+  },
+  {
+   "id": "f-a-jorudan",
+   "name": "乗換案内（Japan Transit Planner）",
+   "must": false,
+   "dev": "Jorudan Co.,Ltd.",
+   "ios_url": "https://apps.apple.com/jp/app/id299490481",
+   "ios_id": "299490481",
+   "android_url": "https://play.google.com/store/apps/details?id=jp.co.jorudan.nrkj",
+   "tw_store": null,
+   "what": "日本電車轉乘、時刻、車資",
+   "when": "想比較便宜路線或確認末班車",
+   "gotchas": "iOS 版介面以日文為主；部分功能要付費",
+   "offline": "需連網",
+   "src": [
+    "https://apps.apple.com/jp/app/id299490481",
+    "https://play.google.com/store/apps/details?id=jp.co.jorudan.nrkj"
+   ],
+   "unknown": "台灣區 App Store 是否上架未確認"
+  },
+  {
+   "id": "f-a-navitime",
+   "name": "Japan Travel by NAVITIME",
+   "must": false,
+   "dev": "NAVITIME JAPAN CO., LTD.",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "https://play.google.com/store/apps/details?id=com.navitime.inbound.walk",
+   "tw_store": null,
+   "what": "給外國旅客的轉乘與旅遊資訊 App，有中文",
+   "when": "查路線、新幹線、觀光資訊",
+   "gotchas": "部分功能需付費訂閱",
+   "offline": "需連網",
+   "src": [
+    "https://play.google.com/store/apps/details?id=com.navitime.inbound.walk"
+   ],
+   "unknown": "App Store 頁面本次未成功打開，ios_url 留空"
+  },
+  {
+   "id": "f-a-welcome-suica",
+   "name": "Welcome Suica Mobile",
+   "must": true,
+   "dev": "East Japan Railway Company",
+   "ios_url": "https://apps.apple.com/us/app/id6738336566",
+   "ios_id": "6738336566",
+   "android_url": "",
+   "tw_store": null,
+   "what": "外國旅客用的手機 Suica，免註冊、免押金",
+   "when": "iPhone 使用者搭車、超商付款",
+   "gotchas": "只支援 iPhone（iOS 17.2 以上）與 Apple Watch；發行後180天到期，餘額不退",
+   "offline": "刷卡進站不需要網路，加值需要",
+   "src": [
+    "https://apps.apple.com/us/app/id6738336566",
+    "https://www.jreast.co.jp/press/2024/20250218_ho03.pdf"
+   ],
+   "unknown": "沒有 Android 版（2027年起 Samsung Wallet 預計支援，機型未定）；台灣區 App Store 上架狀況未確認"
+  },
+  {
+   "id": "f-a-suica",
+   "name": "Suica（Suicaアプリ）",
+   "must": false,
+   "dev": "East Japan Railway Company",
+   "ios_url": "https://apps.apple.com/jp/app/id1156875272",
+   "ios_id": "1156875272",
+   "android_url": "",
+   "tw_store": null,
+   "what": "JR 東日本的 Suica 管理 App（加值、定期券等）",
+   "when": "iPhone 錢包已有 Suica、想用 App 管理時",
+   "gotchas": "以日本使用者為主、介面日文；一般觀光客用 iPhone 錢包或 Welcome Suica Mobile 就夠",
+   "offline": "需連網",
+   "src": [
+    "https://apps.apple.com/jp/app/id1156875272"
+   ],
+   "unknown": "Android 版頁面未確認；台灣信用卡能否綁定未查證"
+  },
+  {
+   "id": "f-a-go",
+   "name": "GO（計程車）",
+   "must": true,
+   "dev": "GO Inc.",
+   "ios_url": "https://apps.apple.com/tw/app/id1254341709",
+   "ios_id": "1254341709",
+   "android_url": "https://play.google.com/store/apps/details?id=com.dena.automotive.taxibell",
+   "tw_store": true,
+   "what": "日本叫計程車 App，有繁中介面",
+   "when": "帶姑姑、行李多、末班車後",
+   "gotchas": "台灣區頁面寫可用非日本手機號碼註冊；尖峰或雨天叫不到車很正常",
+   "offline": "需連網",
+   "src": [
+    "https://apps.apple.com/tw/app/id1254341709",
+    "https://play.google.com/store/apps/details?id=com.dena.automotive.taxibell"
+   ],
+   "unknown": "台灣信用卡綁定是否全部可用未查證"
+  },
+  {
+   "id": "f-a-tabelog",
+   "name": "食べログ（Tabelog）",
+   "must": false,
+   "dev": "Kakaku.com, Inc.",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "https://play.google.com/store/apps/details?id=com.kakaku.tabelog",
+   "tw_store": null,
+   "what": "日本餐廳評價、營業時間、訂位",
+   "when": "找居酒屋、查公休",
+   "gotchas": "評分標準和 Google 不同，分數普遍較低；App 以日文為主，網頁有中文版",
+   "offline": "需連網",
+   "src": [
+    "https://play.google.com/store/apps/details?id=com.kakaku.tabelog"
+   ],
+   "unknown": "App Store 頁面本次未成功打開，ios_url 留空"
+  },
+  {
+   "id": "f-a-vjw",
+   "name": "Visit Japan Web（網頁，不是 App）",
+   "must": true,
+   "dev": "日本數位廳",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "",
+   "tw_store": null,
+   "what": "入境審查與海關申報的事前登錄，網址 vjw.digital.go.jp",
+   "when": "出發前1～2週登錄，入境時出示 QR code；新制退稅也建議用它登錄",
+   "gotchas": "官方沒有 App，App Store 上自稱 Visit Japan Web 的 App 或收費代辦網站都可能是假的；官方不會要求信用卡資料",
+   "offline": "入境前先把 QR code 截圖存手機",
+   "src": [
+    "https://www.digital.go.jp/news/6ca8eac4-c6e9-4daf-abec-76cef9fb638b",
+    "https://www.customs.go.jp/news/news/oshirase/20260528.html"
+   ],
+   "unknown": ""
+  },
+  {
+   "id": "f-a-tdr",
+   "name": "Tokyo Disney Resort App",
+   "must": false,
+   "dev": "Oriental Land Co., Ltd.",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "https://play.google.com/store/apps/details?id=jp.tokyodisneyresort.portalapp",
+   "tw_store": null,
+   "what": "迪士尼門票、等候時間、付費快速通關",
+   "when": "若改去迪士尼（備案）才需要",
+   "gotchas": "園內很多功能需先綁門票",
+   "offline": "需連網",
+   "src": [
+    "https://play.google.com/store/apps/details?id=jp.tokyodisneyresort.portalapp"
+   ],
+   "unknown": "App Store 頁面本次未成功打開，ios_url 留空"
+  },
+  {
+   "id": "f-a-safetytips",
+   "name": "Safety tips",
+   "must": true,
+   "dev": "RC Solution Co.（觀光廳監修）",
+   "ios_url": "https://apps.apple.com/jp/app/id858357174",
+   "ios_id": "858357174",
+   "android_url": "https://play.google.com/store/apps/details?id=jp.co.rcsc.safetyTips.android",
+   "tw_store": null,
+   "what": "地震、海嘯、氣象警報推播，支援繁體中文等15種語言",
+   "when": "出發前安裝，整趟開著推播",
+   "gotchas": "要允許通知與定位才有用",
+   "offline": "推播需連網",
+   "src": [
+    "https://apps.apple.com/jp/app/id858357174",
+    "https://play.google.com/store/apps/details?id=jp.co.rcsc.safetyTips.android"
+   ],
+   "unknown": "「觀光廳監修」來自一般說法，本次未從 App 頁確認"
+  },
+  {
+   "id": "f-a-gtranslate",
+   "name": "Google 翻譯",
+   "must": true,
+   "dev": "Google LLC",
+   "ios_url": "https://apps.apple.com/jp/app/id414706506",
+   "ios_id": "414706506",
+   "android_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.translate",
+   "tw_store": true,
+   "what": "文字、拍照、對話翻譯",
+   "when": "看菜單、告示",
+   "gotchas": "手寫菜單辨識常出錯",
+   "offline": "可先下載日文離線語言包",
+   "src": [
+    "https://apps.apple.com/jp/app/id414706506",
+    "https://play.google.com/store/apps/details?id=com.google.android.apps.translate"
+   ],
+   "unknown": ""
+  },
+  {
+   "id": "f-a-line",
+   "name": "LINE",
+   "must": true,
+   "dev": "LY Corporation",
+   "ios_url": "https://apps.apple.com/jp/app/id443904275",
+   "ios_id": "443904275",
+   "android_url": "https://play.google.com/store/apps/details?id=jp.naver.line.android",
+   "tw_store": true,
+   "what": "三人與朋友聯絡、分享位置",
+   "when": "整趟",
+   "gotchas": "有些日本店家用 LINE 預約或發優惠券",
+   "offline": "需連網",
+   "src": [
+    "https://apps.apple.com/jp/app/id443904275",
+    "https://play.google.com/store/apps/details?id=jp.naver.line.android"
+   ],
+   "unknown": ""
+  },
+  {
+   "id": "f-a-klook",
+   "name": "Klook",
+   "must": false,
+   "dev": "Klook Travel Technology Ltd.",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "https://play.google.com/store/apps/details?id=com.klook",
+   "tw_store": null,
+   "what": "買樂園門票、交通票券、行程",
+   "when": "買哈利波特影城或迪士尼門票前比價",
+   "gotchas": "樂園門票注意是否指定日期、能否退改；和官方售價比一比",
+   "offline": "電子票券可先存截圖",
+   "src": [
+    "https://play.google.com/store/apps/details?id=com.klook"
+   ],
+   "unknown": "App Store 頁面本次未成功打開，ios_url 留空"
+  },
+  {
+   "id": "f-a-kkday",
+   "name": "KKday",
+   "must": false,
+   "dev": "KKday（酷遊天股份有限公司）",
+   "ios_url": "",
+   "ios_id": "",
+   "android_url": "https://play.google.com/store/apps/details?id=com.kkday.member",
+   "tw_store": null,
+   "what": "台灣的旅遊票券平台，門票、交通券、一日遊",
+   "when": "和 Klook 比價",
+   "gotchas": "同上，注意退改規定",
+   "offline": "電子票券可先存截圖",
+   "src": [
+    "https://play.google.com/store/apps/details?id=com.kkday.member"
+   ],
+   "unknown": "App Store 頁面本次未成功打開，ios_url 留空"
+  }
+ ]
+}

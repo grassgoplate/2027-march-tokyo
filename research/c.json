@@ -1,0 +1,942 @@
+{
+ "places": [
+  {
+   "id": "c-meiji-jingu",
+   "name": "明治神宮",
+   "zh": "明治神宮",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "garden"
+   ],
+   "zone": "z3",
+   "town": "原宿／代代木",
+   "station": "原宿駅（JR山手線）、明治神宮前〈原宿〉駅（東京Metro千代田線・副都心線）；另有北參道駅、代々木駅、參宮橋駅可進",
+   "from_base": "戶越搭都營淺草線1站到五反田，出站轉JR山手線外回り（往澀谷・新宿方向，2號月台）直達原宿，不用再轉。五反田是出閘轉乘，最快約5分（wadattsu261）",
+   "lat": 35.67611,
+   "lng": 139.69917,
+   "geo_src": "en.wikipedia Meiji Shrine 條目座標",
+   "geo_approx": false,
+   "q": "明治神宮 渋谷区代々木神園町",
+   "addr": "東京都渋谷区代々木神園町1-1",
+   "price": "境內免費；明治神宮御苑另收維持協力金500円",
+   "hours": "依日出日落調整，3月 5:40～17:20（10月官網標示5:40～16:40，與第三方月表一致）",
+   "closed": "無休",
+   "flag": "star",
+   "url": "https://www.meijijingu.or.jp/",
+   "note": "從原宿口走進參道，兩旁是整片人工種植的森林，十分鐘內就從人潮走進安靜的林道。適合早上去，人少、光線好；可以順路接東鄉神社和竹下通。",
+   "day": null,
+   "deep": {
+    "lead": "原宿站旁的大片森林，早上來最舒服。",
+    "paras": [
+     "明治神宮奉祀明治天皇與昭憲皇太后。開關門時間跟著日出日落每月調整，3月大約5:40開、17:20關。",
+     "境內免費參拜；明治神宮御苑（花菖蒲田所在的庭園）要另付500円維持協力金。"
+    ],
+    "tips": [
+     "關門前約30分鐘停止入場（國交省多言語解說資料）",
+     "參道是碎石路，穿好走的鞋",
+     "3月還沒到花菖蒲季，御苑可以視時間決定要不要進"
+    ]
+   },
+   "src": [
+    "https://www.meijijingu.or.jp/",
+    "https://www.fun-japan.jp/tw/articles/8272",
+    "https://www.mlit.go.jp/tagengo-db/H30-00511.html"
+   ]
+  },
+  {
+   "id": "c-togo-jinja",
+   "name": "東郷神社",
+   "zh": "東鄉神社",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z3",
+   "town": "原宿",
+   "station": "原宿駅（JR山手線）竹下口步行3分（LIVE JAPAN）",
+   "from_base": "淺草線到五反田→JR山手線外回り到原宿，竹下口出站",
+   "lat": 35.67111,
+   "lng": 139.70722,
+   "geo_src": "en.wikipedia Tōgō Shrine 條目座標",
+   "geo_approx": false,
+   "q": "東郷神社 渋谷区神宮前",
+   "addr": "東京都渋谷区神宮前1-5-3",
+   "hours": "官網：開門 4～10月6:00、11～3月6:30；閉門17:00（LIVE JAPAN 寫 6:00～17:00，3月請以官網6:30為準）",
+   "flag": "ok",
+   "url": "https://togojinja.or.jp/",
+   "note": "竹下通旁邊、明治通路口附近的神社，祀日俄戰爭的東鄉平八郎，以「勝利」祈願聞名。逛完竹下通人潮可以進來喘口氣。",
+   "day": null,
+   "src": [
+    "https://togojinja.or.jp/",
+    "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-harajuku/spot-lj0001967/",
+    "https://en.wikipedia.org/wiki/T%C5%8Dg%C5%8D_Shrine"
+   ]
+  },
+  {
+   "id": "c-konno-hachimangu",
+   "name": "金王八幡宮",
+   "zh": "金王八幡宮",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "sakura"
+   ],
+   "zone": "z3",
+   "town": "澀谷",
+   "station": "渋谷駅（東口・南口・新南口）步行約5分",
+   "from_base": "淺草線到五反田→JR山手線外回り到澀谷（戶越→澀谷約15分、IC 377円，ekitan 2026-10查）",
+   "lat": 35.6577,
+   "lng": 139.7058,
+   "geo_src": "依地址（渋谷3-5-12，六本木通南側、澀谷站東南步行5分）推估",
+   "geo_approx": true,
+   "q": "金王八幡宮 渋谷区渋谷3-5-12",
+   "addr": "東京都渋谷区渋谷3-5-12",
+   "flag": "ok",
+   "warn": "⚠️ 金王櫻（區指定天然紀念物）開花期查不到可靠日期；3/17～21 很可能還沒開，別專程為櫻花來",
+   "note": "澀谷再開發大樓之間的老神社。社傳創建於1092年，本殿・拜殿是1612年造營的澀谷區指定文化財。在澀谷站附近想找安靜角落時順路來。",
+   "day": null,
+   "src": [
+    "https://ja.wikipedia.org/wiki/%E9%87%91%E7%8E%8B%E5%85%AB%E5%B9%A1%E5%AE%AE",
+    "https://www.travel.co.jp/guide/article/37229/"
+   ]
+  },
+  {
+   "id": "c-hanazono-jinja",
+   "name": "花園神社",
+   "zh": "花園神社",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z3",
+   "town": "新宿",
+   "station": "新宿三丁目駅（東京Metro丸之內線・副都心線、都營新宿線）E2出口即到",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿（戶越→新宿約23分、IC 387円，ekitan），東口步行；或在新宿站轉地鐵到新宿三丁目",
+   "lat": 35.693553,
+   "lng": 139.705184,
+   "geo_src": "en.wikipedia Hanazono Shrine 條目座標",
+   "geo_approx": false,
+   "q": "花園神社 新宿区新宿5-17-3",
+   "addr": "東京都新宿区新宿5-17-3",
+   "flag": "ok",
+   "note": "黃金街就在神社後面。境內有供奉演藝人的「藝能淺間神社」，夜裡鳥居參道有點燈（英文維基）。晚上去黃金街前先來這裡繞一圈很順。",
+   "day": null,
+   "src": [
+    "https://livejapan.com/ja/spot/lj0001918/",
+    "https://www.nap-camp.com/mag/90896",
+    "https://en.wikipedia.org/wiki/Hanazono_Shrine"
+   ]
+  },
+  {
+   "id": "c-shinjuku-gyoen",
+   "name": "新宿御苑",
+   "zh": "新宿御苑",
+   "cat": "park",
+   "tags": [
+    "garden",
+    "sakura"
+   ],
+   "zone": "z3",
+   "town": "新宿",
+   "station": "新宿門：新宿駅南口步行10分、新宿三丁目駅E5出口5分、新宿御苑前駅出口1步行5分；千駄ヶ谷門：JR千駄ヶ谷駅5分",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿（約23分、IC 387円，ekitan），南口走10分到新宿門",
+   "lat": 35.6852,
+   "lng": 139.7101,
+   "geo_src": "園區中心概略位置（官網與維基未取得精確座標）",
+   "geo_approx": true,
+   "q": "新宿御苑 新宿区内藤町11",
+   "addr": "東京都新宿区内藤町11",
+   "price": "一般500円；學生（高中以上）・65歲以上250円；國中以下免費",
+   "hours": "3/15～9/30 9:00～18:00（17:30最後入園）；10/1～3/14 9:00～16:30（16:00最後入園）",
+   "closed": "週一（遇假日順延）；3/25～4/24 櫻花期週一照常開",
+   "flag": "warn",
+   "warn": "⚠️ 全年禁止帶酒入園（也禁菸、禁球類與野餐爐具）。2026年櫻花季在3/28、3/29、4/5 的10～16點採網路預約制；2027年是否預約、哪幾天，要等官網公告",
+   "bookable": true,
+   "bk": "可先在官網連結的 asoview 買電子票（購買日起6個月有效），入口掃QR免排售票隊。若2027年櫻花週末再實施預約制，2026年的受理是3月初開放、先搶先贏",
+   "url": "https://policies.env.go.jp/national-garden/shinjukugyoen/",
+   "note": "約70種、900棵櫻花，染井吉野通常3月下旬到4月上旬才是滿開；3/17～21 能看到的主要是早開品種與十月櫻，染井吉野可能才剛開。草地大，適合買便當來坐（記得不能喝酒）。",
+   "day": null,
+   "deep": {
+    "lead": "早開櫻有機會，染井吉野多半還沒滿開。",
+    "paras": [
+     "官網寫寒櫻類花期1月到3月上旬、十月櫻春天在3月開、染井吉野3月下旬到4月上旬。所以我們的日期是「早櫻尾聲、吉野將開」的空窗，看運氣。",
+     "2026年的預約制只在櫻花滿開的週末（3/28、3/29、4/5）10～16點實施；9～10點、16點後免預約。2027年規則未公布，出發前一個月看官網新聞。",
+     "交通IC卡可以直接刷入園閘門。"
+    ],
+    "tips": [
+     "禁止帶酒，入口可能檢查包包（未查到官方明文，有遊客2017年的經驗談）",
+     "3/17～21 期間沒有週一，不會碰到休園",
+     "人最多是10～16點，平日比週末好"
+    ]
+   },
+   "src": [
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/rule/",
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/highlights/sakura/",
+    "https://www.env.go.jp/press/press_03164.html",
+    "https://www.walkerplus.com/event/ar0313e25816/",
+    "https://sp.jorudan.co.jp/hanami/spot_110.html"
+   ]
+  },
+  {
+   "id": "c-nezu-museum",
+   "name": "根津美術館",
+   "zh": "根津美術館",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition",
+    "garden"
+   ],
+   "zone": "z3",
+   "town": "表參道／南青山",
+   "station": "表参道駅（東京Metro銀座線・半藏門線・千代田線）A5出口步行8分",
+   "from_base": "淺草線到五反田→JR山手線外回り到澀谷→東京Metro銀座線或半藏門線1站到表參道（換乘時間未查）",
+   "lat": 35.66215,
+   "lng": 139.71703,
+   "geo_src": "en.wikipedia Nezu Museum 條目座標",
+   "geo_approx": false,
+   "q": "根津美術館 港区南青山6-5-1",
+   "addr": "東京都港区南青山6-5-1",
+   "price": "企畫展：線上日時指定 一般1,400円／現場1,600円；高中以下免費（官網2026-10）",
+   "hours": "10:00～17:00（16:30最後入館）；庭園同；NEZUCAFÉ 10:00～16:30",
+   "closed": "週一（遇假日改週二）、換展期間、年末年始",
+   "flag": "star",
+   "bookable": true,
+   "bk": "官網 e-tix 線上買日時指定票較便宜；也有現場票",
+   "url": "https://www.nezu-muse.or.jp/",
+   "note": "隈研吾設計的竹林引道和後面的大庭園，比展品更讓人記得。2027/1/30～3/28 的展覽是「根津美術館の仏像コレクション」（企畫展），剛好涵蓋我們的日期。逛完庭園在 NEZUCAFÉ 坐一下。",
+   "day": null,
+   "deep": {
+    "lead": "3月是佛像展，不是燕子花圖。",
+    "paras": [
+     "官網年間行程：2027/1/30～3/28 企畫展「根津美術館の仏像コレクション」。國寶《燕子花圖屏風》是4～5月特別展才出（2026年是4/11～5/10），3月看不到。",
+     "庭園跟館同時間開放，不另收費（含在門票內）。"
+    ],
+    "tips": [
+     "展期可能變動，出發前再看官網",
+     "週一休館；3/17（三）～3/20（六）都有開",
+     "表參道站走過來約8～10分"
+    ]
+   },
+   "src": [
+    "https://www.nezu-muse.or.jp/jp/visit/",
+    "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+    "https://en.wikipedia.org/wiki/Nezu_Museum"
+   ]
+  },
+  {
+   "id": "c-on-sundays",
+   "name": "ON SUNDAYS（ワタリウム美術館）",
+   "zh": "ON SUNDAYS（Watari-um美術館附設書店）",
+   "cat": "shop",
+   "tags": [
+    "bookstore",
+    "select",
+    "zakka",
+    "museum"
+   ],
+   "zone": "z3",
+   "town": "神宮前／外苑前",
+   "station": "外苑前駅（東京Metro銀座線）3號出口步行約8分",
+   "from_base": "淺草線到五反田→JR山手線到澀谷→銀座線到外苑前（2站，未查分鐘）",
+   "lat": 35.6713,
+   "lng": 139.7135,
+   "geo_src": "依地址（神宮前3-7-6，外苑前站西北步行約8分）推估",
+   "geo_approx": true,
+   "q": "ON SUNDAYS ワタリウム 渋谷区神宮前3-7-6",
+   "addr": "東京都渋谷区神宮前3-7-6 ワタリウム美術館内",
+   "flag": "ok",
+   "warn": "⚠️ 營業時間兩個來源不一致：昭文社 rurubu 寫店舖11～20時、無休；GO TOKYO 寫美術館11～19時、週一休。去之前再確認",
+   "url": "https://www.watarium.co.jp/",
+   "note": "現代美術館一樓的書店兼選物店：藝術、攝影、建築書，加上國內外設計師的文具和生活雜貨、明信片。展覽要另外買票，只逛書店不用。",
+   "day": null,
+   "buy": [
+    "藝術明信片",
+    "設計文具"
+   ],
+   "src": [
+    "https://rurubu.jp/andmore/spot/80011902",
+    "https://www.gotokyo.org/jp/spot/169/index.html"
+   ]
+  },
+  {
+   "id": "c-spiral-market",
+   "name": "スパイラルマーケット",
+   "zh": "Spiral Market（青山 Spiral 2樓）",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "zakka"
+   ],
+   "zone": "z3",
+   "town": "表參道／青山",
+   "station": "表参道駅 B1出口前，或B3出口往澀谷方向1分",
+   "from_base": "淺草線到五反田→JR山手線到澀谷→銀座線或半藏門線1站到表參道",
+   "lat": 35.6627,
+   "lng": 139.7117,
+   "geo_src": "依官網描述（表參道站B1出口前）推估",
+   "geo_approx": true,
+   "q": "スパイラル 港区南青山5-6-23",
+   "addr": "東京都港区南青山5-6-23 スパイラル2F",
+   "flag": "ok",
+   "url": "https://www.spiral.co.jp/",
+   "note": "Spiral 大樓2樓的生活選物店，餐具、廚具、香氛、文具為主，風格簡潔（Time Out 2022年介紹約6萬件品項）。出站就到，適合配根津美術館一起走。",
+   "day": null,
+   "buy": [
+    "餐具",
+    "文具"
+   ],
+   "src": [
+    "https://www.spiral.co.jp/access",
+    "https://www.timeout.jp/tokyo/ja/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/spiral-market"
+   ]
+  },
+  {
+   "id": "c-nonbei-yokocho",
+   "name": "のんべい横丁",
+   "zh": "澀谷 呑兵衛橫丁",
+   "cat": "eat",
+   "tags": [
+    "yokocho",
+    "izakaya",
+    "alley"
+   ],
+   "zone": "z3",
+   "town": "澀谷",
+   "station": "渋谷駅（宮益坂方向，沿JR鐵軌旁）",
+   "from_base": "淺草線到五反田→JR山手線外回り到澀谷（約15分、IC 377円，ekitan）",
+   "lat": 35.6603,
+   "lng": 139.7025,
+   "geo_src": "依描述（澀谷站旁、宮益方向沿鐵軌）推估",
+   "geo_approx": true,
+   "q": "のんべい横丁 渋谷",
+   "flag": "info",
+   "warn": "⚠️ 店都很小，3～4人一起進常常坐不下；各店收費方式不同，進門前先看價目或問清楚",
+   "note": "澀谷站旁沿鐵軌的一排小酒館。1950年在東急本店通一帶形成，後因區劃整理遷到現址（Time Out）。現在是傳統紅燈籠店和新式酒吧混在一起（JR東日本）。",
+   "day": null,
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89",
+    "https://www.jreast.co.jp/tokyomovinground/contents/town/039.html"
+   ]
+  },
+  {
+   "id": "c-meikyoku-lion",
+   "name": "名曲喫茶ライオン",
+   "zh": "名曲喫茶 獅子（Lion）",
+   "cat": "cafe",
+   "tags": [
+    "kissaten",
+    "cafe"
+   ],
+   "zone": "z3",
+   "town": "澀谷 道玄坂",
+   "station": "渋谷駅步行約10分",
+   "from_base": "淺草線到五反田→JR山手線外回り到澀谷，往道玄坂走",
+   "lat": 35.6587,
+   "lng": 139.696,
+   "geo_src": "依地址（道玄坂2-19-13）推估",
+   "geo_approx": true,
+   "q": "名曲喫茶ライオン 渋谷区道玄坂2-19-13",
+   "addr": "東京都渋谷区道玄坂2-19-13",
+   "price": "咖啡約650円（Serai 2023）",
+   "hours": "13:00～20:00",
+   "flag": "warn",
+   "warn": "⚠️ 店內禁止交談、禁止拍照（Serai）；不能刷卡（GLTJP）。想聊天的人不適合",
+   "note": "1926年創業的古典音樂喫茶，150席，座位全朝向大音響。每天15點、19點有約1小時的定時唱片音樂會（GLTJP）。適合一個人或想安靜坐一小時的人。",
+   "day": null,
+   "src": [
+    "https://serai.jp/hobby/1128271",
+    "https://www.gltjp.com/ja/directory/item/18799/"
+   ]
+  },
+  {
+   "id": "c-fuglen-tokyo",
+   "name": "Fuglen Tokyo",
+   "zh": "Fuglen Tokyo（富谷）",
+   "cat": "cafe",
+   "tags": [
+    "cafe"
+   ],
+   "zone": "z3",
+   "town": "富ヶ谷（代代木公園旁）",
+   "station": "代々木公園駅（東京Metro千代田線）附近（步行分鐘未查）",
+   "from_base": "淺草線到五反田→JR山手線到澀谷，步行或轉車；確切轉乘未查",
+   "lat": 35.6681,
+   "lng": 139.6926,
+   "geo_src": "依地址（富ヶ谷1-16-11）與代々木公園站座標推估",
+   "geo_approx": true,
+   "q": "Fuglen Tokyo 渋谷区富ヶ谷1-16-11",
+   "addr": "東京都渋谷区富ヶ谷1-16-11",
+   "flag": "ok",
+   "url": "https://fuglen.no/Fuglen-Tokyo-Tomigaya",
+   "note": "挪威奧斯陸來的咖啡館，白天咖啡、晚上酒吧，店內是北歐中古家具。在澀谷人潮外的住宅區，可以和代代木公園、明治神宮排同一天。",
+   "day": null,
+   "src": [
+    "https://fuglen.no/Fuglen-Tokyo-Tomigaya",
+    "https://fuglencoffee.jp/"
+   ]
+  },
+  {
+   "id": "c-bonus-track",
+   "name": "BONUS TRACK",
+   "zh": "BONUS TRACK（下北澤）",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "bookstore",
+    "cafe",
+    "shotengai"
+   ],
+   "zone": "z3",
+   "town": "下北澤",
+   "station": "下北沢駅與世田谷代田駅（小田急線）正中間",
+   "from_base": "淺草線到五反田→JR山手線到澀谷→京王井之頭線急行到下北澤（澀谷→下北澤急行約3分、140円）。戶越→下北澤最快約28分、IC 517円（ekitan）。另有便宜路線：戶越銀座（池上線）→旗の台轉大井町線→自由が丘轉東橫線→澀谷→井之頭線，約50分、390円（ekitan）",
+   "lat": 35.6595,
+   "lng": 139.664,
+   "geo_src": "依官網描述（下北澤站與世田谷代田站中間）推估",
+   "geo_approx": true,
+   "q": "BONUS TRACK 世田谷区代田2-36",
+   "addr": "東京都世田谷区代田2-36-12～15",
+   "flag": "star",
+   "url": "https://bonus-track.net/",
+   "note": "小田急線地下化後在舊鐵道用地蓋的低矮商店街（2020年開）。有本屋B&B（2樓）、日記專賣店「日記屋 月日」、發酵食品店、可以安靜看書的 fuzkue、粥店等。適合下午慢慢逛、買書買食材。",
+   "day": null,
+   "deep": {
+    "lead": "下北澤最好逛的一小區，書店和食品店為主。",
+    "paras": [
+     "官網列出13家店，各店營業時間不同：例如日記屋 月日 9:00～19:00 無休、本屋B&B 平日12:00～21:00／週末假日11:00～21:00、ADDA 週一休、pianola records 週四休。",
+     "建議下午兩三點到，大部分店都開了。"
+    ],
+    "tips": [
+     "店家會換，官網2026-10標示 CACCIA CACCIA 10/15 新開",
+     "fuzkue 是收費制的「可以讀書的店」，規則要先看",
+     "從這裡往北走就接到下北澤古著街"
+    ]
+   },
+   "buy": [
+    "日記本（日記屋 月日）",
+    "發酵調味料（発酵デパートメント）",
+    "書（本屋B&B）"
+   ],
+   "src": [
+    "https://bonus-track.net/",
+    "https://bonus-track.net/access/",
+    "https://matcha-jp.com/jp/327"
+   ]
+  },
+  {
+   "id": "c-reload",
+   "name": "reload",
+   "zh": "reload（下北澤個店街）",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "cafe",
+    "zakka"
+   ],
+   "zone": "z3",
+   "town": "下北澤",
+   "station": "下北沢駅（小田急線・京王井之頭線）步行約4分；東北沢駅步行約4分",
+   "from_base": "同下北澤：五反田轉山手線到澀谷，再轉京王井之頭線急行",
+   "lat": 35.664,
+   "lng": 139.6705,
+   "geo_src": "依地址（北沢3-19-20，下北澤站與東北澤站之間）推估",
+   "geo_approx": true,
+   "q": "reload 世田谷区北沢3-19-20",
+   "addr": "東京都世田谷区北沢3-19-20",
+   "hours": "依各店，大致9:00～24:00之間（GLTJP）",
+   "closed": "依各店",
+   "flag": "ok",
+   "url": "https://reload-shimokita.com/",
+   "note": "舊鐵道用地上的兩層白色低樓，20多家個人店：OGAWA COFFEE LABORATORY、老字號茶舖「しもきた茶苑大山」、文具店 DESK LABO、BEAMS Planets、古著選物等。逛古著累了可以在這裡喝咖啡。",
+   "day": null,
+   "buy": [
+    "日本茶（しもきた茶苑大山）",
+    "文具（DESK LABO）"
+   ],
+   "src": [
+    "https://reload-shimokita.com/",
+    "https://www.gltjp.com/ja/directory/item/18108/"
+   ]
+  },
+  {
+   "id": "c-shimokita-furugi",
+   "name": "下北沢 古着店エリア",
+   "zh": "下北澤古著街區",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "alley"
+   ],
+   "zone": "z3",
+   "town": "下北澤",
+   "station": "下北沢駅周邊",
+   "from_base": "五反田轉山手線到澀谷→京王井之頭線急行到下北澤；或新宿搭小田急線約7分（GO TOKYO）",
+   "lat": 35.6603,
+   "lng": 139.669,
+   "geo_src": "下北澤站周邊概略位置（未取得維基座標）",
+   "geo_approx": true,
+   "q": "下北沢 古着",
+   "flag": "info",
+   "note": "車站周圍的小巷整片都是古著店、唱片行和咖啡館。官方觀光網站點名的有：澡堂改建的 NEW YORK JOE EXCHANGE、老店「原宿シカゴ 下北沢店」、古董雜貨 Antique Life Jin。沒有固定路線，邊走邊看最好。",
+   "day": null,
+   "deep": {
+    "lead": "車站四周都是，沒有一條「古著街」。",
+    "paras": [
+     "多數古著店中午前後才開，早上去會撲空（一般經驗，未逐店查證）。"
+    ],
+    "tips": [
+     "個別店家營業時間請看各店IG",
+     "週末人多，平日下午比較好挑"
+    ]
+   },
+   "src": [
+    "https://www.gotokyo.org/jp/destinations/western-tokyo/shimokitazawa/index.html",
+    "https://reload-shimokita.com/"
+   ]
+  },
+  {
+   "id": "c-mikan-shimokita",
+   "name": "ミカン下北",
+   "zh": "Mikan下北",
+   "cat": "shop",
+   "tags": [
+    "bookstore",
+    "shotengai"
+   ],
+   "zone": "z3",
+   "town": "下北澤",
+   "station": "下北沢駅旁（京王井之頭線高架下）",
+   "from_base": "五反田轉山手線到澀谷→京王井之頭線急行到下北澤",
+   "lat": 35.6614,
+   "lng": 139.6675,
+   "geo_src": "下北澤站周邊概略位置（未取得維基座標）",
+   "geo_approx": true,
+   "q": "ミカン下北 世田谷区北沢",
+   "flag": "info",
+   "url": "https://mikan-shimokita.jp/",
+   "note": "京王井之頭線高架下的商業設施（2022年開），有世界各國料理餐廳、商店和蔦屋書店。下雨天或想一次吃飽時方便。",
+   "day": null,
+   "src": [
+    "https://www.gotokyo.org/jp/destinations/western-tokyo/shimokitazawa/index.html",
+    "https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%8C%97%E6%B2%A2%E9%A7%85"
+   ]
+  },
+  {
+   "id": "c-sankaku-chitai",
+   "name": "三軒茶屋 三角地帯",
+   "zh": "三軒茶屋 三角地帶",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "alley",
+    "yokocho"
+   ],
+   "zone": "z3",
+   "town": "三軒茶屋",
+   "station": "三軒茶屋駅（東急田園都市線・世田谷線）旁",
+   "from_base": "淺草線到五反田→JR山手線外回り到澀谷→東急田園都市線2站（各停，經池尻大橋；急行不停池尻大橋）到三軒茶屋。戶越→三軒茶屋直接查的分鐘數未取得",
+   "lat": 35.6436,
+   "lng": 139.67,
+   "geo_src": "依 en.wikipedia 三軒茶屋站座標（35.643515, 139.671162）與描述（國道246與世田谷通之間）推估",
+   "geo_approx": true,
+   "q": "三角地帯 三軒茶屋",
+   "flag": "ok",
+   "warn": "⚠️ 巷子很窄、店很小，四個人要一起坐需要找位子大一點的店；個別店家未查證",
+   "note": "國道246（玉川通）和世田谷通夾出的三角形街區，戰後木板屋發展來的，1950年出現仲見世商店街，路沒拓寬就留下迷宮般的小巷（Time Out）。現在整片是紅燈籠居酒屋。從澀谷只要兩站，觀光客比新宿少。",
+   "day": null,
+   "deep": {
+    "lead": "想找「本地人下班喝一杯」的氣氛，這裡比新宿橫丁合適。",
+    "paras": [
+     "三角地帶不是一條街，是一整塊小巷網。建議晚上6～7點到，先繞一圈看哪家有位子、有價目表再進。"
+    ],
+    "tips": [
+     "事先在 Tabelog 挑一兩家當備案",
+     "一人一飲料是基本禮貌",
+     "有些店收お通し（小菜費）"
+    ]
+   },
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89",
+    "https://www.livable.co.jp/l-note/town/17360/",
+    "https://en.wikipedia.org/wiki/Sangen-jaya_Station"
+   ]
+  },
+  {
+   "id": "c-omoide-yokocho",
+   "name": "新宿西口 思い出横丁",
+   "zh": "新宿 回憶橫丁",
+   "cat": "eat",
+   "tags": [
+    "yokocho",
+    "izakaya",
+    "alley"
+   ],
+   "zone": "z3",
+   "town": "新宿西口",
+   "station": "新宿駅西口，新宿大ガード旁",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿（約23分、IC 387円，ekitan），西口出",
+   "lat": 35.6929,
+   "lng": 139.6995,
+   "geo_src": "依描述（新宿西口大ガード旁，Palette大樓到青梅街道之間）與新宿站座標推估",
+   "geo_approx": true,
+   "q": "思い出横丁 新宿西口",
+   "addr": "東京都新宿区西新宿1丁目",
+   "flag": "warn",
+   "warn": "⚠️ 官方規定：拍攝/採訪要事先申請、禁止腳架與閃光燈，未經許可拍攝會被要求付費；拍店內和其他客人前一定先問。店很小，熱門店常客滿",
+   "url": "https://shinjuku-omoide.com/",
+   "note": "戰後露天黑市起家的窄巷，約60家烤內臟、烤雞串為主的飲食店（官網）。一人進店時，Time Out 說可以豎一根食指示意「一位」。適合吃一兩串就換下一家。",
+   "day": null,
+   "src": [
+    "https://shinjuku-omoide.com/",
+    "https://shinjuku-omoide.com/shooting",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89"
+   ]
+  },
+  {
+   "id": "c-golden-gai",
+   "name": "新宿ゴールデン街",
+   "zh": "新宿黃金街",
+   "cat": "eat",
+   "tags": [
+    "yokocho",
+    "alley"
+   ],
+   "zone": "z3",
+   "town": "新宿 歌舞伎町1丁目",
+   "station": "新宿駅東口步行數分；緊鄰花園神社（新宿三丁目駅E2出口）",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿，東口出往花園神社方向",
+   "lat": 35.6939,
+   "lng": 139.704,
+   "geo_src": "依描述（花園神社西側、歌舞伎町1丁目）與花園神社座標推估",
+   "geo_approx": true,
+   "q": "新宿ゴールデン街",
+   "addr": "東京都新宿区歌舞伎町1丁目",
+   "price": "多數店除了飲料另收座位費或小菜費，常見500～1,000円（nippon.com），各店不同",
+   "flag": "warn",
+   "warn": "⚠️ 多數店另收座位費（チャージ）；有些店只收熟客（寫「会員制」）。一家店約3坪，最多1～3人一起進比較好，四人以上常被婉拒",
+   "note": "約200～300家只坐得下幾個人的小酒吧擠在窄巷裡，晚上7點左右才陸續開門。從戰後黑市與青線地區轉型，60～70年代是作家、電影人聚集的地方。現在不少店歡迎觀光客，門口會貼英文價目。",
+   "day": null,
+   "deep": {
+    "lead": "去之前先決定預算，進門先看價目。",
+    "paras": [
+     "nippon.com 的建議：一次1～3人、尊重店主、跟其他客人聊天、不要坐太久、客滿時讓位。",
+     "我們四個人（含哥哥朋友）一起去的話，建議分兩組，或找門口寫明可容納人數的店。"
+    ],
+    "tips": [
+     "門口有英文價目、寫 No charge 或標明 charge 的店最安心",
+     "寫「会員制」就別硬闖",
+     "現金準備好（各店付款方式未查）"
+    ]
+   },
+   "src": [
+    "https://www.nippon.com/ja/guide-to-japan/gu900051",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89",
+    "https://en.wikipedia.org/wiki/Golden_Gai"
+   ]
+  },
+  {
+   "id": "c-tajimaya-coffee",
+   "name": "但馬屋珈琲店 本店",
+   "zh": "但馬屋珈琲店 本店",
+   "cat": "cafe",
+   "tags": [
+    "kissaten",
+    "cafe"
+   ],
+   "zone": "z3",
+   "town": "新宿西口",
+   "station": "新宿駅西口、丸之內線A17出口附近步行數分",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿，西口出",
+   "lat": 35.6927,
+   "lng": 139.6996,
+   "geo_src": "依地址（西新宿1-2-6，回憶橫丁一帶）推估",
+   "geo_approx": true,
+   "q": "但馬屋珈琲店 本店 新宿区西新宿1-2-6",
+   "addr": "東京都新宿区西新宿1-2-6",
+   "flag": "ok",
+   "url": "https://tajimaya-coffeeten.com/",
+   "note": "1945年在新宿創業的老喫茶，就在回憶橫丁邊上。骨瓷杯、銅製奶盅、古典音樂，可以在逛橫丁前後坐下來喝杯手沖。營業時間請看官網（只查到官網一個來源）。",
+   "day": null,
+   "src": [
+    "https://tajimaya-coffeeten.com/locations",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/%E4%BD%86%E9%A6%AC%E5%B1%8B%E7%8F%88%E7%90%B2%E5%BA%97"
+   ]
+  },
+  {
+   "id": "c-muji-shinjuku-dori",
+   "name": "無印良品 新宿通り",
+   "zh": "無印良品 新宿通店（伊勢丹旁）",
+   "cat": "shop",
+   "tags": [
+    "muji"
+   ],
+   "zone": "z3",
+   "town": "新宿三丁目",
+   "station": "新宿三丁目駅附近；伊勢丹新宿店隔壁",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿，東口往新宿通走；或轉地鐵到新宿三丁目",
+   "lat": 35.691,
+   "lng": 139.704,
+   "geo_src": "依地址（新宿3-17-1，伊勢丹旁）推估",
+   "geo_approx": true,
+   "q": "無印良品 新宿通り 新宿区新宿3-17-1",
+   "addr": "東京都新宿区新宿3-17-1 いさみやビル B1～3F",
+   "hours": "10:00～21:00（muji.com 2026-10；2021年開幕報導為11:00～21:00，時間有變過）",
+   "flag": "ok",
+   "url": "https://www.muji.com/jp/ja/shop/detail/045237",
+   "note": "B1～3F、約992㎡，是新宿區域日用品賣場最大的無印。有食品、冷凍食品、收納、寢具，可退稅。要找衣服另有靖國通店。",
+   "day": null,
+   "buy": [
+    "食品伴手禮",
+    "收納小物",
+    "旅行保養品"
+   ],
+   "src": [
+    "https://www.muji.com/jp/ja/shop/detail/045237",
+    "https://www.fashionsnap.com/article/2021-08-12/muji-shinjuku/"
+   ]
+  },
+  {
+   "id": "c-muji-shinjuku-yasukuni",
+   "name": "無印良品 新宿靖国通り",
+   "zh": "無印良品 新宿靖國通店（新宿Piccadilly內）",
+   "cat": "shop",
+   "tags": [
+    "muji"
+   ],
+   "zone": "z3",
+   "town": "新宿三丁目",
+   "station": "新宿三丁目駅步行1分（Time Out）、新宿駅步行約5分",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿，東口往靖國通方向",
+   "lat": 35.6925,
+   "lng": 139.7035,
+   "geo_src": "依地址（新宿3-15-15 新宿ピカデリー）推估",
+   "geo_approx": true,
+   "q": "無印良品 新宿靖国通り 新宿ピカデリー",
+   "addr": "東京都新宿区新宿3-15-15 新宿ピカデリー B1～2F",
+   "hours": "11:00～21:00",
+   "flag": "ok",
+   "url": "https://www.muji.com/jp/ja/shop/045458",
+   "note": "以衣服、內衣、襪子、鞋為主，有 MUJI Labo 和 ReMUJI（回收衣再製）。想買衣服來這家，日用品去新宿通店。",
+   "day": null,
+   "buy": [
+    "襪子",
+    "內衣家居服"
+   ],
+   "src": [
+    "https://www.muji.com/jp/ja/shop/045458",
+    "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/cafe-and-meal-muji-shinjuku"
+   ]
+  },
+  {
+   "id": "c-beams-japan",
+   "name": "BEAMS JAPAN 新宿",
+   "zh": "BEAMS JAPAN 新宿",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "zakka"
+   ],
+   "zone": "z3",
+   "town": "新宿三丁目",
+   "station": "新宿駅東口附近",
+   "from_base": "淺草線到五反田→JR山手線外回り到新宿，東口出",
+   "lat": 35.6913,
+   "lng": 139.7015,
+   "geo_src": "依地址（新宿3-32-6）推估",
+   "geo_approx": true,
+   "q": "BEAMS JAPAN 新宿区新宿3-32-6",
+   "addr": "東京都新宿区新宿3-32-6",
+   "hours": "11:00～20:00（Time Out；2016年開幕報導同）",
+   "flag": "star",
+   "url": "https://www.beams.co.jp/",
+   "note": "2016年開的「日本」主題選物館。一樓是各地職人工藝和伴手禮，5樓 fennica 是生活器物和藝廊。想一次買到有質感的日本伴手禮，這裡最省時間。",
+   "day": null,
+   "buy": [
+    "各地工藝伴手禮（1F）",
+    "器物（5F fennica）"
+   ],
+   "src": [
+    "https://timeout.com/tokyo/shopping/beams-japan",
+    "https://www.fashion-press.net/news/22691"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "k": "戶越→西側的主要轉乘",
+   "v": "都營淺草線戶越→五反田只有1站（相鄰站）。五反田要出閘換JR山手線，最快約5分。往澀谷・新宿・原宿搭外回り（2號月台）。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Togoshi_Station",
+    "https://en.wikipedia.org/wiki/Gotanda_Station",
+    "https://wadattsu261.com/content/gotanda-jryamanote-toeiasakusaline-transfer-information/"
+   ]
+  },
+  {
+   "k": "戶越→澀谷",
+   "v": "最快：淺草線→五反田→山手線，約15分、IC 377円。較便宜：走8分到戶越銀座搭東急池上線→五反田→山手線，約25分、IC 339円。（ekitan，2026-10 查，平日早上時段）",
+   "src": [
+    "https://ekitan.com/transit/fare/sf-2611/st-2248"
+   ]
+  },
+  {
+   "k": "戶越→新宿",
+   "v": "最快：淺草線→五反田→山手線，約23分、IC 387円。最便宜：淺草線→泉岳寺→大門轉大江戶線，約35分、IC 272円。（ekitan，2026-10 查）",
+   "src": [
+    "https://ekitan.com/transit/fare/sf-2611/st-2334"
+   ]
+  },
+  {
+   "k": "戶越→下北澤",
+   "v": "最快：淺草線→五反田→山手線→澀谷→京王井之頭線，約28分、IC 517円。最便宜：戶越銀座（池上線）→旗の台轉大井町線→自由が丘轉東橫線→澀谷→井之頭線，約50分、390円。（ekitan，2026-10 查）",
+   "src": [
+    "https://ekitan.com/transit/fare/sf-2611/st-2265"
+   ]
+  },
+  {
+   "k": "澀谷→下北澤",
+   "v": "京王井之頭線急行約3分、140円，不用轉車。",
+   "src": [
+    "https://ekitan.com/transit/fare/sf-2248/st-2265"
+   ]
+  },
+  {
+   "k": "澀谷→三軒茶屋",
+   "v": "東急田園都市線：各停經池尻大橋第2站；急行從澀谷直達三軒茶屋。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Sangen-jaya_Station"
+   ]
+  },
+  {
+   "k": "新宿御苑 櫻花期規則",
+   "v": "全年禁止帶酒。3/25～4/24 週一照常開。2026年在3/28、3/29、4/5 的10～16點採網路預約制（先搶先贏、每小時有人數上限），9～10點、16點後免預約。2027年規則未公布。",
+   "src": [
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/",
+    "https://www.env.go.jp/press/press_03164.html",
+    "https://www.walkerplus.com/event/ar0313e25816/"
+   ]
+  },
+  {
+   "k": "新宿的無印良品",
+   "v": "新宿有兩家：新宿通店（伊勢丹旁、B1～3F、約992㎡、日用品食品最齊）和靖國通店（新宿Piccadilly內、衣服為主）。都不是旗艦店等級。",
+   "src": [
+    "https://www.muji.com/jp/ja/shop/detail/045237",
+    "https://www.muji.com/jp/ja/shop/045458",
+    "https://www.fashionsnap.com/article/2021-08-12/muji-shinjuku/"
+   ]
+  },
+  {
+   "k": "根津美術館 2027年3月展覽",
+   "v": "企畫展「根津美術館の仏像コレクション」2027/1/30～3/28。週一休館。",
+   "src": [
+    "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/"
+   ]
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "新宿御苑櫻花季入口有手荷物檢查（查酒）",
+   "why": "官網禁止事項只寫禁帶酒，沒寫檢查包包；只看到一則2017年遊客評論提到"
+  },
+  {
+   "claim": "新宿御苑 2027年櫻花季哪幾天需預約",
+   "why": "官方尚未公布，只有2026年的資料"
+  },
+  {
+   "claim": "Café&Meal MUJI 新宿（新宿Piccadilly B1）仍營業",
+   "why": "Time Out 頁面是2019年；muji.com 靖國通店頁面沒有列出咖啡廳，無法確認現況，所以沒收"
+  },
+  {
+   "claim": "Bear Pond Espresso（下北澤）仍營業",
+   "why": "原官網網域現在是與咖啡無關的博弈內容，查不到現況，沒收"
+  },
+  {
+   "claim": "Fuglen Tokyo 營業時間（官網寫週一二7:00～22:00、週三～日7:00～翌1:00）",
+   "why": "只有官網一個來源，沒寫進 hours"
+  },
+  {
+   "claim": "但馬屋珈琲店本店 10:00～23:00",
+   "why": "只有官網一個來源，沒寫進 hours"
+  },
+  {
+   "claim": "Spiral Market 營業時間",
+   "why": "官網與 Time Out 都沒寫"
+  },
+  {
+   "claim": "金王櫻每年的開花時間",
+   "why": "找不到可靠的開花期資料"
+  },
+  {
+   "claim": "下北澤古著店多數中午才開",
+   "why": "一般經驗，沒有逐店查證"
+  },
+  {
+   "claim": "戶越→原宿、表參道、三軒茶屋的精確分鐘數與票價",
+   "why": "乘換案內網站查不到對應頁面（搜尋額度用完），只寫路線不寫分鐘"
+  },
+  {
+   "claim": "回憶橫丁、黃金街、三角地帶個別店家推薦",
+   "why": "沒有逐店查證營業狀況，只收街區"
+  },
+  {
+   "claim": "多數地點的精確座標",
+   "why": "維基百科只取到明治神宮、根津美術館、花園神社、東鄉神社的座標，其他依地址或車站推估，已標 geo_approx"
+  }
+ ],
+ "overturned": [
+  {
+   "claim": "新宿御苑櫻花季一定要預約",
+   "truth": "2026年只有櫻花滿開的3個週末日（3/28、3/29、4/5）10～16點要預約，平日和其他時段不用。3/17～21 這段在2026年沒有預約制；2027年要等公告。",
+   "src": [
+    "https://www.env.go.jp/press/press_03164.html",
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/"
+   ]
+  },
+  {
+   "claim": "3月中旬去新宿御苑能看到滿開櫻花",
+   "truth": "官網：染井吉野花期是3月下旬到4月上旬；寒櫻類是1月到3月上旬。3/17～21 落在兩者之間，只能看早開品種殘花或吉野剛開。",
+   "src": [
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/highlights/sakura/"
+   ]
+  },
+  {
+   "claim": "新宿御苑週一休園",
+   "truth": "平常週一休，但3/25～4/24櫻花期週一照開。",
+   "src": [
+    "https://policies.env.go.jp/national-garden/shinjukugyoen/guide/information/"
+   ]
+  },
+  {
+   "claim": "春天去根津美術館可以看國寶《燕子花圖屏風》",
+   "truth": "燕子花圖只在4～5月特別展展出（2026年4/11～5/10）；2027年3月展的是佛像收藏展。",
+   "src": [
+    "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/"
+   ]
+  },
+  {
+   "claim": "新宿有一家大型無印良品旗艦店",
+   "truth": "新宿是兩家中型店分工：新宿通店（日用品、食品，約992㎡）和靖國通店（衣服）。",
+   "src": [
+    "https://www.fashionsnap.com/article/2021-08-12/muji-shinjuku/",
+    "https://www.muji.com/jp/ja/shop/045458"
+   ]
+  },
+  {
+   "claim": "明治神宮24小時開放",
+   "truth": "依日出日落開關門，3月約5:40～17:20。",
+   "src": [
+    "https://www.meijijingu.or.jp/",
+    "https://www.fun-japan.jp/tw/articles/8272"
+   ]
+  },
+  {
+   "claim": "回憶橫丁可以隨意拍照",
+   "truth": "官方規定拍攝・採訪需事先申請，禁腳架與閃光燈，未經許可的拍攝會被要求付費。",
+   "src": [
+    "https://shinjuku-omoide.com/shooting"
+   ]
+  }
+ ]
+}

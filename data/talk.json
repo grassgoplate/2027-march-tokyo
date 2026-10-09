@@ -1,0 +1,478 @@
+{
+ "meta": {
+  "secs": [
+   "basic",
+   "izakaya",
+   "shop",
+   "transit",
+   "shrine",
+   "hotel",
+   "park",
+   "emergency"
+  ]
+ },
+ "entries": [
+  {
+   "id": "f-t-01",
+   "sec": "basic",
+   "t": "すみません",
+   "say": "すみません",
+   "roma": "sumimasen",
+   "zhsound": "蘇咪媽線",
+   "zh": "不好意思／請問",
+   "when": "叫人、借過、道歉都能用"
+  },
+  {
+   "id": "f-t-02",
+   "sec": "basic",
+   "t": "ありがとうございます",
+   "say": "ありがとうございます",
+   "roma": "arigatou gozaimasu",
+   "zhsound": "阿哩阿豆 狗紮一媽斯",
+   "zh": "謝謝",
+   "when": "任何時候"
+  },
+  {
+   "id": "f-t-03",
+   "sec": "basic",
+   "t": "日本語が少しだけ話せます",
+   "say": "にほんごが すこしだけ はなせます",
+   "roma": "nihongo ga sukoshi dake hanasemasu",
+   "zh": "我只會說一點日文",
+   "when": "對方講太快時"
+  },
+  {
+   "id": "f-t-04",
+   "sec": "basic",
+   "t": "もう一度ゆっくりお願いします",
+   "say": "もういちど ゆっくり おねがいします",
+   "roma": "mou ichido yukkuri onegaishimasu",
+   "zh": "請再慢慢說一次",
+   "when": "聽不懂時"
+  },
+  {
+   "id": "f-t-05",
+   "sec": "basic",
+   "t": "英語のメニューはありますか",
+   "say": "えいごの メニューは ありますか",
+   "roma": "eigo no menyuu wa arimasu ka",
+   "zh": "有英文菜單嗎？",
+   "when": "餐廳"
+  },
+  {
+   "id": "f-t-06",
+   "sec": "basic",
+   "t": "写真を撮ってもいいですか",
+   "say": "しゃしんを とっても いいですか",
+   "roma": "shashin o tottemo ii desu ka",
+   "zh": "可以拍照嗎？",
+   "when": "店內、展覽、拍人之前"
+  },
+  {
+   "id": "f-t-07",
+   "sec": "basic",
+   "t": "トイレはどこですか",
+   "say": "トイレは どこですか",
+   "roma": "toire wa doko desu ka",
+   "zh": "廁所在哪裡？",
+   "when": "任何地方"
+  },
+  {
+   "id": "f-t-08",
+   "sec": "izakaya",
+   "t": "三人です",
+   "say": "さんにんです",
+   "roma": "sannin desu",
+   "zh": "三位",
+   "when": "進店時店員問人數",
+   "note": "兩位：ふたりです（futari desu）；四位：よにんです（yonin desu）"
+  },
+  {
+   "id": "f-t-09",
+   "sec": "izakaya",
+   "t": "予約していません",
+   "say": "よやく していません",
+   "roma": "yoyaku shite imasen",
+   "zh": "沒有訂位",
+   "when": "店員問有沒有預約"
+  },
+  {
+   "id": "f-t-10",
+   "sec": "izakaya",
+   "t": "とりあえずビールを三つ",
+   "say": "とりあえず ビールを みっつ",
+   "roma": "toriaezu biiru o mittsu",
+   "zh": "先來三杯啤酒",
+   "when": "坐下後先點飲料"
+  },
+  {
+   "id": "f-t-11",
+   "sec": "izakaya",
+   "t": "おすすめは何ですか",
+   "say": "おすすめは なんですか",
+   "roma": "osusume wa nan desu ka",
+   "zh": "推薦什麼？",
+   "when": "不知道點什麼"
+  },
+  {
+   "id": "f-t-12",
+   "sec": "izakaya",
+   "t": "これをください",
+   "say": "これを ください",
+   "roma": "kore o kudasai",
+   "zh": "請給我這個",
+   "when": "指著菜單點餐"
+  },
+  {
+   "id": "f-t-13",
+   "sec": "izakaya",
+   "t": "ノンアルコールの飲み物はありますか",
+   "say": "ノンアルコールの のみものは ありますか",
+   "roma": "non-arukooru no nomimono wa arimasu ka",
+   "zh": "有無酒精飲料嗎？",
+   "when": "不喝酒的人"
+  },
+  {
+   "id": "f-t-14",
+   "sec": "izakaya",
+   "t": "お水をください",
+   "say": "おみずを ください",
+   "roma": "omizu o kudasai",
+   "zh": "請給我水",
+   "when": "要水"
+  },
+  {
+   "id": "f-t-15",
+   "sec": "izakaya",
+   "t": "お会計お願いします",
+   "say": "おかいけい おねがいします",
+   "roma": "okaikei onegaishimasu",
+   "zh": "麻煩結帳",
+   "when": "要買單"
+  },
+  {
+   "id": "f-t-16",
+   "sec": "izakaya",
+   "t": "カードは使えますか",
+   "say": "カードは つかえますか",
+   "roma": "kaado wa tsukaemasu ka",
+   "zh": "可以刷卡嗎？",
+   "when": "結帳前、進店前"
+  },
+  {
+   "id": "f-t-17",
+   "sec": "izakaya",
+   "t": "ごちそうさまでした",
+   "say": "ごちそうさまでした",
+   "roma": "gochisousama deshita",
+   "zh": "謝謝招待（吃飽了）",
+   "when": "離開店時對店員說"
+  },
+  {
+   "id": "f-t-18",
+   "sec": "shop",
+   "t": "これはいくらですか",
+   "say": "これは いくらですか",
+   "roma": "kore wa ikura desu ka",
+   "zh": "這個多少錢？",
+   "when": "買東西"
+  },
+  {
+   "id": "f-t-19",
+   "sec": "shop",
+   "t": "見ているだけです",
+   "say": "みているだけです",
+   "roma": "mite iru dake desu",
+   "zh": "我只是看看",
+   "when": "店員來招呼時"
+  },
+  {
+   "id": "f-t-20",
+   "sec": "shop",
+   "t": "ほかの色はありますか",
+   "say": "ほかの いろは ありますか",
+   "roma": "hoka no iro wa arimasu ka",
+   "zh": "有其他顏色嗎？",
+   "when": "選物店、服飾"
+  },
+  {
+   "id": "f-t-21",
+   "sec": "shop",
+   "t": "試着してもいいですか",
+   "say": "しちゃく しても いいですか",
+   "roma": "shichaku shitemo ii desu ka",
+   "zh": "可以試穿嗎？",
+   "when": "服飾店"
+  },
+  {
+   "id": "f-t-22",
+   "sec": "shop",
+   "t": "免税できますか",
+   "say": "めんぜい できますか",
+   "roma": "menzei dekimasu ka",
+   "zh": "可以辦免稅（退稅）嗎？",
+   "when": "結帳時；2026年11月起是先付含稅價、出境再退"
+  },
+  {
+   "id": "f-t-23",
+   "sec": "shop",
+   "t": "袋はいりません",
+   "say": "ふくろは いりません",
+   "roma": "fukuro wa irimasen",
+   "zh": "不需要袋子",
+   "when": "結帳時店員問要不要袋子（袋子多半要收費）"
+  },
+  {
+   "id": "f-t-24",
+   "sec": "shop",
+   "t": "プレゼント用に包んでもらえますか",
+   "say": "プレゼントように つつんで もらえますか",
+   "roma": "purezento-you ni tsutsunde moraemasu ka",
+   "zh": "可以幫我包成禮物嗎？",
+   "when": "買伴手禮"
+  },
+  {
+   "id": "f-t-25",
+   "sec": "transit",
+   "t": "戸越駅はどこですか",
+   "say": "とごしえきは どこですか",
+   "roma": "Togoshi-eki wa doko desu ka",
+   "zh": "戶越站在哪裡？",
+   "when": "問路"
+  },
+  {
+   "id": "f-t-26",
+   "sec": "transit",
+   "t": "この電車は戸越に止まりますか",
+   "say": "この でんしゃは とごしに とまりますか",
+   "roma": "kono densha wa Togoshi ni tomarimasu ka",
+   "zh": "這班車有停戶越嗎？",
+   "when": "淺草線有急行、特急，不確定時問"
+  },
+  {
+   "id": "f-t-27",
+   "sec": "transit",
+   "t": "何番線ですか",
+   "say": "なんばんせんですか",
+   "roma": "nanban-sen desu ka",
+   "zh": "在幾號月台？",
+   "when": "找月台"
+  },
+  {
+   "id": "f-t-28",
+   "sec": "transit",
+   "t": "どこで乗り換えますか",
+   "say": "どこで のりかえますか",
+   "roma": "doko de norikaemasu ka",
+   "zh": "在哪裡轉車？",
+   "when": "問站務員"
+  },
+  {
+   "id": "f-t-29",
+   "sec": "transit",
+   "t": "Suicaにチャージしたいです",
+   "say": "スイカに チャージしたいです",
+   "roma": "Suika ni chaaji shitai desu",
+   "zh": "我想幫 Suica 加值",
+   "when": "找不到加值機時問站務員"
+  },
+  {
+   "id": "f-t-30",
+   "sec": "transit",
+   "t": "この住所まで行ってください",
+   "say": "この じゅうしょまで いってください",
+   "roma": "kono juusho made itte kudasai",
+   "zh": "請載我到這個地址",
+   "when": "計程車，給司機看地址"
+  },
+  {
+   "id": "f-t-31",
+   "sec": "transit",
+   "t": "コインロッカーはどこですか",
+   "say": "コインロッカーは どこですか",
+   "roma": "koin rokkaa wa doko desu ka",
+   "zh": "寄物櫃在哪裡？",
+   "when": "車站"
+  },
+  {
+   "id": "f-t-32",
+   "sec": "shrine",
+   "t": "御朱印をいただけますか",
+   "say": "ごしゅいんを いただけますか",
+   "roma": "goshuin o itadakemasu ka",
+   "zh": "可以請領御朱印嗎？",
+   "when": "授與所，遞出御朱印帳時"
+  },
+  {
+   "id": "f-t-33",
+   "sec": "shrine",
+   "t": "書き置きはありますか",
+   "say": "かきおきは ありますか",
+   "roma": "kakioki wa arimasu ka",
+   "zh": "有事先寫好的紙本御朱印嗎？",
+   "when": "沒帶御朱印帳時"
+  },
+  {
+   "id": "f-t-34",
+   "sec": "shrine",
+   "t": "お守りをください",
+   "say": "おまもりを ください",
+   "roma": "omamori o kudasai",
+   "zh": "我要這個御守",
+   "when": "買御守"
+  },
+  {
+   "id": "f-t-35",
+   "sec": "shrine",
+   "t": "中に入ってもいいですか",
+   "say": "なかに はいっても いいですか",
+   "roma": "naka ni haittemo ii desu ka",
+   "zh": "可以進去嗎？",
+   "when": "不確定能不能進入某區域"
+  },
+  {
+   "id": "f-t-36",
+   "sec": "hotel",
+   "t": "チェックインをお願いします",
+   "say": "チェックインを おねがいします",
+   "roma": "chekku-in o onegaishimasu",
+   "zh": "我要辦入住",
+   "when": "櫃台"
+  },
+  {
+   "id": "f-t-37",
+   "sec": "hotel",
+   "t": "予約した〇〇です",
+   "say": "よやくした 〇〇です",
+   "roma": "yoyaku shita ○○ desu",
+   "zh": "我是預約的〇〇",
+   "when": "報上訂房姓名"
+  },
+  {
+   "id": "f-t-38",
+   "sec": "hotel",
+   "t": "荷物を預かってもらえますか",
+   "say": "にもつを あずかって もらえますか",
+   "roma": "nimotsu o azukatte moraemasu ka",
+   "zh": "可以寄放行李嗎？",
+   "when": "入住前或退房後"
+  },
+  {
+   "id": "f-t-39",
+   "sec": "hotel",
+   "t": "Wi-Fiのパスワードは何ですか",
+   "say": "ワイファイの パスワードは なんですか",
+   "roma": "waifai no pasuwaado wa nan desu ka",
+   "zh": "Wi-Fi 密碼是什麼？",
+   "when": "入住時"
+  },
+  {
+   "id": "f-t-40",
+   "sec": "hotel",
+   "t": "タオルをもう一枚ください",
+   "say": "タオルを もう いちまい ください",
+   "roma": "taoru o mou ichimai kudasai",
+   "zh": "請再給我一條毛巾",
+   "when": "備品不夠"
+  },
+  {
+   "id": "f-t-41",
+   "sec": "park",
+   "t": "ここに座ってもいいですか",
+   "say": "ここに すわっても いいですか",
+   "roma": "koko ni suwattemo ii desu ka",
+   "zh": "可以坐這裡嗎？",
+   "when": "公園、咖啡店"
+  },
+  {
+   "id": "f-t-42",
+   "sec": "park",
+   "t": "ゴミはどこに捨てればいいですか",
+   "say": "ゴミは どこに すてれば いいですか",
+   "roma": "gomi wa doko ni sutereba ii desu ka",
+   "zh": "垃圾要丟哪裡？",
+   "when": "找不到垃圾桶"
+  },
+  {
+   "id": "f-t-43",
+   "sec": "park",
+   "t": "桜はもう咲いていますか",
+   "say": "さくらは もう さいていますか",
+   "roma": "sakura wa mou saite imasu ka",
+   "zh": "櫻花已經開了嗎？",
+   "when": "問當地人"
+  },
+  {
+   "id": "f-t-44",
+   "sec": "park",
+   "t": "写真を撮っていただけますか",
+   "say": "しゃしんを とって いただけますか",
+   "roma": "shashin o totte itadakemasu ka",
+   "zh": "可以幫我們拍照嗎？",
+   "when": "請路人幫忙拍合照"
+  },
+  {
+   "id": "f-t-45",
+   "sec": "emergency",
+   "t": "助けてください",
+   "say": "たすけてください",
+   "roma": "tasukete kudasai",
+   "zh": "請幫幫我",
+   "when": "緊急狀況"
+  },
+  {
+   "id": "f-t-46",
+   "sec": "emergency",
+   "t": "救急車を呼んでください",
+   "say": "きゅうきゅうしゃを よんでください",
+   "roma": "kyuukyuusha o yonde kudasai",
+   "zh": "請叫救護車",
+   "when": "有人受傷或身體不適（119）"
+  },
+  {
+   "id": "f-t-47",
+   "sec": "emergency",
+   "t": "財布をなくしました",
+   "say": "さいふを なくしました",
+   "roma": "saifu o nakushimashita",
+   "zh": "我的錢包掉了",
+   "when": "去派出所（交番）或車站報失"
+  },
+  {
+   "id": "f-t-48",
+   "sec": "emergency",
+   "t": "気分が悪いです",
+   "say": "きぶんが わるいです",
+   "roma": "kibun ga warui desu",
+   "zh": "我覺得不舒服",
+   "when": "身體不適"
+  },
+  {
+   "id": "f-t-49",
+   "sec": "emergency",
+   "t": "近くに病院はありますか",
+   "say": "ちかくに びょういんは ありますか",
+   "roma": "chikaku ni byouin wa arimasu ka",
+   "zh": "附近有醫院嗎？",
+   "when": "需要看醫生"
+  },
+  {
+   "id": "f-t-50",
+   "sec": "emergency",
+   "t": "道に迷いました",
+   "say": "みちに まよいました",
+   "roma": "michi ni mayoimashita",
+   "zh": "我迷路了",
+   "when": "問路、找交番"
+  },
+  {
+   "id": "f-t-51",
+   "sec": "emergency",
+   "t": "中国語を話せる人はいますか",
+   "say": "ちゅうごくごを はなせる ひとは いますか",
+   "roma": "chuugokugo o hanaseru hito wa imasu ka",
+   "zh": "有會說中文的人嗎？",
+   "when": "溝通不了時"
+  }
+ ]
+}

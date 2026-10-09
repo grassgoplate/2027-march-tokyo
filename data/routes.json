@@ -1,0 +1,58 @@
+{
+ "days": [
+  {"d":1,"date":"2027-03-17","wd":"三","title":"抵達・戶越在地","leg":"機場 → 戶越"},
+  {"d":2,"date":"2027-03-18","wd":"四","title":"下町老街日","leg":"淺草線北上 或 谷根千"},
+  {"d":3,"date":"2027-03-19","wd":"五","title":"樂園日","leg":"哈利波特影城（主）／迪士尼（備案）"},
+  {"d":4,"date":"2027-03-20","wd":"六","title":"西側選物・咖啡","leg":"原宿・表參道・下北澤 或 中目黑・代官山"},
+  {"d":5,"date":"2027-03-21","wd":"日","title":"銀座無印・回程","leg":"銀座 → 羽田"}
+ ],
+ "routes": [
+  {"day":1,"title":"3/17（三）抵達，先在戶越附近走走","note":"航班還沒訂。這裡假設下午抵達羽田；若改成成田，車程會多約 50 分鐘。哥哥可能今天或明天從韓國飛來，集合點建議約在戶越站。",
+   "options":[
+    {"id":"1a","label":"A","name":"羽田 → 戶越 → 戶越銀座商店街","meta":"羽田第 3 航廈約 37 分、IC 505 円（ekitan 試算）","rec":true,
+     "desc":"京急線往泉岳寺方向，在泉岳寺轉都營淺草線往西馬込，到戶越下車。放好行李後走到戶越銀座商店街，邊走邊吃，晚上去五反田的平價居酒屋。",
+     "main":["a-togoshi-ginza","a-goto-kamaboko","a-togoshi-hachiman","a-kaneshow"],"alt":["a-togoshi-ginza-onsen","a-miyamae-bunko"]},
+    {"id":"1b","label":"B","name":"晚到就只辦入住","meta":"抵達太晚時","rec":false,
+     "desc":"入住後在戶越銀座商店街買點熟食，早點休息，把體力留給隔天。","main":["a-togoshi-ginza"],"alt":[]}
+   ]},
+  {"day":2,"title":"3/18（四）平日去下町老街","note":"選平日去淺草，人潮比連假少。很多老店週末休息，像新橋站前大樓多數店和人形町的老店，所以居酒屋排在這天。",
+   "options":[
+    {"id":"2a","label":"A","name":"淺草線直達：淺草 → 藏前 → 人形町 → 新橋","meta":"全程沿淺草線，從戶越出發不用轉車","rec":true,
+     "desc":"一早先到淺草寺（8 點前人最少，仲見世多數店約 10 點才開），接著逛合羽橋。藏前看文具和選物、喝杯咖啡。下午到人形町甘酒橫丁和水天宮。晚上回新橋喝一杯，順路回戶越。",
+     "main":["b-sensoji","b-asakusa-jinja","b-kappabashi","b-kakimori","b-syuro","b-dandelion-kuramae","b-amazake-yokocho","b-suitengu","b-shimbashi-ekimae-bldg"],
+     "alt":["b-coffee-tengoku","b-hoppy-dori","b-shimojima-asakusabashi","b-kaiseiken","b-sasashin","b-akitaya-daimon","b-karasumori-jinja","b-ushijima-jinja","b-tokyo-skytree"]},
+    {"id":"2b","label":"B","name":"谷根千 → 上野 → 湯島","meta":"從戶越要轉車，建議先查乘換案內","rec":false,
+     "desc":"谷中、根津、千駄木一帶是老街和寺廟，適合慢慢走。逛谷中銀座、夕燒階梯、根津神社，在老喫茶店休息。下午去上野的博物館，晚上到湯島的老字號居酒屋。",
+     "main":["d-yanaka-ginza","d-yuyake-dandan","d-nezu-jinja","d-kayaba-coffee","d-scai-the-bathhouse","d-tnm","d-yushima-tenjin","d-shinsuke"],
+     "alt":["d-asakura-museum","d-hagiso","d-isetatsu","d-yanaka-reien","d-ueno-toshogu","d-ueno-park","d-nmwa","d-kanda-myojin"]}
+   ]},
+  {"day":3,"title":"3/19（五）樂園日","note":"3/20 起是三連休，樂園排在連休前的平日。哈利波特影城的門票已經開賣到 2027/3/31。迪士尼的門票從 2027/1/18 起才買得到 3/19 的場次（兩個月前開賣）。",
+   "options":[
+    {"id":"3a","label":"A","name":"哈利波特影城（主選）","meta":"從戶越約 53 分、IC 377 円（淺草線→大門轉大江戶線，ekitan）","rec":true,
+     "desc":"門票要指定日期和入場時段，必須在時段開始後 30 分鐘內入場。官方建議留 3～4 小時，網路分享多數待 5～6 小時。館內商店不能用 Suica 等交通 IC 卡付款。",
+     "main":["e-wb-studio-tour-tokyo"],"alt":[]},
+    {"id":"3b","label":"B","name":"迪士尼樂園或迪士尼海洋（備案）","meta":"從戶越約 47～59 分、581～618 円","rec":false,
+     "desc":"免費的快速通關已經取消，現在只有付費的 Premier Access，要在園內用官方 App 購買。迪士尼樂園的太空山正在改建，3 月可能還沒開放。",
+     "main":["e-tokyo-disneysea","e-tokyo-disneyland"],"alt":[]}
+   ]},
+  {"day":4,"title":"3/20（六）連休第一天：西側選物與咖啡","note":"三連休第一天，熱門地點人會多。可以早上先去明治神宮，避開人潮。新橋和人形町的老居酒屋很多週末不開，這天的晚餐改在三軒茶屋或澀谷。",
+   "options":[
+    {"id":"4a","label":"A","name":"明治神宮 → 表參道・青山 → 下北澤 → 三軒茶屋","meta":"戶越 → 五反田轉 JR 山手線，到澀谷約 15 分","rec":true,
+     "desc":"早上參拜明治神宮，接著逛神宮前和青山的選物店（ON SUNDAYS、Spiral Market）。下午到下北澤逛古著和 BONUS TRACK，晚上去三軒茶屋三角地帶喝一杯。",
+     "main":["c-meiji-jingu","c-togo-jinja","c-on-sundays","c-spiral-market","c-nezu-museum","c-bonus-track","c-reload","c-shimokita-furugi","c-sankaku-chitai"],
+     "alt":["c-fuglen-tokyo","c-mikan-shimokita","c-konno-hachimangu","c-nonbei-yokocho","c-meikyoku-lion"]},
+    {"id":"4b","label":"B","name":"中目黑 → 代官山 → 目黑不動尊（離據點近）","meta":"從戶越出發移動距離短","rec":false,
+     "desc":"在離住處近的區域慢慢逛：中目黑的蔦屋書店和咖啡店、代官山蔦屋、舊朝倉家住宅，回程繞去目黑不動尊。⚠️ 3/20 前後目黑川的櫻花大多還沒開。",
+     "main":["a-nakameguro-tsutaya","a-onibus-nakameguro","a-daikanyama-tsutaya","a-kyu-asakura-house","a-meguro-fudo"],"alt":["a-meguro-river-sakura"]}
+   ]},
+  {"day":5,"title":"3/21（日・春分之日）銀座無印，然後回程","note":"回程航班還沒訂，這裡假設傍晚從羽田出發。從銀座搭淺草線，在泉岳寺轉京急就能到羽田；實際出發時間請照航班往前推。3/21 是國定假日，東京國立博物館開到 20:00；湯島、根岸的老居酒屋週日和國定假日休息。",
+   "options":[
+    {"id":"5a","label":"A","name":"銀座無印良品旗艦店 → 伊東屋 → 日本橋","meta":"淺草線到東銀座，不用轉車","rec":true,
+     "desc":"無印良品銀座店從 B1 的 MUJI Diner 一路逛到樓上，順便逛伊東屋文具，再走到日本橋和福德神社，之後回去拿行李前往機場。",
+     "main":["b-muji-ginza","b-ginza-itoya","b-nihonbashi-bridge","b-fukutoku-jinja"],"alt":["c-muji-shinjuku-dori"]},
+    {"id":"5b","label":"B","name":"品川一帶，離機場近","meta":"航班較早時","rec":false,
+     "desc":"品川神社、舊東海道品川宿、泉岳寺都在往羽田的路上，大井町的無印良品也可以順路逛。",
+     "main":["a-shinagawa-jinja","a-kyu-tokaido-shinagawa","a-sengakuji","a-muji-atre-oimachi"],"alt":[]}
+   ]}
+ ]
+}

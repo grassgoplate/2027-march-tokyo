@@ -1,0 +1,1125 @@
+{
+ "places": [
+  {
+   "id": "d-yanaka-ginza",
+   "name": "谷中銀座商店街",
+   "zh": "谷中銀座商店街",
+   "cat": "shop",
+   "tags": [
+    "shotengai",
+    "alley",
+    "zakka"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "日暮里駅（JR／京成）西口出站，沿御殿坂往下走，經夕燒階梯即到",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線（品川・東京方向）到日暮里，不用再轉車。",
+   "lat": 35.726879,
+   "lng": 139.768543,
+   "geo_src": "以鄰近的朝倉雕塑館座標（en.wikipedia）代替，商店街在其西北方步行範圍內",
+   "geo_approx": true,
+   "q": "谷中銀座商店街 台東区谷中",
+   "addr": "東京都台東区谷中（商店街無單一門牌；振興組合事務所：谷中3-9-15）",
+   "flag": "ok",
+   "note": "約 60 家小店的老派商店街，賣熟食、和菓子、雜貨。邊走邊吃的炸物和小點心是主角，適合下午從日暮里一路散步到千駄木。",
+   "day": null,
+   "deep": {
+    "lead": "谷根千散步的起點，人潮集中在下午和週末。",
+    "paras": [
+     "商店街本身不長，從夕燒階梯往下走到底就是千駄木方向的「よみせ通り」。每家店營業時間各自不同，傍晚後陸續打烊。"
+    ],
+    "tips": [
+     "各店公休日不一，週末人多、平日較好逛。",
+     "邊走邊吃請留意店家是否禁止，在店前吃完再走比較保險。"
+    ]
+   },
+   "src": [
+    "https://ja.wikipedia.org/wiki/谷中銀座商店街",
+    "https://www.yanakaginza.com/"
+   ]
+  },
+  {
+   "id": "d-yuyake-dandan",
+   "name": "夕やけだんだん",
+   "zh": "夕燒階梯（夕陽階梯）",
+   "cat": "sight",
+   "tags": [
+    "alley",
+    "view"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "日暮里駅西口，沿御殿坂直走到底",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里。",
+   "lat": 35.726879,
+   "lng": 139.768543,
+   "geo_src": "以鄰近的朝倉雕塑館座標（en.wikipedia）代替，階梯在西日暮里3丁目、谷中銀座入口",
+   "geo_approx": true,
+   "q": "夕やけだんだん 荒川区西日暮里",
+   "addr": "東京都荒川区西日暮里3丁目",
+   "price": "免費",
+   "flag": "ok",
+   "note": "36 級石階，連接日暮里方向和谷中銀座。名字來自 1990 年整修時的公開徵名，由作家森まゆみ命名。傍晚站在階梯上方往商店街看，是谷中最常見的照片角度。",
+   "day": null,
+   "src": [
+    "https://ja.wikipedia.org/wiki/谷中銀座商店街",
+    "https://www.yanakaginza.com/"
+   ]
+  },
+  {
+   "id": "d-nezu-jinja",
+   "name": "根津神社",
+   "zh": "根津神社",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z4",
+   "town": "根津",
+   "station": "根津駅（東京メトロ千代田線）步行約5分；東大前駅（南北線）也可步行到",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里或西日暮里，再轉千代田線到根津；或從谷中銀座一路走過來。",
+   "lat": 35.72028,
+   "lng": 139.76083,
+   "geo_src": "en.wikipedia Nezu Shrine 條目座標",
+   "geo_approx": false,
+   "q": "根津神社 文京区根津",
+   "addr": "東京都文京区根津1-28-9",
+   "price": "參拜免費",
+   "hours": "GO TOKYO 寫 6:00–17:00，依季節調整；唐門與授與所時間神社官網只以圖片公告",
+   "closed": "無休",
+   "flag": "star",
+   "warn": "⚠️ 杜鵑花祭在春季（4 月前後），3 月中旬去看不到杜鵑花海。",
+   "url": "https://www.nedujinja.or.jp/",
+   "note": "社殿為國家重要文化財，建築風格與日光東照宮相近。境內乙女稻荷前有一長串紅色鳥居，是拍照重點。人比明治神宮少很多，適合慢慢看。",
+   "day": null,
+   "deep": {
+    "lead": "谷根千最值得停留的神社。",
+    "paras": [
+     "一般說法是創建於約 1900 年前，1706 年由五代將軍德川綱吉遷到現址。現存社殿是江戶時代的建築，國家指定重要文化財。",
+     "境內有錦鯉池和稻荷神社鳥居參道，沿著斜坡往上走。"
+    ],
+    "tips": [
+     "鳥居參道窄，拍照請讓出通道。",
+     "唐門開關時間依季節不同，傍晚前到比較保險。"
+    ]
+   },
+   "src": [
+    "https://www.gotokyo.org/jp/spot/70/index.html",
+    "https://ja.wikipedia.org/wiki/根津神社",
+    "https://www.nedujinja.or.jp/"
+   ]
+  },
+  {
+   "id": "d-yanaka-reien",
+   "name": "谷中霊園",
+   "zh": "谷中靈園",
+   "cat": "park",
+   "tags": [
+    "sakura",
+    "alley"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "日暮里駅（JR）步行約6分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里，南口出站。",
+   "lat": 35.72528,
+   "lng": 139.77056,
+   "geo_src": "en.wikipedia Yanaka Cemetery 條目座標",
+   "geo_approx": false,
+   "q": "谷中霊園 台東区谷中",
+   "addr": "東京都台東区谷中7丁目",
+   "price": "免費",
+   "flag": "ok",
+   "warn": "⚠️ 這是仍在使用的墓園，請小聲、不要踩墓地、不要拍掃墓的人。",
+   "note": "中央步道俗稱「櫻花通」，櫻花開時枝條交疊像隧道。德川慶喜墓、橫山大觀、澀澤榮一等人的墓都在這裡。從日暮里走到 SCAI 和カヤバ珈琲會穿過這裡。",
+   "day": null,
+   "deep": {
+    "lead": "櫻花季去的話，這裡比上野公園安靜。",
+    "paras": [
+     "東京櫻花開花平年值是 3 月 24 日、滿開 3 月 31 日（氣象廳 1991–2020 平年值）；2026 年在 3 月 19 日開花。3/17–3/21 能不能看到，要看 2027 年當年的預測。"
+    ],
+    "tips": [
+     "櫻花預測約在 2 月底起公布，出發前一週再看。"
+    ]
+   },
+   "src": [
+    "https://ja.wikipedia.org/wiki/谷中霊園",
+    "https://en.wikipedia.org/wiki/Yanaka_Cemetery",
+    "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html"
+   ]
+  },
+  {
+   "id": "d-scai-the-bathhouse",
+   "name": "SCAI THE BATHHOUSE",
+   "zh": "SCAI THE BATHHOUSE（澡堂畫廊）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition",
+    "alley"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "日暮里駅南口步行約6分；根津駅（千代田線）1號出口步行約10分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里，南口出站穿過谷中靈園。",
+   "lat": 35.72528,
+   "lng": 139.77056,
+   "geo_src": "以谷中靈園座標（en.wikipedia）代替，畫廊在靈園西南側步行範圍內",
+   "geo_approx": true,
+   "q": "SCAI THE BATHHOUSE 台東区谷中6-1-23",
+   "addr": "東京都台東区谷中6-1-23 柏湯跡",
+   "price": "免費",
+   "hours": "12:00–18:00",
+   "closed": "週日、週一、國定假日；換展期間休",
+   "flag": "ok",
+   "warn": "⚠️ 3/21（日）休；換展期間整間關閉，3 月展期出發前再確認。",
+   "url": "https://www.scaithebathhouse.com/",
+   "note": "由江戶時代創業的錢湯「柏湯」改建的當代藝術畫廊，保留瓦屋頂和高天井。免費參觀，十幾分鐘就能看完，適合和カヤバ珈琲排在一起。",
+   "day": null,
+   "src": [
+    "https://www.tokyoartbeat.com/en/venues/-/4353A332",
+    "https://www.shift.jp.org/guide/tokyo/art-design/scai-the-bathhouse.html"
+   ]
+  },
+  {
+   "id": "d-asakura-museum",
+   "name": "台東区立朝倉彫塑館",
+   "zh": "朝倉雕塑館",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "garden"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "日暮里駅北改札西口步行約5分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里。",
+   "lat": 35.726879,
+   "lng": 139.768543,
+   "geo_src": "en.wikipedia Asakura Museum of Sculpture 條目座標",
+   "geo_approx": false,
+   "q": "朝倉彫塑館 台東区谷中7-18-10",
+   "addr": "東京都台東区谷中7-18-10",
+   "price": "一般 500 日圓",
+   "hours": "9:30–16:30（16:00 最後入館）",
+   "closed": "週一、週四（遇國定假日改隔天休）；年末年初、換展期間",
+   "flag": "star",
+   "warn": "⚠️ 週四休館：3/19（四）不開。",
+   "url": "https://www.taitogeibun.net/asakura/",
+   "note": "雕塑家朝倉文夫的住宅兼工作室，日式與洋式建築相連，中庭有水池。頂樓屋頂庭園可以看谷中街景。離夕燒階梯很近。",
+   "day": null,
+   "src": [
+    "https://www.museum.or.jp/museum/2347",
+    "https://www.gotokyo.org/tc/spot/508/index.html"
+   ]
+  },
+  {
+   "id": "d-kayaba-coffee",
+   "name": "カヤバ珈琲",
+   "zh": "カヤバ珈琲（萱場咖啡）",
+   "cat": "cafe",
+   "tags": [
+    "kissaten",
+    "cafe"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "根津駅（千代田線）步行可到；日暮里駅穿過谷中靈園也可",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里，南口出站步行。",
+   "lat": 35.72528,
+   "lng": 139.77056,
+   "geo_src": "以谷中靈園座標（en.wikipedia）代替，店在靈園西南角附近，與 SCAI 相鄰",
+   "geo_approx": true,
+   "q": "カヤバ珈琲 台東区谷中6-1-29",
+   "addr": "東京都台東区谷中6-1-29",
+   "hours": "8:00–18:00（餐點 LO 17:00、飲料 LO 17:30）",
+   "closed": "週一（遇假日改週二休）",
+   "flag": "ok",
+   "warn": "⚠️ 網路上的 kayaba-coffee.com 目前是無關的樣板頁，不要參考上面的資訊。",
+   "note": "老喫茶店建築，2006 年歇業後於 2009 年重新開幕（Tabelog）。早上 8 點開，可以在這裡吃早餐再逛谷中。Tabelog 列為 2026 喫茶店百名店。",
+   "day": null,
+   "g": {
+    "r": 3.75,
+    "src": "Tabelog",
+    "asof": "2026-10"
+   },
+   "src": [
+    "https://tabelog.com/tokyo/A1311/A131104/13019585/",
+    "https://tabelog.com/matome/2374/"
+   ]
+  },
+  {
+   "id": "d-hagiso",
+   "name": "HAGISO（HAGI CAFE）",
+   "zh": "HAGISO 萩荘咖啡",
+   "cat": "cafe",
+   "tags": [
+    "cafe",
+    "exhibition"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "千駄木駅（千代田線）或日暮里駅，步行可到",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到日暮里後步行。",
+   "lat": 35.726879,
+   "lng": 139.768543,
+   "geo_src": "以朝倉雕塑館座標（en.wikipedia）代替，同在谷中，實際位置在其西南方",
+   "geo_approx": true,
+   "q": "HAGISO 台東区谷中3-10-25",
+   "addr": "東京都台東区谷中3-10-25",
+   "hours": "早餐 8:00–10:30（每天）；週二～四 12:00–17:00；週五～日 12:00–20:00",
+   "closed": "週一、每月第 2 個週二；其他臨時休息看 Instagram",
+   "flag": "ok",
+   "url": "https://hagiso.com/hagiso/",
+   "note": "屋齡近 70 年的木造公寓改成的小型文化設施，一樓是咖啡店和展覽空間。早上 8 點就開，適合排成谷根千散步的第一站。",
+   "day": null,
+   "src": [
+    "https://hagiso.com/hagiso/"
+   ]
+  },
+  {
+   "id": "d-isetatsu",
+   "name": "菊寿堂いせ辰 谷中本店",
+   "zh": "伊勢辰 谷中本店（江戶千代紙）",
+   "cat": "shop",
+   "tags": [
+    "zakka",
+    "select"
+   ],
+   "zone": "z4",
+   "town": "谷中",
+   "station": "千駄木駅（千代田線）團子坂出口步行約5分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到西日暮里，再轉千代田線到千駄木。",
+   "lat": 35.72028,
+   "lng": 139.76083,
+   "geo_src": "以根津神社座標（en.wikipedia）代替，店在其東北方步行範圍內",
+   "geo_approx": true,
+   "q": "いせ辰 谷中本店 台東区谷中2-18-9",
+   "addr": "東京都台東区谷中2-18-9",
+   "closed": "官網寫年中無休",
+   "flag": "ok",
+   "url": "https://www.isetatsu.com/",
+   "note": "手刷江戶千代紙、江戶犬張子（紙糊小狗）、玩具版畫。輕又好帶，適合買來當伴手禮或自己收藏。",
+   "buy": [
+    "江戶千代紙",
+    "犬張子",
+    "千代紙小物"
+   ],
+   "day": null,
+   "src": [
+    "https://www.isetatsu.com/"
+   ]
+  },
+  {
+   "id": "d-ueno-park",
+   "name": "上野恩賜公園",
+   "zh": "上野公園",
+   "cat": "park",
+   "tags": [
+    "sakura",
+    "museum",
+    "garden"
+   ],
+   "zone": "z4",
+   "town": "上野",
+   "station": "JR 上野駅公園口步行約2分；京成上野駅步行約1分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線（品川・東京方向）到上野，不用再轉車。",
+   "lat": 35.71222,
+   "lng": 139.77111,
+   "geo_src": "en.wikipedia Ueno Park 條目座標",
+   "geo_approx": false,
+   "q": "上野恩賜公園 台東区",
+   "addr": "東京都台東区上野公園・池之端三丁目",
+   "price": "免費",
+   "hours": "公園常時開放（園內設施各自不同）",
+   "flag": "ok",
+   "warn": "⚠️ 若 3 月中下旬櫻花開了，週末和 3/20–3/21 連假會非常擠。",
+   "url": "https://www.tokyo-park.or.jp/park/ueno/index.html",
+   "note": "東京國立博物館、國立西洋美術館、上野東照宮都在園內，可以一天排完。櫻花樹約 800 棵，加上周邊寺社約 1,200 棵（英文維基說法）。",
+   "day": null,
+   "src": [
+    "https://www.tokyo-park.or.jp/park/ueno/index.html",
+    "https://en.wikipedia.org/wiki/Ueno_Park"
+   ]
+  },
+  {
+   "id": "d-ueno-toshogu",
+   "name": "上野東照宮",
+   "zh": "上野東照宮",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z4",
+   "town": "上野",
+   "station": "JR 上野駅公園口步行約5分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到上野。",
+   "lat": 35.7154,
+   "lng": 139.7706,
+   "geo_src": "en.wikipedia Ueno Tōshō-gū 條目座標",
+   "geo_approx": false,
+   "q": "上野東照宮 台東区上野公園",
+   "addr": "東京都台東区上野公園9-88",
+   "price": "參拜免費；進透塀內看金色殿 700 日圓（現金）",
+   "hours": "參拜 3–9 月 9:00–17:30；透塀內拜觀 3–9 月 9:30–17:00（官網，天候可能調整）",
+   "closed": "無休（惡劣天候可能關閉）",
+   "flag": "ok",
+   "warn": "⚠️ 牡丹苑 3 月不開（冬牡丹到 2 月中旬，春牡丹 4 月中旬起）。",
+   "url": "https://www.uenotoshogu.com/",
+   "note": "祭祀德川家康，主殿貼滿金箔，所以叫「金色殿」。社殿內部不開放，付費可以進到透塀內近看。參道兩側有成排石燈籠和銅燈籠。",
+   "day": null,
+   "src": [
+    "https://www.uenotoshogu.com/",
+    "https://www.gotokyo.org/jp/spot/399/index.html"
+   ]
+  },
+  {
+   "id": "d-yushima-tenjin",
+   "name": "湯島天満宮",
+   "zh": "湯島天神",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z4",
+   "town": "湯島",
+   "station": "湯島駅（東京メトロ千代田線）3號出口步行約3分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到御徒町或上野，步行過去；或在西日暮里轉千代田線到湯島。",
+   "lat": 35.70778,
+   "lng": 139.76833,
+   "geo_src": "en.wikipedia Yushima Tenmangū 條目座標",
+   "geo_approx": false,
+   "q": "湯島天満宮 文京区湯島",
+   "addr": "東京都文京区湯島3-30-1",
+   "price": "參拜免費",
+   "hours": "開門 6:00–20:00；授與所 9:00–19:30",
+   "flag": "ok",
+   "warn": "⚠️ 梅花祭通常 2 月上旬到 3 月上旬（2026 年為 2/8–3/8），3/17 以後梅花多半已謝。",
+   "url": "https://www.yushimatenjin.or.jp/pc/index.htm",
+   "note": "祭祀學問之神菅原道真，繪馬牆掛滿考生的祈願。離上野公園步行可到，可和上野、湯島的居酒屋排成同一個下午到晚上。",
+   "day": null,
+   "src": [
+    "https://www.yushimatenjin.or.jp/pc/index.htm",
+    "https://www.city.bunkyo.lg.jp/bunka/kanko/event/matsuri/ume.html",
+    "https://ja.wikipedia.org/wiki/湯島天満宮"
+   ]
+  },
+  {
+   "id": "d-shinsuke",
+   "name": "シンスケ",
+   "zh": "Shinsuke（湯島老字號居酒屋）",
+   "cat": "eat",
+   "tags": [
+    "izakaya"
+   ],
+   "zone": "z4",
+   "town": "湯島",
+   "station": "湯島駅（千代田線）3號出口步行約2分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到御徒町後步行；或西日暮里轉千代田線到湯島。",
+   "lat": 35.70778,
+   "lng": 139.76833,
+   "geo_src": "以湯島天神座標（en.wikipedia）代替，店在天神附近同一街區",
+   "geo_approx": true,
+   "q": "シンスケ 文京区湯島3-31-5",
+   "addr": "東京都文京区湯島3-31-5 YUSHIMA3315ビル 1F・2F",
+   "hours": "16:30–21:00（LO 20:30）",
+   "closed": "週日、國定假日",
+   "flag": "ok",
+   "warn": "⚠️ 1 樓只收現金；2 樓可刷 VISA／Master。座位費每人約 600 日圓（Tabelog）。3/21（日）休。",
+   "bookable": true,
+   "bk": "官網：預約最多 6 人，可訂 1 樓 4 人桌或 2 樓；1 樓吧台和 2 人桌留給 1–2 位臨時入店。",
+   "url": "https://www.shinsuketokyo.com/",
+   "note": "江戶後期以酒舖起家、大正時代轉型的老酒場，日本酒只賣秋田「兩關」，用標準一合德利出酒。小菜偏清淡，適合想喝日本酒又不想去吵鬧店的人。",
+   "day": null,
+   "g": {
+    "r": 3.56,
+    "src": "Tabelog",
+    "asof": "2026-10"
+   },
+   "src": [
+    "https://tabelog.com/tokyo/A1311/A131101/13003607/",
+    "https://www.mec-h.com/town/mh-hongo/265",
+    "https://www.shinsuketokyo.com/"
+   ]
+  },
+  {
+   "id": "d-kagiya",
+   "name": "鍵屋",
+   "zh": "鍵屋（根岸老字號居酒屋）",
+   "cat": "eat",
+   "tags": [
+    "izakaya"
+   ],
+   "zone": "z4",
+   "town": "根岸（鶯谷）",
+   "station": "鶯谷駅（JR 山手線）北口步行約5分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到鶯谷，不用再轉車。",
+   "lat": 35.7189,
+   "lng": 139.7764,
+   "geo_src": "以東京國立博物館座標（en.wikipedia）代替，僅示意上野北側區域；店在鶯谷站北口外，實際位置偏東北",
+   "geo_approx": true,
+   "q": "鍵屋 居酒屋 台東区根岸3-6-23",
+   "addr": "東京都台東区根岸3-6-23-18",
+   "hours": "17:00 開店；結束時間來源不一（20:00 或 20:30 最後點餐）",
+   "closed": "週日、國定假日",
+   "flag": "warn",
+   "warn": "⚠️ 只有女性的客人不能入店，必須有男性同行（兩個來源一致）。只收現金。營業時間短，3/21（日）休。",
+   "bookable": true,
+   "bk": "Tabelog：3 人以上可預約（電話 03-3872-2227）。",
+   "note": "1856 年以酒舖創業，戰後成為居酒屋，現址是大正元年的老民家。座位只有 24 席，氣氛安靜。Jess 和姑姑要和哥哥（或哥哥的朋友）一起去才能進。",
+   "day": null,
+   "g": {
+    "r": 3.49,
+    "src": "Tabelog",
+    "asof": "2026-10"
+   },
+   "src": [
+    "https://tabelog.com/tokyo/A1311/A131104/13003743/",
+    "https://san-tatsu.jp/articles/439489/"
+   ]
+  },
+  {
+   "id": "d-kanda-myojin",
+   "name": "神田明神（神田神社）",
+   "zh": "神田明神",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z4",
+   "town": "外神田",
+   "station": "JR 御茶ノ水駅聖橋口步行5分；JR 秋葉原駅電氣街口步行7分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線（品川・東京方向）到秋葉原，不用再轉車。",
+   "lat": 35.70194,
+   "lng": 139.76778,
+   "geo_src": "en.wikipedia Kanda Shrine 條目座標",
+   "geo_approx": false,
+   "q": "神田明神 千代田区外神田",
+   "addr": "東京都千代田区外神田2-16-2",
+   "price": "參拜免費",
+   "flag": "ok",
+   "url": "https://www.kandamyoujin.or.jp/",
+   "note": "江戶總鎮守，離秋葉原很近，常和動漫作品合作推出御守與繪馬。境內文化交流館地下有 EDOCCO STUDIO 體驗設施。從這裡走下坡到湯島天神也不遠。",
+   "day": null,
+   "src": [
+    "https://www.kandamyoujin.or.jp/",
+    "https://www.kandamyoujin.or.jp/access/",
+    "https://en.wikipedia.org/wiki/Kanda_Shrine"
+   ]
+  },
+  {
+   "id": "d-kanda-matsuya",
+   "name": "神田まつや 本店",
+   "zh": "神田松屋（老字號蕎麥麵）",
+   "cat": "eat",
+   "tags": [
+    "budget"
+   ],
+   "zone": "z4",
+   "town": "神田須田町",
+   "station": "淡路町駅（丸ノ內線）步行約2分；小川町駅（都營新宿線）步行約3分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到神田，步行約7分（Tabelog）。",
+   "lat": 35.70194,
+   "lng": 139.76778,
+   "geo_src": "以神田明神座標（en.wikipedia）代替，店在其南方約 1 公里，僅示意區域",
+   "geo_approx": true,
+   "q": "神田まつや 本店 千代田区神田須田町1-13",
+   "addr": "東京都千代田区神田須田町1-13",
+   "hours": "週二～五 11:00–20:30；週六 11:00–19:30（Tabelog）",
+   "closed": "週日；週一是否營業只有 Tabelog 一個來源寫休，出發前確認",
+   "flag": "ok",
+   "warn": "⚠️ 只收現金、不接受預約，午餐時段常排隊。",
+   "note": "神田一帶的老字號蕎麥店，Tabelog 評論超過 3,000 則。可以先點一壺酒配小菜再吃蕎麥（「蕎麥前」）。逛完神田明神往南走可到。",
+   "day": null,
+   "g": {
+    "r": 3.66,
+    "src": "Tabelog",
+    "asof": "2026-10"
+   },
+   "src": [
+    "https://tabelog.com/tokyo/A1310/A131002/13000340/"
+   ]
+  },
+  {
+   "id": "d-kagurazaka-alleys",
+   "name": "神楽坂（兵庫横丁・かくれんぼ横丁）",
+   "zh": "神樂坂巷弄（兵庫橫丁、捉迷藏橫丁）",
+   "cat": "sight",
+   "tags": [
+    "alley",
+    "yokocho"
+   ],
+   "zone": "z4",
+   "town": "神樂坂",
+   "station": "飯田橋駅（JR／地下鐵）、神楽坂駅（東西線）、牛込神楽坂駅（大江戶線）各步行約2分",
+   "from_base": "戶越搭淺草線到日本橋，轉東京メトロ東西線到神樂坂或飯田橋。",
+   "lat": 35.7039,
+   "lng": 139.7342,
+   "geo_src": "以神楽坂駅座標（en.wikipedia）代替；巷弄在車站東側坡道兩旁",
+   "geo_approx": true,
+   "q": "兵庫横丁 新宿区神楽坂",
+   "addr": "東京都新宿区神楽坂",
+   "price": "免費",
+   "flag": "star",
+   "note": "大正時代的花街，至今仍有料亭營業。兵庫橫丁是石板小路，常被拍成日劇場景；捉迷藏橫丁彎來彎去，名字來自「方便躲人」的說法。坡頂附近的善國寺供奉毘沙門天。",
+   "day": null,
+   "deep": {
+    "lead": "想看石板路和黑牆料亭，這一區比淺草安靜。",
+    "paras": [
+     "神樂坂通是罕見的「逆轉單行道」：早上和下午車行方向相反，從 1958 年實施至今。假日中午到傍晚主街會改成行人徒步區。"
+    ],
+    "tips": [
+     "巷弄裡多是住家與料亭，拍照小聲、不要擋住出入口。",
+     "飯田橋站一端是坡底，從下往上走比較輕鬆。"
+    ]
+   },
+   "src": [
+    "https://tabi-mag.jp/tk0142",
+    "https://tabi-mag.jp/tk1718/"
+   ]
+  },
+  {
+   "id": "d-akagi-jinja",
+   "name": "赤城神社",
+   "zh": "赤城神社（神樂坂）",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z4",
+   "town": "神樂坂",
+   "station": "神楽坂駅（東西線）1b 出口步行約1分；牛込神楽坂駅（大江戶線）A3 出口步行約5分",
+   "from_base": "戶越搭淺草線到日本橋，轉東西線到神樂坂。",
+   "lat": 35.7039,
+   "lng": 139.7342,
+   "geo_src": "以神楽坂駅座標（en.wikipedia）代替，神社在車站出口旁步行1分",
+   "geo_approx": true,
+   "q": "赤城神社 新宿区赤城元町1-10",
+   "addr": "東京都新宿区赤城元町1-10",
+   "price": "參拜免費",
+   "flag": "ok",
+   "url": "https://www.akagi-jinja.jp/",
+   "note": "重建時由住在神樂坂的建築師隈研吾擔任設計監修，玻璃與木頭構成的社殿在東京神社裡很少見。神社網站也介紹了「あかぎカフェ」。",
+   "day": null,
+   "src": [
+    "https://www.akagi-jinja.jp/",
+    "https://ja.wikipedia.org/wiki/赤城神社_(新宿区)"
+   ]
+  },
+  {
+   "id": "d-kamome-books",
+   "name": "かもめブックス",
+   "zh": "海鷗書店（Kamome Books）",
+   "cat": "shop",
+   "tags": [
+    "bookstore",
+    "cafe",
+    "select"
+   ],
+   "zone": "z4",
+   "town": "神樂坂",
+   "station": "神楽坂駅（東西線）矢來口出站即到",
+   "from_base": "戶越搭淺草線到日本橋，轉東西線到神樂坂。",
+   "lat": 35.7039,
+   "lng": 139.7342,
+   "geo_src": "以神楽坂駅座標（en.wikipedia）代替，店在矢來口旁",
+   "geo_approx": true,
+   "q": "かもめブックス 新宿区 神楽坂",
+   "flag": "unverified",
+   "warn": "⚠️ 官網公告 2026/10/1 起調整公休日，新的公休日與營業時間未能讀到，出發前確認。",
+   "url": "https://kamomebooks.jp/",
+   "note": "結合書店、咖啡與小畫廊（官網標示 BOOKS+COFFEE+GALLERY）。選書偏生活與設計，逛完赤城神社順路。",
+   "day": null,
+   "src": [
+    "https://kamomebooks.jp/"
+   ]
+  },
+  {
+   "id": "d-shibamata-taishakuten",
+   "name": "柴又帝釈天（経栄山 題経寺）",
+   "zh": "柴又帝釋天",
+   "cat": "sight",
+   "tags": [
+    "temple",
+    "shotengai",
+    "garden"
+   ],
+   "zone": "z4",
+   "town": "柴又",
+   "station": "柴又駅（京成金町線）步行約3～5分",
+   "from_base": "戶越搭淺草線往押上方向（部分班次直通京成線），到京成高砂轉京成金町線一站到柴又。",
+   "lat": 35.75833,
+   "lng": 139.87833,
+   "geo_src": "en.wikipedia Shibamata Taishakuten 條目座標",
+   "geo_approx": false,
+   "q": "柴又帝釈天 葛飾区柴又7-10-3",
+   "addr": "東京都葛飾区柴又7-10-3",
+   "price": "境內免費；雕刻藝廊＋邃溪園庭園 400 日圓",
+   "hours": "雕刻藝廊・庭園 9:00–16:00",
+   "closed": "無休（庭園 12/28–1/3 休）",
+   "flag": "ok",
+   "warn": "⚠️ 離戶越較遠，要轉車，適合排半天。",
+   "note": "1629 年創建的日蓮宗寺院，帝釋堂外牆整面是法華經故事的木雕，付費藝廊就是看這些雕刻。附近有寅次郎紀念館（電影《男人真命苦》），參道上有賣鰻魚、鯉魚料理的老料亭「川千家」。",
+   "day": null,
+   "src": [
+    "https://rurubu.jp/andmore/spot/80012271",
+    "https://www.gotokyo.org/jp/spot/11/",
+    "https://www.keisei.co.jp/keisei/short_trip/area/shibamata_yagiri.php"
+   ]
+  },
+  {
+   "id": "d-tnm",
+   "name": "東京国立博物館",
+   "zh": "東京國立博物館（東博）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z4",
+   "town": "上野",
+   "station": "JR 上野駅公園口或鶯谷駅南口步行約10分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到上野或鶯谷。",
+   "lat": 35.7189,
+   "lng": 139.7764,
+   "geo_src": "en.wikipedia Tokyo National Museum 條目座標",
+   "geo_approx": false,
+   "q": "東京国立博物館 台東区上野公園13-9",
+   "addr": "東京都台東区上野公園13-9",
+   "price": "常設展（東博コレクション展）一般 1,000 日圓、大學生 500 日圓；70 歲以上免費（需證件）；特展另計",
+   "hours": "9:30–17:00；週五、週六 9:30–20:00；隔天週一是國定假日的週日也到 20:00（最後入館為閉館前 30 分）",
+   "closed": "週一（遇假日開館，改隔一個平日休）",
+   "flag": "star",
+   "url": "https://www.tnm.jp/",
+   "note": "本館展日本美術，東洋館展亞洲文物，法隆寺寶物館建築本身也值得看。3 月特展內容現在查不到，出發前再確認。",
+   "day": null,
+   "deep": {
+    "lead": "旅程內每天都開，3/19（五）、3/20（六）開到晚上 8 點。",
+    "paras": [
+     "2027 年春分日是 3/21（日），3/22（一）補假。依官網規則，隔天週一是假日的週日延長到 20:00，所以 3/21 也開到晚上。",
+     "東洋館部分展間 2026 年 10 月起因環境工程關閉，恢復日未定。"
+    ],
+    "tips": [
+     "館內不能帶大型行李，回程日去要先寄放行李。",
+     "特展票可以同日看常設展。"
+    ]
+   },
+   "src": [
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
+    "https://www.tnm.jp/"
+   ]
+  },
+  {
+   "id": "d-nmwa",
+   "name": "国立西洋美術館",
+   "zh": "國立西洋美術館（西美）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z4",
+   "town": "上野",
+   "station": "JR 上野駅公園口步行約1分",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到上野。",
+   "lat": 35.71528,
+   "lng": 139.77583,
+   "geo_src": "en.wikipedia The Architectural Work of Le Corbusier 條目中本館座標",
+   "geo_approx": false,
+   "q": "国立西洋美術館 台東区上野公園7-7",
+   "addr": "東京都台東区上野公園7-7",
+   "price": "常設展一般 500 日圓、大學生 250 日圓；2027/3/20 起調漲為一般 1,000 日圓、大學生 500 日圓；企劃展另計",
+   "hours": "9:30–17:30；週五、週六到 20:00",
+   "closed": "週一（遇假日開館，改隔一個平日休）；12/28–1/1",
+   "flag": "star",
+   "warn": "⚠️ 常設展票價 3/20（六）起變成 1,000 日圓，3/18–3/19 去仍是舊價。",
+   "url": "https://www.nmwa.go.jp/jp/",
+   "note": "本館是柯比意設計的世界遺產。常設展有莫內《睡蓮》與羅丹雕塑，前庭的《沉思者》不用買票就能看。3 月企劃展內容出發前再確認。",
+   "day": null,
+   "src": [
+    "https://www.museum.or.jp/museum/2267",
+    "https://www.tokyoartbeat.com/articles/-/national-museum-admission-news-202609",
+    "https://kumanichi.com/articles/2037397"
+   ]
+  },
+  {
+   "id": "d-mot",
+   "name": "東京都現代美術館",
+   "zh": "東京都現代美術館（MOT）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z2",
+   "town": "清澄白河",
+   "station": "清澄白河駅（半藏門線）B2 出口步行約9分；（大江戶線）A3 出口步行約13分",
+   "from_base": "戶越搭淺草線到大門，轉大江戶線（往月島・門前仲町方向）到清澄白河。",
+   "lat": 35.68,
+   "lng": 139.80806,
+   "geo_src": "en.wikipedia Museum of Contemporary Art Tokyo 條目座標",
+   "geo_approx": false,
+   "q": "東京都現代美術館 江東区三好4-1-1",
+   "addr": "東京都江東区三好4-1-1",
+   "price": "依展覽而異",
+   "hours": "10:00–18:00（展間最後入場 17:30）",
+   "closed": "週一（遇假日改隔天休）；年末年初；換展期間",
+   "flag": "ok",
+   "url": "https://www.mot-art-museum.jp/",
+   "note": "東京最大的當代藝術美術館，館藏約 6,100 件，附設美術圖書室。清澄白河一帶咖啡店多，可以一起排。3 月展覽內容出發前再確認。",
+   "day": null,
+   "src": [
+    "https://www.museum.or.jp/museum/2488",
+    "https://www.gotokyo.org/jp/spot/141/index.html"
+   ]
+  },
+  {
+   "id": "d-mori-art-museum",
+   "name": "森美術館",
+   "zh": "森美術館",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition",
+    "view"
+   ],
+   "zone": "z3",
+   "town": "六本木",
+   "station": "六本木駅（日比谷線）1C 出口步行約3分",
+   "from_base": "戶越搭淺草線到東銀座，轉日比谷線到六本木。",
+   "lat": 35.66,
+   "lng": 139.73,
+   "geo_src": "en.wikipedia Roppongi Hills 條目座標（園區整體，非美術館入口）",
+   "geo_approx": true,
+   "q": "森美術館 港区六本木6-10-1",
+   "addr": "東京都港区六本木6-10-1 六本木ヒルズ森タワー53階",
+   "price": "依展覽而異",
+   "hours": "10:00–22:00；週二 10:00–17:00（最後入館為閉館前 30 分）",
+   "closed": "展期中無休；換展期間休",
+   "flag": "ok",
+   "warn": "⚠️ 森萬里子展預定 2026/10/31–2027/3/28，3/28 之後到 4/29 下一檔開幕前可能是換展期。2027/9/24 起休館整修約 7 個月（與本次旅程無關）。",
+   "url": "https://www.mori.art.museum/jp/",
+   "note": "在六本木新城森大樓 53 樓，開到晚上 10 點，晚餐後也能去。旅程期間預定展出「森萬里子展」（兩個來源一致，出發前再確認）。",
+   "day": null,
+   "src": [
+    "https://www.gotokyo.org/jp/spot/37/index.html",
+    "https://www.museum.or.jp/schedule/2026/area_tokyo23west",
+    "https://www.fashionsnap.com/article/2025-08-11/mariko-mori/",
+    "https://www.timeout.jp/tokyo/ja/news/mori-art-museum-temporary-closure-2027-082826"
+   ]
+  },
+  {
+   "id": "d-2121-design-sight",
+   "name": "21_21 DESIGN SIGHT",
+   "zh": "21_21 DESIGN SIGHT",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z3",
+   "town": "六本木（東京中城）",
+   "station": "六本木駅（大江戶線／日比谷線），東京ミッドタウン庭園內",
+   "from_base": "戶越搭淺草線到大門，轉大江戶線到六本木。",
+   "lat": 35.666,
+   "lng": 139.73,
+   "geo_src": "依東京ミッドタウン一般位置估計（未從可信頁取得精確座標），畫廊在中城北側庭園",
+   "geo_approx": true,
+   "q": "21_21 DESIGN SIGHT 東京ミッドタウン",
+   "addr": "東京都港区赤坂9丁目 東京ミッドタウン・ガーデン内",
+   "price": "依展覽而異",
+   "hours": "10:00–19:00（最後入館 18:30）",
+   "closed": "週二；年末年初；換展期間",
+   "flag": "ok",
+   "url": "https://www.2121designsight.jp/",
+   "note": "安藤忠雄設計的低矮清水模建築，專做設計主題展。官網預告 2027/2/5–5/23 舉辦「時間展」，內容細節出發前再確認。",
+   "day": null,
+   "src": [
+    "https://www.2121designsight.jp/"
+   ]
+  },
+  {
+   "id": "d-teamlab-borderless",
+   "name": "森ビル デジタルアート ミュージアム：エプソン チームラボボーダレス",
+   "zh": "teamLab Borderless（麻布台之丘）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z3",
+   "town": "麻布台",
+   "station": "神谷町駅（日比谷線）5號出口步行約2分",
+   "from_base": "戶越搭淺草線到東銀座，轉日比谷線到神谷町。",
+   "lat": 35.66056,
+   "lng": 139.74028,
+   "geo_src": "en.wikipedia Azabudai Hills 條目座標（園區整體）",
+   "geo_approx": true,
+   "q": "チームラボボーダレス 麻布台ヒルズ",
+   "addr": "東京都港区麻布台1-2-4 麻布台ヒルズ ガーデンプラザB B1",
+   "price": "浮動票價；大人（18 歲以上）起價 3,600～3,800 日圓（來源不一）；現場購票加 200 日圓",
+   "hours": "GO TOKYO 寫 9:00–21:00（最後入館 20:00），依季節調整",
+   "closed": "不定休",
+   "flag": "ok",
+   "warn": "⚠️ 浮動票價、時段入場；春分連假 3/20–3/21 價格和人潮都可能較高，建議線上先買平日場次。",
+   "bookable": true,
+   "bk": "官方售票網站預購，入場出示 QR code。",
+   "url": "https://www.teamlab.art/e/borderless-azabudai/",
+   "note": "沒有固定路線的沉浸式數位藝術館，作品會在房間之間移動。館內要走很多路，穿好走的鞋；可以拍照但不能用閃光燈。",
+   "day": null,
+   "src": [
+    "https://www.gotokyo.org/jp/spot/1742/index.html",
+    "https://www.walkerplus.com/spot/ar0313s491843/price.html"
+   ]
+  },
+  {
+   "id": "d-teamlab-planets",
+   "name": "チームラボプラネッツ TOKYO DMM",
+   "zh": "teamLab Planets（豐洲）",
+   "cat": "art",
+   "tags": [
+    "museum",
+    "exhibition"
+   ],
+   "zone": "z2",
+   "town": "豐洲",
+   "station": "新豊洲駅（百合海鷗線）北口步行約1分",
+   "from_base": "戶越搭淺草線到新橋，轉百合海鷗線到新豐洲。",
+   "lat": 35.6485,
+   "lng": 139.7899,
+   "geo_src": "以新豊洲駅座標（en.wikipedia）代替，館在車站旁步行1分",
+   "geo_approx": true,
+   "q": "チームラボプラネッツ 江東区豊洲6-1-16",
+   "addr": "東京都江東区豊洲6-1-16",
+   "price": "浮動票價；大人（18 歲以上）3,800 日圓起（官網）",
+   "hours": "官網目前寫 8:00–22:00（最後入館為閉館前 1 小時），2027 年 3 月時段出發前再確認",
+   "flag": "ok",
+   "warn": "⚠️ 營運到 2027 年底（官網）。現場不賣票，要先上網買指定時段；買了不能退，最晚入場前 2 小時可改期 3 次。館內要赤腳涉水，穿可捲到膝蓋的褲子。",
+   "bookable": true,
+   "bk": "官方售票網站，指定入場時段。",
+   "url": "https://www.teamlab.art/e/planets/",
+   "note": "要脫鞋、走進及膝的水裡看投影，和 Borderless 的玩法不同。兩間只去一間的話，想要「身體參與」選 Planets，想要「迷路探索」選 Borderless。",
+   "day": null,
+   "src": [
+    "https://www.teamlab.art/e/planets/"
+   ]
+  },
+  {
+   "id": "d-ghibli-museum",
+   "name": "三鷹の森ジブリ美術館",
+   "zh": "三鷹之森吉卜力美術館",
+   "cat": "art",
+   "tags": [
+    "museum"
+   ],
+   "zone": "z5",
+   "town": "三鷹（井之頭公園西南端）",
+   "station": "JR 三鷹駅南口，步行或搭社區巴士",
+   "from_base": "戶越搭淺草線到五反田，轉 JR 山手線到新宿，再轉 JR 中央線到三鷹。",
+   "lat": 35.70083,
+   "lng": 139.57417,
+   "geo_src": "以井之頭公園座標（en.wikipedia）代替，美術館在公園西南端",
+   "geo_approx": true,
+   "q": "三鷹の森ジブリ美術館 三鷹市下連雀1-1-83",
+   "addr": "東京都三鷹市下連雀1-1-83",
+   "price": "大人（19 歲以上）1,000 日圓；13–18 歲 700；7–12 歲 400；4–6 歲 100；2026/11 起羅森通路每張加系統費 110 日圓",
+   "hours": "10:00–18:00；入場時段 10:00–16:00 每小時一場，指定時間後 1 小時內入場",
+   "closed": "每週二；另有不定期長期休館，看官網行事曆",
+   "flag": "warn",
+   "warn": "⚠️ 全預約制，現場不賣票。3 月場次在 2027/2/10 10:00（日本時間）於羅森票務開賣，常很快賣完。2026/11 起日本國內通路改成 MOALA 電子票，需日本手機號碼（090/080/070）簡訊驗證、不接受截圖；台灣旅客應走海外購票通路，細節出發前確認。",
+   "bookable": true,
+   "bk": "羅森票務（Lawson Ticket）每月 10 日 10:00 開賣下個月場次；JTB 海外通路每月 1 日開賣 3 個月後場次。票為記名制，入場可能查驗護照。",
+   "url": "https://www.ghibli-museum.jp/",
+   "note": "館內不按順序參觀，有只在這裡放映的短片。三鷹離戶越遠，建議排半天，可和井之頭公園、吉祥寺一起排。",
+   "day": null,
+   "src": [
+    "https://www.ghibli-museum.jp/ticket/",
+    "https://l-tike.com/ghibli/",
+    "https://l-tike.com/ghibli/info.html",
+    "https://www.ghibli-museum.jp/en/tickets/"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "k": "2027 春分連假",
+   "v": "2027 年春分日是 3/21（日），3/22（一）補假。旅程中 3/20（六）是一般週六、3/21 是國定假日。週一休館的館所會在 3/22 開館、改 3/23 休，對本次行程沒有影響；但「週日與國定假日休」的店（如鍵屋、シンスケ）3/21 不營業。",
+   "src": [
+    "https://bestcalendar.jp/2027/3/holidays",
+    "https://www.nippon.com/ja/japan-data/h02794/"
+   ]
+  },
+  {
+   "k": "國立美術館常設展漲價",
+   "v": "國立西洋美術館常設展從 2027/3/20 起由 500 日圓漲為 1,000 日圓（大學生 250→500）；東京國立近代美術館從 2027/2/9 起同樣漲為 1,000 日圓。東京國立博物館不在這次調整名單內（常設展一般 1,000 日圓）。",
+   "src": [
+    "https://www.tokyoartbeat.com/articles/-/national-museum-admission-news-202609",
+    "https://kumanichi.com/articles/2037397"
+   ]
+  },
+  {
+   "k": "東博在 3/21 晚上也開",
+   "v": "東京國立博物館規則：週五、週六，以及隔天週一為國定假日的週日，開到 20:00。2027/3/22 為補假，所以 3/19（五）、3/20（六）、3/21（日）都開到 20:00。",
+   "src": [
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
+    "https://bestcalendar.jp/2027/3/holidays"
+   ]
+  },
+  {
+   "k": "teamLab Planets 營運期限",
+   "v": "官網寫營運期間為 2018/7/7 到 2027 年底，2027 年 3 月仍在營運。",
+   "src": [
+    "https://www.teamlab.art/e/planets/"
+   ]
+  },
+  {
+   "k": "森美術館 2027 休館",
+   "v": "森美術館 2027/9/24 起休館整修約 7 個月，預計 2028 年 4 月下旬重開；3 月旅程不受影響。旅程期間預定展出森萬里子展（2026/10/31–2027/3/28）。",
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/news/mori-art-museum-temporary-closure-2027-082826",
+    "https://www.fashionsnap.com/article/2026-08-25/mori-art-temporarily-closed/",
+    "https://www.museum.or.jp/schedule/2026/area_tokyo23west"
+   ]
+  },
+  {
+   "k": "吉卜力美術館購票",
+   "v": "全預約制、館內不售票。羅森票務每月 10 日 10:00 開賣下個月場次（3 月場次＝2027/2/10）。票記名、本人購買、入場可能查證件；2026/11 起國內通路改 MOALA 電子票、需日本手機簡訊驗證、每張加 110 日圓系統費。海外通路：JTB 海外每月 1 日賣 3 個月後的場次。",
+   "src": [
+    "https://l-tike.com/ghibli/",
+    "https://www.ghibli-museum.jp/ticket/",
+    "https://www.ghibli-museum.jp/en/tickets/"
+   ]
+  },
+  {
+   "k": "東京櫻花時程",
+   "v": "氣象廳東京平年值：開花 3/24、滿開 3/31。2026 年 3/19 開花（比平年早 5 天），2023 年 3/14 開花、3/22 滿開。3/17–3/21 可能剛好在開花前後，2027 年實際情況要看 2 月底起的預測。",
+   "src": [
+    "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html",
+    "https://weathernews.jp/news/202603/180056/"
+   ]
+  },
+  {
+   "k": "3 月中旬不是花期的地點",
+   "v": "湯島天神梅花祭約 2 月上旬到 3 月上旬（2026 年 2/8–3/8）；根津神社杜鵑在春季（約 4 月）；上野東照宮牡丹苑冬季到 2 月中旬、春季 4 月中旬起。",
+   "src": [
+    "https://www.city.bunkyo.lg.jp/bunka/kanko/event/matsuri/ume.html",
+    "https://www.uenotoshogu.com/",
+    "https://www.gotokyo.org/jp/spot/70/index.html"
+   ]
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "3 月各館特展名稱（東博、西美、MOT 等）",
+   "why": "官網目前只公布到 2026 年底，不寫展名，一律寫「出發前再確認」。森美術館與 21_21 的展期是官方預告，仍可能變動。"
+  },
+  {
+   "claim": "カヤバ珈琲營業時間 8:00–18:00、週一休",
+   "why": "只有 Tabelog 一個來源（最後更新 2024），官網網址已變成無關樣板頁，找不到第二來源。"
+  },
+  {
+   "claim": "HAGISO 營業時間",
+   "why": "只有官網一個來源，沒找到第二來源。"
+  },
+  {
+   "claim": "神田まつや週一公休",
+   "why": "Tabelog 寫週日、週一休；沒找到第二來源，常見說法是「週日・假日休」，未證實。"
+  },
+  {
+   "claim": "鍵屋結束營業時間",
+   "why": "Tabelog 寫 17:00–20:00，さんたつ寫 17:00–20:30 LO，兩者不一致。"
+  },
+  {
+   "claim": "teamLab Borderless 大人票價",
+   "why": "GO TOKYO 寫 3,800 日圓起，Walkerplus（2026/3 資訊）寫 3,600 日圓起；浮動票價，實際以購票頁為準。"
+  },
+  {
+   "claim": "teamLab Planets 2027 年 3 月營業時間",
+   "why": "官網目前顯示 8:00–22:00，但可能是當季時段，3 月時段未公布。"
+  },
+  {
+   "claim": "吉卜力美術館海外購票流程（英文羅森頁、是否需日本手機）",
+   "why": "英文購票頁與官網英文購票說明頁無法讀取，只確認國內通路規則。"
+  },
+  {
+   "claim": "かもめブックス 2026/10 起的新公休日與營業時間",
+   "why": "官網公告頁讀取失敗。"
+  },
+  {
+   "claim": "東京都現代美術館常設展（MOT コレクション）票價",
+   "why": "兩個來源都只寫「依展覽而異」，沒有查到固定價。"
+  },
+  {
+   "claim": "根津神社「千本鳥居」的鳥居數量",
+   "why": "GO TOKYO 與維基都沒有寫數量。"
+  },
+  {
+   "claim": "あかぎカフェ 是否位在赤城神社境內、營業時間",
+   "why": "神社官網只放連結，沒寫位置與時間。"
+  },
+  {
+   "claim": "神樂坂不二家是全日本唯一賣「ペコちゃん焼」的店",
+   "why": "只有一個旅遊網站這樣寫，未查證。"
+  },
+  {
+   "claim": "谷中銀座各店公休日",
+   "why": "各店不同，商店街官網沒有統一公休資訊；本次搜尋額度用完，未再查證。"
+  }
+ ],
+ "overturned": [
+  {
+   "claim": "上野東照宮進透塀內參觀 500 日圓（日文維基寫法）",
+   "truth": "官網與 GO TOKYO 都寫 700 日圓（國中以上），現金。",
+   "src": [
+    "https://www.uenotoshogu.com/",
+    "https://www.gotokyo.org/jp/spot/399/index.html"
+   ]
+  },
+  {
+   "claim": "國立西洋美術館常設展 500 日圓",
+   "truth": "2027/3/20 起漲為 1,000 日圓，剛好落在旅程中（3/20、3/21 去就是新價）。",
+   "src": [
+    "https://www.tokyoartbeat.com/articles/-/national-museum-admission-news-202609",
+    "https://kumanichi.com/articles/2037397"
+   ]
+  },
+  {
+   "claim": "teamLab Planets 是期間限定、快要結束",
+   "truth": "官網現寫營運到 2027 年底，2027 年 3 月仍營業。",
+   "src": [
+    "https://www.teamlab.art/e/planets/"
+   ]
+  },
+  {
+   "claim": "吉卜力美術館可以到現場或用日本羅森 App 買票、截圖入場",
+   "truth": "館內不售票；2026/11 起國內通路改 MOALA 電子票，需日本手機簡訊驗證，不接受截圖或列印。",
+   "src": [
+    "https://www.ghibli-museum.jp/ticket/",
+    "https://l-tike.com/ghibli/"
+   ]
+  },
+  {
+   "claim": "博物館週一休，3/21（日）照常 17:00 關",
+   "truth": "東博規則：隔天是假日的週日開到 20:00；2027/3/22 補假，所以 3/21 開到晚上 8 點。",
+   "src": [
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
+    "https://bestcalendar.jp/2027/3/holidays"
+   ]
+  },
+  {
+   "claim": "kayaba-coffee.com 是カヤバ珈琲官網",
+   "truth": "該網址現在是無關的樣板網頁（地址寫紐約），不能當資訊來源。",
+   "src": [
+    "http://www.kayaba-coffee.com/"
+   ]
+  },
+  {
+   "claim": "鍵屋誰都可以去",
+   "truth": "店家規定只有女性的客人不能入店，需男性同行（Tabelog 與さんたつ一致，據說是前代老闆娘的遺願）。",
+   "src": [
+    "https://tabelog.com/tokyo/A1311/A131104/13003743/",
+    "https://san-tatsu.jp/articles/439489/"
+   ]
+  }
+ ]
+}

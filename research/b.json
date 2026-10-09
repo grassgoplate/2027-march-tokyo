@@ -1,0 +1,1067 @@
+{
+ "places": [
+  {
+   "id": "b-shimbashi-ekimae-bldg",
+   "name": "新橋駅前ビル1号館・2号館",
+   "zh": "新橋站前大樓（地下居酒屋街）",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "yokocho",
+    "budget"
+   ],
+   "zone": "z2",
+   "town": "新橋",
+   "station": "新橋駅（都營淺草線／JR）地下通道直通",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；新橋站下車",
+   "lat": 35.6668,
+   "lng": 139.759,
+   "geo_src": "依新橋站座標（en.wikipedia 35.6663,139.7587）與 ja.wikipedia 描述（大樓位於 JR 新橋站東口廣場與第一京濱之間）推估",
+   "geo_approx": true,
+   "q": "新橋駅前ビル1号館 港区新橋",
+   "flag": "warn",
+   "warn": "⚠️ 多數店家週六日、國定假日不開（2018 年報導）。3/20～3/22 是連假，要喝請排 3/17～3/19 平日晚上。",
+   "note": "1966 年完工的老大樓，地下一樓擠滿立飲小店和小居酒屋，下班上班族的主場。下雨天也不用撐傘。適合兩三人一起去，一家喝一兩杯就換下一家。",
+   "deep": {
+    "lead": "東京上班族下班後的真實樣子。",
+    "paras": [
+     "大樓分 1 號館（車站北側）和 2 號館（南側），地下都和新橋站相通。店多半是立飲或小吧檯，傍晚才開門，晚上 11 點左右收。",
+     "2018 年報導的價位：小菜多在 300 日圓上下，啤酒約 350 日圓；也有收 500 日圓座位費的店。價錢會變，只當參考。"
+    ],
+    "tips": [
+     "很多店只收現金，帶零錢與千元鈔。",
+     "有些店收座位費或お通し（小菜費），坐下前看門口告示或直接問。",
+     "新橋站東側一帶有再開發計畫（2017 年成立協議會），大樓未來會拆，但 2024 年時還沒有確定時程。"
+    ]
+   },
+   "src": [
+    "https://www.enjoytokyo.jp/article/109712/",
+    "https://ja.wikipedia.org/wiki/新橋駅前ビル"
+   ]
+  },
+  {
+   "id": "b-karasumori-jinja",
+   "name": "烏森神社",
+   "zh": "烏森神社",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "goshuin"
+   ],
+   "zone": "z2",
+   "town": "新橋",
+   "station": "新橋駅（都營淺草線）步行約2～3分（官網）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；新橋站下車步行",
+   "lat": 35.666,
+   "lng": 139.7569,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "烏森神社 港区新橋2-15-5",
+   "addr": "東京都港区新橋2-15-5",
+   "flag": "ok",
+   "note": "夾在新橋烏森口飲食街小巷裡的稻荷神社。社傳說是 940 年藤原秀郷平定平將門之亂後所建。有依願望分顏色的「心願色みくじ」，御朱印有季節限定款。",
+   "deep": {
+    "lead": "居酒屋巷子裡突然冒出來的神社。",
+    "paras": [
+     "主祭神之一是天鈿女命（藝能之神），官網說供奉這位神明的神社不多。社殿是現代建築，跟周圍的居酒屋招牌放在一起很有新橋味。"
+    ],
+    "tips": [
+     "御朱印受付時間官網首頁沒寫，去前看官網公告。",
+     "可以先參拜再去旁邊烏森口小巷喝一杯。"
+    ]
+   },
+   "url": "https://karasumorijinja.or.jp/",
+   "src": [
+    "https://karasumorijinja.or.jp/",
+    "https://ja.wikipedia.org/wiki/烏森神社"
+   ]
+  },
+  {
+   "id": "b-andys-shin-hinomoto",
+   "name": "新日の基（Andy's）",
+   "zh": "新日之基（Andy's 居酒屋）",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "gado-shita",
+    "english-ok"
+   ],
+   "zone": "z2",
+   "town": "有樂町",
+   "station": "有楽町駅（JR）步行約3分；日比谷駅亦近",
+   "from_base": "淺草線沒到有樂町：淺草線到新橋站，沿 JR 高架往北走；或在新橋轉 JR 坐一站到有樂町",
+   "lat": 35.673,
+   "lng": 139.7615,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（地址 有楽町2-4-4，位於有楽町站南側 JR 高架下；有楽町站座標 35.6749,139.7636 取自 en.wikipedia）",
+   "geo_approx": true,
+   "q": "新日の基 千代田区有楽町2-4-4",
+   "addr": "東京都千代田区有楽町2-4-4",
+   "hours": "17:00～23:30（L.O. 23:00）",
+   "closed": "週日",
+   "flag": "warn",
+   "warn": "⚠️ 週日公休。Tabelog 列不收信用卡／電子支付，帶現金。平日 19 點前後常客滿，建議線上預約。",
+   "bookable": true,
+   "bk": "TableCheck 線上預約（Tabelog 註明電話預約目前不受理）",
+   "url": "http://shin-hinomoto.com/",
+   "note": "JR 高架橋下的老居酒屋，列車就從頭上開過。創業 70 多年，現在由創辦人孫女和英國籍先生 Andy 經營，有英文菜單。生魚片、炸物、鮪魚料理是主力。",
+   "deep": {
+    "lead": "有樂町「ガード下」氣氛最好入門的一家。",
+    "paras": [
+     "LIVE JAPAN（2020）說這家不收お通し；Tabelog 也寫「無服務費」。但 TableCheck 上的套餐標示「不含服務費」，說法不一致，點單點菜或套餐前可以先問。"
+    ],
+    "tips": [
+     "樓上樓下都有座位，人多也能塞。",
+     "有樂町到新橋這段高架橋是百年以上的老磚拱，順路走走。"
+    ]
+   },
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130102/13006216",
+    "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-ginza/article-a0002070/",
+    "https://www.tablecheck.com/zh-TW/shin-hinomoto"
+   ]
+  },
+  {
+   "id": "b-akitaya-daimon",
+   "name": "秋田屋",
+   "zh": "秋田屋（大門・燒內臟串）",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "motsuyaki",
+    "standing",
+    "budget"
+   ],
+   "zone": "z2",
+   "town": "大門／濱松町",
+   "station": "大門駅（都營淺草線）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；大門站下車",
+   "lat": 35.6563,
+   "lng": 139.7555,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "秋田屋 港区浜松町2-1-2",
+   "addr": "東京都港区浜松町2-1-2",
+   "hours": "15:30～21:30（週六至20:30）",
+   "closed": "週日、國定假日、每月第3個週六",
+   "flag": "warn",
+   "warn": "⚠️ 只收現金。開店前就排隊。2027/3 的第 3 個週六正好是 3/20，加上 3/21 週日、3/22 假日，連假三天都不開；請排 3/17～3/19。",
+   "note": "下午三點半就開的燒內臟串老店，全是吧檯座，外面還有立飲區能看到東京鐵塔。價位低，Time Out 標最便宜一級。",
+   "deep": {
+    "lead": "想看東京大叔下午就開喝的地方，就是這裡。",
+    "paras": [
+     "淺草線大門站就在附近，回戶越也是一線到底。適合抵達後幾天的傍晚先吃一輪再回住處。"
+    ],
+    "tips": [
+     "開店前到，晚了可能要等。",
+     "店內 54 席全吧檯（Tabelog）。"
+    ]
+   },
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/レストラン/akitaya",
+    "https://tabelog.com/en/tokyo/A1314/A131401/13001499/"
+   ]
+  },
+  {
+   "id": "b-muji-ginza",
+   "name": "無印良品 銀座",
+   "zh": "無印良品 銀座（世界旗艦店）",
+   "cat": "shop",
+   "tags": [
+    "muji",
+    "select",
+    "bookstore",
+    "cafe"
+   ],
+   "zone": "z2",
+   "town": "銀座",
+   "station": "銀座一丁目駅（有樂町線）或銀座駅；淺草線最近是宝町駅／東銀座駅，步行",
+   "from_base": "淺草線直達宝町站或東銀座站，再步行（沒查到步行分鐘數）",
+   "lat": 35.6737,
+   "lng": 139.7674,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（銀座3-3-5，並木通り；銀座一丁目站座標 35.6743,139.7670 取自 en.wikipedia）",
+   "geo_approx": true,
+   "q": "無印良品 銀座 中央区銀座3-3-5",
+   "addr": "東京都中央区銀座3丁目3番5号",
+   "hours": "11:00～21:00（免稅櫃台 4F、配送受理 5F 至 20:30）",
+   "closed": "官網未列公休",
+   "flag": "star",
+   "url": "https://www.muji.com/jp/ja/shop/detail/046604",
+   "note": "2019/4/4 開幕，官網現在仍標「世界旗艦店」。B1 是餐廳 MUJI Diner，1F 是食品、麵包與咖啡，6F 是飯店櫃台和 ATELIER MUJI GINZA（藝廊、圖書、lounge），7～10F 是 MUJI HOTEL GINZA。",
+   "buy": [
+    "只有旗艦店才有的食品區商品（1F）",
+    "MUJI BOOKS 書籍",
+    "可以 4F 一次辦免稅"
+   ],
+   "deep": {
+    "lead": "一棟樓把無印的衣、食、住、住宿全放進去。",
+    "paras": [
+     "開幕時報導的樓層：B1 MUJI Diner；1F 食品（東京近郊產地直送蔬果、果汁、可自己調配的散裝茶）；2～5F 生活雜貨與服飾；6F 飯店櫃台與 ATELIER MUJI GINZA；7～10F 客房 79 間。",
+     "2025/2/21 B1 的 MUJI Diner 和 MUJI Coffee & Bakery 改裝：Diner 午餐是定食、晚餐單點，菜色每段時間換一個國家；麵包區加了可頌、長棍三明治和拿鐵等咖啡。"
+    ],
+    "tips": [
+     "免稅在 4F 辦，帶護照。",
+     "Diner 2025 年報導營業到 22:00（L.O. 21:30），只有一個來源，出發前查官網。",
+     "Coffee & Bakery 在 1F 還是 B1，報導前後寫法不一，現場看樓層指南。"
+    ]
+   },
+   "day": null,
+   "src": [
+    "https://www.muji.com/jp/ja/shop/detail/046604",
+    "https://www.wwdjapan.com/articles/713946",
+    "https://www.watch.impress.co.jp/docs/news/1146170.html",
+    "https://gourmet.watch.impress.co.jp/docs/news/1663393.html"
+   ]
+  },
+  {
+   "id": "b-muji-hotel-ginza",
+   "name": "MUJI HOTEL GINZA",
+   "zh": "無印良品飯店 銀座",
+   "cat": "stay",
+   "tags": [
+    "muji",
+    "hotel"
+   ],
+   "zone": "z2",
+   "town": "銀座",
+   "station": "同無印良品 銀座（入口在銀座煉瓦通り側）",
+   "from_base": "淺草線直達宝町站或東銀座站，再步行",
+   "lat": 35.6737,
+   "lng": 139.7674,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（與無印良品 銀座同棟）",
+   "geo_approx": true,
+   "q": "MUJI HOTEL GINZA",
+   "addr": "東京都中央区銀座3-3-5 6F",
+   "flag": "info",
+   "url": "https://hotel.muji.com/ginza/ja/",
+   "warn": "⚠️ 官網提醒：曾有訂房系統遭未授權存取，以及冒充飯店的假 Email／WhatsApp。只從官網訂，不要點訊息裡的付款連結。",
+   "note": "無印良品經營的飯店，櫃台在 6F，客房 7～10F 共 79 間（2018 年報導）。我們住戶越，不用住這裡；適合路過 6F 看看大廳與 ATELIER MUJI GINZA。房價官網首頁未列。",
+   "src": [
+    "https://hotel.muji.com/ginza/ja/",
+    "https://www.watch.impress.co.jp/docs/news/1146170.html"
+   ]
+  },
+  {
+   "id": "b-ginza-itoya",
+   "name": "銀座 伊東屋 本店（G.Itoya）",
+   "zh": "銀座伊東屋本店",
+   "cat": "shop",
+   "tags": [
+    "stationery",
+    "select"
+   ],
+   "zone": "z2",
+   "town": "銀座",
+   "station": "銀座一丁目駅（有樂町線）8號出口步行約1分；銀座駅 A13 步行約3分（Time Out）",
+   "from_base": "淺草線到宝町站或東銀座站步行；或新橋站轉東京Metro",
+   "lat": 35.6738,
+   "lng": 139.7684,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（銀座2-7-15，中央通り）",
+   "geo_approx": true,
+   "q": "銀座 伊東屋 本店 中央区銀座2-7-15",
+   "addr": "東京都中央区銀座2-7-15",
+   "flag": "ok",
+   "url": "https://www.ito-ya.co.jp/",
+   "note": "創業 120 年的文具老店，2015 年重建成一棟 12 層樓。2F 可以買信紙當場寫好、投進店內郵筒寄出；11F 是水耕蔬菜工廠，12F 咖啡廳 CAFE Stylo 用樓下種的菜。",
+   "buy": [
+    "鋼筆墨水",
+    "信紙信封（2F 寫好直接寄回台灣）",
+    "銀座伊東屋原創文具"
+   ],
+   "deep": {
+    "lead": "在銀座寫一封信寄回家。",
+    "paras": [
+     "營業時間 Time Out（2023）寫 10:00～20:00、週日假日到 19:00，但沒找到第二個一致來源，出發前查官網。"
+    ],
+    "tips": [
+     "2F 有鋼筆可借用試寫。"
+    ]
+   },
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/ショッピング/ginza-itoya-honten",
+    "https://www.ginza.jp/?p=11856"
+   ]
+  },
+  {
+   "id": "b-nihonbashi-bridge",
+   "name": "日本橋",
+   "zh": "日本橋（橋）",
+   "cat": "sight",
+   "tags": [
+    "history",
+    "bridge"
+   ],
+   "zone": "z2",
+   "town": "日本橋",
+   "station": "日本橋駅（都營淺草線）或三越前駅，步行",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；日本橋站下車步行",
+   "lat": 35.684,
+   "lng": 139.7745,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "日本橋 中央区 橋 道路元標",
+   "flag": "info",
+   "warn": "⚠️ 橋上方的首都高架正在拆除改走地下，首都高官網說全部完成要到 2040 年度。2027 年去仍會看到高架與施工，不要期待「藍天下的日本橋」。",
+   "note": "現在的石造雙拱橋 1911 年完工，1999 年列為國家重要文化財。江戶時代五街道的起點，橋中央有「日本國道路元標」。順路去福徳神社、人形町。",
+   "src": [
+    "https://ja.wikipedia.org/wiki/日本橋_(東京都中央区の橋)",
+    "https://www.shutoko.jp/ss/nihonbashi-tikaka/future/"
+   ]
+  },
+  {
+   "id": "b-fukutoku-jinja",
+   "name": "福徳神社（芽吹稲荷）",
+   "zh": "福德神社",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "goshuin"
+   ],
+   "zone": "z2",
+   "town": "日本橋室町",
+   "station": "三越前駅（銀座線・半藏門線）A6 出口步行1分（官網）",
+   "from_base": "淺草線到日本橋站，步行往北過日本橋；或在日本橋站轉銀座線一站到三越前",
+   "lat": 35.6873,
+   "lng": 139.7737,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（COREDO室町旁）",
+   "geo_approx": true,
+   "q": "福徳神社 中央区日本橋室町2-4-14",
+   "addr": "東京都中央区日本橋室町2-4-14",
+   "hours": "授与所・御朱印 10:00～17:00（官網）",
+   "flag": "ok",
+   "url": "https://mebuki.jp/",
+   "note": "藏在 COREDO 室町商場群之間的小神社。別名「芽吹稲荷」，據傳德川秀忠 1614 年看到鳥居長出新芽而取名。現在的社殿 2014 年才建好，之前在大樓屋頂待了約 50 年。",
+   "deep": {
+    "lead": "高樓之間的小稻荷。",
+    "paras": [
+     "一般說法是祈求中彩券很靈，但這點維基百科和官網首頁都沒提到，當傳說聽聽就好。"
+    ],
+    "tips": [
+     "旁邊就是 COREDO 室町，可順便逛。"
+    ]
+   },
+   "src": [
+    "https://mebuki.jp/",
+    "https://ja.wikipedia.org/wiki/福徳神社"
+   ]
+  },
+  {
+   "id": "b-suitengu",
+   "name": "水天宮",
+   "zh": "水天宮",
+   "cat": "sight",
+   "tags": [
+    "shrine"
+   ],
+   "zone": "z2",
+   "town": "人形町",
+   "station": "水天宮前駅（半藏門線）旁；人形町駅（淺草線）步行",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車步行",
+   "lat": 35.68361,
+   "lng": 139.785,
+   "geo_src": "en.wikipedia Suitengū (Tokyo) 條目座標",
+   "geo_approx": false,
+   "q": "水天宮 中央区日本橋蛎殻町2-4-1",
+   "addr": "東京都中央区日本橋蛎殻町2-4-1",
+   "hours": "開門 7:00～18:00；授与所 8:00～18:00（官網）",
+   "flag": "ok",
+   "url": "https://www.suitengu.or.jp/",
+   "warn": "⚠️ 「戌の日」是祈求安產的大日子，孕婦和家人很多。出發前查官網行事曆避開。",
+   "note": "求安產、求子出名的神社，社殿在大樓上方，要搭電梯或走樓梯上去。從人形町甘酒橫丁走過來很順。",
+   "src": [
+    "https://www.suitengu.or.jp/",
+    "https://en.wikipedia.org/wiki/Suitengū_(Tokyo)"
+   ]
+  },
+  {
+   "id": "b-amazake-yokocho",
+   "name": "甘酒横丁",
+   "zh": "甘酒橫丁",
+   "cat": "sight",
+   "tags": [
+    "alley",
+    "shotengai",
+    "retro"
+   ],
+   "zone": "z2",
+   "town": "人形町",
+   "station": "人形町駅（淺草線 A3／日比谷線 A1）旁",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車",
+   "lat": 35.687,
+   "lng": 139.7835,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（人形町站座標 35.6863,139.7823 取自 en.wikipedia，橫丁從站口往東北約400m）",
+   "geo_approx": true,
+   "q": "甘酒横丁 人形町",
+   "flag": "star",
+   "note": "從人形町站口往東北到明治座附近、約 400 公尺的老商店街。兩旁是茶舖、和菓子、豆腐店、老居酒屋。這一帶以前有中村座、市村座，是江戶歌舞伎的發源地之一。",
+   "deep": {
+    "lead": "東京最好走的老街之一，平日人不多。",
+    "paras": [
+     "一條路走到底，可以接森乃園焙茶霜淇淋、快生軒喫茶、晚上笹新喝一杯，再走到水天宮。"
+    ],
+    "tips": [
+     "很多老店週日或假日休，平日去比較完整。"
+    ]
+   },
+   "src": [
+    "https://ja.wikipedia.org/wiki/甘酒横丁",
+    "https://tabelog.com/en/tokyo/A1302/A130204/13041947/"
+   ]
+  },
+  {
+   "id": "b-morinoen",
+   "name": "森乃園",
+   "zh": "森乃園（焙茶專門店）",
+   "cat": "cafe",
+   "tags": [
+    "tea",
+    "sweets",
+    "takeout"
+   ],
+   "zone": "z2",
+   "town": "人形町",
+   "station": "人形町駅（淺草線 A3）步行約2分（Tabelog）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車",
+   "lat": 35.6868,
+   "lng": 139.783,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "森乃園 中央区日本橋人形町2-4-9",
+   "addr": "東京都中央区日本橋人形町2-4-9",
+   "hours": "10:00～19:00",
+   "closed": "年末年始以外無休",
+   "flag": "warn",
+   "warn": "⚠️ 二樓甘味處已於 2024/12/1 結束（Tabelog）。現在只有一樓賣茶葉和外帶焙茶霜淇淋，沒有內用座位，只能在門口長椅吃。",
+   "url": "https://www.morinoen.jp/",
+   "note": "甘酒橫丁上的焙茶專門店，店門口就聞得到烘茶香。焙茶霜淇淋是招牌。Tabelog 列可刷卡、交通卡、PayPay。",
+   "buy": [
+    "自家焙煎ほうじ茶（茶葉）"
+   ],
+   "src": [
+    "https://www.morinoen.jp/",
+    "https://tabelog.com/en/tokyo/A1302/A130204/13041947/"
+   ]
+  },
+  {
+   "id": "b-kaiseiken",
+   "name": "喫茶去 快生軒",
+   "zh": "快生軒（百年喫茶店）",
+   "cat": "cafe",
+   "tags": [
+    "kissaten",
+    "retro"
+   ],
+   "zone": "z2",
+   "town": "人形町",
+   "station": "人形町駅（淺草線）步行",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車",
+   "lat": 35.6856,
+   "lng": 139.7818,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "喫茶去 快生軒 中央区日本橋人形町1-17-9",
+   "addr": "東京都中央区日本橋人形町1-17-9",
+   "hours": "平日 10:00～18:00",
+   "closed": "週六、週日、國定假日",
+   "flag": "warn",
+   "warn": "⚠️ Tabelog 列只有平日開（週六日、假日休），只找到這一個來源。3/20～3/22 連假應該不開，請排 3/18 或 3/19。",
+   "note": "1919 年創業的老喫茶店，木頭裝潢、老派咖啡與吐司。人形町逛街中間坐下來休息的好地方。",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130204/13018091/"
+   ]
+  },
+  {
+   "id": "b-sasashin",
+   "name": "笹新",
+   "zh": "笹新（人形町老居酒屋）",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "retro"
+   ],
+   "zone": "z2",
+   "town": "人形町",
+   "station": "人形町駅（淺草線）步行",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車",
+   "lat": 35.6878,
+   "lng": 139.785,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "笹新 中央区日本橋人形町2-20-3",
+   "addr": "東京都中央区日本橋人形町2-20-3",
+   "flag": "warn",
+   "warn": "⚠️ Tabelog 列 17:00 開、週日和國定假日休，且不收信用卡／電子支付（帶現金）；營業時間只找到這一個來源，去前再確認。",
+   "note": "甘酒橫丁上的老派居酒屋，東京電視台節目介紹過，招牌是醋漬鯖魚（しめさば），大盤菜分著吃。Tabelog 寫不收お通し費。",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130204/13018155/",
+    "https://www.tv-tokyo.co.jp/adomachi/backnumber/20161126/128398.html"
+   ]
+  },
+  {
+   "id": "b-shimojima-asakusabashi",
+   "name": "シモジマ 浅草橋本店",
+   "zh": "Shimojima 淺草橋本店（包裝・文具批發）",
+   "cat": "shop",
+   "tags": [
+    "zakka",
+    "stationery",
+    "wholesale"
+   ],
+   "zone": "z2",
+   "town": "淺草橋",
+   "station": "浅草橋駅（淺草線 A4／JR 東口）步行約2分",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草橋站下車",
+   "lat": 35.698,
+   "lng": 139.786,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "シモジマ 浅草橋本店 台東区浅草橋1-30-10",
+   "addr": "東京都台東区浅草橋1-30-10",
+   "flag": "ok",
+   "note": "包裝材料、紙袋、緞帶、文具、派對用品的批發大店，一般人也能買。淺草橋一帶還有貴和製作所、PARTS CLUB 等串珠零件店。",
+   "deep": {
+    "lead": "買伴手禮包裝材料、小文具的寶庫。",
+    "paras": [
+     "兩個來源都列週日也營業，但時段寫法不同（NEWT 2026：週一～六 9:30–19:00、週日假日 10:00–17:30；MAPPLE 另有不同寫法），出發前查官網。"
+    ],
+    "tips": [
+     "淺草橋問屋街各店時間不一，有些只做批發。"
+    ]
+   },
+   "src": [
+    "https://newt.net/jpn/tokyo/mag-25379897832",
+    "https://www.mapple.net/station/284444/spot/"
+   ]
+  },
+  {
+   "id": "b-kakimori",
+   "name": "カキモリ",
+   "zh": "Kakimori（訂製筆記本・文具）",
+   "cat": "shop",
+   "tags": [
+    "stationery",
+    "select",
+    "workshop"
+   ],
+   "zone": "z2",
+   "town": "藏前",
+   "station": "蔵前駅（淺草線）步行約6分（樂天旅遊 2026）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；藏前站下車步行",
+   "lat": 35.704,
+   "lng": 139.7885,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "カキモリ 台東区三筋1-6-2",
+   "addr": "東京都台東区三筋1-6-2 1F",
+   "closed": "週一（遇假日的處理兩來源說法不同）",
+   "flag": "warn",
+   "warn": "⚠️ 週末與假日做訂製筆記本「需要預約」。3/20～3/21 想做的話要先上官網訂。",
+   "bookable": true,
+   "bk": "kakimori.com 預約（週末假日的訂製筆記本）",
+   "url": "https://kakimori.com/",
+   "note": "藏前文具名店，挑封面、內頁紙、扣環，現場裝訂成自己的筆記本。",
+   "buy": [
+    "訂製筆記本"
+   ],
+   "src": [
+    "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
+    "https://www.timeout.jp/tokyo/ja/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/kakimori-kuramae"
+   ]
+  },
+  {
+   "id": "b-dandelion-kuramae",
+   "name": "ダンデライオン・チョコレート ファクトリー&カフェ蔵前",
+   "zh": "Dandelion Chocolate 藏前",
+   "cat": "cafe",
+   "tags": [
+    "cafe",
+    "chocolate"
+   ],
+   "zone": "z2",
+   "town": "藏前",
+   "station": "蔵前駅（淺草線）步行約3～4分",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；藏前站下車",
+   "lat": 35.7045,
+   "lng": 139.7915,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "ダンデライオン・チョコレート 蔵前 台東区蔵前4-14-6",
+   "addr": "東京都台東区蔵前4-14-6",
+   "hours": "10:00～19:00",
+   "closed": "不定休",
+   "flag": "ok",
+   "note": "舊倉庫改的巧克力工廠兼咖啡館，一樓看製作過程，二樓挑高座位喝熱巧克力、吃甜點。藏前「東京布魯克林」氛圍的代表。",
+   "buy": [
+    "單一產地巧克力片"
+   ],
+   "src": [
+    "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
+    "https://www.timeout.jp/tokyo/ja/レストラン/ダンデライオン-チョコレート-ファクトリー-ストア蔵前"
+   ]
+  },
+  {
+   "id": "b-encafe-kuramae",
+   "name": "ENCAFE",
+   "zh": "ENCAFE（藏前站旁咖啡）",
+   "cat": "cafe",
+   "tags": [
+    "cafe",
+    "roaster"
+   ],
+   "zone": "z2",
+   "town": "藏前",
+   "station": "蔵前駅（淺草線）A2 出口旁",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；藏前站 A2 出口",
+   "lat": 35.702,
+   "lng": 139.7913,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "ENCAFE 台東区蔵前2-6-2",
+   "addr": "東京都台東区蔵前2-6-2",
+   "flag": "unverified",
+   "note": "出站就到的三層樓咖啡館：1F 外帶與內用、2F 咖啡廳、3F 自家烘焙（樂天旅遊 2026/1）。適合藏前散步的起點或中繼。",
+   "deep": {
+    "lead": "藏前散步的起點。",
+    "paras": [
+     "樂天旅遊 2026/1 列各樓層時間（1F 8:00 起），但只找到這一個詳細來源，另一篇 kinarino 文章只提到位置與樓層用途，時間未列。"
+    ],
+    "tips": []
+   },
+   "src": [
+    "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
+    "https://kinarino.jp/cat8/32709"
+   ]
+  },
+  {
+   "id": "b-syuro",
+   "name": "SyuRo",
+   "zh": "SyuRo（藏前生活道具選物）",
+   "cat": "shop",
+   "tags": [
+    "select",
+    "zakka",
+    "craft"
+   ],
+   "zone": "z2",
+   "town": "鳥越／藏前",
+   "station": "蔵前駅（大江戸線）步行約7分（官網）；淺草線藏前站再多走一點",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；藏前站下車步行",
+   "lat": 35.7035,
+   "lng": 139.7865,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "SyuRo 台東区鳥越1-16-5",
+   "addr": "東京都台東区鳥越1-16-5",
+   "hours": "12:00～18:00（官網）",
+   "flag": "ok",
+   "url": "https://syuro.co.jp/shops/syuro/",
+   "note": "和附近小工廠、職人合作的原創生活道具：馬口鐵罐、黃銅、陶瓷、玻璃、木器，也有香氛和保養品。藏前一帶最有代表性的選物店之一。",
+   "buy": [
+    "馬口鐵茶罐",
+    "黃銅小物"
+   ],
+   "src": [
+    "https://syuro.co.jp/shops/syuro/",
+    "https://deeptokyo.jp/en/?p=11549"
+   ]
+  },
+  {
+   "id": "b-sensoji",
+   "name": "浅草寺",
+   "zh": "淺草寺",
+   "cat": "sight",
+   "tags": [
+    "temple",
+    "history"
+   ],
+   "zone": "z2",
+   "town": "淺草",
+   "station": "浅草駅（淺草線／銀座線／東武）步行",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車",
+   "lat": 35.71472,
+   "lng": 139.79675,
+   "geo_src": "en.wikipedia Sensō-ji 條目座標",
+   "geo_approx": false,
+   "q": "浅草寺 台東区浅草2-3-1",
+   "addr": "東京都台東区浅草2-3-1",
+   "hours": "本堂 6:30～17:00（10～3 月）；境內 24 小時開放",
+   "price": "免費",
+   "flag": "warn",
+   "warn": "⚠️ 3/20（六）～3/22（一・振替休日）是三連休。假日人潮約 10 點後變多、13～14 點最擠，雷門拍照要排隊。想安靜參拜請 8 點前到；但仲見世店家大約 10 點才開。",
+   "url": "https://www.senso-ji.jp/",
+   "note": "東京最古老的寺院，寺傳 628 年在隅田川撈到觀音像。官網說每年約 3,000 萬人次參拜。雷門→仲見世→寶藏門→本堂一路走，旁邊就是淺草神社。",
+   "day": 2,
+   "deep": {
+    "lead": "早上來，跟下午是兩個地方。",
+    "paras": [
+     "兩個來源都說：早上 8 點前境內幾乎沒人，光線也好拍；假日 10 點後雷門前就擠滿人，中午到下午最擠，傍晚後才慢慢少。",
+     "仲見世店家大約 10 點開，早上去看到的是拉下鐵門的街。可以先早上參拜，去附近喫茶吃早餐，再回來逛仲見世。"
+    ],
+    "tips": [
+     "本堂 10～3 月是 6:30 開門，3 月還在這個時段。",
+     "平日晚上 7 點後人也少，但本堂 17:00 就關。",
+     "抽籤（おみくじ）抽到「凶」綁在架上就好。"
+    ]
+   },
+   "src": [
+    "https://www.senso-ji.jp/about/",
+    "https://www.japan-guide.com/e/e3001.html",
+    "https://banzokubiology.com/asakusa-konzatsu/",
+    "https://mileasia.com/japan/sensoji-temple/"
+   ]
+  },
+  {
+   "id": "b-asakusa-jinja",
+   "name": "浅草神社",
+   "zh": "淺草神社（三社樣）",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "history"
+   ],
+   "zone": "z2",
+   "town": "淺草",
+   "station": "浅草駅（淺草線）步行；在淺草寺本堂右後方",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車",
+   "lat": 35.7151,
+   "lng": 139.7974,
+   "geo_src": "en.wikipedia Asakusa Shrine 條目座標",
+   "geo_approx": false,
+   "q": "浅草神社 台東区浅草",
+   "addr": "東京都台東区浅草2-3-1（官網；維基百科寫 2-26-1）",
+   "hours": "社務所 平日 9:00～16:00、週六日假日 9:00～16:30",
+   "flag": "ok",
+   "url": "https://www.asakusajinja.jp/",
+   "note": "祭祀當年撈到觀音像的三個人，暱稱「三社樣」，五月三社祭的主角。現在的社殿是 1649 年德川家光下令建的，國家重要文化財。人比淺草寺少很多。",
+   "day": 2,
+   "src": [
+    "https://www.asakusajinja.jp/",
+    "https://en.wikipedia.org/wiki/Asakusa_Shrine"
+   ]
+  },
+  {
+   "id": "b-hoppy-dori",
+   "name": "ホッピー通り（煮込み通り）",
+   "zh": "Hoppy 通（淺草燉內臟居酒屋街）",
+   "cat": "eat",
+   "tags": [
+    "izakaya",
+    "yokocho",
+    "day-drinking",
+    "budget"
+   ],
+   "zone": "z2",
+   "town": "淺草",
+   "station": "浅草駅步行；淺草寺西側（淺草2丁目）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車步行",
+   "lat": 35.714,
+   "lng": 139.7935,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "ホッピー通り 浅草",
+   "flag": "warn",
+   "warn": "⚠️ 多家店收お通し（小菜費）；最老的「正ちゃん」週一、週二公休（兩來源一致）。觀光客多的區域，價格和小菜費入座前先看清楚。",
+   "note": "一整排昭和風大眾酒場，紅燈籠、路邊座位，從白天就能喝。招牌是燉牛筋、燉內臟（煮込み）配 Hoppy。最老的「正ちゃん」1951 年創業。",
+   "deep": {
+    "lead": "淺草參拜完，白天就能坐下喝一杯。",
+    "paras": [
+     "2017～2021 年的報導：燉菜一碗約 500～600 日圓，多數店人均 1,000～3,000 日圓。價格可能已漲，只當參考。"
+    ],
+    "tips": [
+     "沒查到可信來源說明各店是否收卡，帶現金比較保險。",
+     "週末下午最熱鬧，想要位子早點去。"
+    ]
+   },
+   "src": [
+    "https://www.enjoytokyo.jp/article/109234/",
+    "https://tabelog.com/matome/18613/"
+   ]
+  },
+  {
+   "id": "b-coffee-tengoku",
+   "name": "珈琲 天国",
+   "zh": "珈琲天國（淺草喫茶店・鬆餅）",
+   "cat": "cafe",
+   "tags": [
+    "kissaten",
+    "retro",
+    "pancake"
+   ],
+   "zone": "z2",
+   "town": "淺草",
+   "station": "浅草駅（東武）步行約3分；傳法院通附近",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車步行",
+   "lat": 35.7125,
+   "lng": 139.794,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
+   "geo_approx": true,
+   "q": "珈琲 天国 台東区浅草1-41-9",
+   "addr": "東京都台東区浅草1-41-9",
+   "hours": "12:00～18:30",
+   "closed": "週二",
+   "flag": "warn",
+   "warn": "⚠️ 只收現金（Tabelog）。只有 15 席，週末會排隊（るるぶ）。中午 12 點才開。",
+   "note": "小小的喫茶店，招牌是烙上「天国」字樣的厚鬆餅配咖啡。淺草寺參拜完、下午來坐。",
+   "buy": [
+    "自家咖啡豆罐"
+   ],
+   "src": [
+    "https://tabelog.com/tokyo/A1311/A131102/13025425/",
+    "https://rurubu.jp/andmore/spot/80073079"
+   ]
+  },
+  {
+   "id": "b-kappabashi",
+   "name": "かっぱ橋道具街",
+   "zh": "合羽橋道具街",
+   "cat": "shop",
+   "tags": [
+    "shotengai",
+    "kitchenware",
+    "zakka"
+   ],
+   "zone": "z2",
+   "town": "淺草／田原町",
+   "station": "田原町駅（銀座線）步行約5分；從淺草寺步行約10分（japan-guide）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車步行，或轉銀座線一站到田原町",
+   "lat": 35.7125,
+   "lng": 139.788,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（約 800m 長的街道，取中段）",
+   "geo_approx": true,
+   "q": "かっぱ橋道具街 台東区松が谷",
+   "hours": "多數店約 10:00～17:00（各店不同）",
+   "closed": "很多店週日、國定假日休",
+   "flag": "warn",
+   "warn": "⚠️ 很多店週日和假日不開。3/21（日）、3/22（假日）不要排這裡；3/20 週六可以，最好平日。",
+   "url": "https://www.kappabashi.or.jp/",
+   "note": "約 800 公尺、160 家左右的餐飲器材專門街：菜刀、鍋具、器皿、食物模型、店用招牌燈籠都有。一般人也能買。",
+   "buy": [
+    "日本菜刀",
+    "陶瓷碗盤",
+    "食物模型小物"
+   ],
+   "src": [
+    "https://www.gltjp.com/ja/directory/item/10210/",
+    "https://www.japan-guide.com/e/e3020.html"
+   ]
+  },
+  {
+   "id": "b-ushijima-jinja",
+   "name": "牛嶋神社",
+   "zh": "牛嶋神社",
+   "cat": "sight",
+   "tags": [
+    "shrine",
+    "history"
+   ],
+   "zone": "z2",
+   "town": "向島（隅田公園內）",
+   "station": "本所吾妻橋駅（淺草線）步行約10分；とうきょうスカイツリー駅（東武）步行約10分（ja.wikipedia）",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；本所吾妻橋站下車步行",
+   "lat": 35.7115,
+   "lng": 139.802,
+   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認（隅田公園南端；本所吾妻橋站座標 35.7086,139.8047 取自 en.wikipedia）",
+   "geo_approx": true,
+   "q": "牛嶋神社 墨田区向島1-4-5",
+   "addr": "東京都墨田区向島1-4-5",
+   "flag": "ok",
+   "note": "本所一帶的總鎮守，傳說 9 世紀創建。境內有「撫牛」，摸牛身上和自己不舒服相同的部位，據說能好轉。正殿前是少見的「三ツ鳥居」（三座鳥居並排）。",
+   "deep": {
+    "lead": "從淺草過隅田川，人少、有故事的神社。",
+    "paras": [
+     "1923 年關東大地震後才搬到現址。葛飾北齋 1845 年畫的大型奉納畫毀於地震，本殿有黑白照片。"
+    ],
+    "tips": [
+     "可以和晴空塔、隅田公園排在同一個下午。"
+    ]
+   },
+   "src": [
+    "https://ja.wikipedia.org/wiki/牛嶋神社",
+    "https://www.timeout.com/tokyo/attractions/ushijima-shrine"
+   ]
+  },
+  {
+   "id": "b-tokyo-skytree",
+   "name": "東京スカイツリー",
+   "zh": "東京晴空塔",
+   "cat": "sight",
+   "tags": [
+    "view"
+   ],
+   "zone": "z2",
+   "town": "押上",
+   "station": "押上駅（淺草線終點）直結",
+   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；押上站下車（淺草線終點）",
+   "lat": 35.7101,
+   "lng": 139.8107,
+   "geo_src": "en.wikipedia Tokyo Skytree 條目座標",
+   "geo_approx": false,
+   "q": "東京スカイツリー 墨田区押上",
+   "flag": "info",
+   "url": "https://www.tokyo-skytree.jp/",
+   "note": "634 公尺電波塔，天望甲板 350 公尺、天望迴廊 450 公尺。票價依平日／假日、預購／當日不同，官網票價頁本次抓不到，出發前查。連假期間人多，建議買指定時段票。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Tokyo_Skytree",
+    "https://www.tokyo-skytree.jp/"
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "k": "2027 春分連假",
+   "v": "2027 年春分之日是 3/21（日），3/22（一）為振替休日，所以 3/20（六）～3/22（一）是三連休。",
+   "src": [
+    "https://www.nippon.com/ja/japan-data/h02794/",
+    "https://bestcalendar.jp/2027/3/holidays"
+   ]
+  },
+  {
+   "k": "淺草寺人潮時段",
+   "v": "假日約 10 點後人潮變多，13～14 點最擠，傍晚後漸少；早上 8 點前境內幾乎沒人。仲見世店家約 10 點才開。",
+   "src": [
+    "https://banzokubiology.com/asakusa-konzatsu/",
+    "https://mileasia.com/japan/sensoji-temple/"
+   ]
+  },
+  {
+   "k": "淺草寺開門時間",
+   "v": "本堂 6:00～17:00，10～3 月 6:30～17:00；境內 24 小時開放，免費。",
+   "src": [
+    "https://www.senso-ji.jp/about/",
+    "https://www.japan-guide.com/e/e3001.html"
+   ]
+  },
+  {
+   "k": "淺草線停靠站（戶越以北）",
+   "v": "戸越→五反田→高輪台→泉岳寺→三田→大門→新橋→東銀座→宝町→日本橋→人形町→東日本橋→浅草橋→蔵前→浅草→本所吾妻橋→押上。注意：沒有「銀座」「有楽町」站，銀座要在東銀座或宝町下車步行。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Toei_Asakusa_Line"
+   ]
+  },
+  {
+   "k": "淺草線班次注意",
+   "v": "英文維基寫有普通車只開西馬込～泉岳寺。從戶越往北若搭到這種車，要在泉岳寺換車；上車前看終點站。機場快特會跳過東銀座、宝町、人形町、淺草橋、藏前、本所吾妻橋。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Toei_Asakusa_Line"
+   ]
+  },
+  {
+   "k": "無印良品旗艦店",
+   "v": "有樂町店原為世界旗艦店，2018/12/2 關閉；2019/4/4 起由「無印良品 銀座」（銀座3-3-5）接任世界旗艦店，同棟有 MUJI Diner（B1）、MUJI HOTEL GINZA（6F 櫃台、7～10F 客房）。官網至今仍標示「世界旗艦店」。",
+   "src": [
+    "https://www.wwdjapan.com/articles/713946",
+    "https://www.watch.impress.co.jp/docs/news/1146170.html",
+    "https://www.muji.com/jp/ja/shop/detail/046604"
+   ]
+  },
+  {
+   "k": "連假期間公休的 z2 店家",
+   "v": "3/20～3/22 不開或可能不開：秋田屋（3/20 是第 3 個週六＋週日假日休）、快生軒（週末假日休）、新日の基（週日休）、笹新（週日假日休，Tabelog）、新橋站前大樓多數店（週末假日休，2018 報導）、合羽橋多數店（週日假日休）。",
+   "src": [
+    "https://www.timeout.jp/tokyo/ja/レストラン/akitaya",
+    "https://tabelog.com/en/tokyo/A1302/A130204/13018091/",
+    "https://www.gltjp.com/ja/directory/item/10210/"
+   ]
+  },
+  {
+   "k": "日本橋首都高地下化",
+   "v": "日本橋上方高架拆除分段進行，全部完成目標 2040 年度。",
+   "src": [
+    "https://www.shutoko.jp/ss/nihonbashi-tikaka/future/",
+    "https://ja.wikipedia.org/wiki/日本橋_(東京都中央区の橋)"
+   ]
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "淺草寺在 2027 春分三連休的具體人潮（例如排隊多久）",
+   "why": "只找到「週末／假日比平日擠」的一般說法，沒有針對春分連假的資料。"
+  },
+  {
+   "claim": "從戶越搭淺草線到各站的分鐘數",
+   "why": "乘換案內網站本次無法查詢，依規則不寫分鐘數。"
+  },
+  {
+   "claim": "有樂町高架橋下其他居酒屋現況",
+   "why": "只查證到「新日の基」一家；其他店近年是否仍營業、有無因施工遷移，沒找到可靠的最新來源。"
+  },
+  {
+   "claim": "福德神社求中彩券很靈",
+   "why": "網路常見說法，但官網首頁和維基百科都沒提。"
+  },
+  {
+   "claim": "MUJI Diner 營業時間 11:00～22:00",
+   "why": "只有 2025/2 一篇報導，官網店舖頁沒列；Coffee & Bakery 在 1F 還是 B1，報導本身前後不一。"
+  },
+  {
+   "claim": "MUJI HOTEL GINZA 房價、入住退房時間",
+   "why": "官網首頁沒列，只連到訂房系統。"
+  },
+  {
+   "claim": "晴空塔票價",
+   "why": "官網票價頁本次連不上，第三方價格可能過時。"
+  },
+  {
+   "claim": "銀座伊東屋、Kakimori、Shimojima 的營業時間",
+   "why": "兩個來源時間寫法不一致，沒寫進 hours。"
+  },
+  {
+   "claim": "東日本橋／馬喰町的咖啡店（如 bakuro COMMON、stopover tokyo）",
+   "why": "只找到一篇未標日期的整理文，沒有第二來源，所以沒收；也因搜尋額度用完，無法補查。"
+  },
+  {
+   "claim": "銀座老喫茶（カフェ・ド・ランブル、トリコロール本店）現況",
+   "why": "想查證是否仍營業／已關店，搜尋額度用完，未收錄。"
+  },
+  {
+   "claim": "3 月中下旬隅田公園櫻花",
+   "why": "2027 開花日無法預知，未寫。"
+  }
+ ],
+ "overturned": [
+  {
+   "claim": "有樂町的無印良品是旗艦店",
+   "truth": "有樂町店 2018/12/2 已關閉，世界旗艦店改為 2019/4/4 開幕的「無印良品 銀座」（銀座3-3-5）。",
+   "src": [
+    "https://www.wwdjapan.com/articles/713946",
+    "https://www.watch.impress.co.jp/docs/news/1146170.html"
+   ]
+  },
+  {
+   "claim": "淺草線可以直達銀座、有樂町",
+   "truth": "淺草線只停東銀座、宝町、新橋；沒有銀座站和有樂町站。有樂町要從新橋走過去或轉 JR。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Toei_Asakusa_Line"
+   ]
+  },
+  {
+   "claim": "森乃園二樓可以坐下吃焙茶芭菲",
+   "truth": "Tabelog 註明二樓甘味處 2024/12/1 結束；官網現在只介紹一樓茶葉與外帶霜淇淋（門口長椅可吃）。",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130204/13041947/",
+    "https://www.morinoen.jp/"
+   ]
+  },
+  {
+   "claim": "日本橋上方的首都高已拆掉，可以看到藍天",
+   "truth": "只拆了一部分（2023/3 完成一段），全部完成目標 2040 年度；2027 年仍是高架加施工。",
+   "src": [
+    "https://www.shutoko.jp/ss/nihonbashi-tikaka/future/"
+   ]
+  },
+  {
+   "claim": "從戶越搭淺草線往北一定不用轉車",
+   "truth": "英文維基寫有普通車只跑西馬込～泉岳寺，搭到要在泉岳寺換車；上車前看終點。",
+   "src": [
+    "https://en.wikipedia.org/wiki/Toei_Asakusa_Line"
+   ]
+  },
+  {
+   "claim": "新橋居酒屋週末一樣熱鬧",
+   "truth": "新橋站前大樓多數店週六日、假日休（2018 報導）；秋田屋（大門）週日假日與每月第 3 個週六休。",
+   "src": [
+    "https://www.enjoytokyo.jp/article/109712/",
+    "https://www.timeout.jp/tokyo/ja/レストラン/akitaya"
+   ]
+  }
+ ]
+}
