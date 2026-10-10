@@ -33,7 +33,8 @@ photos = {k: v for k, v in load('data/photos.json').items() if k in {p['id'] for
 PL = places['places']
 COUNT = {
  'all': len(PL),
- 'sights': sum(1 for p in PL if p['cat'] in ('sight', 'art', 'park') and not p.get('theme')),
+ 'sights': sum(1 for p in PL if p['cat'] in ('sight', 'art', 'park', 'animal') and not p.get('theme')),
+ 'animal': sum(1 for p in PL if p['cat'] == 'animal'),
  'eat': sum(1 for p in PL if p['cat'] in ('eat', 'cafe')),
  'shop': sum(1 for p in PL if p['cat'] == 'shop'),
  'parks': sum(1 for p in PL if p.get('theme')),

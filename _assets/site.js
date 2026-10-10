@@ -12,7 +12,7 @@ const P=J('data-places'), F=J('data-facts');
 const ZC={z1:'var(--z1)',z2:'var(--z2)',z3:'var(--z3)',z4:'var(--z4)',z5:'var(--z5)'};
 const ZHEX={z1:'#4f7a3a',z2:'#c93f74',z3:'#2f6aa3',z4:'#a35b28',z5:'#6b4c9a'};
 const FLAG={star:['b-star','★ 推薦'],ok:['b-ok','已查證'],warn:['b-warn','⚠️ 注意'],info:['b-info','ℹ️ 資訊'],closed:['b-closed','✖ 休館／歇業'],unverified:['b-unverified','？ 未完全查證']};
-const TAGZH={shrine:'神社',temple:'寺廟',alley:'巷弄',shotengai:'商店街',izakaya:'居酒屋',yokocho:'橫丁',kissaten:'喫茶店',cafe:'咖啡',muji:'無印良品',select:'選物',zakka:'雜貨',bookstore:'書店',museum:'美術館・博物館',exhibition:'展覽',garden:'庭園',view:'展望',sakura:'櫻花',history:'歷史',stationery:'文具',tachinomi:'立飲',budget:'平價','budget-hotel':'平價飯店','business-hotel':'商務飯店',retro:'復古',sento:'錢湯',park:'公園','theme-park':'主題樂園',disney:'迪士尼','harry-potter':'哈利波特',tea:'茶',sweets:'甜點',craft:'工藝',roaster:'自家烘焙',goshuin:'御朱印','cash-only':'只收現金',kitchenware:'廚具',oden:'關東煮',standing:'站著喝',motsuyaki:'烤內臟'};
+const TAGZH={shrine:'神社',temple:'寺廟',alley:'巷弄',shotengai:'商店街',izakaya:'居酒屋',yokocho:'橫丁',kissaten:'喫茶店',cafe:'咖啡',muji:'無印良品',select:'選物',zakka:'雜貨',bookstore:'書店',museum:'美術館・博物館',exhibition:'展覽',garden:'庭園',view:'展望',sakura:'櫻花',history:'歷史',stationery:'文具',tachinomi:'立飲',budget:'平價','budget-hotel':'平價飯店','business-hotel':'商務飯店',retro:'復古',sento:'錢湯',park:'公園','theme-park':'主題樂園',disney:'迪士尼','harry-potter':'哈利波特',tea:'茶',sweets:'甜點',craft:'工藝',roaster:'自家烘焙',goshuin:'御朱印','cash-only':'只收現金',kitchenware:'廚具',oden:'關東煮',standing:'站著喝',motsuyaki:'烤內臟',zoo:'動物園',aquarium:'水族館',family:'親子'};
 const fxRate=()=>{const v=parseFloat(store.get('fx',null));return isFinite(v)&&v>0?v:(P&&P.meta.fx.jpy_twd)||0.21};
 // 價格裡的日圓自動換算台幣（顯示為約略值）
 function withTwd(s){
@@ -25,7 +25,7 @@ function withTwd(s){
 const gmaps=p=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(p.q||p.name)+(p.gm&&p.gm.pid?'&query_place_id='+encodeURIComponent(p.gm.pid):'');
 const PH=J('data-photos')||{};
 // 類別：地圖 pin 顏色與 emoji（樂園另外一類）
-const CATS={sight:['⛩️','景點・神社','#c4432c'],art:['🎨','美術館・展覽','#6b4c9a'],park:['🌳','公園','#4f7a3a'],theme:['🏰','樂園','#b07d12'],eat:['🍶','居酒屋・吃','#e0761c'],cafe:['☕','咖啡・喫茶','#7a4e2d'],shop:['🛍️','購物','#2f6aa3'],stay:['🛏️','住宿','#1f3a5f']};
+const CATS={sight:['⛩️','景點・神社','#c4432c'],art:['🎨','美術館・展覽','#6b4c9a'],park:['🌳','公園','#4f7a3a'],theme:['🏰','樂園','#b07d12'],eat:['🍶','居酒屋・吃','#e0761c'],cafe:['☕','咖啡・喫茶','#7a4e2d'],shop:['🛍️','購物','#2f6aa3'],stay:['🛏️','住宿','#1f3a5f'],animal:['🐧','動物園・水族館','#1a8a8a']};
 const catOf=p=>p.theme?'theme':p.cat;
 const pinSvg=(c,em,approx)=>'<svg width="30" height="40" viewBox="0 0 30 40" aria-hidden="true"><path d="M15 39C15 39 2 23.5 2 14.5a13 13 0 0 1 26 0C28 23.5 15 39 15 39z" fill="'+c+'" stroke="#fff" stroke-width="2"'+(approx?' stroke-dasharray="3 2"':'')+'/><circle cx="15" cy="14.5" r="9" fill="#fff"/><text x="15" y="19" text-anchor="middle" font-size="12">'+em+'</text></svg>';
 function ratingRows(p){

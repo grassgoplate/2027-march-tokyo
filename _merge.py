@@ -119,7 +119,7 @@ if missing: print('ROUTE ids missing:', missing); sys.exit(1)
 
 meta = {
  'trip': '東京 2027 春', 'dates': '2027/03/17 — 03/21', 'verified': '2026-10-10',
- 'cats': {'sight':'景點','art':'展覽','park':'公園・樂園','eat':'居酒屋・吃','cafe':'咖啡・喫茶','shop':'購物','stay':'住宿'},
+ 'cats': {'sight':'景點','art':'展覽','park':'公園・樂園','eat':'居酒屋・吃','cafe':'咖啡・喫茶','shop':'購物','stay':'住宿','animal':'動物・水族'},
  'zones': {'z1':'據點周邊','z2':'淺草線直通','z3':'西側','z4':'北側下町','z5':'郊外・樂園'},
  'days': routes['days'], 'fx': {'jpy_twd': 0.21, 'note': '假設值，請在頁面上改成實際匯率'},
 }
