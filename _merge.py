@@ -69,6 +69,23 @@ for p in places:
     if p.get('warn') and not p['warn'].startswith('⚠️'): p['warn'] = '⚠️ ' + p['warn']
     p.pop('_r', None)
 
+# Google 地圖星等快照（research/google_ratings.tsv，2026-10 查詢）與人工修正（research/overrides.json）
+GM = {}
+for line in open(f'{R}/google_ratings.tsv', encoding='utf-8'):
+    if line.startswith('#') or not line.strip(): continue
+    pid_, r, n, gpid, gname = line.rstrip('\n').split('\t')
+    GM[pid_] = {'r': float(r), 'c': int(n), 'n': f'{int(n):,}', 'asof': '2026-10', 'pid': gpid, 'gname': gname}
+OV = json.load(open(f'{R}/overrides.json', encoding='utf-8'))
+for p in places:
+    if p['id'] in GM: p['gm'] = GM[p['id']]
+    o = OV.get(p['id'])
+    if o:
+        if 'warn' in o: p['warn'] = o['warn']
+        if 'warn_add' in o: p['warn'] = (p.get('warn', '') + '\n' + o['warn_add']).strip()
+        if 'flag' in o: p['flag'] = o['flag']
+missing_gm = [k for k in GM if k not in {p['id'] for p in places}]
+if missing_gm: print('GM ids missing:', missing_gm); sys.exit(1)
+
 # 座標檢查
 bad = []
 for p in places:

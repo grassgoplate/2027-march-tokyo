@@ -1,0 +1,95 @@
+# id	rating	review_count	place_id	name_on_google   (Google 地圖，2026-10-10 查詢；比對過店名與地址才收)
+a-togoshi-ginza	4.0	2494	ChIJ03VrBuyKGGARb-6EtBOziqM	Togoshi Ginza Shopping Street
+a-goto-kamaboko	3.7	226	ChIJM59pbu2KGGARTpy6HvPD_aM	Kamaboko Shop Gotō
+a-togoshi-hachiman	4.4	1609	ChIJWfKxFe2KGGARKL_euF1cxOw	Togoshi Hachiman Shrine
+a-togoshi-park	4.1	1298	ChIJOypJhY2KGGAROVRw7AyPCNo	Togoshi Park
+a-togoshi-ginza-onsen	3.8	1354	ChIJ9YH0T-yKGGARGBCMHR18Nkw	Togoshi Ginza Onsen
+a-nakanobu-skip-road	3.8	16	ChIJ9wRzISKLGGARLsXjCKQumPA	中延スキップロード
+a-hebikubo-jinja	4.3	4363	ChIJWUfbFJeKGGARI6nYTu40mBA	Hebikubo Shrine
+a-musashikoyama-palm	4.2	1608	ChIJXXfFm9uKGGAR6A66FaNUyFQ	Musashi-Koyama Shopping Street Palm
+a-gyutaro	2.0	2	ChIJTZwhbQCLGGARBZS1lHYphYk	牛太郎 武蔵小山店
+a-kaneshow	4.2	681	ChIJSU6sVfuKGGAROymhm9_vdl0	Kanesho
+a-kuwabara-shoten	4.4	225	ChIJ_0EK3eSKGGARRa03g36ha0k	Kuwabara Shoten
+a-meguro-fudo	4.3	2607	ChIJW0b5GyGLGGARv_Y3HAAEtKo	Ryusen-ji Temple (Meguro Fudoson)
+a-shinagawa-jinja	4.3	3023	ChIJqUXtB2eKGGAR5CmAxvDOPOs	Shinagawa Shrine
+a-sengakuji	4.3	4156	ChIJh64KT6uLGGARKx4cxgOaL54	Sengaku-ji
+a-meguro-river-sakura	4.4	3940	ChIJNVZtkB-LGGAR6Pz2MxHkSFY	Meguro River Cherry Blossoms Promenade
+a-nakameguro-tsutaya	4.0	1025	ChIJcWN6JEqLGGARm0kXph5LFT8	Naka-Meguro Tsutaya Books
+a-onibus-nakameguro	4.3	2311	ChIJvXUZEEmLGGARlC39ZdeJ06Q	Onibus Coffee
+a-daikanyama-tsutaya	4.5	9933	ChIJgfjQvk-LGGARqVwq1_ra-dY	Tsutaya Books Daikanyama
+a-kyu-asakura-house	4.4	1302	ChIJPULLZU-LGGARsv8E3tigyqQ	Kyu Asakura House
+a-muji-atre-oimachi	3.8	412	ChIJXUB8TnyKGGARe382iR5-lsc	無印良品 アトレ大井町
+a-idee-jiyugaoka	4.1	237	ChIJNabAPR71GGARTGXJbkf-9tU	イデーショップ自由が丘店
+b-karasumori-jinja	4.3	4745	ChIJmyHLzuuLGGAR_dp7Ams-EI4	Karasumori Shrine
+b-andys-shin-hinomoto	4.2	1118	ChIJnwbl7e-LGGARLR7Qgyt-c4k	Andy's Shin Hinomoto
+b-akitaya-daimon	4.0	1301	ChIJq6r-_saLGGARYzv_lp6h2ao	Akitaya
+b-muji-ginza	4.3	6350	ChIJfc-uOKqLGGAR-bVyIUWjtQo	MUJI Ginza
+b-ginza-itoya	4.4	19862	ChIJKQAKAOSLGGARwGhpOXWgfYo	Ginza Itoya
+b-nihonbashi-bridge	4.4	75	ChIJnxffcwCJGGARmcGAARYwFrY	Nihonbashi
+b-fukutoku-jinja	4.3	3414	ChIJw9uzC1WJGGARnZWYZveSJFc	Fukutoku Shrine
+b-suitengu	4.2	7474	ChIJ6TXOcUWJGGAR2GRhafOUp0I	Suitengu Shrine
+b-morinoen	4.1	676	ChIJT_Ud20-JGGARRJLcQ7IRIjM	Morinoen
+b-kaiseiken	3.7	302	ChIJGZxPJ1CJGGARjhTWkp88Hu0	Kissako Kaiseiken
+b-sasashin	4.2	195	ChIJ0QVHuU-JGGARu--Itr-b04o	Sasashin
+b-shimojima-asakusabashi	4.1	2617	ChIJR5jT2rOOGGARFWhhsygJNhI	Shimojima Asakusabashi Flagship Store
+b-kakimori	4.5	1204	ChIJYzGkb7eOGGARNSIHlHC_mbY	kakimori
+b-dandelion-kuramae	4.2	2713	ChIJNRb8areOGGARieKkjJf2N34	Dandelion Chocolate Kuramae
+b-encafe-kuramae	3.9	779	ChIJ6V60sbeOGGAReGyMGPYPeZU	En (蔵前2-6-2)
+b-syuro	4.5	60	ChIJ2dzVprqOGGARjGMuMc-WiQs	SyuRo
+b-sensoji	4.6	99777	ChIJ8T1GpMGOGGARDYGSgpooDWw	Sensō-ji
+b-asakusa-jinja	4.5	5322	ChIJx62FmcGOGGARDxQTl8Zx6U4	Asakusa Shrine
+b-coffee-tengoku	3.7	575	ChIJH-LUh8COGGARGUaIkcsSwls	Coffee Tengoku
+b-kappabashi	4.3	13045	ChIJXYV-6JWOGGAR85vIZbM1RCE	Kappabashi Kitchen Supply Town
+b-ushijima-jinja	4.3	2054	ChIJMYNlINuOGGAR3n-uxi-8QhQ	Ushijima Shrine
+b-tokyo-skytree	4.4	120569	ChIJ35ov0dCOGGARKvdDH7NPHX0	Tokyo Skytree
+c-meiji-jingu	4.7	53552	ChIJ5SZMmreMGGARcz8QSTiJyo8	Meiji Jingu
+c-togo-jinja	4.3	2928	ChIJW40URLuMGGARgo4q_fJdYsA	Togo Shrine
+c-konno-hachimangu	4.3	2163	ChIJ1bZmU1mLGGAR73z2D3wQFVo	Konno Hachiman-gu Shrine
+c-hanazono-jinja	4.3	9175	ChIJK9584NuMGGARVKfZjpYoQDs	Hanazono Shrine
+c-shinjuku-gyoen	4.6	45884	ChIJPyOTG8KMGGARh_IXobWxHmo	Shinjuku Gyoen National Garden
+c-nezu-museum	4.5	6672	ChIJxU48-2OLGGARHMtB5RAhytA	Nezu Museum
+c-on-sundays	4.2	108	ChIJm3RX6JiMGGARWnEOaQX0OQE	On Sundays
+c-spiral-market	4.3	177	ChIJWamFCGCLGGARPdj676gNrY4	Spiral Market
+c-meikyoku-lion	4.5	1095	ChIJFQdviqmMGGAR1muN_DAZFwQ	Meikyoku Kissa Lion
+c-fuglen-tokyo	4.3	3818	ChIJrWB6lbKMGGARp0QB0mMSNe4	Fuglen Tokyo
+c-bonus-track	4.3	447	ChIJITpO1pnzGGARxTkPmJP2JWA	Bonus Track
+c-reload	4.2	277	ChIJHzhi0BfzGGARoh2DD79kfmU	reload
+c-mikan-shimokita	3.9	239	ChIJV7Y5yWHzGGARLbTr5xfyqUs	Mikan Shimokita
+c-sankaku-chitai	4.1	30	ChIJg2uygwX1GGAR6WsBMa3r8vo	Sangenjaya Sankaku Chitai
+c-omoide-yokocho	4.2	15634	ChIJP9eKBdeMGGAR0zzBXJNVj5A	Omoide Yokocho Memory Lane
+c-golden-gai	4.3	13226	ChIJr7mGZdmMGGARjxoMFeHApXE	Shinjuku Golden-Gai
+c-tajimaya-coffee	4.1	1265	ChIJtUxmFteMGGAR_0Z9ZE-8a0g	Tajimaya Coffee
+c-muji-shinjuku-dori	4.0	782	ChIJVYhpTNqMGGAR73ChIv391Lg	MUJI Shinjuku-dōri
+c-muji-shinjuku-yasukuni	4.0	1434	ChIJMTwuLNqMGGARsziCNq2xaOs	Muji (Piccadilly)
+c-beams-japan	4.4	2027	ChIJUWbOAtuMGGARxbNeo0uzhuo	Beams Japan
+d-yuyake-dandan	4.0	1025	ChIJrw6t4tONGGARm4SASOVzzLc	Yanaka Ginza Yūyake Dandan
+d-nezu-jinja	4.4	9389	ChIJ-X4hzjKMGGARDSsGeHOACgw	Nezu Shrine
+d-yanaka-reien	4.1	991	ChIJO8HByiqMGGARP9I5xBEXlCM	Yanaka Cemetery
+d-scai-the-bathhouse	4.2	304	ChIJq1ynUyqMGGARJw9kwdVUyXE	SCAI The Bathhouse
+d-asakura-museum	4.5	1275	ChIJeRYrbNSNGGAR0P33uymr9Ug	Asakura Museum of Sculpture
+d-kayaba-coffee	4.2	2182	ChIJrdgn_9KNGGAR51pQCSVxBbI	Kayaba Coffee
+d-hagiso	4.2	877	ChIJh5-ixtONGGARbCbx1wYyK84	Hagiso
+d-isetatsu	4.5	115	ChIJR73lR6yNGGARMgoz29u1W1c	Isetatsu
+d-ueno-park	4.4	34968	ChIJw2qQRZuOGGARWmROEiM2y7E	Ueno Park
+d-yanaka-ginza	4.1	11726	ChIJPYwFnNGNGGARYEeXwiYQPe8	Yanaka Ginza
+d-ueno-toshogu	4.4	4736	ChIJP7lRfyiMGGARqb1QQhfm9EQ	Ueno Toshogu Shrine
+d-yushima-tenjin	4.3	11899	ChIJkyl5eSGMGGAR1eFeLND64bo	Yushima Tenjin Shrine
+d-shinsuke	4.1	288	ChIJO4CcDCGMGGARwKOwMHYu3mI	Shinsuke
+d-kagiya	4.1	419	ChIJJ7CyTYSOGGAR5nDtjmd-51c	Kagiya
+d-kanda-myojin	4.4	26290	ChIJ7RsWzB6MGGARi3xBv7bkl_M	Kanda Shrine (Kanda Myojin)
+d-kanda-matsuya	4.3	3857	ChIJQ3MESwOMGGARX99d47o0V6k	Kanda Matsuya
+d-kagurazaka-alleys	4.2	114	ChIJXRSCiFqMGGARWo3VQL4Ge0k	Hyogo Yokocho Alley
+d-akagi-jinja	4.1	3467	ChIJgeazv1aMGGARQh5cREuvLjI	Akagi Shrine
+d-kamome-books	4.2	425	ChIJ__9zbFaMGGAR8j9q9zUdZlE	Kamome Books
+d-shibamata-taishakuten	4.3	9040	ChIJc9SsLaOFGGARl68K2sCQClU	Shibamata Taishakuten
+d-tnm	4.5	31527	ChIJEX3XFIOOGGAR3XdJvRjWLyM	Tokyo National Museum
+d-nmwa	4.5	12275	ChIJf8xB-pyOGGARizzhlNTcI7s	The National Museum of Western Art
+d-mot	4.4	4411	ChIJq6rq_BuJGGARh1qAooLX-as	Museum of Contemporary Art Tokyo
+d-mori-art-museum	4.3	7495	ChIJg5RCD3eLGGAR6dbIHRM98w8	Mori Art Museum
+d-2121-design-sight	4.4	3153	ChIJV4H0Nn-LGGAR2g7_9Kourf4	21_21 Design Sight
+d-teamlab-borderless	4.6	30455	ChIJQ5Sa1PqJGGARUSaNKKOrMVg	teamLab Borderless
+d-teamlab-planets	4.5	57020	ChIJSeco5wiJGGARItbTS8lQ5G0	teamLab Planets TOKYO DMM
+d-ghibli-museum	4.5	20120	ChIJLYwD5TTuGGARBZKEP5BV4U0	Ghibli Museum
+e-wb-studio-tour-tokyo	4.7	18799	ChIJZzjXkvLtGGARm2YFfi26zoU	Warner Bros. Studio Tour Tokyo
+e-tokyo-disneyland	4.6	126674	ChIJszdHEQN9GGARy9MJ1TY22eQ	Tokyo Disneyland
+e-tokyo-disneysea	4.5	109940	ChIJszdHEQN9GGARJS23SnAdR0E	Tokyo DisneySea

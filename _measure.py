@@ -24,7 +24,7 @@ def route(r):
     if 'unpkg.com/leaflet@1.9.4/dist/' in u:
         f = u.split('/dist/')[1]
         return r.fulfill(path=os.path.join(LEAF, f), headers={'Access-Control-Allow-Origin': '*'})
-    if 'tile.openstreetmap.org' in u: return r.fulfill(body=PNG, content_type='image/png')
+    if 'tile.openstreetmap.org' in u or 'upload.wikimedia.org' in u: return r.fulfill(body=PNG, content_type='image/png')
     if 'fonts.g' in u: return r.fulfill(body='', content_type='text/css')
     if u.startswith(BASE): return r.continue_()
     return r.abort()
@@ -35,7 +35,7 @@ PROBE = r"""() => {
  out.overflow = [...document.querySelectorAll('body *')].filter(e => {const r = e.getBoundingClientRect(); const cs = getComputedStyle(e);
    if (!r.width || cs.position==='fixed') return false; if (e.closest('.track,.tablewrap,.leaflet-container')) return false; return r.right > vw + 1 || r.left < -1;})
    .slice(0, 5).map(e => e.tagName + '.' + e.className + ' ' + Math.round(e.getBoundingClientRect().right));
- const sel = '.pill,.fchip,.btn,.navlink,.arrow,.play,.seg button,.claims summary,.tabbar a,.tabbar button,.stops a,.check label,.tk-search,.pagecards a';
+ const sel = '.ab,.pill,.fchip,.btn,.navlink,.arrow,.play,.seg button,.claims summary,.tabbar a,.tabbar button,.stops a,.check label,.tk-search,.pagecards a';
  out.small = [...document.querySelectorAll(sel)].filter(e => {const r = e.getBoundingClientRect(); return r.width && r.height && getComputedStyle(e).visibility!=='hidden' && r.height < 43.5;})
    .slice(0, 6).map(e => e.className + ':' + (e.textContent||'').trim().slice(0, 10) + ' h=' + e.getBoundingClientRect().height.toFixed(1));
  out.inputs = [...document.querySelectorAll('input[type=search],input[type=number]')].map(i => parseFloat(getComputedStyle(i).fontSize)).filter(s => s < 16);
@@ -66,11 +66,11 @@ def main():
                     if pg.evaluate("document.querySelector('.tk-map').hidden"):
                         pg.click('.tk-places [data-view=map]'); pg.wait_for_timeout(400)
                     m = pg.evaluate("""() => {const m=document.querySelector('.tk-map');const r=m.getBoundingClientRect();
-                        return {h:Math.round(r.height),w:Math.round(r.width),leaflet:!!m.querySelector('.leaflet-pane'),markers:m.querySelectorAll('path.leaflet-interactive').length,hidden:m.hidden}}""")
+                        return {h:Math.round(r.height),w:Math.round(r.width),leaflet:!!m.querySelector('.leaflet-pane'),markers:m.querySelectorAll('.tkpin').length,legend:!!m.querySelector('.maplegend')&&getComputedStyle(m.querySelector('.maplegend')).display,hidden:m.hidden}}""")
                     r['map'] = m
                     if pg.evaluate("document.querySelector('.tk-listwrap').hidden"): pg.click('.tk-places [data-view=list]'); pg.wait_for_timeout(200)
                     # 第一張卡片的按鈕有沒有被 sticky 篩選列蓋住
-                    hit = pg.evaluate("""() => {const b=document.querySelector('.pc .acts .pill');if(!b)return 'nocard';
+                    hit = pg.evaluate("""() => {const b=document.querySelector('.pc .acts .ab');if(!b)return 'nocard';
                         b.closest('.pc').scrollIntoView({block:'start'});let r=b.getBoundingClientRect();if(r.bottom>innerHeight-80){b.scrollIntoView({block:'center'});r=b.getBoundingClientRect();}const h=document.elementFromPoint(r.left+r.width/2,r.top+r.height/2);
                         return b.contains(h)?'ok':'BLOCKED by '+(h&&h.className)}""")
                     r['firstBtn'] = hit

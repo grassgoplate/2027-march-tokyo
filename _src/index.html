@@ -20,21 +20,21 @@
 
  <h2>十一個分頁</h2>
  <div class="grid pagecards">
-  <a class="card" href="itinerary.html"><span class="ico">🗓</span><span><b>行程</b><p>五天的 A／B 方案，每一站都連到地點卡。</p></span><span class="cnt">{{n:itinerary}} 天</span></a>
-  <a class="card" href="sights.html"><span class="ico">⛩</span><span><b>景點</b><p>神社、寺廟、老街巷弄、美術館與展覽。</p></span><span class="cnt">{{n:sights}}</span></a>
-  <a class="card" href="eat.html"><span class="ico">🍶</span><span><b>吃喝</b><p>在地居酒屋、橫丁、喫茶店和咖啡，公休日都標在卡片上。</p></span><span class="cnt">{{n:eat}}</span></a>
-  <a class="card" href="shop.html"><span class="ico">🛍</span><span><b>購物</b><p>無印良品（銀座旗艦店）、選物店、文具、雜貨。</p></span><span class="cnt">{{n:shop}}</span></a>
-  <a class="card" href="parks.html"><span class="ico">🏰</span><span><b>樂園</b><p>哈利波特影城 vs 迪士尼樂園／海洋：票價、交通、怎麼選。</p></span><span class="cnt">{{n:parks}}</span></a>
+  <a class="card hasph" href="itinerary.html"><img class="pv" src="{{ph:a-togoshi-ginza}}" alt="戶越銀座商店街" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">🗓</span><span><b>行程</b><p>五天的 A／B 方案，每一站都連到地點卡。</p></span><span class="cnt">{{n:itinerary}} 天</span></span></a>
+  <a class="card hasph" href="sights.html"><img class="pv" src="{{ph:b-sensoji}}" alt="淺草寺" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">⛩</span><span><b>景點</b><p>神社、寺廟、老街巷弄、美術館與展覽。</p></span><span class="cnt">{{n:sights}}</span></span></a>
+  <a class="card hasph" href="eat.html"><img class="pv" src="{{ph:c-omoide-yokocho}}" alt="新宿回憶橫丁" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">🍶</span><span><b>吃喝</b><p>在地居酒屋、橫丁、喫茶店和咖啡，公休日都標在卡片上。</p></span><span class="cnt">{{n:eat}}</span></span></a>
+  <a class="card hasph" href="shop.html"><img class="pv" src="{{ph:b-kappabashi}}" alt="合羽橋道具街" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">🛍</span><span><b>購物</b><p>無印良品（銀座旗艦店）、選物店、文具、雜貨。</p></span><span class="cnt">{{n:shop}}</span></span></a>
+  <a class="card hasph" href="parks.html"><img class="pv" src="{{ph:e-wb-studio-tour-tokyo}}" alt="華納兄弟東京影城" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">🏰</span><span><b>樂園</b><p>哈利波特影城 vs 迪士尼樂園／海洋：票價、交通、怎麼選。</p></span><span class="cnt">{{n:parks}}</span></span></a>
+  <a class="card hasph" href="culture.html"><img class="pv" src="{{ph:c-meiji-jingu}}" alt="明治神宮" loading="lazy" width="960" height="480"><span class="pvb"><span class="ico">📜</span><span><b>文化</b><p>參拜、居酒屋お通し、現金與退稅。</p></span><span class="cnt">{{n:culture}}</span></span></a>
   <a class="card" href="book.html"><span class="ico">🎟</span><span><b>需預約</b><p>開賣時間表，以及哪些地方要先買票。</p></span><span class="cnt">{{n:book}}</span></a>
   <a class="card" href="stay.html"><span class="ico">🛏</span><span><b>住宿</b><p>給哥哥和姑姑的平價飯店候選，改裝休館的也標出來了。</p></span><span class="cnt">{{n:stay}}</span></a>
-  <a class="card" href="culture.html"><span class="ico">📜</span><span><b>文化</b><p>參拜、居酒屋お通し、現金與退稅。</p></span><span class="cnt">{{n:culture}}</span></a>
   <a class="card" href="talk.html"><span class="ico">💬</span><span><b>會話</b><p>按一下就會用日語唸出來。</p></span><span class="cnt">{{n:talk}}</span></a>
   <a class="card" href="prepare.html"><span class="ico">🧳</span><span><b>行前</b><p>機票追蹤、交通卡、入境、勾選清單。</p></span><span class="cnt">清單</span></a>
   <a class="card" href="apps.html"><span class="ico">📱</span><span><b>App</b><p>出發前要裝的 App，iPhone 優先。</p></span><span class="cnt">{{n:apps}}</span></a>
  </div>
 
  <h2 id="map">全部 {{n:all}} 個地點</h2>
- <p class="lead">板塊顏色代表從戶越過去的方便程度。綠色在住處附近；粉紅色沿淺草線不用轉車；藍色在西側，從五反田轉山手線；茶色在北側下町；紫色是郊外和樂園。清單會照這個順序排，交通方便的在前面。</p>
+ <p class="lead">地圖上的 pin 顏色代表類別：⛩️ 紅色是景點和神社、🍶 橘色是居酒屋、☕ 咖啡色是咖啡、🛍️ 藍色是購物、🎨 紫色是展覽、🌳 綠色是公園、🏰 金色是樂園。按「類別」或地圖圖例可以只看某幾類。「板塊」則代表從戶越過去的方便程度，清單預設把交通方便的排在前面，也可以改成依 Google 星等排序。</p>
  <div class="tk-places" data-filters="search,zone,day,tag"></div>
  <div class="tk-claims claims" data-r="a,b,c,d,e,f"></div>
 </main>

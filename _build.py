@@ -29,6 +29,7 @@ TABS = [('itinerary', '行程', '🗓'), ('sights', '景點', '⛩'), ('eat', '�
 def load(p): return json.load(open(p, encoding='utf-8'))
 places = load('data/places.json'); facts = load('data/facts.json')
 culture = load('data/culture.json'); talk = load('data/talk.json'); apps = load('data/apps.json')
+photos = load('data/photos.json')   # Wikimedia Commons 照片（直接引用，授權與作者一起顯示）
 PL = places['places']
 COUNT = {
  'all': len(PL),
@@ -73,7 +74,8 @@ def foot():
             f'<p><b>查證日期：</b>{v}。營業時間、票價、規則到 2027 年 3 月可能改變，訂票或出發前請再看官網。</p>'
             '<p><b>評分：</b>只有研究時親眼看到的才寫，並標明來源與日期，是當時的快照。</p>'
             '<p><b>地圖：</b>圖磚 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors，地圖程式 Leaflet。虛線圈是「大約位置」，導航請按卡片上的 Google 地圖。</p>'
-            '<p><b>照片：</b>這一版沒有放照片（建置環境無法下載 Wikimedia Commons 圖檔並人工確認內容），用板塊顏色代替。</p>'
+            f'<p><b>照片：</b>{len(photos)} 張來自 Wikimedia Commons，授權都是 CC0、CC BY、CC BY-SA 或公有領域；每張都人工看過，確認拍的是該地點。作者與授權寫在每張照片下方，完整清單見 <a href="CREDITS.md">CREDITS.md</a>。沒有合適照片的地點用類別圖示代替。</p>'
+            '<p><b>Google 星等：</b>2026/10 在 Google 地圖上查到的快照，之後會變動；查不到或對不上店名的就不寫。</p>'
             '<p><b>資料：</b><a href="data/places.json">data/places.json</a> 是唯一資料來源；架構沿用同事的 PRD。</p>'
             f'<p>{links}</p></div></footer>')
 
@@ -84,9 +86,10 @@ def build(src):
     if not m: raise SystemExit(f'{src}: 第一行缺 <!--PAGE ...-->')
     title, desc, body = m.group(1), m.group(2), raw[m.end():]
     body = re.sub(r'\{\{n:(\w+)\}\}', lambda mm: str(COUNT[mm.group(1)]), body)
+    body = re.sub(r'\{\{ph:([\w-]+)\}\}', lambda mm: html.escape(photos[mm.group(1)]['u']), body)
     rep = {
      '<!--NAV-->': nav(name), '<!--TABBAR-->': tabbar(name), '<!--FOOT-->': foot(),
-     '<!--PLACES-->': jscript('data-places', places), '<!--FACTS-->': jscript('data-facts', facts),
+     '<!--PLACES-->': jscript('data-places', places) + jscript('data-photos', photos), '<!--FACTS-->': jscript('data-facts', facts),
      '<!--CULTURE-->': jscript('data-culture', culture), '<!--TALK-->': jscript('data-talk', talk),
      '<!--APPS-->': jscript('data-apps', apps),
     }
@@ -99,11 +102,23 @@ def build(src):
            '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;700&display=swap">'
            + CSS + (LEAFLET if need_map else '') + '</head><body>' + body + JS + '</body></html>')
-    left = re.findall(r'<!--(?:TKCSS|TKJS|LEAFLET|NAV|TABBAR|FOOT|PLACES|FACTS|CULTURE|TALK|APPS)-->|\{\{n:\w+\}\}', out)
+    left = re.findall(r'<!--(?:TKCSS|TKJS|LEAFLET|NAV|TABBAR|FOOT|PLACES|FACTS|CULTURE|TALK|APPS)-->|\{\{(?:n|ph):[\w-]+\}\}', out)
     if left: raise SystemExit(f'{src}: 還有沒替換的佔位符 {left}')
     open(f'{name}.html', 'w', encoding='utf-8').write(out)
     print(f'built {name}.html  {len(out)//1024} KB')
 
+def credits():
+    names = {p['id']: p['zh'] for p in PL}
+    lines = ['# 照片來源與授權', '',
+             '照片都來自 Wikimedia Commons，網站直接引用 Commons 的縮圖網址，沒有修改內容。',
+             '授權只收 CC0、CC BY、CC BY-SA、公有領域。每張都在建置前人工看過，確認拍的是該地點。', '',
+             '| 地點 | 檔案 | 作者 | 授權 |', '|---|---|---|---|']
+    for pid, ph in sorted(photos.items()):
+        lines.append(f"| {names.get(pid, pid)} | [{ph['file']}]({ph['pg']}) | {ph['art']} | {ph['lic']} |")
+    open('CREDITS.md', 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
+    print(f'built CREDITS.md  {len(photos)} photos')
+
 if __name__ == '__main__':
     srcs = sys.argv[1:] or [f'_src/{n}.html' for n, *_ in PAGES]
     for s in srcs: build(s)
+    if not sys.argv[1:]: credits()

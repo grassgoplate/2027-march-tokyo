@@ -18,6 +18,9 @@ python3 _measure.py  # 無頭 Chromium 量測手機 390px／桌機 1280px 版面
 
 ## 與 PRD 不同的地方
 - 交通是電車，沒有 OSRM 開車路線，`routes` 只有文字方案，沒有 `ROUTESGEO`
-- 沒有照片：建置環境連不到 Wikimedia Commons，沒辦法下載並人工確認圖檔，所以先用板塊顏色代替
+- 照片：`data/photos.json` 直接引用 Wikimedia Commons 縮圖（CC0／CC BY／CC BY-SA／公有領域），每張都在瀏覽器裡逐張看過，確認拍的是該地點；作者與授權見 `CREDITS.md`。沒有合適照片的地點用類別圖示代替
+- Google 地圖星等：`research/google_ratings.tsv`，2026-10 的快照，比對過店名與地址才收；`_merge.py` 會把它併進 `places.json` 的 `gm` 欄位，Google 地圖連結也改用 place_id 精準開啟
+- 人工修正（例如從評論補上的警告）放在 `research/overrides.json`，合併時套用
 - 座標多數是研究員從維基百科或車站位置取得，標 `geo_approx` 的在地圖上是虛線圈
 - 新增 `zone`（板塊）欄位：依從戶越過去的方便程度排序與上色
+- 地圖 pin 依類別上色（景點、展覽、公園、樂園、居酒屋、咖啡、購物、住宿），類別按鈕與地圖圖例都能篩選

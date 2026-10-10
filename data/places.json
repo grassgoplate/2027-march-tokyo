@@ -101,7 +101,15 @@
     "https://www.gltjp.com/ja/directory/item/12807/",
     "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01K2XB9THZYN35D1DM2CMHWCY2/",
     "https://tokyotouristinfo.com/detail/M0259"
-   ]
+   ],
+   "gm": {
+    "r": 4.0,
+    "c": 2494,
+    "n": "2,494",
+    "asof": "2026-10",
+    "pid": "ChIJ03VrBuyKGGARb-6EtBOziqM",
+    "gname": "Togoshi Ginza Shopping Street"
+   }
   },
   {
    "id": "a-goto-kamaboko",
@@ -137,7 +145,15 @@
    "src": [
     "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/",
     "https://ontrip.jal.co.jp/tokyo/17573374"
-   ]
+   ],
+   "gm": {
+    "r": 3.7,
+    "c": 226,
+    "n": "226",
+    "asof": "2026-10",
+    "pid": "ChIJM59pbu2KGGARTpy6HvPD_aM",
+    "gname": "Kamaboko Shop Gotō"
+   }
   },
   {
    "id": "a-togoshi-hachiman",
@@ -173,7 +189,15 @@
     "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01K2XB9THZYN35D1DM2CMHWCY2/",
     "https://www.tokyu.co.jp/area/togoshi-ginza/"
    ],
-   "day": 1
+   "day": 1,
+   "gm": {
+    "r": 4.4,
+    "c": 1609,
+    "n": "1,609",
+    "asof": "2026-10",
+    "pid": "ChIJWfKxFe2KGGARKL_euF1cxOw",
+    "gname": "Togoshi Hachiman Shrine"
+   }
   },
   {
    "id": "a-miyamae-bunko",
@@ -230,7 +254,15 @@
     "https://ja.wikipedia.org/wiki/戸越公園",
     "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.1,
+    "c": 1298,
+    "n": "1,298",
+    "asof": "2026-10",
+    "pid": "ChIJOypJhY2KGGAROVRw7AyPCNo",
+    "gname": "Togoshi Park"
+   }
   },
   {
    "id": "a-togoshi-ginza-onsen",
@@ -260,7 +292,15 @@
    "src": [
     "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/",
     "https://san-tatsu.jp/area/2197/"
-   ]
+   ],
+   "gm": {
+    "r": 3.8,
+    "c": 1354,
+    "n": "1,354",
+    "asof": "2026-10",
+    "pid": "ChIJ9YH0T-yKGGARGBCMHR18Nkw",
+    "gname": "Togoshi Ginza Onsen"
+   }
   },
   {
    "id": "a-nakanobu-skip-road",
@@ -286,7 +326,15 @@
     "https://www.gltjp.com/ja/directory/item/12770/",
     "https://www.tokyu.co.jp/area/nakanobu/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 3.8,
+    "c": 16,
+    "n": "16",
+    "asof": "2026-10",
+    "pid": "ChIJ9wRzISKLGGARLsXjCKQumPA",
+    "gname": "中延スキップロード"
+   }
   },
   {
    "id": "a-hebikubo-jinja",
@@ -316,7 +364,15 @@
     "https://rurubu.jp/andmore/spot/80109811",
     "https://www.tokyu.co.jp/area/nakanobu/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.3,
+    "c": 4363,
+    "n": "4,363",
+    "asof": "2026-10",
+    "pid": "ChIJWUfbFJeKGGARI6nYTu40mBA",
+    "gname": "Hebikubo Shrine"
+   }
   },
   {
    "id": "a-musashikoyama-palm",
@@ -342,7 +398,15 @@
     "https://www.gltjp.com/ja/directory/item/11038",
     "https://allabout.co.jp/gm/gc/444299/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.2,
+    "c": 1608,
+    "n": "1,608",
+    "asof": "2026-10",
+    "pid": "ChIJXXfFm9uKGGAR6A66FaNUyFQ",
+    "gname": "Musashi-Koyama Shopping Street Palm"
+   }
   },
   {
    "id": "a-gyutaro",
@@ -366,13 +430,21 @@
    "addr": "東京都品川区小山4-3-13",
    "hours": "週一～五 14:30～19:00；週六與假日 12:30～17:00（Retty 資料，最後更新2021/11）",
    "closed": "週日",
-   "flag": "unverified",
-   "warn": "⚠️ 不能刷卡（Retty）。營業時間很早、很短，週日休；資料停在2021年，出發前要再確認還有沒有開、時間有沒有改。",
+   "flag": "warn",
+   "warn": "⚠️ Google 地圖上只有 2 則評論：一則說只接待熟客、第一次去會被拒絕，另一則說聽說已經歇業（2026/10 查）。兩件事都無法再查證，不建議專程去。",
    "note": "昭和氣氛的ㄈ字型吧台小酒場，約20席，主打便宜的豬內臟串（とんちゃん）和ホッピー。適合下午提早喝一杯，不適合大聲聊天或久坐。",
    "src": [
     "https://retty.me/restaurant/100000032713/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 2.0,
+    "c": 2,
+    "n": "2",
+    "asof": "2026-10",
+    "pid": "ChIJTZwhbQCLGGARBZS1lHYphYk",
+    "gname": "牛太郎 武蔵小山店"
+   }
   },
   {
    "id": "a-kaneshow",
@@ -404,7 +476,15 @@
     "https://www.tv-tokyo.co.jp/adomachi/backnumber/20200201/140356.html",
     "https://www.tv-tokyo.co.jp/adomachi/backnumber/20241019/145367.html"
    ],
-   "day": 1
+   "day": 1,
+   "gm": {
+    "r": 4.2,
+    "c": 681,
+    "n": "681",
+    "asof": "2026-10",
+    "pid": "ChIJSU6sVfuKGGAROymhm9_vdl0",
+    "gname": "Kanesho"
+   }
   },
   {
    "id": "a-kuwabara-shoten",
@@ -437,7 +517,15 @@
     "https://retty.me/restaurant/100001461064/",
     "https://www.tv-tokyo.co.jp/adomachi/backnumber/20241019/145372.html"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.4,
+    "c": 225,
+    "n": "225",
+    "asof": "2026-10",
+    "pid": "ChIJ_0EK3eSKGGARRa03g36ha0k",
+    "gname": "Kuwabara Shoten"
+   }
   },
   {
    "id": "a-meguro-fudo",
@@ -475,7 +563,15 @@
     "https://tabi-mag.jp/tk0126/",
     "https://ja.wikipedia.org/wiki/瀧泉寺"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.3,
+    "c": 2607,
+    "n": "2,607",
+    "asof": "2026-10",
+    "pid": "ChIJW0b5GyGLGGARv_Y3HAAEtKo",
+    "gname": "Ryusen-ji Temple (Meguro Fudoson)"
+   }
   },
   {
    "id": "a-shinagawa-jinja",
@@ -513,7 +609,15 @@
     "https://tabi-mag.jp/tk0476",
     "https://www.mec-h.com/town/mh-shinagawa/314"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 4.3,
+    "c": 3023,
+    "n": "3,023",
+    "asof": "2026-10",
+    "pid": "ChIJqUXtB2eKGGAR5CmAxvDOPOs",
+    "gname": "Shinagawa Shrine"
+   }
   },
   {
    "id": "a-kyu-tokaido-shinagawa",
@@ -592,7 +696,15 @@
     "https://4travel.jp/dm_shisetsu/11350873",
     "https://en.wikipedia.org/wiki/Sengaku-ji"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 4.3,
+    "c": 4156,
+    "n": "4,156",
+    "asof": "2026-10",
+    "pid": "ChIJh64KT6uLGGARKx4cxgOaL54",
+    "gname": "Sengaku-ji"
+   }
   },
   {
    "id": "a-meguro-river-sakura",
@@ -638,7 +750,15 @@
     "https://sp.jorudan.co.jp/hanami/spot_117.html",
     "https://weathernews.jp/news/202603/180056/"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.4,
+    "c": 3940,
+    "n": "3,940",
+    "asof": "2026-10",
+    "pid": "ChIJNVZtkB-LGGAR6Pz2MxHkSFY",
+    "gname": "Meguro River Cherry Blossoms Promenade"
+   }
   },
   {
    "id": "a-nakameguro-tsutaya",
@@ -666,7 +786,15 @@
     "https://www.timeout.jp/tokyo/ja/ショッピング/tsutayasyoten-nakameguro",
     "https://www.gotokyo.org/jp/destinations/southern-tokyo/nakameguro/index.html"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.0,
+    "c": 1025,
+    "n": "1,025",
+    "asof": "2026-10",
+    "pid": "ChIJcWN6JEqLGGARm0kXph5LFT8",
+    "gname": "Naka-Meguro Tsutaya Books"
+   }
   },
   {
    "id": "a-onibus-nakameguro",
@@ -707,7 +835,15 @@
     "https://www.enjoytokyo.jp/article/109989/",
     "https://onibuscoffee.com/"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.3,
+    "c": 2311,
+    "n": "2,311",
+    "asof": "2026-10",
+    "pid": "ChIJvXUZEEmLGGARlC39ZdeJ06Q",
+    "gname": "Onibus Coffee"
+   }
   },
   {
    "id": "a-daikanyama-tsutaya",
@@ -736,7 +872,15 @@
     "https://www.timeout.jp/tokyo/ja/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/daikanyama-tsutaya-book",
     "https://iko-yo.net/facilities/24526"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.5,
+    "c": 9933,
+    "n": "9,933",
+    "asof": "2026-10",
+    "pid": "ChIJgfjQvk-LGGARqVwq1_ra-dY",
+    "gname": "Tsutaya Books Daikanyama"
+   }
   },
   {
    "id": "a-kyu-asakura-house",
@@ -766,7 +910,15 @@
     "https://www.gltjp.com/ja/directory/item/14056/",
     "https://allabout.co.jp/gm/gc/29019/2"
    ],
-   "day": 4
+   "day": 4,
+   "gm": {
+    "r": 4.4,
+    "c": 1302,
+    "n": "1,302",
+    "asof": "2026-10",
+    "pid": "ChIJPULLZU-LGGARsv8E3tigyqQ",
+    "gname": "Kyu Asakura House"
+   }
   },
   {
    "id": "a-muji-atre-oimachi",
@@ -798,7 +950,15 @@
    "src": [
     "https://www.muji.com/jp/ja/shop/detail/045505"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 3.8,
+    "c": 412,
+    "n": "412",
+    "asof": "2026-10",
+    "pid": "ChIJXUB8TnyKGGARe382iR5-lsc",
+    "gname": "無印良品 アトレ大井町"
+   }
   },
   {
    "id": "a-idee-jiyugaoka",
@@ -831,7 +991,15 @@
    "src": [
     "https://www.muji.com/jp/ja/shop/detail/046042"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.1,
+    "c": 237,
+    "n": "237",
+    "asof": "2026-10",
+    "pid": "ChIJNabAPR71GGARTGXJbkf-9tU",
+    "gname": "イデーショップ自由が丘店"
+   }
   },
   {
    "id": "b-shimbashi-ekimae-bldg",
@@ -909,7 +1077,15 @@
     "https://karasumorijinja.or.jp/",
     "https://ja.wikipedia.org/wiki/烏森神社"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.3,
+    "c": 4745,
+    "n": "4,745",
+    "asof": "2026-10",
+    "pid": "ChIJmyHLzuuLGGAR_dp7Ams-EI4",
+    "gname": "Karasumori Shrine"
+   }
   },
   {
    "id": "b-andys-shin-hinomoto",
@@ -954,7 +1130,15 @@
     "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-ginza/article-a0002070/",
     "https://www.tablecheck.com/zh-TW/shin-hinomoto"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.2,
+    "c": 1118,
+    "n": "1,118",
+    "asof": "2026-10",
+    "pid": "ChIJnwbl7e-LGGARLR7Qgyt-c4k",
+    "gname": "Andy's Shin Hinomoto"
+   }
   },
   {
    "id": "b-akitaya-daimon",
@@ -980,7 +1164,7 @@
    "hours": "15:30～21:30（週六至20:30）",
    "closed": "週日、國定假日、每月第3個週六",
    "flag": "warn",
-   "warn": "⚠️ 只收現金。開店前就排隊。2027/3 的第 3 個週六正好是 3/20，加上 3/21 週日、3/22 假日，連假三天都不開；請排 3/17～3/19。",
+   "warn": "⚠️ 只收現金。開店前就排隊。2027/3 的第 3 個週六正好是 3/20，加上 3/21 週日、3/22 假日，連假三天都不開；請排 3/17～3/19。\n⚠️ Google 地圖上有多則外國旅客評論提到店員態度兇、被上了沒點的菜（2026/10 查）。不懂日文的話，點餐時一道一道確認，結帳前對一下明細。",
    "note": "下午三點半就開的燒內臟串老店，全是吧檯座，外面還有立飲區能看到東京鐵塔。價位低，Time Out 標最便宜一級。",
    "deep": {
     "lead": "想看東京大叔下午就開喝的地方，就是這裡。",
@@ -996,7 +1180,15 @@
     "https://www.timeout.jp/tokyo/ja/レストラン/akitaya",
     "https://tabelog.com/en/tokyo/A1314/A131401/13001499/"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.0,
+    "c": 1301,
+    "n": "1,301",
+    "asof": "2026-10",
+    "pid": "ChIJq6r-_saLGGARYzv_lp6h2ao",
+    "gname": "Akitaya"
+   }
   },
   {
    "id": "b-muji-ginza",
@@ -1047,7 +1239,15 @@
     "https://www.wwdjapan.com/articles/713946",
     "https://www.watch.impress.co.jp/docs/news/1146170.html",
     "https://gourmet.watch.impress.co.jp/docs/news/1663393.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 6350,
+    "n": "6,350",
+    "asof": "2026-10",
+    "pid": "ChIJfc-uOKqLGGAR-bVyIUWjtQo",
+    "gname": "MUJI Ginza"
+   }
   },
   {
    "id": "b-muji-hotel-ginza",
@@ -1118,7 +1318,15 @@
     "https://www.timeout.jp/tokyo/ja/ショッピング/ginza-itoya-honten",
     "https://www.ginza.jp/?p=11856"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 4.4,
+    "c": 19862,
+    "n": "19,862",
+    "asof": "2026-10",
+    "pid": "ChIJKQAKAOSLGGARwGhpOXWgfYo",
+    "gname": "Ginza Itoya"
+   }
   },
   {
    "id": "b-nihonbashi-bridge",
@@ -1145,7 +1353,15 @@
     "https://ja.wikipedia.org/wiki/日本橋_(東京都中央区の橋)",
     "https://www.shutoko.jp/ss/nihonbashi-tikaka/future/"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 4.4,
+    "c": 75,
+    "n": "75",
+    "asof": "2026-10",
+    "pid": "ChIJnxffcwCJGGARmcGAARYwFrY",
+    "gname": "Nihonbashi"
+   }
   },
   {
    "id": "b-fukutoku-jinja",
@@ -1183,7 +1399,15 @@
     "https://mebuki.jp/",
     "https://ja.wikipedia.org/wiki/福徳神社"
    ],
-   "day": 5
+   "day": 5,
+   "gm": {
+    "r": 4.3,
+    "c": 3414,
+    "n": "3,414",
+    "asof": "2026-10",
+    "pid": "ChIJw9uzC1WJGGARnZWYZveSJFc",
+    "gname": "Fukutoku Shrine"
+   }
   },
   {
    "id": "b-suitengu",
@@ -1212,7 +1436,15 @@
     "https://www.suitengu.or.jp/",
     "https://en.wikipedia.org/wiki/Suitengū_(Tokyo)"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.2,
+    "c": 7474,
+    "n": "7,474",
+    "asof": "2026-10",
+    "pid": "ChIJ6TXOcUWJGGAR2GRhafOUp0I",
+    "gname": "Suitengu Shrine"
+   }
   },
   {
    "id": "b-amazake-yokocho",
@@ -1283,7 +1515,15 @@
     "https://www.morinoen.jp/",
     "https://tabelog.com/en/tokyo/A1302/A130204/13041947/"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 4.1,
+    "c": 676,
+    "n": "676",
+    "asof": "2026-10",
+    "pid": "ChIJT_Ud20-JGGARRJLcQ7IRIjM",
+    "gname": "Morinoen"
+   }
   },
   {
    "id": "b-kaiseiken",
@@ -1312,7 +1552,15 @@
    "src": [
     "https://tabelog.com/en/tokyo/A1302/A130204/13018091/"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 3.7,
+    "c": 302,
+    "n": "302",
+    "asof": "2026-10",
+    "pid": "ChIJGZxPJ1CJGGARjhTWkp88Hu0",
+    "gname": "Kissako Kaiseiken"
+   }
   },
   {
    "id": "b-sasashin",
@@ -1340,7 +1588,15 @@
     "https://tabelog.com/en/tokyo/A1302/A130204/13018155/",
     "https://www.tv-tokyo.co.jp/adomachi/backnumber/20161126/128398.html"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.2,
+    "c": 195,
+    "n": "195",
+    "asof": "2026-10",
+    "pid": "ChIJ0QVHuU-JGGARu--Itr-b04o",
+    "gname": "Sasashin"
+   }
   },
   {
    "id": "b-shimojima-asakusabashi",
@@ -1377,7 +1633,15 @@
     "https://newt.net/jpn/tokyo/mag-25379897832",
     "https://www.mapple.net/station/284444/spot/"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.1,
+    "c": 2617,
+    "n": "2,617",
+    "asof": "2026-10",
+    "pid": "ChIJR5jT2rOOGGARFWhhsygJNhI",
+    "gname": "Shimojima Asakusabashi Flagship Store"
+   }
   },
   {
    "id": "b-kakimori",
@@ -1413,7 +1677,15 @@
     "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
     "https://www.timeout.jp/tokyo/ja/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/kakimori-kuramae"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.5,
+    "c": 1204,
+    "n": "1,204",
+    "asof": "2026-10",
+    "pid": "ChIJYzGkb7eOGGARNSIHlHC_mbY",
+    "gname": "kakimori"
+   }
   },
   {
    "id": "b-dandelion-kuramae",
@@ -1445,7 +1717,15 @@
     "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
     "https://www.timeout.jp/tokyo/ja/レストラン/ダンデライオン-チョコレート-ファクトリー-ストア蔵前"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.2,
+    "c": 2713,
+    "n": "2,713",
+    "asof": "2026-10",
+    "pid": "ChIJNRb8areOGGARieKkjJf2N34",
+    "gname": "Dandelion Chocolate Kuramae"
+   }
   },
   {
    "id": "b-encafe-kuramae",
@@ -1479,7 +1759,15 @@
     "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
     "https://kinarino.jp/cat8/32709"
    ],
-   "day": null
+   "day": null,
+   "gm": {
+    "r": 3.9,
+    "c": 779,
+    "n": "779",
+    "asof": "2026-10",
+    "pid": "ChIJ6V60sbeOGGAReGyMGPYPeZU",
+    "gname": "En (蔵前2-6-2)"
+   }
   },
   {
    "id": "b-syuro",
@@ -1513,7 +1801,15 @@
     "https://syuro.co.jp/shops/syuro/",
     "https://deeptokyo.jp/en/?p=11549"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.5,
+    "c": 60,
+    "n": "60",
+    "asof": "2026-10",
+    "pid": "ChIJ2dzVprqOGGARjGMuMc-WiQs",
+    "gname": "SyuRo"
+   }
   },
   {
    "id": "b-sensoji",
@@ -1558,7 +1854,15 @@
     "https://www.japan-guide.com/e/e3001.html",
     "https://banzokubiology.com/asakusa-konzatsu/",
     "https://mileasia.com/japan/sensoji-temple/"
-   ]
+   ],
+   "gm": {
+    "r": 4.6,
+    "c": 99777,
+    "n": "99,777",
+    "asof": "2026-10",
+    "pid": "ChIJ8T1GpMGOGGARDYGSgpooDWw",
+    "gname": "Sensō-ji"
+   }
   },
   {
    "id": "b-asakusa-jinja",
@@ -1587,7 +1891,15 @@
    "src": [
     "https://www.asakusajinja.jp/",
     "https://en.wikipedia.org/wiki/Asakusa_Shrine"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 5322,
+    "n": "5,322",
+    "asof": "2026-10",
+    "pid": "ChIJx62FmcGOGGARDxQTl8Zx6U4",
+    "gname": "Asakusa Shrine"
+   }
   },
   {
    "id": "b-hoppy-dori",
@@ -1660,7 +1972,15 @@
     "https://tabelog.com/tokyo/A1311/A131102/13025425/",
     "https://rurubu.jp/andmore/spot/80073079"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 3.7,
+    "c": 575,
+    "n": "575",
+    "asof": "2026-10",
+    "pid": "ChIJH-LUh8COGGARGUaIkcsSwls",
+    "gname": "Coffee Tengoku"
+   }
   },
   {
    "id": "b-kappabashi",
@@ -1696,7 +2016,15 @@
     "https://www.gltjp.com/ja/directory/item/10210/",
     "https://www.japan-guide.com/e/e3020.html"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.3,
+    "c": 13045,
+    "n": "13,045",
+    "asof": "2026-10",
+    "pid": "ChIJXYV-6JWOGGAR85vIZbM1RCE",
+    "gname": "Kappabashi Kitchen Supply Town"
+   }
   },
   {
    "id": "b-ushijima-jinja",
@@ -1732,7 +2060,15 @@
     "https://ja.wikipedia.org/wiki/牛嶋神社",
     "https://www.timeout.com/tokyo/attractions/ushijima-shrine"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.3,
+    "c": 2054,
+    "n": "2,054",
+    "asof": "2026-10",
+    "pid": "ChIJMYNlINuOGGAR3n-uxi-8QhQ",
+    "gname": "Ushijima Shrine"
+   }
   },
   {
    "id": "b-tokyo-skytree",
@@ -1758,7 +2094,15 @@
     "https://en.wikipedia.org/wiki/Tokyo_Skytree",
     "https://www.tokyo-skytree.jp/"
    ],
-   "day": 2
+   "day": 2,
+   "gm": {
+    "r": 4.4,
+    "c": 120569,
+    "n": "120,569",
+    "asof": "2026-10",
+    "pid": "ChIJ35ov0dCOGGARKvdDH7NPHX0",
+    "gname": "Tokyo Skytree"
+   }
   },
   {
    "id": "c-meiji-jingu",
@@ -1802,7 +2146,15 @@
     "https://www.meijijingu.or.jp/",
     "https://www.fun-japan.jp/tw/articles/8272",
     "https://www.mlit.go.jp/tagengo-db/H30-00511.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.7,
+    "c": 53552,
+    "n": "53,552",
+    "asof": "2026-10",
+    "pid": "ChIJ5SZMmreMGGARcz8QSTiJyo8",
+    "gname": "Meiji Jingu"
+   }
   },
   {
    "id": "c-togo-jinja",
@@ -1831,7 +2183,15 @@
     "https://togojinja.or.jp/",
     "https://livejapan.com/ja/in-tokyo/in-pref-tokyo/in-harajuku/spot-lj0001967/",
     "https://en.wikipedia.org/wiki/T%C5%8Dg%C5%8D_Shrine"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 2928,
+    "n": "2,928",
+    "asof": "2026-10",
+    "pid": "ChIJW40URLuMGGARgo4q_fJdYsA",
+    "gname": "Togo Shrine"
+   }
   },
   {
    "id": "c-konno-hachimangu",
@@ -1859,7 +2219,15 @@
    "src": [
     "https://ja.wikipedia.org/wiki/%E9%87%91%E7%8E%8B%E5%85%AB%E5%B9%A1%E5%AE%AE",
     "https://www.travel.co.jp/guide/article/37229/"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 2163,
+    "n": "2,163",
+    "asof": "2026-10",
+    "pid": "ChIJ1bZmU1mLGGAR73z2D3wQFVo",
+    "gname": "Konno Hachiman-gu Shrine"
+   }
   },
   {
    "id": "c-hanazono-jinja",
@@ -1886,7 +2254,15 @@
     "https://livejapan.com/ja/spot/lj0001918/",
     "https://www.nap-camp.com/mag/90896",
     "https://en.wikipedia.org/wiki/Hanazono_Shrine"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 9175,
+    "n": "9,175",
+    "asof": "2026-10",
+    "pid": "ChIJK9584NuMGGARVKfZjpYoQDs",
+    "gname": "Hanazono Shrine"
+   }
   },
   {
    "id": "c-shinjuku-gyoen",
@@ -1937,7 +2313,15 @@
     "https://www.env.go.jp/press/press_03164.html",
     "https://www.walkerplus.com/event/ar0313e25816/",
     "https://sp.jorudan.co.jp/hanami/spot_110.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.6,
+    "c": 45884,
+    "n": "45,884",
+    "asof": "2026-10",
+    "pid": "ChIJPyOTG8KMGGARh_IXobWxHmo",
+    "gname": "Shinjuku Gyoen National Garden"
+   }
   },
   {
    "id": "c-nezu-museum",
@@ -1984,7 +2368,15 @@
     "https://www.nezu-muse.or.jp/jp/visit/",
     "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
     "https://en.wikipedia.org/wiki/Nezu_Museum"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 6672,
+    "n": "6,672",
+    "asof": "2026-10",
+    "pid": "ChIJxU48-2OLGGARHMtB5RAhytA",
+    "gname": "Nezu Museum"
+   }
   },
   {
    "id": "c-on-sundays",
@@ -2019,7 +2411,15 @@
    "src": [
     "https://rurubu.jp/andmore/spot/80011902",
     "https://www.gotokyo.org/jp/spot/169/index.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 108,
+    "n": "108",
+    "asof": "2026-10",
+    "pid": "ChIJm3RX6JiMGGARWnEOaQX0OQE",
+    "gname": "On Sundays"
+   }
   },
   {
    "id": "c-spiral-market",
@@ -2051,7 +2451,15 @@
    "src": [
     "https://www.spiral.co.jp/access",
     "https://www.timeout.jp/tokyo/ja/%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0/spiral-market"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 177,
+    "n": "177",
+    "asof": "2026-10",
+    "pid": "ChIJWamFCGCLGGARPdj676gNrY4",
+    "gname": "Spiral Market"
+   }
   },
   {
    "id": "c-nonbei-yokocho",
@@ -2109,7 +2517,15 @@
    "src": [
     "https://serai.jp/hobby/1128271",
     "https://www.gltjp.com/ja/directory/item/18799/"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 1095,
+    "n": "1,095",
+    "asof": "2026-10",
+    "pid": "ChIJFQdviqmMGGAR1muN_DAZFwQ",
+    "gname": "Meikyoku Kissa Lion"
+   }
   },
   {
    "id": "c-fuglen-tokyo",
@@ -2136,7 +2552,15 @@
    "src": [
     "https://fuglen.no/Fuglen-Tokyo-Tomigaya",
     "https://fuglencoffee.jp/"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 3818,
+    "n": "3,818",
+    "asof": "2026-10",
+    "pid": "ChIJrWB6lbKMGGARp0QB0mMSNe4",
+    "gname": "Fuglen Tokyo"
+   }
   },
   {
    "id": "c-bonus-track",
@@ -2184,7 +2608,15 @@
     "https://bonus-track.net/",
     "https://bonus-track.net/access/",
     "https://matcha-jp.com/jp/327"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 447,
+    "n": "447",
+    "asof": "2026-10",
+    "pid": "ChIJITpO1pnzGGARxTkPmJP2JWA",
+    "gname": "Bonus Track"
+   }
   },
   {
    "id": "c-reload",
@@ -2219,7 +2651,15 @@
    "src": [
     "https://reload-shimokita.com/",
     "https://www.gltjp.com/ja/directory/item/18108/"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 277,
+    "n": "277",
+    "asof": "2026-10",
+    "pid": "ChIJHzhi0BfzGGARoh2DD79kfmU",
+    "gname": "reload"
+   }
   },
   {
    "id": "c-shimokita-furugi",
@@ -2282,7 +2722,15 @@
    "src": [
     "https://www.gotokyo.org/jp/destinations/western-tokyo/shimokitazawa/index.html",
     "https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%8C%97%E6%B2%A2%E9%A7%85"
-   ]
+   ],
+   "gm": {
+    "r": 3.9,
+    "c": 239,
+    "n": "239",
+    "asof": "2026-10",
+    "pid": "ChIJV7Y5yWHzGGARLbTr5xfyqUs",
+    "gname": "Mikan Shimokita"
+   }
   },
   {
    "id": "c-sankaku-chitai",
@@ -2322,7 +2770,15 @@
     "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89",
     "https://www.livable.co.jp/l-note/town/17360/",
     "https://en.wikipedia.org/wiki/Sangen-jaya_Station"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 30,
+    "n": "30",
+    "asof": "2026-10",
+    "pid": "ChIJg2uygwX1GGAR6WsBMa3r8vo",
+    "gname": "Sangenjaya Sankaku Chitai"
+   }
   },
   {
    "id": "c-omoide-yokocho",
@@ -2353,7 +2809,15 @@
     "https://shinjuku-omoide.com/",
     "https://shinjuku-omoide.com/shooting",
     "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 15634,
+    "n": "15,634",
+    "asof": "2026-10",
+    "pid": "ChIJP9eKBdeMGGAR0zzBXJNVj5A",
+    "gname": "Omoide Yokocho Memory Lane"
+   }
   },
   {
    "id": "c-golden-gai",
@@ -2395,7 +2859,15 @@
     "https://www.nippon.com/ja/guide-to-japan/gu900051",
     "https://www.timeout.jp/tokyo/ja/%E3%83%8A%E3%82%A4%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/%E6%9D%B1%E4%BA%AC%E3%81%AE%E6%A8%AA%E4%B8%81%E3%82%AC%E3%82%A4%E3%83%89",
     "https://en.wikipedia.org/wiki/Golden_Gai"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 13226,
+    "n": "13,226",
+    "asof": "2026-10",
+    "pid": "ChIJr7mGZdmMGGARjxoMFeHApXE",
+    "gname": "Shinjuku Golden-Gai"
+   }
   },
   {
    "id": "c-tajimaya-coffee",
@@ -2423,7 +2895,15 @@
    "src": [
     "https://tajimaya-coffeeten.com/locations",
     "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/%E4%BD%86%E9%A6%AC%E5%B1%8B%E7%8F%88%E7%90%B2%E5%BA%97"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 1265,
+    "n": "1,265",
+    "asof": "2026-10",
+    "pid": "ChIJtUxmFteMGGAR_0Z9ZE-8a0g",
+    "gname": "Tajimaya Coffee"
+   }
   },
   {
    "id": "c-muji-shinjuku-dori",
@@ -2456,7 +2936,15 @@
    "src": [
     "https://www.muji.com/jp/ja/shop/detail/045237",
     "https://www.fashionsnap.com/article/2021-08-12/muji-shinjuku/"
-   ]
+   ],
+   "gm": {
+    "r": 4.0,
+    "c": 782,
+    "n": "782",
+    "asof": "2026-10",
+    "pid": "ChIJVYhpTNqMGGAR73ChIv391Lg",
+    "gname": "MUJI Shinjuku-dōri"
+   }
   },
   {
    "id": "c-muji-shinjuku-yasukuni",
@@ -2488,7 +2976,15 @@
    "src": [
     "https://www.muji.com/jp/ja/shop/045458",
     "https://www.timeout.jp/tokyo/ja/%E3%83%AC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%B3/cafe-and-meal-muji-shinjuku"
-   ]
+   ],
+   "gm": {
+    "r": 4.0,
+    "c": 1434,
+    "n": "1,434",
+    "asof": "2026-10",
+    "pid": "ChIJMTwuLNqMGGARsziCNq2xaOs",
+    "gname": "Muji (Piccadilly)"
+   }
   },
   {
    "id": "c-beams-japan",
@@ -2521,7 +3017,15 @@
    "src": [
     "https://timeout.com/tokyo/shopping/beams-japan",
     "https://www.fashion-press.net/news/22691"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 2027,
+    "n": "2,027",
+    "asof": "2026-10",
+    "pid": "ChIJUWbOAtuMGGARxbNeo0uzhuo",
+    "gname": "Beams Japan"
+   }
   },
   {
    "id": "d-yanaka-ginza",
@@ -2559,7 +3063,15 @@
    "src": [
     "https://ja.wikipedia.org/wiki/谷中銀座商店街",
     "https://www.yanakaginza.com/"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 11726,
+    "n": "11,726",
+    "asof": "2026-10",
+    "pid": "ChIJPYwFnNGNGGARYEeXwiYQPe8",
+    "gname": "Yanaka Ginza"
+   }
   },
   {
    "id": "d-yuyake-dandan",
@@ -2587,7 +3099,15 @@
    "src": [
     "https://ja.wikipedia.org/wiki/谷中銀座商店街",
     "https://www.yanakaginza.com/"
-   ]
+   ],
+   "gm": {
+    "r": 4.0,
+    "c": 1025,
+    "n": "1,025",
+    "asof": "2026-10",
+    "pid": "ChIJrw6t4tONGGARm4SASOVzzLc",
+    "gname": "Yanaka Ginza Yūyake Dandan"
+   }
   },
   {
    "id": "d-nezu-jinja",
@@ -2630,7 +3150,15 @@
     "https://www.gotokyo.org/jp/spot/70/index.html",
     "https://ja.wikipedia.org/wiki/根津神社",
     "https://www.nedujinja.or.jp/"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 9389,
+    "n": "9,389",
+    "asof": "2026-10",
+    "pid": "ChIJ-X4hzjKMGGARDSsGeHOACgw",
+    "gname": "Nezu Shrine"
+   }
   },
   {
    "id": "d-yanaka-reien",
@@ -2669,7 +3197,15 @@
     "https://ja.wikipedia.org/wiki/谷中霊園",
     "https://en.wikipedia.org/wiki/Yanaka_Cemetery",
     "https://www.data.jma.go.jp/tokyo/shosai/kanyoho/sakura/sakura.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 991,
+    "n": "991",
+    "asof": "2026-10",
+    "pid": "ChIJO8HByiqMGGARP9I5xBEXlCM",
+    "gname": "Yanaka Cemetery"
+   }
   },
   {
    "id": "d-scai-the-bathhouse",
@@ -2702,7 +3238,15 @@
    "src": [
     "https://www.tokyoartbeat.com/en/venues/-/4353A332",
     "https://www.shift.jp.org/guide/tokyo/art-design/scai-the-bathhouse.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 304,
+    "n": "304",
+    "asof": "2026-10",
+    "pid": "ChIJq1ynUyqMGGARJw9kwdVUyXE",
+    "gname": "SCAI The Bathhouse"
+   }
   },
   {
    "id": "d-asakura-museum",
@@ -2734,7 +3278,15 @@
    "src": [
     "https://www.museum.or.jp/museum/2347",
     "https://www.gotokyo.org/tc/spot/508/index.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 1275,
+    "n": "1,275",
+    "asof": "2026-10",
+    "pid": "ChIJeRYrbNSNGGAR0P33uymr9Ug",
+    "gname": "Asakura Museum of Sculpture"
+   }
   },
   {
    "id": "d-kayaba-coffee",
@@ -2769,7 +3321,15 @@
    "src": [
     "https://tabelog.com/tokyo/A1311/A131104/13019585/",
     "https://tabelog.com/matome/2374/"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 2182,
+    "n": "2,182",
+    "asof": "2026-10",
+    "pid": "ChIJrdgn_9KNGGAR51pQCSVxBbI",
+    "gname": "Kayaba Coffee"
+   }
   },
   {
    "id": "d-hagiso",
@@ -2798,7 +3358,15 @@
    "day": 2,
    "src": [
     "https://hagiso.com/hagiso/"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 877,
+    "n": "877",
+    "asof": "2026-10",
+    "pid": "ChIJh5-ixtONGGARbCbx1wYyK84",
+    "gname": "Hagiso"
+   }
   },
   {
    "id": "d-isetatsu",
@@ -2831,7 +3399,15 @@
    "day": 2,
    "src": [
     "https://www.isetatsu.com/"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 115,
+    "n": "115",
+    "asof": "2026-10",
+    "pid": "ChIJR73lR6yNGGARMgoz29u1W1c",
+    "gname": "Isetatsu"
+   }
   },
   {
    "id": "d-ueno-park",
@@ -2863,7 +3439,15 @@
    "src": [
     "https://www.tokyo-park.or.jp/park/ueno/index.html",
     "https://en.wikipedia.org/wiki/Ueno_Park"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 34968,
+    "n": "34,968",
+    "asof": "2026-10",
+    "pid": "ChIJw2qQRZuOGGARWmROEiM2y7E",
+    "gname": "Ueno Park"
+   }
   },
   {
    "id": "d-ueno-toshogu",
@@ -2894,7 +3478,15 @@
    "src": [
     "https://www.uenotoshogu.com/",
     "https://www.gotokyo.org/jp/spot/399/index.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 4736,
+    "n": "4,736",
+    "asof": "2026-10",
+    "pid": "ChIJP7lRfyiMGGARqb1QQhfm9EQ",
+    "gname": "Ueno Toshogu Shrine"
+   }
   },
   {
    "id": "d-yushima-tenjin",
@@ -2925,7 +3517,15 @@
     "https://www.yushimatenjin.or.jp/pc/index.htm",
     "https://www.city.bunkyo.lg.jp/bunka/kanko/event/matsuri/ume.html",
     "https://ja.wikipedia.org/wiki/湯島天満宮"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 11899,
+    "n": "11,899",
+    "asof": "2026-10",
+    "pid": "ChIJkyl5eSGMGGAR1eFeLND64bo",
+    "gname": "Yushima Tenjin Shrine"
+   }
   },
   {
    "id": "d-shinsuke",
@@ -2963,7 +3563,15 @@
     "https://tabelog.com/tokyo/A1311/A131101/13003607/",
     "https://www.mec-h.com/town/mh-hongo/265",
     "https://www.shinsuketokyo.com/"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 288,
+    "n": "288",
+    "asof": "2026-10",
+    "pid": "ChIJO4CcDCGMGGARwKOwMHYu3mI",
+    "gname": "Shinsuke"
+   }
   },
   {
    "id": "d-kagiya",
@@ -2999,7 +3607,15 @@
    "src": [
     "https://tabelog.com/tokyo/A1311/A131104/13003743/",
     "https://san-tatsu.jp/articles/439489/"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 419,
+    "n": "419",
+    "asof": "2026-10",
+    "pid": "ChIJJ7CyTYSOGGAR5nDtjmd-51c",
+    "gname": "Kagiya"
+   }
   },
   {
    "id": "d-kanda-myojin",
@@ -3028,7 +3644,15 @@
     "https://www.kandamyoujin.or.jp/",
     "https://www.kandamyoujin.or.jp/access/",
     "https://en.wikipedia.org/wiki/Kanda_Shrine"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 26290,
+    "n": "26,290",
+    "asof": "2026-10",
+    "pid": "ChIJ7RsWzB6MGGARi3xBv7bkl_M",
+    "gname": "Kanda Shrine (Kanda Myojin)"
+   }
   },
   {
    "id": "d-kanda-matsuya",
@@ -3061,7 +3685,15 @@
    },
    "src": [
     "https://tabelog.com/tokyo/A1310/A131002/13000340/"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 3857,
+    "n": "3,857",
+    "asof": "2026-10",
+    "pid": "ChIJQ3MESwOMGGARX99d47o0V6k",
+    "gname": "Kanda Matsuya"
+   }
   },
   {
    "id": "d-kagurazaka-alleys",
@@ -3099,7 +3731,15 @@
    "src": [
     "https://tabi-mag.jp/tk0142",
     "https://tabi-mag.jp/tk1718/"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 114,
+    "n": "114",
+    "asof": "2026-10",
+    "pid": "ChIJXRSCiFqMGGARWo3VQL4Ge0k",
+    "gname": "Hyogo Yokocho Alley"
+   }
   },
   {
    "id": "d-akagi-jinja",
@@ -3127,7 +3767,15 @@
    "src": [
     "https://www.akagi-jinja.jp/",
     "https://ja.wikipedia.org/wiki/赤城神社_(新宿区)"
-   ]
+   ],
+   "gm": {
+    "r": 4.1,
+    "c": 3467,
+    "n": "3,467",
+    "asof": "2026-10",
+    "pid": "ChIJgeazv1aMGGARQh5cREuvLjI",
+    "gname": "Akagi Shrine"
+   }
   },
   {
    "id": "d-kamome-books",
@@ -3155,7 +3803,15 @@
    "day": null,
    "src": [
     "https://kamomebooks.jp/"
-   ]
+   ],
+   "gm": {
+    "r": 4.2,
+    "c": 425,
+    "n": "425",
+    "asof": "2026-10",
+    "pid": "ChIJ__9zbFaMGGAR8j9q9zUdZlE",
+    "gname": "Kamome Books"
+   }
   },
   {
    "id": "d-shibamata-taishakuten",
@@ -3188,7 +3844,15 @@
     "https://rurubu.jp/andmore/spot/80012271",
     "https://www.gotokyo.org/jp/spot/11/",
     "https://www.keisei.co.jp/keisei/short_trip/area/shibamata_yagiri.php"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 9040,
+    "n": "9,040",
+    "asof": "2026-10",
+    "pid": "ChIJc9SsLaOFGGARl68K2sCQClU",
+    "gname": "Shibamata Taishakuten"
+   }
   },
   {
    "id": "d-tnm",
@@ -3230,7 +3894,15 @@
    "src": [
     "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
     "https://www.tnm.jp/"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 31527,
+    "n": "31,527",
+    "asof": "2026-10",
+    "pid": "ChIJEX3XFIOOGGAR3XdJvRjWLyM",
+    "gname": "Tokyo National Museum"
+   }
   },
   {
    "id": "d-nmwa",
@@ -3263,7 +3935,15 @@
     "https://www.museum.or.jp/museum/2267",
     "https://www.tokyoartbeat.com/articles/-/national-museum-admission-news-202609",
     "https://kumanichi.com/articles/2037397"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 12275,
+    "n": "12,275",
+    "asof": "2026-10",
+    "pid": "ChIJf8xB-pyOGGARizzhlNTcI7s",
+    "gname": "The National Museum of Western Art"
+   }
   },
   {
    "id": "d-mot",
@@ -3294,7 +3974,15 @@
    "src": [
     "https://www.museum.or.jp/museum/2488",
     "https://www.gotokyo.org/jp/spot/141/index.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 4411,
+    "n": "4,411",
+    "asof": "2026-10",
+    "pid": "ChIJq6rq_BuJGGARh1qAooLX-as",
+    "gname": "Museum of Contemporary Art Tokyo"
+   }
   },
   {
    "id": "d-mori-art-museum",
@@ -3329,7 +4017,15 @@
     "https://www.museum.or.jp/schedule/2026/area_tokyo23west",
     "https://www.fashionsnap.com/article/2025-08-11/mariko-mori/",
     "https://www.timeout.jp/tokyo/ja/news/mori-art-museum-temporary-closure-2027-082826"
-   ]
+   ],
+   "gm": {
+    "r": 4.3,
+    "c": 7495,
+    "n": "7,495",
+    "asof": "2026-10",
+    "pid": "ChIJg5RCD3eLGGAR6dbIHRM98w8",
+    "gname": "Mori Art Museum"
+   }
   },
   {
    "id": "d-2121-design-sight",
@@ -3359,7 +4055,15 @@
    "day": null,
    "src": [
     "https://www.2121designsight.jp/"
-   ]
+   ],
+   "gm": {
+    "r": 4.4,
+    "c": 3153,
+    "n": "3,153",
+    "asof": "2026-10",
+    "pid": "ChIJV4H0Nn-LGGAR2g7_9Kourf4",
+    "gname": "21_21 Design Sight"
+   }
   },
   {
    "id": "d-teamlab-borderless",
@@ -3393,7 +4097,15 @@
    "src": [
     "https://www.gotokyo.org/jp/spot/1742/index.html",
     "https://www.walkerplus.com/spot/ar0313s491843/price.html"
-   ]
+   ],
+   "gm": {
+    "r": 4.6,
+    "c": 30455,
+    "n": "30,455",
+    "asof": "2026-10",
+    "pid": "ChIJQ5Sa1PqJGGARUSaNKKOrMVg",
+    "gname": "teamLab Borderless"
+   }
   },
   {
    "id": "d-teamlab-planets",
@@ -3425,7 +4137,15 @@
    "day": null,
    "src": [
     "https://www.teamlab.art/e/planets/"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 57020,
+    "n": "57,020",
+    "asof": "2026-10",
+    "pid": "ChIJSeco5wiJGGARItbTS8lQ5G0",
+    "gname": "teamLab Planets TOKYO DMM"
+   }
   },
   {
    "id": "d-ghibli-museum",
@@ -3460,7 +4180,15 @@
     "https://l-tike.com/ghibli/",
     "https://l-tike.com/ghibli/info.html",
     "https://www.ghibli-museum.jp/en/tickets/"
-   ]
+   ],
+   "gm": {
+    "r": 4.5,
+    "c": 20120,
+    "n": "20,120",
+    "asof": "2026-10",
+    "pid": "ChIJLYwD5TTuGGARBZKEP5BV4U0",
+    "gname": "Ghibli Museum"
+   }
   },
   {
    "id": "e-wb-studio-tour-tokyo",
@@ -3524,7 +4252,15 @@
     "https://www.travelphotolover.com/entry/harry-potter-studio-tour-tokyo",
     "https://www.kkday.com/ja/blog/56029/asia-japan-tokyo-warnerbrosstudiotour"
    ],
-   "theme": true
+   "theme": true,
+   "gm": {
+    "r": 4.7,
+    "c": 18799,
+    "n": "18,799",
+    "asof": "2026-10",
+    "pid": "ChIJZzjXkvLtGGARm2YFfi26zoU",
+    "gname": "Warner Bros. Studio Tour Tokyo"
+   }
   },
   {
    "id": "e-tokyo-disneyland",
@@ -3581,7 +4317,15 @@
     "https://japlanease.com/buying-tokyo-disney-tickets-tips/",
     "https://tdrexplorer.com/tokyo-disneyland-tickets/"
    ],
-   "theme": true
+   "theme": true,
+   "gm": {
+    "r": 4.6,
+    "c": 126674,
+    "n": "126,674",
+    "asof": "2026-10",
+    "pid": "ChIJszdHEQN9GGARy9MJ1TY22eQ",
+    "gname": "Tokyo Disneyland"
+   }
   },
   {
    "id": "e-tokyo-disneysea",
@@ -3635,7 +4379,15 @@
     "https://travel.watch.impress.co.jp/docs/news/2129397.html",
     "https://financial-field.com/living/entry-519603"
    ],
-   "theme": true
+   "theme": true,
+   "gm": {
+    "r": 4.5,
+    "c": 109940,
+    "n": "109,940",
+    "asof": "2026-10",
+    "pid": "ChIJszdHEQN9GGARJS23SnAdR0E",
+    "gname": "Tokyo DisneySea"
+   }
   },
   {
    "id": "f-apa-shinagawa-togoshi",

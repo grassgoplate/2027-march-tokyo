@@ -1,0 +1,650 @@
+{
+ "a-togoshi-ginza": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/9/99/Togoshi-ginza_street.JPG",
+  "w": 960,
+  "h": 1205,
+  "lic": "CC BY-SA 3.0",
+  "art": "パリカール (ja.wikipedia)",
+  "file": "Togoshi-ginza_street.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Togoshi-ginza_street.JPG"
+ },
+ "a-togoshi-hachiman": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Togoshi_hachiman_jinja_shrine_2026_Sept_2_various_6.jpg/960px-Togoshi_hachiman_jinja_shrine_2026_Sept_2_various_6.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY 4.0",
+  "art": "Nesnad",
+  "file": "Togoshi_hachiman_jinja_shrine_2026_Sept_2_various_6.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Togoshi_hachiman_jinja_shrine_2026_Sept_2_various_6.jpg"
+ },
+ "a-togoshi-park": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Togoshi_Park_-_Tokyo_-_2026_Sept_2_various_01.jpg/960px-Togoshi_Park_-_Tokyo_-_2026_Sept_2_various_01.jpg",
+  "w": 960,
+  "h": 755,
+  "lic": "CC BY 4.0",
+  "art": "Nesnad",
+  "file": "Togoshi_Park_-_Tokyo_-_2026_Sept_2_various_01.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Togoshi_Park_-_Tokyo_-_2026_Sept_2_various_01.jpg"
+ },
+ "a-hebikubo-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hebikubojinja_shrine_001.jpg/960px-Hebikubojinja_shrine_001.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 4.0",
+  "art": "東京特許許可局",
+  "file": "Hebikubojinja_shrine_001.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Hebikubojinja_shrine_001.jpg"
+ },
+ "a-musashikoyama-palm": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG/960px-Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG",
+  "w": 960,
+  "h": 1280,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kentin",
+  "file": "Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG"
+ },
+ "a-shinagawa-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Shinagawajinja_syaden.jpg/960px-Shinagawajinja_syaden.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 4.0",
+  "art": "見 Commons 頁面",
+  "file": "Shinagawajinja_syaden.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shinagawajinja_syaden.jpg"
+ },
+ "a-sengakuji": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sengakuji_201904d2.jpg/960px-Sengakuji_201904d2.jpg",
+  "w": 960,
+  "h": 625,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "Sengakuji_201904d2.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Sengakuji_201904d2.jpg"
+ },
+ "a-meguro-river-sakura": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Meguro_Meguro_River_Cherry_Trees_1.JPG/960px-Meguro_Meguro_River_Cherry_Trees_1.JPG",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 3.0",
+  "art": "京浜にけ",
+  "file": "Meguro_Meguro_River_Cherry_Trees_1.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Meguro_Meguro_River_Cherry_Trees_1.JPG",
+  "cap": "櫻花滿開時的樣子；3/17～21 多半還沒開"
+ },
+ "a-kyu-asakura-house": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Asakura-ke2a.jpg",
+  "w": 960,
+  "h": 717,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "Asakura-ke2a.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Asakura-ke2a.jpg"
+ },
+ "b-shimbashi-ekimae-bldg": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shimbashi-Ekimae-Building-1.jpg/960px-Shimbashi-Ekimae-Building-1.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 4.0",
+  "art": "MaedaAkihiko",
+  "file": "Shimbashi-Ekimae-Building-1.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shimbashi-Ekimae-Building-1.jpg",
+  "cap": "新橋站前大樓外觀"
+ },
+ "b-karasumori-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Karasumori-jinja1.jpg/960px-Karasumori-jinja1.jpg",
+  "w": 960,
+  "h": 1280,
+  "lic": "CC BY-SA 3.0",
+  "art": "KENPEI",
+  "file": "Karasumori-jinja1.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Karasumori-jinja1.jpg"
+ },
+ "b-ginza-itoya": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Itoya_ginza.jpg/960px-Itoya_ginza.jpg",
+  "w": 960,
+  "h": 1269,
+  "lic": "CC BY-SA 4.0",
+  "art": "Beryllium Transistor",
+  "file": "Itoya_ginza.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Itoya_ginza.jpg"
+ },
+ "b-nihonbashi-bridge": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nihonbashi_12.jpg/960px-Nihonbashi_12.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 3.0",
+  "art": "Aimaimyi",
+  "file": "Nihonbashi_12.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Nihonbashi_12.jpg"
+ },
+ "b-fukutoku-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/%E7%A6%8F%E5%BE%B3%E7%A5%9E%E7%A4%BE.jpg/960px-%E7%A6%8F%E5%BE%B3%E7%A5%9E%E7%A4%BE.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 4.0",
+  "art": "Indiana jo",
+  "file": "福徳神社.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%BE%B3%E7%A5%9E%E7%A4%BE.jpg"
+ },
+ "b-suitengu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tokyo_Suitengu_201604a.jpg/960px-Tokyo_Suitengu_201604a.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 3.0",
+  "art": "tak1701d",
+  "file": "Tokyo_Suitengu_201604a.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_Suitengu_201604a.jpg"
+ },
+ "b-sensoji": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Asakusa_Senso-ji_2021-12_ac_%282%29.jpg/960px-Asakusa_Senso-ji_2021-12_ac_%282%29.jpg",
+  "w": 960,
+  "h": 638,
+  "lic": "CC BY-SA 4.0",
+  "art": "Asturio Cantabrio",
+  "file": "Asakusa_Senso-ji_2021-12_ac_(2).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Asakusa_Senso-ji_2021-12_ac_%282%29.jpg"
+ },
+ "b-asakusa-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Asakusa_shrine_2012.JPG/960px-Asakusa_shrine_2012.JPG",
+  "w": 960,
+  "h": 603,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kakidai",
+  "file": "Asakusa_shrine_2012.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Asakusa_shrine_2012.JPG"
+ },
+ "b-kappabashi": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg/960px-Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg",
+  "w": 960,
+  "h": 764,
+  "lic": "CC BY-SA 4.0",
+  "art": "Basile Morin",
+  "file": "Kappabashi-dori_streetcorner_(Kitchen_town_-_southern_end)_a_sunny_morning_in_Tokyo_Japan.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg"
+ },
+ "b-ushijima-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ushijima_Jinjya-1.jpg/960px-Ushijima_Jinjya-1.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "Ushijima_Jinjya-1.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Ushijima_Jinjya-1.jpg"
+ },
+ "b-tokyo-skytree": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/960px-Tokyo_Skytree_2014_%E2%85%A2.jpg",
+  "w": 960,
+  "h": 1471,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kakidai",
+  "file": "Tokyo_Skytree_2014_Ⅲ.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg"
+ },
+ "c-meiji-jingu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Courtyard_of_Meiji_Shrine_20190717.jpg/960px-Courtyard_of_Meiji_Shrine_20190717.jpg",
+  "w": 960,
+  "h": 641,
+  "lic": "CC BY-SA 4.0",
+  "art": "Tokuzo in Edomura",
+  "file": "Courtyard_of_Meiji_Shrine_20190717.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Courtyard_of_Meiji_Shrine_20190717.jpg"
+ },
+ "c-konno-hachimangu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Konno-hachimangu%2C_keidai.jpg/960px-Konno-hachimangu%2C_keidai.jpg",
+  "w": 960,
+  "h": 639,
+  "lic": "CC0",
+  "art": "Saigen Jiro",
+  "file": "Konno-hachimangu,_keidai.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Konno-hachimangu%2C_keidai.jpg"
+ },
+ "c-hanazono-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/2025_Hanazono-jinja.jpg/960px-2025_Hanazono-jinja.jpg",
+  "w": 960,
+  "h": 592,
+  "lic": "CC BY-SA 4.0",
+  "art": "Kakidai",
+  "file": "2025_Hanazono-jinja.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:2025_Hanazono-jinja.jpg"
+ },
+ "c-shinjuku-gyoen": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG/960px-Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG",
+  "w": 960,
+  "h": 626,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kakidai",
+  "file": "Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG",
+  "cap": "櫻花滿開時的樣子；3/17～21 多半還沒開"
+ },
+ "c-nezu-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/2018_Nezu_Museum_1.jpg/960px-2018_Nezu_Museum_1.jpg",
+  "w": 960,
+  "h": 628,
+  "lic": "CC BY-SA 4.0",
+  "art": "Kakidai",
+  "file": "2018_Nezu_Museum_1.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:2018_Nezu_Museum_1.jpg"
+ },
+ "c-on-sundays": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Watarium.jpg/960px-Watarium.jpg",
+  "w": 960,
+  "h": 1200,
+  "lic": "CC BY-SA 3.0",
+  "art": "Wiiii",
+  "file": "Watarium.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Watarium.jpg",
+  "cap": "Watari-um 美術館外觀（ON SUNDAYS 在館內）"
+ },
+ "c-spiral-market": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Spiral_Building.jpg/960px-Spiral_Building.jpg",
+  "w": 960,
+  "h": 1200,
+  "lic": "CC BY-SA 3.0",
+  "art": "Wiiii",
+  "file": "Spiral_Building.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Spiral_Building.jpg",
+  "cap": "Spiral 大樓外觀（市集在 2 樓）"
+ },
+ "c-meikyoku-lion": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E7%9C%8B%E6%9D%BF_-_B4nc1-3io4h.jpg/960px-%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E7%9C%8B%E6%9D%BF_-_B4nc1-3io4h.jpg",
+  "w": 960,
+  "h": 1280,
+  "lic": "CC BY-SA 4.0",
+  "art": "Eugene Ormandy",
+  "file": "名曲喫茶ライオンの看板_-_B4nc1-3io4h.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E7%9C%8B%E6%9D%BF_-_B4nc1-3io4h.jpg",
+  "cap": "名曲喫茶 Lion 的招牌"
+ },
+ "c-shimokita-furugi": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Shimokitazawa_Street_2015.jpg/960px-Shimokitazawa_Street_2015.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 4.0",
+  "art": "Aw1805",
+  "file": "Shimokitazawa_Street_2015.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shimokitazawa_Street_2015.jpg",
+  "cap": "下北澤街景"
+ },
+ "c-omoide-yokocho": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku-West_Omoide-Yokocho.jpg/960px-Shinjuku-West_Omoide-Yokocho.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 4.0",
+  "art": "MaedaAkihiko",
+  "file": "Shinjuku-West_Omoide-Yokocho.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shinjuku-West_Omoide-Yokocho.jpg"
+ },
+ "c-golden-gai": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/G2_Street_20090626_2.jpg/960px-G2_Street_20090626_2.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY 2.0",
+  "art": "urbz",
+  "file": "G2_Street_20090626_2.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:G2_Street_20090626_2.jpg"
+ },
+ "d-yanaka-ginza": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg/960px-Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg",
+  "w": 960,
+  "h": 1440,
+  "lic": "CC0",
+  "art": "SuFlyer",
+  "file": "Yanaka_Ginza_Street_from_Yuyake_Dandan_(Oct_2024).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg"
+ },
+ "d-yuyake-dandan": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg/960px-Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg",
+  "w": 960,
+  "h": 1440,
+  "lic": "CC0",
+  "art": "SuFlyer",
+  "file": "Yanaka_Ginza_Street_from_Yuyake_Dandan_(Oct_2024).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Yanaka_Ginza_Street_from_Yuyake_Dandan_%28Oct_2024%29.jpg",
+  "cap": "從夕燒階梯往下看谷中銀座"
+ },
+ "d-nezu-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Nezu_Shrine_2010.jpg/960px-Nezu_Shrine_2010.jpg",
+  "w": 960,
+  "h": 692,
+  "lic": "CC BY-SA 3.0",
+  "art": "Wiiii",
+  "file": "Nezu_Shrine_2010.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Nezu_Shrine_2010.jpg"
+ },
+ "d-yanaka-reien": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Yanaka_cemetery.jpg/960px-Yanaka_cemetery.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 3.0",
+  "art": "Multa",
+  "file": "Yanaka_cemetery.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Yanaka_cemetery.jpg",
+  "cap": "櫻花季的樣子；3/17～21 多半還沒開"
+ },
+ "d-asakura-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ASAKURA_Museum_of_Sculpture_2020-01-12.jpg/960px-ASAKURA_Museum_of_Sculpture_2020-01-12.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC0",
+  "art": "Asanagi",
+  "file": "ASAKURA_Museum_of_Sculpture_2020-01-12.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:ASAKURA_Museum_of_Sculpture_2020-01-12.jpg"
+ },
+ "d-isetatsu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Isetatsu01.jpg/960px-Isetatsu01.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC0",
+  "art": "Higa4",
+  "file": "Isetatsu01.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Isetatsu01.jpg"
+ },
+ "d-ueno-toshogu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ueno_T%C5%8Dsh%C5%8D-g%C5%AB_DSC02777.JPG/960px-Ueno_T%C5%8Dsh%C5%8D-g%C5%AB_DSC02777.JPG",
+  "w": 960,
+  "h": 638,
+  "lic": "CC BY-SA 3.0",
+  "art": "Unkei6hokusai4",
+  "file": "Ueno_Tōshō-gū_DSC02777.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Ueno_T%C5%8Dsh%C5%8D-g%C5%AB_DSC02777.JPG"
+ },
+ "d-yushima-tenjin": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%E6%B9%AF%E5%B3%B6%E5%A4%A9%E6%BA%80%E5%AE%AE_%E6%8B%9D%E6%AE%BF.JPG/960px-%E6%B9%AF%E5%B3%B6%E5%A4%A9%E6%BA%80%E5%AE%AE_%E6%8B%9D%E6%AE%BF.JPG",
+  "w": 960,
+  "h": 720,
+  "lic": "Public domain",
+  "art": "Saigen Jiro",
+  "file": "湯島天満宮_拝殿.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E6%B9%AF%E5%B3%B6%E5%A4%A9%E6%BA%80%E5%AE%AE_%E6%8B%9D%E6%AE%BF.JPG"
+ },
+ "d-kanda-myojin": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Kanda-Myojin_2012.JPG/960px-Kanda-Myojin_2012.JPG",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kakidai",
+  "file": "Kanda-Myojin_2012.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kanda-Myojin_2012.JPG"
+ },
+ "d-kanda-matsuya": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kanda_Matsuya1.JPG/960px-Kanda_Matsuya1.JPG",
+  "w": 960,
+  "h": 1280,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "Kanda_Matsuya1.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kanda_Matsuya1.JPG"
+ },
+ "d-kagurazaka-alleys": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Kagurazaka-1.jpg/960px-Kagurazaka-1.jpg",
+  "w": 960,
+  "h": 717,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "Kagurazaka-1.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kagurazaka-1.jpg"
+ },
+ "d-akagi-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Akagi_jinja_Tokyo.jpg/960px-Akagi_jinja_Tokyo.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY 2.0",
+  "art": "Guilhem Vellut",
+  "file": "Akagi_jinja_Tokyo.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Akagi_jinja_Tokyo.jpg"
+ },
+ "d-shibamata-taishakuten": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg/960px-Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY 4.0",
+  "art": "Nesnad",
+  "file": "Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg"
+ },
+ "d-tnm": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tokyo_National_Museum%2C_Honkan_2010.jpg/960px-Tokyo_National_Museum%2C_Honkan_2010.jpg",
+  "w": 960,
+  "h": 637,
+  "lic": "CC BY-SA 3.0",
+  "art": "Wiiii",
+  "file": "Tokyo_National_Museum,_Honkan_2010.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum%2C_Honkan_2010.jpg"
+ },
+ "d-nmwa": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/National_museum_of_western_art05s3200.jpg/960px-National_museum_of_western_art05s3200.jpg",
+  "w": 960,
+  "h": 643,
+  "lic": "CC BY-SA 4.0",
+  "art": "663highland",
+  "file": "National_museum_of_western_art05s3200.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:National_museum_of_western_art05s3200.jpg"
+ },
+ "d-mot": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Museum_of_Contemporary_Art_Tokyo%2Centrance.jpg/960px-Museum_of_Contemporary_Art_Tokyo%2Centrance.jpg",
+  "w": 960,
+  "h": 531,
+  "lic": "CC BY 4.0",
+  "art": "Souka Kinmei",
+  "file": "Museum_of_Contemporary_Art_Tokyo,entrance.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Museum_of_Contemporary_Art_Tokyo%2Centrance.jpg"
+ },
+ "d-mori-art-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Mori_Art_Museum_Entrance_2013.jpg/960px-Mori_Art_Museum_Entrance_2013.jpg",
+  "w": 960,
+  "h": 716,
+  "lic": "CC BY 3.0",
+  "art": "Wing1990hk",
+  "file": "Mori_Art_Museum_Entrance_2013.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Mori_Art_Museum_Entrance_2013.jpg"
+ },
+ "d-2121-design-sight": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/21_21_DESIGN_SIGHT.jpg/960px-21_21_DESIGN_SIGHT.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 3.0",
+  "art": "Wiiii",
+  "file": "21_21_DESIGN_SIGHT.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:21_21_DESIGN_SIGHT.jpg"
+ },
+ "d-ghibli-museum": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/%E4%B8%89%E9%B7%B9%E4%B9%8B%E6%A3%AE%E5%90%89%E5%8D%9C%E5%8A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8_%2816202559242%29.jpg/960px-%E4%B8%89%E9%B7%B9%E4%B9%8B%E6%A3%AE%E5%90%89%E5%8D%9C%E5%8A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8_%2816202559242%29.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 2.0",
+  "art": "Wei-Te Wong",
+  "file": "三鷹之森吉卜力美術館_(16202559242).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E9%B7%B9%E4%B9%8B%E6%A3%AE%E5%90%89%E5%8D%9C%E5%8A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8_%2816202559242%29.jpg"
+ },
+ "a-miyamae-bunko": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%E6%97%A7%E4%B8%89%E4%BA%95%E6%96%87%E5%BA%AB%E7%AC%AC%E4%BA%8C%E6%9B%B8%E5%BA%AB_%E6%96%87%E5%BA%AB%E3%81%AE%E6%A3%AE_%E5%93%81%E5%B7%9D%E5%8C%BA_2025%E5%B9%B46%E6%9C%88.jpg/960px-%E6%97%A7%E4%B8%89%E4%BA%95%E6%96%87%E5%BA%AB%E7%AC%AC%E4%BA%8C%E6%9B%B8%E5%BA%AB_%E6%96%87%E5%BA%AB%E3%81%AE%E6%A3%AE_%E5%93%81%E5%B7%9D%E5%8C%BA_2025%E5%B9%B46%E6%9C%88.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC0",
+  "art": "Zakinco",
+  "file": "旧三井文庫第二書庫_文庫の森_品川区_2025年6月.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E6%97%A7%E4%B8%89%E4%BA%95%E6%96%87%E5%BA%AB%E7%AC%AC%E4%BA%8C%E6%9B%B8%E5%BA%AB_%E6%96%87%E5%BA%AB%E3%81%AE%E6%A3%AE_%E5%93%81%E5%B7%9D%E5%8C%BA_2025%E5%B9%B46%E6%9C%88.jpg",
+  "cap": "文庫之森裡的舊三井文庫書庫"
+ },
+ "a-nakanobu-skip-road": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Nakanobu_skip_road_shinagawa.JPG/960px-Nakanobu_skip_road_shinagawa.JPG",
+  "w": 960,
+  "h": 1280,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kentin",
+  "file": "Nakanobu_skip_road_shinagawa.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Nakanobu_skip_road_shinagawa.JPG"
+ },
+ "a-meguro-fudo": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Ry%C5%ABsen-ji_60.jpg/960px-Ry%C5%ABsen-ji_60.jpg",
+  "w": 960,
+  "h": 723,
+  "lic": "CC0",
+  "art": "Syced",
+  "file": "Ryūsen-ji_60.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Ry%C5%ABsen-ji_60.jpg"
+ },
+ "a-kyu-tokaido-shinagawa": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Slope_at_kyu-tokaido_kitashinagawa.JPG/960px-Slope_at_kyu-tokaido_kitashinagawa.JPG",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 3.0",
+  "art": "Kamemaru2000",
+  "file": "Slope_at_kyu-tokaido_kitashinagawa.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Slope_at_kyu-tokaido_kitashinagawa.JPG",
+  "cap": "北品川的舊東海道坡道"
+ },
+ "a-daikanyama-tsutaya": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Daikanyama_T-SITE_2016-04-04.jpg/960px-Daikanyama_T-SITE_2016-04-04.jpg",
+  "w": 960,
+  "h": 651,
+  "lic": "CC BY-SA 2.0",
+  "art": "Jonathan Lin",
+  "file": "Daikanyama_T-SITE_2016-04-04.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Daikanyama_T-SITE_2016-04-04.jpg"
+ },
+ "a-muji-atre-oimachi": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Oimachi-STA_atre.jpg/960px-Oimachi-STA_atre.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 4.0",
+  "art": "MaedaAkihiko",
+  "file": "Oimachi-STA_atre.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Oimachi-STA_atre.jpg",
+  "cap": "atre 大井町（無印良品在館內）"
+ },
+ "b-akitaya-daimon": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Akitaya_%2851426578736%29.jpg/960px-Akitaya_%2851426578736%29.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY 2.0",
+  "art": "lazy fri13th",
+  "file": "Akitaya_(51426578736).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Akitaya_%2851426578736%29.jpg",
+  "cap": "秋田屋的招牌"
+ },
+ "b-amazake-yokocho": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taiyaki_yanagiya_ningyocho_2014.jpg/960px-Taiyaki_yanagiya_ningyocho_2014.jpg",
+  "w": 960,
+  "h": 1110,
+  "lic": "CC BY-SA 4.0",
+  "art": "Kentin",
+  "file": "Taiyaki_yanagiya_ningyocho_2014.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Taiyaki_yanagiya_ningyocho_2014.jpg",
+  "cap": "甘酒橫丁上的鯛魚燒老店「柳屋」"
+ },
+ "b-kakimori": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kakimori_kuramae.jpg/960px-Kakimori_kuramae.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 4.0",
+  "art": "コヨミヤ",
+  "file": "Kakimori_kuramae.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kakimori_kuramae.jpg"
+ },
+ "c-togo-jinja": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Togo-Shrine-Harajuku-04.jpg/960px-Togo-Shrine-Harajuku-04.jpg",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 3.0",
+  "art": "Rs1421",
+  "file": "Togo-Shrine-Harajuku-04.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Togo-Shrine-Harajuku-04.jpg"
+ },
+ "c-nonbei-yokocho": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg/960px-Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg",
+  "w": 960,
+  "h": 1440,
+  "lic": "CC BY 2.0",
+  "art": "Dick Thomas Johnson",
+  "file": "Shibuya_Nonbei_Yokocho_(53085175407).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg"
+ },
+ "c-reload": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8Creload%EF%BC%88%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89%E3%80%8D.jpg/960px-%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8Creload%EF%BC%88%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89%E3%80%8D.jpg",
+  "w": 960,
+  "h": 539,
+  "lic": "CC0",
+  "art": "Souka Kinmei",
+  "file": "商業施設「reload（リロード）」.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8Creload%EF%BC%88%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89%EF%BC%89%E3%80%8D.jpg"
+ },
+ "d-scai-the-bathhouse": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Tokyo_-_Yanaka_064_-_SCAI_The_Bathhouse_%2815187739194%29.jpg/960px-Tokyo_-_Yanaka_064_-_SCAI_The_Bathhouse_%2815187739194%29.jpg",
+  "w": 960,
+  "h": 638,
+  "lic": "CC BY-SA 3.0",
+  "art": "Joe Mabel",
+  "file": "Tokyo_-_Yanaka_064_-_SCAI_The_Bathhouse_(15187739194).jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_-_Yanaka_064_-_SCAI_The_Bathhouse_%2815187739194%29.jpg"
+ },
+ "d-kayaba-coffee": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi%2C_Taito%2C_Tokyo%2C_Japan%2C_2024_May_-_2.jpg/960px-Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi%2C_Taito%2C_Tokyo%2C_Japan%2C_2024_May_-_2.jpg",
+  "w": 960,
+  "h": 664,
+  "lic": "CC BY-SA 4.0",
+  "art": "Ximonic (Simo Räsänen)",
+  "file": "Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi,_Taito,_Tokyo,_Japan,_2024_May_-_2.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi%2C_Taito%2C_Tokyo%2C_Japan%2C_2024_May_-_2.jpg"
+ },
+ "d-ueno-park": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ueno_park_fountain.jpg/960px-Ueno_park_fountain.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC0",
+  "art": "Drivephotographer",
+  "file": "Ueno_park_fountain.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Ueno_park_fountain.jpg",
+  "cap": "上野公園噴水廣場"
+ },
+ "d-teamlab-borderless": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/TeamLab_Borderless_Azabudai_Hills.jpg/960px-TeamLab_Borderless_Azabudai_Hills.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 4.0",
+  "art": "DannyWithLove",
+  "file": "TeamLab_Borderless_Azabudai_Hills.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:TeamLab_Borderless_Azabudai_Hills.jpg",
+  "cap": "teamLab Borderless 館內"
+ },
+ "d-teamlab-planets": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Teamlab_toyosu.jpg/960px-Teamlab_toyosu.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC0",
+  "art": "Syced",
+  "file": "Teamlab_toyosu.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Teamlab_toyosu.jpg"
+ },
+ "e-wb-studio-tour-tokyo": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Warner_Bros_Studio_Tour_Tokyo_2024-11-03.jpg/960px-Warner_Bros_Studio_Tour_Tokyo_2024-11-03.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC0",
+  "art": "Asanagi",
+  "file": "Warner_Bros_Studio_Tour_Tokyo_2024-11-03.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Warner_Bros_Studio_Tour_Tokyo_2024-11-03.jpg"
+ },
+ "e-tokyo-disneyland": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cinderella_Castle_2015.JPG/960px-Cinderella_Castle_2015.JPG",
+  "w": 960,
+  "h": 1577,
+  "lic": "CC BY 2.0",
+  "art": "Matt Chang (flickr mattchang)",
+  "file": "Cinderella_Castle_2015.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle_2015.JPG",
+  "cap": "灰姑娘城堡"
+ },
+ "e-tokyo-disneysea": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tokyo_DisneySea-Volcania.jpg/960px-Tokyo_DisneySea-Volcania.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 2.5",
+  "art": "Okwhatev (en.wikipedia)",
+  "file": "Tokyo_DisneySea-Volcania.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
+  "cap": "普羅米修斯火山"
+ }
+}

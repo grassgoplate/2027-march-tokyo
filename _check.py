@@ -34,6 +34,16 @@ for t in glob.glob('_src/*.html'):
     for m in re.finditer(r'data-keys="([^"]+)"', s):
         for k in m.group(1).split('|'):
             if k not in keys: err.append(f'{t}: facts 找不到「{k}」')
+# 照片：授權白名單、對得到地點；Google 星等合理
+PH = json.load(open('data/photos.json'))
+OKLIC = ('CC0', 'CC BY', 'CC BY-SA', 'Public domain', 'PD')
+for k, v in PH.items():
+    if k not in ids: err.append(f'photos: 找不到地點 {k}')
+    if not v.get('lic', '').startswith(OKLIC): err.append(f'photos {k}: 授權不在白名單 {v.get("lic")}')
+    if not (v.get('art') and v.get('pg') and v.get('u', '').startswith('https://upload.wikimedia.org/')): err.append(f'photos {k}: 缺作者／來源頁／網址')
+for p in P['places']:
+    g = p.get('gm')
+    if g and not (1 <= g['r'] <= 5 and g['c'] >= 1 and g.get('asof') and g.get('pid')): err.append(f"{p['id']}: gm 格式不對")
 # 輸出頁面：站內連結、佔位符、隱私
 pages = {os.path.basename(x) for x in glob.glob('*.html')}
 for h in sorted(pages):
