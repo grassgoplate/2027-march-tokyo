@@ -66,40 +66,81 @@ function initSheet(){
 }
 
 /* ---------- 地點卡片 ---------- */
+// 括號裡的補充（來源、例外）縮小變灰，主資訊比較好讀
+const soft=h=>h.replace(/（([^（）<>]*)）/g,'<span class="aside">（$1）</span>');
+// 可收合的彩色區塊：kind 決定顏色（know 知識・buy 好物・go 交通・src 來源・alt 順路・over 推翻・unv 查不到）
+function fold(kind,icon,title,sub,body){
+  return '<div class="fold f-'+kind+'"><button type="button" class="fold-h" aria-expanded="false" data-fold><span class="fi" aria-hidden="true">'+icon+'</span>'+
+    '<span class="ft"><b>'+title+'</b>'+(sub?'<small>'+sub+'</small>':'')+'</span><span class="fx" aria-hidden="true"></span></button><div class="fold-b" hidden>'+body+'</div></div>';
+}
+function infoBox(p){
+  const rows=[];
+  if(p.hours)rows.push(['🕘','營業',soft(esc(p.hours))]);
+  if(p.closed)rows.push(['💤','公休',soft(esc(p.closed))]);
+  if(p.price)rows.push(['💴','價格',soft(withTwd(p.price))]);
+  if((p.tags||[]).includes('cash-only'))rows.push(['💳','付款','<b>只收現金</b>']);
+  if(!rows.length)return '';
+  return '<dl class="info">'+rows.map(r=>'<div><dt><span aria-hidden="true">'+r[0]+'</span> '+r[1]+'</dt><dd>'+r[2]+'</dd></div>').join('')+'</dl>';
+}
+const ext=(cls,href,main,sub)=>'<a class="bk '+cls+'" href="'+esc(href)+'"'+(href.startsWith('tel:')?'':' target="_blank" rel="noopener"')+'><b>'+main+'</b>'+(sub?'<small>'+sub+'</small>':'')+'</a>';
+function bookBox(p){
+  if(!p.bookable||p.flag==='closed')return '';
+  const stay=p.cat==='stay',q=p.bkq||p.zh||p.name,b=[],notes=[];
+  if(p.url)b.push(ext('bk-off',p.url,'🏛️ 官網',stay?'直接訂房':'直接訂最準'));
+  if(p.tel)b.push(ext('bk-tel','tel:'+p.tel,'📞 打電話',esc(p.tel.replace(/^\+81-/,'0'))));
+  (p.rs||[]).forEach(r=>{
+    if(r==='klook')b.push(ext('bk-klook','https://www.klook.com/zh-TW/search/?query='+encodeURIComponent(q),'Klook','搜尋'));
+    if(r==='kkday')b.push(ext('bk-kkday','https://www.kkday.com/zh-tw/product/productlist?keyword='+encodeURIComponent(q),'KKday','搜尋'));
+  });
+  if(stay&&p.bkq)b.push(ext('bk-booking','https://www.booking.com/searchresults.zh-tw.html?ss='+encodeURIComponent(p.bkq)+'&checkin=2027-03-17&checkout=2027-03-21','Booking.com','搜尋 3/17–21'));
+  if(p.bk)notes.push('📝 '+soft(esc(p.bk)));
+  if(p.bknote)notes.push(esc(p.bknote));
+  if((p.rs||[]).length)notes.push('Klook／KKday 連到的是搜尋結果頁，價格與退改規定各家不同，買之前和官網比一下。');
+  if(stay&&p.bkq)notes.push('Booking.com 預設 3/17 入住、3/21 退房，請改成實際日期；房價依日期變動，先選可免費取消的房型。');
+  if(!b.length&&!p.bk)notes.push('沒有查到線上訂位方式，到現場或請日本朋友幫忙打電話。');
+  // 警告優先：⚠️ 開頭的提醒放在按鈕上面
+  const w=notes.filter(n=>n.startsWith('⚠️')),rest=notes.filter(n=>!n.startsWith('⚠️'));
+  return '<div class="bkbox"><div class="bh">'+(stay?'🛏️ 訂房':'🎟️ 訂位／購票')+'</div>'+w.map(n=>'<p class="bn bw">'+n+'</p>').join('')+(b.length?'<div class="bkbtns">'+b.join('')+'</div>':'')+rest.map(n=>'<p class="bn">'+n+'</p>').join('')+'</div>';
+}
 function card(p){
-  const f=FLAG[p.flag]||FLAG.info, z=p.zone, cat=(P.meta.cats[p.cat]||p.cat);
-  const meta=[];
-  if(p.station)meta.push('<div>🚉 '+esc(p.station)+'</div>');
-  if(p.from_base)meta.push('<div>🏠 從戶越：'+esc(p.from_base)+'</div>');
-  if(p.hours)meta.push('<div><b>營業</b> '+esc(p.hours)+'</div>');
-  if(p.closed)meta.push('<div><b>公休</b> '+esc(p.closed)+'</div>');
-  if(p.price)meta.push('<div><b>價格</b> '+withTwd(p.price)+'</div>');
-  const hasDeep=p.deep&&(p.deep.lead||(p.deep.paras||[]).length);
-  const c=CATS[catOf(p)]||CATS.sight;
+  const f=FLAG[p.flag]||FLAG.info, z=p.zone, c=CATS[catOf(p)]||CATS.sight;
+  const tg=(p.tags||[]).filter(t=>TAGZH[t]&&t!=='cash-only').slice(0,4).map(t=>TAGZH[t]);
+  const folds=[];
+  const d=p.deep;
+  if(d&&(d.lead||(d.paras||[]).length))
+    folds.push(fold('know','💡','知識點',d.lead?esc(d.lead):'',(d.paras||[]).map(x=>'<p>'+rich(x)+'</p>').join('')+((d.tips||[]).length?'<ul class="tips">'+d.tips.map(x=>'<li>'+rich(x)+'</li>').join('')+'</ul>':'')));
+  if((p.buy||[]).length)folds.push(fold('buy','🛍️','推薦好物清單 <span class="cnt">'+p.buy.length+' 項</span>','',
+    '<ul class="buy">'+p.buy.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'));
+  const go=[];
+  if(p.station)go.push('<div><b>🚉 最近車站</b><br>'+soft(esc(p.station))+'</div>');
+  if(p.from_base)go.push('<div><b>🏠 從戶越過去</b><br>'+soft(withTwd(p.from_base))+'</div>');
+  if(p.addr)go.push('<div><b>📮 地址</b><br><span lang="ja">'+esc(p.addr)+'</span></div>');
+  if(p.geo_approx)go.push('<div class="approx">📍 網站地圖上的 pin 是大約位置，導航請用 Google Maps 按鈕。</div>');
+  if(go.length)folds.push(fold('go','🚃','怎麼去',p.station?esc(p.station.replace(/（[^）]*）/g,'')):'',go.join('')));
+  if((p.src||[]).length)folds.push(fold('src','📚','資料來源 <span class="cnt">'+p.src.length+'</span>','','<ol class="srcs">'+p.src.map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a></li>').join('')+'</ol>'));
   return '<article class="pc'+(p.flag==='closed'?' closed':'')+'" id="p-'+esc(p.id)+'" style="--zc:'+ZC[z]+';--cc:'+c[2]+'" data-id="'+esc(p.id)+'">'+
    photo(p)+'<div class="in">'+
-   '<div class="hdr"><span class="cdot" aria-hidden="true"></span><div class="t"><h3>'+esc(p.zh||p.name)+'</h3><div class="jp">'+esc(p.name)+'</div></div><span class="badge '+f[0]+'">'+f[1]+'</span></div>'+
-   '<div class="tags" style="gap:6px"><span class="badge b-cat2">'+c[0]+' '+esc(c[1])+'</span><span class="badge b-zone">'+esc(P.meta.zones[z]||z)+'</span><span class="badge b-cat">'+esc(p.town||'')+'</span>'+(p.day?'<span class="badge b-day">🗓 '+dayLabel(p.day)+'</span>':'')+(p.bookable?'<span class="badge b-info">🎟 需預約／購票</span>':'')+'</div>'+
+   '<div class="hdr"><span class="cdot" aria-hidden="true"></span><div class="t"><h3>'+esc(p.zh||p.name)+'</h3><div class="jp" lang="ja">'+esc(p.name)+'</div>'+(tg.length?'<div class="tg">🏷️ '+tg.join('、')+'</div>':'')+'</div><span class="badge '+f[0]+'">'+f[1]+'</span></div>'+
+   '<div class="tags"><span class="badge b-cat2">'+c[0]+' '+esc(c[1])+'</span><span class="badge b-zone">'+esc(P.meta.zones[z]||z)+'</span><span class="badge b-cat">📍 '+esc(p.town||'')+'</span>'+(p.day?'<span class="badge b-day">🗓️ '+dayLabel(p.day)+'</span>':'')+(p.bookable?'<span class="badge b-info">🎟️ 需預約</span>':'')+'</div>'+
    ratingRows(p)+
    (p.warn?'<div class="warnline">'+p.warn.split('\n').map(rich).join('<br>')+'</div>':'')+
    '<p class="note">'+rich(p.note||'')+'</p>'+
-   '<div class="meta">'+meta.join('')+'</div>'+
-   (p.bk?'<div class="meta"><div><b>預約</b> '+esc(p.bk)+'</div></div>':'')+
-   ((p.tags||[]).length?'<div class="tags">'+p.tags.filter(t=>TAGZH[t]).map(t=>'<span>'+TAGZH[t]+'</span>').join('')+'</div>':'')+
-   (p.geo_approx?'<div class="approx">📍 地圖上是大約位置（'+esc(p.geo_src||'')+'），導航請用 Google 地圖按鈕</div>':'')+
+   infoBox(p)+
+   (folds.length?'<div class="folds">'+folds.join('')+'</div>':'')+
+   '<div class="cta">'+bookBox(p)+
    '<div class="acts">'+
      '<button class="ab ab-map" type="button" data-act="locate">🗺️ 在地圖上</button>'+
      '<a class="ab ab-gm" href="'+gmaps(p)+'" target="_blank" rel="noopener">📍 Google Maps</a>'+
-     (p.url?'<a class="ab ab-web" href="'+esc(p.url)+'" target="_blank" rel="noopener">🏛️ 官網</a>':'')+
-     (hasDeep?'<button class="ab ab-deep" type="button" data-act="deep" aria-expanded="false">📖 深入了解 ▾</button>':'')+
-     ((p.buy||[]).length?'<button class="ab ab-buy" type="button" data-act="buy" aria-expanded="false">🛒 購物清單 ▾</button>':'')+
-     ((p.src||[]).length?'<button class="ab ab-src" type="button" data-act="src" aria-expanded="false">📚 來源（'+p.src.length+'）▾</button>':'')+
-   '</div>'+
-   (hasDeep?'<div class="deep" data-part="deep" hidden>'+(p.deep.lead?'<p><b>'+esc(p.deep.lead)+'</b></p>':'')+(p.deep.paras||[]).map(x=>'<p>'+rich(x)+'</p>').join('')+((p.deep.tips||[]).length?'<ul>'+p.deep.tips.map(x=>'<li>'+rich(x)+'</li>').join('')+'</ul>':'')+'</div>':'')+
-   ((p.buy||[]).length?'<div class="deep" data-part="buy" hidden><ul>'+p.buy.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>':'')+
-   ((p.src||[]).length?'<div class="deep srcs" data-part="src" hidden><ol>'+p.src.map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a></li>').join('')+'</ol></div>':'')+
+     (p.url&&!(p.bookable&&p.flag!=='closed')?'<a class="ab ab-web" href="'+esc(p.url)+'" target="_blank" rel="noopener">🏛️ 官網</a>':'')+
+   '</div></div>'+
    '</div></article>';
 }
+// 所有可收合區塊共用（卡片、行程、查證區）
+document.addEventListener('click',e=>{
+  const h=e.target.closest('[data-fold]');if(!h)return;
+  const b=h.nextElementSibling,open=h.getAttribute('aria-expanded')!=='true';
+  h.setAttribute('aria-expanded',open);b.hidden=!open;
+});
 
 /* ---------- 地點瀏覽器（篩選＋清單＋地圖） ---------- */
 function Browser(root){
@@ -216,7 +257,6 @@ function Browser(root){
     const c=t.closest('.pc');if(!c)return;
     const act=t.dataset.act;
     if(act==='locate'){setView('map');const m=markers[c.dataset.id];if(m){map.setView(m.getLatLng(),15);m.openPopup();if(!body.classList.contains('split'))mapEl.scrollIntoView({behavior:'smooth',block:'center'});}return;}
-    if(act){const part=$('[data-part='+act+']',c);const open=part.hidden;part.hidden=!open;t.setAttribute('aria-expanded',open);t.textContent=t.textContent.replace(open?'▾':'▴',open?'▴':'▾');}
   });
   const si=$('.tk-search',root);if(si){let tm;si.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>{st.q=si.value.trim();st.shown=24;render();},150)});}
   if(st.day)$$('[data-day]',root).forEach(b=>b.setAttribute('aria-pressed',(+b.dataset.day||null)===st.day));
@@ -240,7 +280,7 @@ function renderItinerary(root){
       r.options.map(o=>'<div class="opt'+(o.rec?' rec':'')+'"><h3><span class="lab">'+esc(o.label)+'</span>'+esc(o.name)+(o.rec?'<span class="badge b-ok">建議</span>':'')+'</h3>'+
         '<div class="small" style="margin:4px 0">'+esc(o.meta)+'</div><p style="margin:.4rem 0">'+rich(o.desc)+'</p>'+
         '<div class="small"><b>主要停留</b></div><ul class="stops">'+o.main.map(stop).join('')+'</ul>'+
-        (o.alt.length?'<details style="margin-top:8px"><summary class="pill" style="display:inline-flex">順路可加（'+o.alt.length+'）</summary><ul class="stops">'+o.alt.map(stop).join('')+'</ul></details>':'')+
+        (o.alt.length?'<div class="folds" style="margin-top:10px">'+fold('alt','🧭','順路可加 <span class="cnt">'+o.alt.length+' 個</span>','時間有剩再去，點進去看地點卡','<ul class="stops">'+o.alt.map(stop).join('')+'</ul>')+'</div>':'')+
       '</div>').join('')+'</div>'+
       '<p><a class="btn ghost" href="index.html?day='+r.day+'#map">在地圖上看這天的地點</a></p></section>';
   });
@@ -251,9 +291,9 @@ function renderItinerary(root){
 function renderClaims(root){
   if(!F)return;const rs=(root.dataset.r||'').split(',');
   const u=F.unverified.filter(x=>rs.includes(x.r)),o=F.overturned.filter(x=>rs.includes(x.r));
-  root.innerHTML='<h2>查不到、不敢寫的說法</h2><p class="lead">研究時看到但查不到第二個可靠來源、或來源互相矛盾的說法。這些沒有寫進上面的卡片。</p>'+
-   '<details><summary>查證後推翻的常見說法（'+o.length+'）</summary><ul>'+o.map(x=>'<li><b>常見說法：</b>'+esc(x.claim)+'<br><b>實際情況：</b>'+esc(x.truth)+((x.src||[]).length?' <span class="small">（'+x.src.map((s,i)=>'<a href="'+esc(s)+'" target="_blank" rel="noopener">來源'+(i+1)+'</a>').join('、')+'）</span>':'')+'</li>').join('')+'</ul></details>'+
-   '<details><summary>查不到、沒寫進去的說法（'+u.length+'）</summary><ul>'+u.map(x=>'<li>'+esc(x.claim)+'<br><span class="small">原因：'+esc(x.why)+'</span></li>').join('')+'</ul></details>';
+  root.innerHTML='<h2>查不到、不敢寫的說法</h2><p class="lead">研究時看到但查不到第二個可靠來源、或來源互相矛盾的說法。這些沒有寫進上面的卡片。</p><div class="folds">'+
+   (o.length?fold('over','🔄','查證後推翻的常見說法 <span class="cnt">'+o.length+'</span>','研究時看到、查證後發現不對的說法','<ul>'+o.map(x=>'<li><b>常見說法：</b>'+esc(x.claim)+'<br><b>實際情況：</b>'+esc(x.truth)+((x.src||[]).length?' <span class="small">（'+x.src.map((s,i)=>'<a href="'+esc(s)+'" target="_blank" rel="noopener">來源'+(i+1)+'</a>').join('、')+'）</span>':'')+'</li>').join('')+'</ul>'):'')+
+   (u.length?fold('unv','❓','查不到、沒寫進去的說法 <span class="cnt">'+u.length+'</span>','只有單一來源或來源互相矛盾','<ul>'+u.map(x=>'<li>'+esc(x.claim)+'<br><span class="small">原因：'+esc(x.why)+'</span></li>').join('')+'</ul>'):'')+'</div>';
 }
 /* ---------- 已查證事實 ---------- */
 function renderFacts(root){

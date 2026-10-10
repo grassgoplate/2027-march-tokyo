@@ -1,10 +1,85 @@
 {
- "_note": "合併時套用在 places.json 上的人工修正（警告補充等）。來源寫在 src_add。",
+ "_note": "合併時套用在 places.json 上的人工修正：warn／warn_add／flag 是警告；rs（代理商搜尋按鈕）、bkq（搜尋關鍵字）、bknote（訂票提醒）、tel（訂位電話）給「訂位／購票」區塊用。",
  "a-gyutaro": {
   "warn": "⚠️ Google 地圖上只有 2 則評論：一則說只接待熟客、第一次去會被拒絕，另一則說聽說已經歇業（2026/10 查）。兩件事都無法再查證，不建議專程去。",
   "flag": "warn"
  },
  "b-akitaya-daimon": {
   "warn_add": "⚠️ Google 地圖上有多則外國旅客評論提到店員態度兇、被上了沒點的菜（2026/10 查）。不懂日文的話，點餐時一道一道確認，結帳前對一下明細。"
- }
+ },
+ "e-wb-studio-tour-tokyo": {
+  "rs": [
+   "klook",
+   "kkday"
+  ],
+  "bkq": "東京 哈利波特",
+  "bknote": "✅ 官網列出的授權代理包含 KKday、Klook（2026/10 查）。透過代理買的票，改期要找原購買管道。"
+ },
+ "e-tokyo-disneyland": {
+  "rs": [
+   "klook",
+   "kkday"
+  ],
+  "bkq": "東京迪士尼樂園",
+  "bknote": "⚠️ 這次沒查到東京迪士尼公布的授權代理名單；最穩的是官網或官方 App。"
+ },
+ "e-tokyo-disneysea": {
+  "rs": [
+   "klook",
+   "kkday"
+  ],
+  "bkq": "東京迪士尼海洋",
+  "bknote": "⚠️ 這次沒查到東京迪士尼公布的授權代理名單；最穩的是官網或官方 App。"
+ },
+ "d-teamlab-borderless": {
+  "rs": [
+   "klook",
+   "kkday"
+  ],
+  "bkq": "teamLab Borderless"
+ },
+ "d-teamlab-planets": {
+  "rs": [
+   "klook",
+   "kkday"
+  ],
+  "bkq": "teamLab Planets"
+ },
+ "d-ghibli-museum": {
+  "bknote": "⚠️ 這裡不放代理商連結：請走官網列出的官方通路（羅森票務、JTB 海外通路）。"
+ },
+ "d-kagiya": {
+  "tel": "+81-3-3872-2227"
+ },
+ "f-apa-shinagawa-togoshi": {
+  "bkq": "APA Hotel Shinagawa Togoshi Ekimae"
+ },
+ "f-mystays-gotanda": {
+  "bkq": "Hotel MyStays Gotanda"
+ },
+ "f-tokyustay-gotanda": {
+  "bkq": "Tokyu Stay Gotanda"
+ },
+ "f-mets-premier-gotanda": {
+  "bkq": "Hotel Mets Premier Gotanda"
+ },
+ "f-omo5-gotanda": {
+  "bkq": "OMO5 Tokyo Gotanda"
+ },
+ "f-daiwa-roynet-osaki": {
+  "bkq": "Daiwa Roynet Hotel Tokyo Osaki"
+ },
+ "f-ours-inn-hankyu": {
+  "bkq": "Ours Inn Hankyu"
+ },
+ "f-apa-shinagawa-sengakuji": {
+  "bkq": "APA Hotel Shinagawa Sengakuji Ekimae"
+ },
+ "f-toyoko-hatanodai": {
+  "bkq": "Toyoko Inn Shinagawa Hatanodai"
+ },
+ "f-keikyu-ex-takanawa": {
+  "bknote": "Booking.com 搜不到這間（2026/10 查），請用飯店官網或其他訂房網站。"
+ },
+ "_rs_note": "Klook／KKday 連到的是搜尋結果頁，價格與退改規定各家不同，買之前和官網比一下。"
 }

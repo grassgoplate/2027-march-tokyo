@@ -1,20 +1,19 @@
 # 照片來源與授權
 
 照片來自 Wikimedia Commons 與 Flickr，網站直接引用原站的圖片網址，沒有修改內容。
-授權只收 CC0、CC BY、CC BY-SA、公有領域。每張都在建置前人工看過，確認拍的是該地點。
+授權收 CC0、公有領域、CC BY、CC BY-SA、CC BY-NC（本站非商業用途），不收 ND。每張都在建置前人工看過，確認拍的是該地點。
 
 | 地點 | 來源 | 檔案／標題 | 作者 | 授權 |
 |---|---|---|---|---|
 | 代官山蔦屋書店 | Wikimedia Commons | [Daikanyama_T-SITE_2016-04-04.jpg](https://commons.wikimedia.org/wiki/File:Daikanyama_T-SITE_2016-04-04.jpg) | Jonathan Lin | CC BY-SA 2.0 |
 | 蛇窪神社 | Wikimedia Commons | [Hebikubojinja_shrine_001.jpg](https://commons.wikimedia.org/wiki/File:Hebikubojinja_shrine_001.jpg) | 東京特許許可局 | CC BY-SA 4.0 |
+| IDÉE SHOP 自由之丘店 | Flickr | [cake,idee cafe,jiyugaoka](https://www.flickr.com/photos/74612729@N00/2371665802) | Hirotomo Oi | CC BY-NC 2.0 |
 | 舊朝倉家住宅 | Wikimedia Commons | [Asakura-ke2a.jpg](https://commons.wikimedia.org/wiki/File:Asakura-ke2a.jpg) | 江戸村のとくぞう | CC BY-SA 4.0 |
 | 舊東海道品川宿 | Wikimedia Commons | [Slope_at_kyu-tokaido_kitashinagawa.JPG](https://commons.wikimedia.org/wiki/File:Slope_at_kyu-tokaido_kitashinagawa.JPG) | Kamemaru2000 | CC BY-SA 3.0 |
 | 目黑不動尊（瀧泉寺） | Wikimedia Commons | [Ryūsen-ji_60.jpg](https://commons.wikimedia.org/wiki/File:Ry%C5%ABsen-ji_60.jpg) | Syced | CC0 |
 | 目黑川櫻花步道 | Wikimedia Commons | [Meguro_Meguro_River_Cherry_Trees_1.JPG](https://commons.wikimedia.org/wiki/File:Meguro_Meguro_River_Cherry_Trees_1.JPG) | 京浜にけ | CC BY-SA 3.0 |
 | 宮前商店街與文庫之森 | Wikimedia Commons | [旧三井文庫第二書庫_文庫の森_品川区_2025年6月.jpg](https://commons.wikimedia.org/wiki/File:%E6%97%A7%E4%B8%89%E4%BA%95%E6%96%87%E5%BA%AB%E7%AC%AC%E4%BA%8C%E6%9B%B8%E5%BA%AB_%E6%96%87%E5%BA%AB%E3%81%AE%E6%A3%AE_%E5%93%81%E5%B7%9D%E5%8C%BA_2025%E5%B9%B46%E6%9C%88.jpg) | Zakinco | CC0 |
-| 無印良品 atre大井町店 | Wikimedia Commons | [Oimachi-STA_atre.jpg](https://commons.wikimedia.org/wiki/File:Oimachi-STA_atre.jpg) | MaedaAkihiko | CC BY-SA 4.0 |
 | 武藏小山商店街 Palm | Wikimedia Commons | [Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG](https://commons.wikimedia.org/wiki/File:Musashikoyama_shopping_street_palm_shinagawa_tokyo_2009-1.JPG) | Kentin | CC BY-SA 3.0 |
-| 中延商店街（Skip Road） | Wikimedia Commons | [Nakanobu_skip_road_shinagawa.JPG](https://commons.wikimedia.org/wiki/File:Nakanobu_skip_road_shinagawa.JPG) | Kentin | CC BY-SA 3.0 |
 | 泉岳寺（赤穗四十七義士墓） | Wikimedia Commons | [Sengakuji_201904d2.jpg](https://commons.wikimedia.org/wiki/File:Sengakuji_201904d2.jpg) | 江戸村のとくぞう | CC BY-SA 4.0 |
 | 品川神社 | Wikimedia Commons | [Shinagawajinja_syaden.jpg](https://commons.wikimedia.org/wiki/File:Shinagawajinja_syaden.jpg) | 見 Commons 頁面 | CC BY-SA 4.0 |
 | 戶越銀座商店街 | Wikimedia Commons | [Togoshi-ginza_street.JPG](https://commons.wikimedia.org/wiki/File:Togoshi-ginza_street.JPG) | パリカール (ja.wikipedia) | CC BY-SA 3.0 |
@@ -27,10 +26,10 @@
 | 福德神社 | Wikimedia Commons | [福徳神社.jpg](https://commons.wikimedia.org/wiki/File:%E7%A6%8F%E5%BE%B3%E7%A5%9E%E7%A4%BE.jpg) | Indiana jo | CC BY-SA 4.0 |
 | 銀座伊東屋本店 | Wikimedia Commons | [Itoya_ginza.jpg](https://commons.wikimedia.org/wiki/File:Itoya_ginza.jpg) | Beryllium Transistor | CC BY-SA 4.0 |
 | Hoppy 通（淺草燉內臟居酒屋街） | Flickr | [Asakusa Nikomi Street](https://www.flickr.com/photos/47256332@N05/4868431479) | Yakinik | CC BY 2.0 |
-| 快生軒（百年喫茶店） | Flickr | [kaiseiken-2013](https://www.flickr.com/photos/18220837@N03/11530295826) | jlggb | CC BY 2.0 |
 | Kakimori（訂製筆記本・文具） | Wikimedia Commons | [Kakimori_kuramae.jpg](https://commons.wikimedia.org/wiki/File:Kakimori_kuramae.jpg) | コヨミヤ | CC BY-SA 4.0 |
 | 合羽橋道具街 | Wikimedia Commons | [Kappabashi-dori_streetcorner_(Kitchen_town_-_southern_end)_a_sunny_morning_in_Tokyo_Japan.jpg](https://commons.wikimedia.org/wiki/File:Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg) | Basile Morin | CC BY-SA 4.0 |
 | 烏森神社 | Wikimedia Commons | [Karasumori-jinja1.jpg](https://commons.wikimedia.org/wiki/File:Karasumori-jinja1.jpg) | KENPEI | CC BY-SA 3.0 |
+| 森乃園（焙茶專門店） | Flickr | [森乃園](https://www.flickr.com/photos/ladyous/10246690004) | Richard, enjoy my life! | CC BY-SA 2.0 |
 | 無印良品 銀座（世界旗艦店） | Flickr | [MUJI Global Flagship Store in Ginza.](https://www.flickr.com/photos/7940758@N07/48196268756) | MIKI Yoshihito | CC BY 2.0 |
 | 日本橋（橋） | Wikimedia Commons | [Nihonbashi_12.jpg](https://commons.wikimedia.org/wiki/File:Nihonbashi_12.jpg) | Aimaimyi | CC BY-SA 3.0 |
 | 笹新（人形町老居酒屋） | Flickr | [むつ？の煮付け (at Sasashin)](https://www.flickr.com/photos/25368895@N00/33545378) | ayustety | CC BY-SA 2.0 |
@@ -45,7 +44,6 @@
 | 金王八幡宮 | Wikimedia Commons | [Konno-hachimangu,_keidai.jpg](https://commons.wikimedia.org/wiki/File:Konno-hachimangu%2C_keidai.jpg) | Saigen Jiro | CC0 |
 | 明治神宮 | Wikimedia Commons | [Courtyard_of_Meiji_Shrine_20190717.jpg](https://commons.wikimedia.org/wiki/File:Courtyard_of_Meiji_Shrine_20190717.jpg) | Tokuzo in Edomura | CC BY-SA 4.0 |
 | 名曲喫茶 獅子（Lion） | Wikimedia Commons | [名曲喫茶ライオンの看板_-_B4nc1-3io4h.jpg](https://commons.wikimedia.org/wiki/File:%E5%90%8D%E6%9B%B2%E5%96%AB%E8%8C%B6%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%81%AE%E7%9C%8B%E6%9D%BF_-_B4nc1-3io4h.jpg) | Eugene Ormandy | CC BY-SA 4.0 |
-| Mikan下北 | Wikimedia Commons | [商業施設「ミカン下北」.jpg](https://commons.wikimedia.org/wiki/File:%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8C%E3%83%9F%E3%82%AB%E3%83%B3%E4%B8%8B%E5%8C%97%E3%80%8D.jpg) | Souka Kinmei | CC0 |
 | 根津美術館 | Wikimedia Commons | [2018_Nezu_Museum_1.jpg](https://commons.wikimedia.org/wiki/File:2018_Nezu_Museum_1.jpg) | Kakidai | CC BY-SA 4.0 |
 | 澀谷 呑兵衛橫丁 | Wikimedia Commons | [Shibuya_Nonbei_Yokocho_(53085175407).jpg](https://commons.wikimedia.org/wiki/File:Shibuya_Nonbei_Yokocho_%2853085175407%29.jpg) | Dick Thomas Johnson | CC BY 2.0 |
 | 新宿 回憶橫丁 | Wikimedia Commons | [Shinjuku-West_Omoide-Yokocho.jpg](https://commons.wikimedia.org/wiki/File:Shinjuku-West_Omoide-Yokocho.jpg) | MaedaAkihiko | CC BY-SA 4.0 |
@@ -63,6 +61,7 @@
 | HAGISO 萩荘咖啡 | Flickr | [HAGISO 萩荘](https://www.flickr.com/photos/47335063@N08/8574392777) | Kentaro Ohno | CC BY 2.0 |
 | 伊勢辰 谷中本店（江戶千代紙） | Wikimedia Commons | [Isetatsu01.jpg](https://commons.wikimedia.org/wiki/File:Isetatsu01.jpg) | Higa4 | CC0 |
 | 神樂坂巷弄（兵庫橫丁、捉迷藏橫丁） | Wikimedia Commons | [Kagurazaka-1.jpg](https://commons.wikimedia.org/wiki/File:Kagurazaka-1.jpg) | 江戸村のとくぞう | CC BY-SA 4.0 |
+| 海鷗書店（Kamome Books） | Flickr | [鷗來堂 Kamome books](https://www.flickr.com/photos/21579885@N08/30264035434) | Moody Man | CC BY-NC 2.0 |
 | 神田松屋（老字號蕎麥麵） | Wikimedia Commons | [Kanda_Matsuya1.JPG](https://commons.wikimedia.org/wiki/File:Kanda_Matsuya1.JPG) | 江戸村のとくぞう | CC BY-SA 4.0 |
 | 神田明神 | Wikimedia Commons | [Kanda-Myojin_2012.JPG](https://commons.wikimedia.org/wiki/File:Kanda-Myojin_2012.JPG) | Kakidai | CC BY-SA 3.0 |
 | カヤバ珈琲（萱場咖啡） | Wikimedia Commons | [Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi,_Taito,_Tokyo,_Japan,_2024_May_-_2.jpg](https://commons.wikimedia.org/wiki/File:Kayaba_Coffee_by_Sansakisaka_Street_in_Ueno_Sakuragi%2C_Taito%2C_Tokyo%2C_Japan%2C_2024_May_-_2.jpg) | Ximonic (Simo Räsänen) | CC BY-SA 4.0 |

@@ -36,10 +36,11 @@ for t in glob.glob('_src/*.html'):
             if k not in keys: err.append(f'{t}: facts 找不到「{k}」')
 # 照片：授權白名單、對得到地點；Google 星等合理
 PH = json.load(open('data/photos.json'))
-OKLIC = ('CC0', 'CC BY', 'CC BY-SA', 'Public domain', 'PD')
+# 2026-10 起放寬到 NC（網站非商業用途）；ND 仍不收（卡片會裁切成 16:9）
+OKLIC = re.compile(r'^(CC0|Public domain|CC BY(-SA|-NC|-NC-SA)? \d\.\d)$')
 for k, v in PH.items():
-    if k not in ids: err.append(f'photos: 找不到地點 {k}')
-    if not v.get('lic', '').startswith(OKLIC): err.append(f'photos {k}: 授權不在白名單 {v.get("lic")}')
+    if k not in ids: err.append(f'photos: 找不到地點 {k}（地點刪除時照片也要移掉）')
+    if not OKLIC.match(v.get('lic', '')): err.append(f'photos {k}: 授權不在白名單 {v.get("lic")}')
     if not (v.get('art') and v.get('pg') and v.get('u', '').startswith(('https://upload.wikimedia.org/', 'https://live.staticflickr.com/'))): err.append(f'photos {k}: 缺作者／來源頁／網址')
 for p in P['places']:
     g = p.get('gm')

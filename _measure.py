@@ -35,7 +35,7 @@ PROBE = r"""() => {
  out.overflow = [...document.querySelectorAll('body *')].filter(e => {const r = e.getBoundingClientRect(); const cs = getComputedStyle(e);
    if (!r.width || cs.position==='fixed') return false; if (e.closest('.track,.tablewrap,.leaflet-container')) return false; return r.right > vw + 1 || r.left < -1;})
    .slice(0, 5).map(e => e.tagName + '.' + e.className + ' ' + Math.round(e.getBoundingClientRect().right));
- const sel = '.ab,.pill,.fchip,.btn,.navlink,.arrow,.play,.seg button,.claims summary,.tabbar a,.tabbar button,.stops a,.check label,.tk-search,.pagecards a';
+ const sel = '.ab,.bk,.fold-h,.pill,.fchip,.btn,.navlink,.arrow,.play,.seg button,.claims summary,.tabbar a,.tabbar button,.stops a,.check label,.tk-search,.pagecards a';
  out.small = [...document.querySelectorAll(sel)].filter(e => {const r = e.getBoundingClientRect(); return r.width && r.height && getComputedStyle(e).visibility!=='hidden' && r.height < 43.5;})
    .slice(0, 6).map(e => e.className + ':' + (e.textContent||'').trim().slice(0, 10) + ' h=' + e.getBoundingClientRect().height.toFixed(1));
  out.inputs = [...document.querySelectorAll('input[type=search],input[type=number]')].map(i => parseFloat(getComputedStyle(i).fontSize)).filter(s => s < 16);
@@ -74,17 +74,22 @@ def main():
                         b.closest('.pc').scrollIntoView({block:'start'});let r=b.getBoundingClientRect();if(r.bottom>innerHeight-80){b.scrollIntoView({block:'center'});r=b.getBoundingClientRect();}const h=document.elementFromPoint(r.left+r.width/2,r.top+r.height/2);
                         return b.contains(h)?'ok':'BLOCKED by '+(h&&h.className)}""")
                     r['firstBtn'] = hit
-                    db = pg.query_selector('.pc [data-act=deep]')
+                    # 彩色收合區塊：點開第一個「知識點」，量展開後的高度與按鈕狀態
+                    db = pg.query_selector('.pc .f-know .fold-h') or pg.query_selector('.pc .fold-h')
                     if db:
                         db.scroll_into_view_if_needed(); db.click()
-                        r['deepOpen'] = pg.evaluate("""() => {const d=document.querySelector('.pc [data-part=deep]:not([hidden])');return d?Math.round(d.getBoundingClientRect().height):0}""")
+                        r['deepOpen'] = pg.evaluate("""() => {const h=document.querySelector('.pc .fold-h[aria-expanded=true]');if(!h)return 0;const b=h.nextElementSibling;return b.hidden?0:Math.round(b.getBoundingClientRect().height)}""")
+                    r['bk'] = pg.evaluate("document.querySelectorAll('.pc .bk').length")
                     # 篩選：點第一個板塊 chip
                     z = pg.query_selector('.tk-places .fchip.zone')
                     if z:
                         before = pg.evaluate("document.querySelector('.tk-count').textContent")
                         z.scroll_into_view_if_needed(); z.click(); pg.wait_for_timeout(100)
                         r['zoneFilter'] = before.split('　')[0] + ' → ' + pg.evaluate("document.querySelector('.tk-count').textContent").split('　')[0]
-                if p == 'itinerary': r['days'] = pg.evaluate("document.querySelectorAll('.day').length")
+                if p == 'itinerary':
+                    r['days'] = pg.evaluate("document.querySelectorAll('.day').length")
+                    h = pg.query_selector('.f-alt .fold-h')
+                    if h: h.scroll_into_view_if_needed(); h.click(); r['folds'] = pg.evaluate("(()=>{const b=document.querySelector('.f-alt .fold-b');return b.hidden?'closed':'open '+b.querySelectorAll('a').length})()")
                 if p == 'talk': r['play'] = pg.evaluate("document.querySelectorAll('.play').length")
                 if p == 'prepare':
                     pg.click('#ck-flight-track'); pg.reload(); pg.wait_for_load_state('networkidle')
@@ -103,11 +108,14 @@ def main():
                 if any('BLOCKED' in x for x in r.get('tabHits', [])): problems.append(f"分頁列被遮住 {r['tabHits']}")
                 if 'map' in r and (r['map']['h'] < 200 or not r['map']['leaflet'] or r['map']['markers'] == 0): problems.append(f"地圖異常 {r['map']}")
                 if 'BLOCKED' in str(r.get('firstBtn', '')): problems.append(f"卡片按鈕被遮 {r['firstBtn']}")
+                if r.get('deepOpen') == 0: problems.append('收合區塊點了沒有展開')
+                if p == 'itinerary' and not str(r.get('folds', '')).startswith('open'): problems.append(f"行程的順路可加沒有展開 {r.get('folds')}")
+                if p in ('book', 'parks', 'stay') and not r.get('bk'): problems.append('需預約的卡片沒有訂票按鈕')
                 if vn == 'mobile' and r['barH'] > 844 * 0.4: problems.append(f"篩選列太高 {r['barH']}px")
                 if p == 'prepare' and not r.get('checkPersist'): problems.append('勾選沒有保存')
                 bad += len(problems)
                 report[f'{vn}/{p}'] = {k: v for k, v in r.items() if k not in ('overflow', 'small', 'inputs')} | ({'PROBLEMS': problems} if problems else {})
-                print(('❌ ' if problems else '✅ ') + f'{vn:7} {p:9}', json.dumps({k: r[k] for k in r if k in ('cards', 'barH', 'map', 'firstBtn', 'zoneFilter', 'deepOpen', 'days', 'play', 'sheet', 'checkPersist')}, ensure_ascii=False))
+                print(('❌ ' if problems else '✅ ') + f'{vn:7} {p:9}', json.dumps({k: r[k] for k in r if k in ('cards', 'barH', 'map', 'firstBtn', 'zoneFilter', 'deepOpen', 'bk', 'folds', 'days', 'play', 'sheet', 'checkPersist')}, ensure_ascii=False))
                 for x in problems: print('     -', x)
             ctx.close()
         b.close()

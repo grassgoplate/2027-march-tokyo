@@ -112,50 +112,6 @@
    }
   },
   {
-   "id": "a-goto-kamaboko",
-   "name": "後藤蒲鉾店",
-   "zh": "後藤蒲鉾店（關東煮・炸魚漿）",
-   "cat": "eat",
-   "tags": [
-    "shotengai",
-    "oden",
-    "budget"
-   ],
-   "zone": "z1",
-   "town": "戶越銀座",
-   "station": "戸越駅（都營淺草線）一帶，戶越銀座商店街內",
-   "from_base": "步行即到。",
-   "lat": 35.6147,
-   "lng": 139.7164,
-   "geo_src": "以戸越駅座標代表；店址戸越2-6-8在商店街內",
-   "geo_approx": true,
-   "q": "後藤蒲鉾店 戸越銀座",
-   "addr": "東京都品川区戸越2-6-8",
-   "price": "おでんコロッケ 162円／個；生的おでん 54円起、煮好的 64円起（JAL ontrip 2026/9 更新）",
-   "hours": "11:00～20:00",
-   "closed": "週三",
-   "flag": "star",
-   "url": "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/",
-   "note": "創業50年以上的魚漿老店，常備30種以上薩摩揚。招牌是把關東煮包進去炸的「おでんコロッケ」，店頭有內用區，可以站著吃一碗關東煮。",
-   "day": 1,
-   "buy": [
-    "おでんコロッケ",
-    "薩摩揚（さつま揚げ）"
-   ],
-   "src": [
-    "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/",
-    "https://ontrip.jal.co.jp/tokyo/17573374"
-   ],
-   "gm": {
-    "r": 3.7,
-    "c": 226,
-    "n": "226",
-    "asof": "2026-10",
-    "pid": "ChIJM59pbu2KGGARTpy6HvPD_aM",
-    "gname": "Kamaboko Shop Gotō"
-   }
-  },
-  {
    "id": "a-togoshi-hachiman",
    "name": "戸越八幡神社",
    "zh": "戶越八幡神社",
@@ -265,78 +221,6 @@
    }
   },
   {
-   "id": "a-togoshi-ginza-onsen",
-   "name": "戸越銀座温泉",
-   "zh": "戶越銀座溫泉（錢湯）",
-   "cat": "sight",
-   "tags": [
-    "sento",
-    "onsen"
-   ],
-   "zone": "z1",
-   "town": "戶越銀座",
-   "station": "戸越銀座駅（東急池上線）一帶",
-   "from_base": "步行可到。",
-   "lat": 35.6147,
-   "lng": 139.7164,
-   "geo_src": "以戸越駅座標代表；地址戸越2-1-6",
-   "geo_approx": true,
-   "q": "戸越銀座温泉",
-   "addr": "東京都品川区戸越2-1-6",
-   "hours": "15:00～翌1:00；週日與假日另有 8:00～12:00 朝湯（東急官網2026/7文章，單一來源，出發前確認）",
-   "closed": "週五（單一來源）",
-   "flag": "info",
-   "warn": "⚠️ 週五公休（依東急官網文章）。有刺青可能被拒，規定未查證。",
-   "note": "1960年創業、2007年改裝的錢湯，有天然黑湯溫泉、按摩池、三溫暖，價格同東京一般錢湯。分「陽の湯」（露天）和「月の湯」（內湯），浴室牆上有油漆畫。",
-   "day": 1,
-   "src": [
-    "https://www.tokyu.co.jp/area/togoshi-ginza/article/arti-01JT7XMFWCTR225VDS6P3ZPFY2/",
-    "https://san-tatsu.jp/area/2197/"
-   ],
-   "gm": {
-    "r": 3.8,
-    "c": 1354,
-    "n": "1,354",
-    "asof": "2026-10",
-    "pid": "ChIJ9YH0T-yKGGARGBCMHR18Nkw",
-    "gname": "Togoshi Ginza Onsen"
-   }
-  },
-  {
-   "id": "a-nakanobu-skip-road",
-   "name": "なかのぶスキップロード（中延商店街）",
-   "zh": "中延商店街（Skip Road）",
-   "cat": "sight",
-   "tags": [
-    "shotengai"
-   ],
-   "zone": "z1",
-   "town": "中延",
-   "station": "中延駅（都營淺草線）步行約1分／荏原中延駅（東急池上線）",
-   "from_base": "淺草線往西馬込方向1站到中延，不用轉車。",
-   "lat": 35.61005,
-   "lng": 139.71214,
-   "geo_src": "以荏原中延駅座標代表（en.wikipedia Ebara-Nakanobu Station）；商店街連接中延與荏原中延兩站",
-   "geo_approx": true,
-   "q": "なかのぶスキップロード",
-   "addr": "東京都品川区東中延・中延一帶",
-   "flag": "ok",
-   "note": "有拱頂的昭和初期商店街，約130家店，以在地生活為主、觀光客少，下雨天也能逛。全長各來源寫約300m或約330m。",
-   "src": [
-    "https://www.gltjp.com/ja/directory/item/12770/",
-    "https://www.tokyu.co.jp/area/nakanobu/"
-   ],
-   "day": null,
-   "gm": {
-    "r": 3.8,
-    "c": 16,
-    "n": "16",
-    "asof": "2026-10",
-    "pid": "ChIJ9wRzISKLGGARLsXjCKQumPA",
-    "gname": "中延スキップロード"
-   }
-  },
-  {
    "id": "a-hebikubo-jinja",
    "name": "蛇窪神社（天祖神社）",
    "zh": "蛇窪神社",
@@ -406,44 +290,6 @@
     "asof": "2026-10",
     "pid": "ChIJXXfFm9uKGGAR6A66FaNUyFQ",
     "gname": "Musashi-Koyama Shopping Street Palm"
-   }
-  },
-  {
-   "id": "a-gyutaro",
-   "name": "牛太郎 武蔵小山店",
-   "zh": "牛太郎（武藏小山）",
-   "cat": "eat",
-   "tags": [
-    "izakaya",
-    "budget",
-    "cash-only"
-   ],
-   "zone": "z1",
-   "town": "武藏小山",
-   "station": "武蔵小山駅（東急目黒線）步行約2分",
-   "from_base": "從戶越銀座步行，或搭東急目黒線到武蔵小山。",
-   "lat": 35.6205,
-   "lng": 139.7043,
-   "geo_src": "依武蔵小山駅大略位置估計，未核對；地址小山4-3-13",
-   "geo_approx": true,
-   "q": "牛太郎 武蔵小山",
-   "addr": "東京都品川区小山4-3-13",
-   "hours": "週一～五 14:30～19:00；週六與假日 12:30～17:00（Retty 資料，最後更新2021/11）",
-   "closed": "週日",
-   "flag": "warn",
-   "warn": "⚠️ Google 地圖上只有 2 則評論：一則說只接待熟客、第一次去會被拒絕，另一則說聽說已經歇業（2026/10 查）。兩件事都無法再查證，不建議專程去。",
-   "note": "昭和氣氛的ㄈ字型吧台小酒場，約20席，主打便宜的豬內臟串（とんちゃん）和ホッピー。適合下午提早喝一杯，不適合大聲聊天或久坐。",
-   "src": [
-    "https://retty.me/restaurant/100000032713/"
-   ],
-   "day": null,
-   "gm": {
-    "r": 2.0,
-    "c": 2,
-    "n": "2",
-    "asof": "2026-10",
-    "pid": "ChIJTZwhbQCLGGARBZS1lHYphYk",
-    "gname": "牛太郎 武蔵小山店"
    }
   },
   {
@@ -918,46 +764,6 @@
     "asof": "2026-10",
     "pid": "ChIJPULLZU-LGGARsv8E3tigyqQ",
     "gname": "Kyu Asakura House"
-   }
-  },
-  {
-   "id": "a-muji-atre-oimachi",
-   "name": "無印良品 アトレ大井町",
-   "zh": "無印良品 atre大井町店",
-   "cat": "shop",
-   "tags": [
-    "muji"
-   ],
-   "zone": "z1",
-   "town": "大井町",
-   "station": "大井町駅（JR京濱東北線、東急大井町線、臨海線）中央口即到",
-   "from_base": "淺草線1站到中延，轉東急大井町線往大井町方向到終點大井町（轉乘時間未查）。",
-   "lat": 35.606545,
-   "lng": 139.734657,
-   "geo_src": "以大井町駅座標代表（en.wikipedia Ōimachi Station）；店在站上 atre 3F",
-   "geo_approx": true,
-   "q": "無印良品 アトレ大井町",
-   "addr": "東京都品川区大井1-2-1 アトレ大井町 3F",
-   "hours": "每天 10:00～21:00",
-   "flag": "info",
-   "url": "https://www.muji.com/jp/ja/shop/detail/045505",
-   "note": "據點附近品項較齊的無印：女裝、男裝、鞋、寢具、收納、食品都有，可退稅。官網沒寫賣場面積，不能確定算「大店」。真正的旗艦店在銀座（z2）。",
-   "buy": [
-    "收納用品",
-    "食品（調理包、零食）",
-    "保養品"
-   ],
-   "src": [
-    "https://www.muji.com/jp/ja/shop/detail/045505"
-   ],
-   "day": 5,
-   "gm": {
-    "r": 3.8,
-    "c": 412,
-    "n": "412",
-    "asof": "2026-10",
-    "pid": "ChIJXUB8TnyKGGARe382iR5-lsc",
-    "gname": "無印良品 アトレ大井町"
    }
   },
   {
@@ -1526,43 +1332,6 @@
    }
   },
   {
-   "id": "b-kaiseiken",
-   "name": "喫茶去 快生軒",
-   "zh": "快生軒（百年喫茶店）",
-   "cat": "cafe",
-   "tags": [
-    "kissaten",
-    "retro"
-   ],
-   "zone": "z2",
-   "town": "人形町",
-   "station": "人形町駅（淺草線）步行",
-   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；人形町站下車",
-   "lat": 35.6856,
-   "lng": 139.7818,
-   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
-   "geo_approx": true,
-   "q": "喫茶去 快生軒 中央区日本橋人形町1-17-9",
-   "addr": "東京都中央区日本橋人形町1-17-9",
-   "hours": "平日 10:00～18:00",
-   "closed": "週六、週日、國定假日",
-   "flag": "warn",
-   "warn": "⚠️ Tabelog 列只有平日開（週六日、假日休），只找到這一個來源。3/20～3/22 連假應該不開，請排 3/18 或 3/19。",
-   "note": "1919 年創業的老喫茶店，木頭裝潢、老派咖啡與吐司。人形町逛街中間坐下來休息的好地方。",
-   "src": [
-    "https://tabelog.com/en/tokyo/A1302/A130204/13018091/"
-   ],
-   "day": 2,
-   "gm": {
-    "r": 3.7,
-    "c": 302,
-    "n": "302",
-    "asof": "2026-10",
-    "pid": "ChIJGZxPJ1CJGGARjhTWkp88Hu0",
-    "gname": "Kissako Kaiseiken"
-   }
-  },
-  {
    "id": "b-sasashin",
    "name": "笹新",
    "zh": "笹新（人形町老居酒屋）",
@@ -1725,48 +1494,6 @@
     "asof": "2026-10",
     "pid": "ChIJNRb8areOGGARieKkjJf2N34",
     "gname": "Dandelion Chocolate Kuramae"
-   }
-  },
-  {
-   "id": "b-encafe-kuramae",
-   "name": "ENCAFE",
-   "zh": "ENCAFE（藏前站旁咖啡）",
-   "cat": "cafe",
-   "tags": [
-    "cafe",
-    "roaster"
-   ],
-   "zone": "z2",
-   "town": "藏前",
-   "station": "蔵前駅（淺草線）A2 出口旁",
-   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；藏前站 A2 出口",
-   "lat": 35.702,
-   "lng": 139.7913,
-   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
-   "geo_approx": true,
-   "q": "ENCAFE 台東区蔵前2-6-2",
-   "addr": "東京都台東区蔵前2-6-2",
-   "flag": "unverified",
-   "note": "出站就到的三層樓咖啡館：1F 外帶與內用、2F 咖啡廳、3F 自家烘焙（樂天旅遊 2026/1）。適合藏前散步的起點或中繼。",
-   "deep": {
-    "lead": "藏前散步的起點。",
-    "paras": [
-     "樂天旅遊 2026/1 列各樓層時間（1F 8:00 起），但只找到這一個詳細來源，另一篇 kinarino 文章只提到位置與樓層用途，時間未列。"
-    ],
-    "tips": []
-   },
-   "src": [
-    "https://travel.rakuten.co.jp/mytrip/howto/kuramae-guide",
-    "https://kinarino.jp/cat8/32709"
-   ],
-   "day": null,
-   "gm": {
-    "r": 3.9,
-    "c": 779,
-    "n": "779",
-    "asof": "2026-10",
-    "pid": "ChIJ6V60sbeOGGAReGyMGPYPeZU",
-    "gname": "En (蔵前2-6-2)"
    }
   },
   {
@@ -1939,48 +1666,6 @@
     "https://tabelog.com/matome/18613/"
    ],
    "day": 2
-  },
-  {
-   "id": "b-coffee-tengoku",
-   "name": "珈琲 天国",
-   "zh": "珈琲天國（淺草喫茶店・鬆餅）",
-   "cat": "cafe",
-   "tags": [
-    "kissaten",
-    "retro",
-    "pancake"
-   ],
-   "zone": "z2",
-   "town": "淺草",
-   "station": "浅草駅（東武）步行約3分；傳法院通附近",
-   "from_base": "都營淺草線（往押上方向）直達，不用轉車；但部分班次可能只開到泉岳寺，看清終點；淺草站下車步行",
-   "lat": 35.7125,
-   "lng": 139.794,
-   "geo_src": "Claude 依地址與鄰近已知座標推估（誤差可能數百公尺），請以 q 欄在 Google Maps 確認",
-   "geo_approx": true,
-   "q": "珈琲 天国 台東区浅草1-41-9",
-   "addr": "東京都台東区浅草1-41-9",
-   "hours": "12:00～18:30",
-   "closed": "週二",
-   "flag": "warn",
-   "warn": "⚠️ 只收現金（Tabelog）。只有 15 席，週末會排隊（るるぶ）。中午 12 點才開。",
-   "note": "小小的喫茶店，招牌是烙上「天国」字樣的厚鬆餅配咖啡。淺草寺參拜完、下午來坐。",
-   "buy": [
-    "自家咖啡豆罐"
-   ],
-   "src": [
-    "https://tabelog.com/tokyo/A1311/A131102/13025425/",
-    "https://rurubu.jp/andmore/spot/80073079"
-   ],
-   "day": 2,
-   "gm": {
-    "r": 3.7,
-    "c": 575,
-    "n": "575",
-    "asof": "2026-10",
-    "pid": "ChIJH-LUh8COGGARGUaIkcsSwls",
-    "gname": "Coffee Tengoku"
-   }
   },
   {
    "id": "b-kappabashi",
@@ -2696,41 +2381,6 @@
     "https://www.gotokyo.org/jp/destinations/western-tokyo/shimokitazawa/index.html",
     "https://reload-shimokita.com/"
    ]
-  },
-  {
-   "id": "c-mikan-shimokita",
-   "name": "ミカン下北",
-   "zh": "Mikan下北",
-   "cat": "shop",
-   "tags": [
-    "bookstore",
-    "shotengai"
-   ],
-   "zone": "z3",
-   "town": "下北澤",
-   "station": "下北沢駅旁（京王井之頭線高架下）",
-   "from_base": "五反田轉山手線到澀谷→京王井之頭線急行到下北澤",
-   "lat": 35.6614,
-   "lng": 139.6675,
-   "geo_src": "下北澤站周邊概略位置（未取得維基座標）",
-   "geo_approx": true,
-   "q": "ミカン下北 世田谷区北沢",
-   "flag": "info",
-   "url": "https://mikan-shimokita.jp/",
-   "note": "京王井之頭線高架下的商業設施（2022年開），有世界各國料理餐廳、商店和蔦屋書店。下雨天或想一次吃飽時方便。",
-   "day": 4,
-   "src": [
-    "https://www.gotokyo.org/jp/destinations/western-tokyo/shimokitazawa/index.html",
-    "https://ja.wikipedia.org/wiki/%E4%B8%8B%E5%8C%97%E6%B2%A2%E9%A7%85"
-   ],
-   "gm": {
-    "r": 3.9,
-    "c": 239,
-    "n": "239",
-    "asof": "2026-10",
-    "pid": "ChIJV7Y5yWHzGGARLbTr5xfyqUs",
-    "gname": "Mikan Shimokita"
-   }
   },
   {
    "id": "c-sankaku-chitai",
@@ -3597,7 +3247,7 @@
    "warn": "⚠️ 只有女性的客人不能入店，必須有男性同行（兩個來源一致）。只收現金。營業時間短，3/21（日）休。",
    "bookable": true,
    "bk": "Tabelog：3 人以上可預約（電話 03-3872-2227）。",
-   "note": "1856 年以酒舖創業，戰後成為居酒屋，現址是大正元年的老民家。座位只有 24 席，氣氛安靜。我們 和姑姑要和哥哥（或哥哥的朋友）一起去才能進。",
+   "note": "1856 年以酒舖創業，戰後成為居酒屋，現址是大正元年的老民家。座位只有 24 席，氣氛安靜。我和姑姑要和哥哥（或哥哥的朋友）一起去才能進。",
    "day": null,
    "g": {
     "r": 3.49,
@@ -3615,7 +3265,8 @@
     "asof": "2026-10",
     "pid": "ChIJJ7CyTYSOGGAR5nDtjmd-51c",
     "gname": "Kagiya"
-   }
+   },
+   "tel": "+81-3-3872-2227"
   },
   {
    "id": "d-kanda-myojin",
@@ -4105,7 +3756,12 @@
     "asof": "2026-10",
     "pid": "ChIJQ5Sa1PqJGGARUSaNKKOrMVg",
     "gname": "teamLab Borderless"
-   }
+   },
+   "rs": [
+    "klook",
+    "kkday"
+   ],
+   "bkq": "teamLab Borderless"
   },
   {
    "id": "d-teamlab-planets",
@@ -4145,7 +3801,12 @@
     "asof": "2026-10",
     "pid": "ChIJSeco5wiJGGARItbTS8lQ5G0",
     "gname": "teamLab Planets TOKYO DMM"
-   }
+   },
+   "rs": [
+    "klook",
+    "kkday"
+   ],
+   "bkq": "teamLab Planets"
   },
   {
    "id": "d-ghibli-museum",
@@ -4188,7 +3849,8 @@
     "asof": "2026-10",
     "pid": "ChIJLYwD5TTuGGARBZKEP5BV4U0",
     "gname": "Ghibli Museum"
-   }
+   },
+   "bknote": "⚠️ 這裡不放代理商連結：請走官網列出的官方通路（羅森票務、JTB 海外通路）。"
   },
   {
    "id": "e-wb-studio-tour-tokyo",
@@ -4260,7 +3922,13 @@
     "asof": "2026-10",
     "pid": "ChIJZzjXkvLtGGARm2YFfi26zoU",
     "gname": "Warner Bros. Studio Tour Tokyo"
-   }
+   },
+   "rs": [
+    "klook",
+    "kkday"
+   ],
+   "bkq": "東京 哈利波特",
+   "bknote": "✅ 官網列出的授權代理包含 KKday、Klook（2026/10 查）。透過代理買的票，改期要找原購買管道。"
   },
   {
    "id": "e-tokyo-disneyland",
@@ -4325,7 +3993,13 @@
     "asof": "2026-10",
     "pid": "ChIJszdHEQN9GGARy9MJ1TY22eQ",
     "gname": "Tokyo Disneyland"
-   }
+   },
+   "rs": [
+    "klook",
+    "kkday"
+   ],
+   "bkq": "東京迪士尼樂園",
+   "bknote": "⚠️ 這次沒查到東京迪士尼公布的授權代理名單；最穩的是官網或官方 App。"
   },
   {
    "id": "e-tokyo-disneysea",
@@ -4387,7 +4061,13 @@
     "asof": "2026-10",
     "pid": "ChIJszdHEQN9GGARJS23SnAdR0E",
     "gname": "Tokyo DisneySea"
-   }
+   },
+   "rs": [
+    "klook",
+    "kkday"
+   ],
+   "bkq": "東京迪士尼海洋",
+   "bknote": "⚠️ 這次沒查到東京迪士尼公布的授權代理名單；最穩的是官網或官方 App。"
   },
   {
    "id": "f-apa-shinagawa-togoshi",
@@ -4418,7 +4098,8 @@
    "src": [
     "https://www.jalan.net/yad394739",
     "https://www.ikyu.com/biz/00082174/"
-   ]
+   ],
+   "bkq": "APA Hotel Shinagawa Togoshi Ekimae"
   },
   {
    "id": "f-mystays-gotanda",
@@ -4449,7 +4130,8 @@
    "src": [
     "https://travel.yahoo.co.jp/00080752",
     "https://www.jalan.net/yad315292/"
-   ]
+   ],
+   "bkq": "Hotel MyStays Gotanda"
   },
   {
    "id": "f-tokyustay-gotanda",
@@ -4480,7 +4162,8 @@
    "src": [
     "https://prtimes.jp/main/html/rd/p/000001003.000055787.html",
     "https://jcation.com/hotel/detail-987/"
-   ]
+   ],
+   "bkq": "Tokyu Stay Gotanda"
   },
   {
    "id": "f-mets-premier-gotanda",
@@ -4508,7 +4191,8 @@
    "day": null,
    "src": [
     "https://jcation.com/rentacar/prefecture-tokyo/hotel/detail-15969/"
-   ]
+   ],
+   "bkq": "Hotel Mets Premier Gotanda"
   },
   {
    "id": "f-omo5-gotanda",
@@ -4536,7 +4220,8 @@
    "day": null,
    "src": [
     "https://www.jalan.net/yad300560/"
-   ]
+   ],
+   "bkq": "OMO5 Tokyo Gotanda"
   },
   {
    "id": "f-daiwa-roynet-osaki",
@@ -4563,7 +4248,8 @@
    "day": null,
    "src": [
     "https://travel.rakuten.co.jp/HOTEL/67817/67817.html"
-   ]
+   ],
+   "bkq": "Daiwa Roynet Hotel Tokyo Osaki"
   },
   {
    "id": "f-ours-inn-hankyu",
@@ -4592,7 +4278,8 @@
    "day": null,
    "src": [
     "https://www.jalan.net/yad302472/"
-   ]
+   ],
+   "bkq": "Ours Inn Hankyu"
   },
   {
    "id": "f-routeinn-shinagawa-oimachi",
@@ -4648,7 +4335,8 @@
    "day": null,
    "src": [
     "https://travel.rakuten.co.jp/HOTEL/135404/135404.html"
-   ]
+   ],
+   "bknote": "Booking.com 搜不到這間（2026/10 查），請用飯店官網或其他訂房網站。"
   },
   {
    "id": "f-apa-shinagawa-sengakuji",
@@ -4676,7 +4364,8 @@
    "day": null,
    "src": [
     "https://jcation.com/hotel/prefecture-tokyo/station-gotanda/?page=2"
-   ]
+   ],
+   "bkq": "APA Hotel Shinagawa Sengakuji Ekimae"
   },
   {
    "id": "f-toyoko-hatanodai",
@@ -4705,7 +4394,8 @@
    "src": [
     "https://www.jalan.net/yad309496/",
     "https://jcation.com/hotel/detail-6173/"
-   ]
+   ],
+   "bkq": "Toyoko Inn Shinagawa Hatanodai"
   }
  ],
  "routes": [
@@ -4723,12 +4413,10 @@
      "desc": "京急線往泉岳寺方向，在泉岳寺轉都營淺草線往西馬込，到戶越下車。放好行李後走到戶越銀座商店街，邊走邊吃，晚上去五反田的平價居酒屋。",
      "main": [
       "a-togoshi-ginza",
-      "a-goto-kamaboko",
       "a-togoshi-hachiman",
       "a-kaneshow"
      ],
      "alt": [
-      "a-togoshi-ginza-onsen",
       "a-miyamae-bunko"
      ]
     },
@@ -4770,10 +4458,8 @@
       "b-shimbashi-ekimae-bldg"
      ],
      "alt": [
-      "b-coffee-tengoku",
       "b-hoppy-dori",
       "b-shimojima-asakusabashi",
-      "b-kaiseiken",
       "b-sasashin",
       "b-akitaya-daimon",
       "b-karasumori-jinja",
@@ -4868,7 +4554,6 @@
      ],
      "alt": [
       "c-fuglen-tokyo",
-      "c-mikan-shimokita",
       "c-konno-hachimangu",
       "c-nonbei-yokocho",
       "c-meikyoku-lion"
@@ -4922,12 +4607,11 @@
      "name": "品川一帶，離機場近",
      "meta": "航班較早時",
      "rec": false,
-     "desc": "品川神社、舊東海道品川宿、泉岳寺都在往羽田的路上，大井町的無印良品也可以順路逛。",
+     "desc": "品川神社、舊東海道品川宿、泉岳寺都在往羽田的路上。",
      "main": [
       "a-shinagawa-jinja",
       "a-kyu-tokaido-shinagawa",
-      "a-sengakuji",
-      "a-muji-atre-oimachi"
+      "a-sengakuji"
      ],
      "alt": []
     }

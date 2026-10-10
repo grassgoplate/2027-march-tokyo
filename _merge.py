@@ -32,7 +32,7 @@ def dist(a, b):
 
 def clean(s):
     if not isinstance(s, str): return s
-    s = s.replace('Jess 的據點', '戶越據點').replace('Jess的據點', '戶越據點').replace('Jess', '我們')
+    s = s.replace('Jess 的據點', '戶越據點').replace('Jess的據點', '戶越據點').replace('Jess 和', '我和').replace('Jess', '我們')
     return s.strip()
 def deep_clean(o):
     if isinstance(o, dict): return {k: deep_clean(v) for k, v in o.items()}
@@ -83,8 +83,28 @@ for p in places:
         if 'warn' in o: p['warn'] = o['warn']
         if 'warn_add' in o: p['warn'] = (p.get('warn', '') + '\n' + o['warn_add']).strip()
         if 'flag' in o: p['flag'] = o['flag']
+        for k in ('rs', 'bkq', 'bknote', 'tel'):
+            if k in o: p[k] = o[k]
 missing_gm = [k for k in GM if k not in {p['id'] for p in places}]
 if missing_gm: print('GM ids missing:', missing_gm); sys.exit(1)
+
+# 使用者規則（2026-10-10）：Google 地圖星等低於 4.0 的地點不放（4.0 保留；沒有 Google 星等的不受影響）
+MIN_GM = 4.0
+low = [p for p in places if p.get('gm') and p['gm']['r'] < MIN_GM]
+gone = {p['id'] for p in low}
+places = [p for p in places if p['id'] not in gone]
+for r in routes['routes']:
+    for o in r['options']:
+        o['main'] = [x for x in o['main'] if x not in gone]
+        o['alt'] = [x for x in o['alt'] if x not in gone]
+        if not o['main']: print('ROUTE main 變空的:', r['day'], o['label']); sys.exit(1)
+with open(f'{R}/removed_low_rating.md', 'w', encoding='utf-8') as fh:
+    fh.write('# Google 星等低於 4.0 而移除的地點\n\n使用者規則：Google 地圖星等 4.0 以下（不含 4.0）的地點不放進網站。星等是 2026/10 用 Google 地圖查詢的快照。\n'
+             '沒有單一 Google 地點的街道、商店街，以及沒查星等的地點（例如部分飯店）不受影響。\n\n| 地點 | Google 上的名稱 | 星等 | 評論數 | 原本排在 |\n|---|---|---|---|---|\n')
+    for p in sorted(low, key=lambda p: p['gm']['r']):
+        days = [f"day{r['day']}{o['label']}" for r in json.load(open('data/routes.json'))['routes'] for o in r['options'] if p['id'] in o['main'] + o['alt']]
+        fh.write(f"| {p['zh']} | {p['gm']['gname']} | {p['gm']['r']:.1f} | {p['gm']['n']} | {'、'.join(days) or '—'} |\n")
+print('removed <4.0:', len(low), sorted(gone))
 
 # 座標檢查
 bad = []
@@ -94,7 +114,7 @@ for p in places:
     if dd > 2500: bad.append((p['id'], p['town'], near[0], round(dd)))
 for b in bad: print('GEO?', *b)
 
-missing = [pid for pid in DAYMAP if pid not in {p['id'] for p in places}]
+missing = [pid for r in routes['routes'] for o in r['options'] for pid in o['main'] + o['alt'] if pid not in {p['id'] for p in places}]
 if missing: print('ROUTE ids missing:', missing); sys.exit(1)
 
 meta = {

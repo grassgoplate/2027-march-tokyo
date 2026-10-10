@@ -39,7 +39,8 @@ h3{font-size:1.12rem;margin:0}
 .scroller.fade-l .track{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px);mask-image:linear-gradient(90deg,transparent 0,#000 28px)}
 .scroller.fade-r .track{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent 100%)}
 .scroller.fade-l.fade-r .track{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}
-.navlink{color:#dfe7f1;text-decoration:none;white-space:nowrap;padding:0 12px;min-height:44px;display:flex;align-items:center;border-radius:10px;font-size:15px}
+.navlink{color:#dfe7f1;text-decoration:none;white-space:nowrap;padding:0 11px;min-height:44px;display:flex;align-items:center;border-radius:10px;font-size:15px}
+.navlink .ni{margin-right:5px;font-size:16px;line-height:1}
 .navlink:hover{background:rgba(255,255,255,.12);color:#fff}
 .navlink:active{background:rgba(255,255,255,.22)}
 .navlink[aria-current=page]{background:#fff;color:var(--ai);font-weight:700}
@@ -116,7 +117,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .plist>*{min-width:0}
 .pc{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;scroll-margin-top:68px}
 .pc.hl{box-shadow:0 0 0 3px var(--shu)}
-.pc .strip{height:6px;background:var(--zc,#999)}
 .pc .in{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
 .pc .hdr{display:flex;gap:8px;align-items:flex-start}
 .pc .hdr .t{flex:1;min-width:0}
@@ -133,20 +133,13 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .b-day{background:var(--sakura);color:#7d2944}
 .warnline{background:var(--warn-bg);color:var(--warn);border-radius:10px;padding:8px 10px;font-size:14px;line-height:1.55}
 .pc.closed .t h3{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.35)}
-.meta{font-size:14px;color:var(--sumi-2);display:grid;gap:2px}
-.meta b{color:var(--sumi);font-weight:600}
 .note{font-size:15px;margin:2px 0}
 .tags{display:flex;flex-wrap:wrap;gap:4px}
 .tags span:not(.badge){font-size:12px;color:var(--sumi-3);background:#f2ede2;border-radius:6px;padding:0 6px}
-.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
-.acts .pill{font-size:13px;padding:0 12px}
-.pc .strip{display:none}
-.deep{border-top:1px dashed var(--line);padding-top:8px;font-size:15px}
-.deep p{margin:.4rem 0}
-.deep ul{margin:.3rem 0;padding-left:1.2em}
-.srcs{font-size:13px;word-break:break-all}
-.srcs ol{margin:.2rem 0;padding-left:1.4em}
-.approx{font-size:12px;color:var(--sumi-3)}
+.cta{margin-top:auto;display:flex;flex-direction:column;gap:8px;padding-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:6px}
+.acts .ab{padding:0 11px}
+.approx{font-size:13px;color:var(--sumi-3)}
 .more{display:flex;justify-content:center;margin:16px 0}
 .leaflet-popup-content{font:14px/1.5 var(--sans)}
 .leaflet-popup-content .pbtn{display:inline-flex;align-items:center;min-height:36px;margin-top:6px;margin-right:6px;padding:0 10px;border-radius:999px;background:var(--ai-soft);color:var(--ai);text-decoration:none;font-weight:600}
@@ -182,10 +175,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .ab-map{background:#e3edf7;color:#1f3a5f}
 .ab-gm{background:#1f3a5f;color:#fff}
 .ab-web{background:#fff;color:var(--sumi);border-color:var(--line)}
-.ab-deep{background:#fbe7ec;color:#8d2f4c}
-.ab-buy{background:#e5f0df;color:#3f6e3a}
-.ab-src{background:#f1ece2;color:var(--sumi-2)}
-.ab[aria-expanded=true]{box-shadow:inset 0 0 0 2px currentColor}
 
 /* ---- 類別 chip、地圖 pin、圖例 ---- */
 .fchip .pin,.maplegend .pin{width:11px;height:11px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--c);display:inline-block;flex:none}
@@ -204,10 +193,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .tk-countrow .tk-count{margin:0}
 .seg.sort button{font-size:13px;padding:0 12px}
 
-/* ---- 首頁分頁卡的預覽照片 ---- */
-.pagecards a.hasph{flex-direction:column;padding:0;overflow:hidden;gap:0}
-.pagecards a.hasph .pv{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:#e8e4da}
-.pagecards a.hasph .pvb{display:flex;gap:12px;align-items:flex-start;padding:12px 16px 14px;width:100%}
 
 /* ---- itinerary ---- */
 .day{scroll-margin-top:70px}
@@ -243,14 +228,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 
 /* ---- claims section ---- */
 .claims{margin-top:2.5rem}
-.claims details{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);margin:8px 0}
-.claims summary{cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 16px;font-weight:600;list-style:none}
-.claims summary::-webkit-details-marker{display:none}
-.claims summary:after{content:"展開";margin-left:auto;font-size:13px;font-weight:400;border:1px solid var(--line);border-radius:999px;padding:2px 10px}
-.claims details[open] summary:after{content:"收合"}
-.claims summary:hover{background:var(--ai-soft)}
-.claims ul{margin:0;padding:0 16px 14px 34px}
-.claims li{margin:.4rem 0;font-size:15px}
 
 /* ---- footer / tabbar / sheet ---- */
 footer{margin-top:3rem;background:#ebe4d4;padding:24px 0 30px;font-size:14px;color:var(--sumi-2)}
@@ -269,14 +246,73 @@ footer p{margin:.4rem 0}
 .sheet .close{width:100%;margin-top:10px}
 
 @media (max-width:699px){.maplegend{display:none}}
-</style></head><body><header class="top"><div class="wrap"><a class="brand" href="index.html"><span class="torii" aria-hidden="true"></span>東京 2027</a><nav class="scroller" aria-label="分頁"><button class="arrow l" type="button" aria-label="往左捲">‹</button><div class="track"><a class="navlink" href="index.html">總覽</a><a class="navlink" href="itinerary.html">行程</a><a class="navlink" href="sights.html">景點</a><a class="navlink" href="eat.html">吃喝</a><a class="navlink" href="shop.html">購物</a><a class="navlink" href="parks.html">樂園</a><a class="navlink" href="book.html">需預約</a><a class="navlink" href="stay.html">住宿</a><a class="navlink" href="culture.html">文化</a><a class="navlink" href="talk.html" aria-current=page>會話</a><a class="navlink" href="prepare.html">行前</a><a class="navlink" href="apps.html">App</a></div><button class="arrow r" type="button" aria-label="往右捲">›</button></nav></div></header>
+
+/* ---- 卡片：營業時間・公休・價格 ---- */
+.info{margin:0;display:grid;gap:4px;font-size:14px;line-height:1.5;background:#f7f2e7;border-radius:10px;padding:8px 10px}
+.info>div{display:grid;grid-template-columns:4.4em minmax(0,1fr);gap:6px;align-items:baseline}
+.info dt{color:var(--sumi-2);font-size:13px;white-space:nowrap}
+.info dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.aside{color:var(--sumi-3);font-size:12.5px}
+.pc .jp{line-height:1.45}
+.pc .tg{font-size:12.5px;color:var(--sumi-3);margin-top:1px}
+
+/* ---- 可收合的彩色區塊 ---- */
+.folds{display:flex;flex-direction:column;gap:6px}
+.fold{--fbg:#f5f1e8;--fb:#e2d9c6;--fc:#5a544d;background:var(--fbg);border:1px solid var(--fb);border-left:4px solid var(--fc);border-radius:12px;overflow:hidden;min-width:0}
+.fold-h{font:inherit;width:100%;display:flex;align-items:center;gap:10px;min-height:44px;padding:7px 10px 7px 12px;border:0;background:transparent;cursor:pointer;text-align:left;color:var(--fc)}
+.fold-h:hover{background:rgba(255,255,255,.45)}.fold-h:active{background:rgba(255,255,255,.7)}
+.fold .fi{font-size:19px;line-height:1;flex:none}
+.fold .ft{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.fold .ft b{font-size:15px;line-height:1.35}
+.fold .ft .cnt{font-weight:400;font-size:13px;opacity:.85}
+.fold .ft small{font-size:13px;line-height:1.45;color:var(--sumi-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fold-h[aria-expanded=true] .ft small{display:block}
+.fold .fx{flex:none;font-size:12.5px;font-weight:600;background:rgba(255,255,255,.85);border:1px solid var(--fb);border-radius:999px;padding:2px 10px;white-space:nowrap}
+.fold .fx:after{content:"展開 ▾"}
+.fold-h[aria-expanded=true] .fx:after{content:"收合 ▴"}
+.fold-b{padding:8px 14px 12px;font-size:15px;color:var(--sumi);border-top:1px dashed var(--fb);background:rgba(255,255,255,.4)}
+.fold-b p{margin:.35rem 0}
+.fold-b ul,.fold-b ol{margin:.2rem 0;padding-left:1.3em}
+.fold-b li{margin:.3rem 0}
+.fold-b ul.tips{list-style:none;padding-left:0}
+.fold-b ul.tips li:before{content:"→ ";color:var(--fc);font-weight:700}
+.fold-b ul.buy li::marker{color:var(--fc)}
+.fold-b .srcs{font-size:13px;word-break:break-all}
+.f-go .fold-b>div{margin:.2rem 0 .5rem;font-size:14px}
+.f-go .fold-b b{color:var(--fc);font-size:13px}
+.f-know{--fbg:#fdf5df;--fb:#efd9a2;--fc:#94620a}
+.f-buy{--fbg:#e9f1fb;--fb:#bdd3ec;--fc:#245a96}
+.f-go{--fbg:#edf5e8;--fb:#c8dcbd;--fc:#3f6e3a}
+.f-src{--fbg:#f4f0e8;--fb:#e2d9c6;--fc:#6a635a}
+.f-alt{--fbg:#fbedf1;--fb:#efc6d3;--fc:#9a3557}
+.f-over{--fbg:#fdeee6;--fb:#f1c9b6;--fc:#a8381b}
+.f-unv{--fbg:#f3eef9;--fb:#ddd0ee;--fc:#5b3f86}
+.f-alt .stops a{background:rgba(255,255,255,.75)}
+.claims .folds{gap:8px}
+.claims .fold-b li{font-size:15px}
+
+/* ---- 訂位／購票 ---- */
+.bkbox{background:#f1f6ee;border:1px solid #cfe0c6;border-radius:12px;padding:10px 12px}
+.bkbox .bh{font-weight:700;font-size:14px;color:#2f5d2c;margin-bottom:6px}
+.bkbtns{display:flex;flex-wrap:wrap;gap:6px}
+.bk{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-height:48px;min-width:84px;padding:4px 14px;border-radius:12px;text-decoration:none;font-size:14px;line-height:1.25;border:1px solid transparent;transition:filter .15s,transform .05s}
+.bk:hover{filter:brightness(.95)}.bk:active{transform:translateY(1px);filter:brightness(.9)}
+.bk small{font-size:11.5px;font-weight:400;opacity:.92}
+.bk-off{background:#2f6b3a;color:#fff}
+.bk-tel{background:#fff;color:#2f6b3a;border-color:#8fb487}
+.bk-klook{background:#fff1e7;color:#b8410e;border-color:#f4c4a3}
+.bk-kkday{background:#e5f6f7;color:#0b6a73;border-color:#a7dce0}
+.bk-booking{background:#e7eefb;color:#003580;border-color:#b3c6ec}
+.bkbox .bn{font-size:13px;color:var(--sumi-2);margin:6px 0 0;line-height:1.5}
+.bkbox .bn.bw{color:var(--warn);background:var(--warn-bg);border-radius:8px;padding:5px 8px;margin:0 0 8px}
+</style></head><body><header class="top"><div class="wrap"><a class="brand" href="index.html"><span class="torii" aria-hidden="true"></span>東京 2027</a><nav class="scroller" aria-label="分頁"><button class="arrow l" type="button" aria-label="往左捲">‹</button><div class="track"><a class="navlink" href="index.html"><span class="ni" aria-hidden="true">🏠</span>總覽</a><a class="navlink" href="itinerary.html"><span class="ni" aria-hidden="true">🗓️</span>行程</a><a class="navlink" href="sights.html"><span class="ni" aria-hidden="true">⛩️</span>景點</a><a class="navlink" href="eat.html"><span class="ni" aria-hidden="true">🍶</span>吃喝</a><a class="navlink" href="shop.html"><span class="ni" aria-hidden="true">🛍️</span>購物</a><a class="navlink" href="parks.html"><span class="ni" aria-hidden="true">🏰</span>樂園</a><a class="navlink" href="book.html"><span class="ni" aria-hidden="true">🎟️</span>需預約</a><a class="navlink" href="stay.html"><span class="ni" aria-hidden="true">🛏️</span>住宿</a><a class="navlink" href="culture.html"><span class="ni" aria-hidden="true">📜</span>文化</a><a class="navlink" href="talk.html" aria-current=page><span class="ni" aria-hidden="true">💬</span>會話</a><a class="navlink" href="prepare.html"><span class="ni" aria-hidden="true">🧳</span>行前</a><a class="navlink" href="apps.html"><span class="ni" aria-hidden="true">📱</span>App</a></div><button class="arrow r" type="button" aria-label="往右捲">›</button></nav></div></header>
 <main class="wrap">
  <h1 style="margin-top:1.4rem">旅遊日語</h1>
  <p class="lead">51 句。按 ▶ 會用手機內建的日語語音唸出來（iPhone 要關掉靜音模式才聽得到）。中文諧音只是輔助，發音還是以假名和羅馬拼音為準。</p>
  <div class="tk-talk"></div>
 </main>
-<footer><div class="wrap"><p><b>查證日期：</b>2026-10-10。營業時間、票價、規則到 2027 年 3 月可能改變，訂票或出發前請再看官網。</p><p><b>評分：</b>只有研究時親眼看到的才寫，並標明來源與日期，是當時的快照。</p><p><b>地圖：</b>圖磚 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors，地圖程式 Leaflet。虛線圈是「大約位置」，導航請按卡片上的 Google 地圖。</p><p><b>照片：</b>83 張，7 張來自 Flickr、其餘來自 Wikimedia Commons，授權都是 CC0、CC BY、CC BY-SA 或公有領域；每張都人工看過，確認拍的是該地點。作者與授權寫在每張照片下方，完整清單見 <a href="CREDITS.md">CREDITS.md</a>。沒有合適照片的地點用類別圖示代替。</p><p><b>Google 星等：</b>2026/10 在 Google 地圖上查到的快照，之後會變動；查不到或對不上店名的就不寫。</p><p><b>資料：</b><a href="data/places.json">data/places.json</a> 是唯一資料來源；架構沿用同事的 PRD。</p><p><a href="index.html">總覽</a>　<a href="itinerary.html">行程</a>　<a href="sights.html">景點</a>　<a href="eat.html">吃喝</a>　<a href="shop.html">購物</a>　<a href="parks.html">樂園</a>　<a href="book.html">需預約</a>　<a href="stay.html">住宿</a>　<a href="culture.html">文化</a>　<a href="talk.html">會話</a>　<a href="prepare.html">行前</a>　<a href="apps.html">App</a></p></div></footer>
-<nav class="tabbar" aria-label="常用分頁"><a href="itinerary.html"><span class="i" aria-hidden="true">🗓</span>行程</a><a href="sights.html"><span class="i" aria-hidden="true">⛩</span>景點</a><a href="eat.html"><span class="i" aria-hidden="true">🍶</span>吃喝</a><a href="parks.html"><span class="i" aria-hidden="true">🏰</span>樂園</a><button type="button" id="more-btn" aria-expanded="false" aria-controls="more-sheet"><span class="i" aria-hidden="true">☰</span>更多</button></nav><div class="sheet" id="more-sheet" hidden><div class="panel" role="dialog" aria-label="全部分頁"><div class="grid"><a href="index.html"><span style="font-size:20px" aria-hidden="true">🏠</span>總覽</a><a href="itinerary.html"><span style="font-size:20px" aria-hidden="true">🗓</span>行程</a><a href="sights.html"><span style="font-size:20px" aria-hidden="true">⛩</span>景點</a><a href="eat.html"><span style="font-size:20px" aria-hidden="true">🍶</span>吃喝</a><a href="shop.html"><span style="font-size:20px" aria-hidden="true">🛍</span>購物</a><a href="parks.html"><span style="font-size:20px" aria-hidden="true">🏰</span>樂園</a><a href="book.html"><span style="font-size:20px" aria-hidden="true">🎟</span>需預約</a><a href="stay.html"><span style="font-size:20px" aria-hidden="true">🛏</span>住宿</a><a href="culture.html"><span style="font-size:20px" aria-hidden="true">📜</span>文化</a><a href="talk.html"><span style="font-size:20px" aria-hidden="true">💬</span>會話</a><a href="prepare.html"><span style="font-size:20px" aria-hidden="true">🧳</span>行前</a><a href="apps.html"><span style="font-size:20px" aria-hidden="true">📱</span>App</a></div><button type="button" class="btn ghost close">關閉</button></div></div>
+<footer><div class="wrap"><p><b>查證日期：</b>2026-10-10。營業時間、票價、規則到 2027 年 3 月可能改變，訂票或出發前請再看官網。</p><p><b>評分：</b>只有研究時親眼看到的才寫，並標明來源與日期，是當時的快照。</p><p><b>地圖：</b>圖磚 &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors，地圖程式 Leaflet。虛線圈是「大約位置」，導航請按卡片上的 Google 地圖。</p><p><b>照片：</b>82 張，9 張來自 Flickr、其餘來自 Wikimedia Commons。授權是 CC0、公有領域、CC BY、CC BY-SA，以及 2 張 CC BY-NC（禁止商業使用；這個網站是非商業的個人旅行筆記）。每張都人工看過，確認拍的是該地點。作者與授權寫在每張照片下方，完整清單見 <a href="CREDITS.md">CREDITS.md</a>。沒有合適照片的地點用類別圖示代替。</p><p><b>Google 星等：</b>2026/10 在 Google 地圖上查到的快照，之後會變動；查不到或對不上店名的就不寫。</p><p><b>資料：</b><a href="data/places.json">data/places.json</a> 是唯一資料來源；架構沿用同事的 PRD。</p><p><a href="index.html">總覽</a>　<a href="itinerary.html">行程</a>　<a href="sights.html">景點</a>　<a href="eat.html">吃喝</a>　<a href="shop.html">購物</a>　<a href="parks.html">樂園</a>　<a href="book.html">需預約</a>　<a href="stay.html">住宿</a>　<a href="culture.html">文化</a>　<a href="talk.html">會話</a>　<a href="prepare.html">行前</a>　<a href="apps.html">App</a></p></div></footer>
+<nav class="tabbar" aria-label="常用分頁"><a href="itinerary.html"><span class="i" aria-hidden="true">🗓️</span>行程</a><a href="sights.html"><span class="i" aria-hidden="true">⛩️</span>景點</a><a href="eat.html"><span class="i" aria-hidden="true">🍶</span>吃喝</a><a href="parks.html"><span class="i" aria-hidden="true">🏰</span>樂園</a><button type="button" id="more-btn" aria-expanded="false" aria-controls="more-sheet"><span class="i" aria-hidden="true">☰</span>更多</button></nav><div class="sheet" id="more-sheet" hidden><div class="panel" role="dialog" aria-label="全部分頁"><div class="grid"><a href="index.html"><span style="font-size:20px" aria-hidden="true">🏠</span>總覽</a><a href="itinerary.html"><span style="font-size:20px" aria-hidden="true">🗓️</span>行程</a><a href="sights.html"><span style="font-size:20px" aria-hidden="true">⛩️</span>景點</a><a href="eat.html"><span style="font-size:20px" aria-hidden="true">🍶</span>吃喝</a><a href="shop.html"><span style="font-size:20px" aria-hidden="true">🛍️</span>購物</a><a href="parks.html"><span style="font-size:20px" aria-hidden="true">🏰</span>樂園</a><a href="book.html"><span style="font-size:20px" aria-hidden="true">🎟️</span>需預約</a><a href="stay.html"><span style="font-size:20px" aria-hidden="true">🛏️</span>住宿</a><a href="culture.html"><span style="font-size:20px" aria-hidden="true">📜</span>文化</a><a href="talk.html"><span style="font-size:20px" aria-hidden="true">💬</span>會話</a><a href="prepare.html"><span style="font-size:20px" aria-hidden="true">🧳</span>行前</a><a href="apps.html"><span style="font-size:20px" aria-hidden="true">📱</span>App</a></div><button type="button" class="btn ghost close">關閉</button></div></div>
 <script type="application/json" id="data-talk">{"meta":{"secs":["basic","izakaya","shop","transit","shrine","hotel","park","emergency"]},"entries":[{"id":"f-t-01","sec":"basic","t":"すみません","say":"すみません","roma":"sumimasen","zhsound":"蘇咪媽線","zh":"不好意思／請問","when":"叫人、借過、道歉都能用"},{"id":"f-t-02","sec":"basic","t":"ありがとうございます","say":"ありがとうございます","roma":"arigatou gozaimasu","zhsound":"阿哩阿豆 狗紮一媽斯","zh":"謝謝","when":"任何時候"},{"id":"f-t-03","sec":"basic","t":"日本語が少しだけ話せます","say":"にほんごが すこしだけ はなせます","roma":"nihongo ga sukoshi dake hanasemasu","zh":"我只會說一點日文","when":"對方講太快時"},{"id":"f-t-04","sec":"basic","t":"もう一度ゆっくりお願いします","say":"もういちど ゆっくり おねがいします","roma":"mou ichido yukkuri onegaishimasu","zh":"請再慢慢說一次","when":"聽不懂時"},{"id":"f-t-05","sec":"basic","t":"英語のメニューはありますか","say":"えいごの メニューは ありますか","roma":"eigo no menyuu wa arimasu ka","zh":"有英文菜單嗎？","when":"餐廳"},{"id":"f-t-06","sec":"basic","t":"写真を撮ってもいいですか","say":"しゃしんを とっても いいですか","roma":"shashin o tottemo ii desu ka","zh":"可以拍照嗎？","when":"店內、展覽、拍人之前"},{"id":"f-t-07","sec":"basic","t":"トイレはどこですか","say":"トイレは どこですか","roma":"toire wa doko desu ka","zh":"廁所在哪裡？","when":"任何地方"},{"id":"f-t-08","sec":"izakaya","t":"三人です","say":"さんにんです","roma":"sannin desu","zh":"三位","when":"進店時店員問人數","note":"兩位：ふたりです（futari desu）；四位：よにんです（yonin desu）"},{"id":"f-t-09","sec":"izakaya","t":"予約していません","say":"よやく していません","roma":"yoyaku shite imasen","zh":"沒有訂位","when":"店員問有沒有預約"},{"id":"f-t-10","sec":"izakaya","t":"とりあえずビールを三つ","say":"とりあえず ビールを みっつ","roma":"toriaezu biiru o mittsu","zh":"先來三杯啤酒","when":"坐下後先點飲料"},{"id":"f-t-11","sec":"izakaya","t":"おすすめは何ですか","say":"おすすめは なんですか","roma":"osusume wa nan desu ka","zh":"推薦什麼？","when":"不知道點什麼"},{"id":"f-t-12","sec":"izakaya","t":"これをください","say":"これを ください","roma":"kore o kudasai","zh":"請給我這個","when":"指著菜單點餐"},{"id":"f-t-13","sec":"izakaya","t":"ノンアルコールの飲み物はありますか","say":"ノンアルコールの のみものは ありますか","roma":"non-arukooru no nomimono wa arimasu ka","zh":"有無酒精飲料嗎？","when":"不喝酒的人"},{"id":"f-t-14","sec":"izakaya","t":"お水をください","say":"おみずを ください","roma":"omizu o kudasai","zh":"請給我水","when":"要水"},{"id":"f-t-15","sec":"izakaya","t":"お会計お願いします","say":"おかいけい おねがいします","roma":"okaikei onegaishimasu","zh":"麻煩結帳","when":"要買單"},{"id":"f-t-16","sec":"izakaya","t":"カードは使えますか","say":"カードは つかえますか","roma":"kaado wa tsukaemasu ka","zh":"可以刷卡嗎？","when":"結帳前、進店前"},{"id":"f-t-17","sec":"izakaya","t":"ごちそうさまでした","say":"ごちそうさまでした","roma":"gochisousama deshita","zh":"謝謝招待（吃飽了）","when":"離開店時對店員說"},{"id":"f-t-18","sec":"shop","t":"これはいくらですか","say":"これは いくらですか","roma":"kore wa ikura desu ka","zh":"這個多少錢？","when":"買東西"},{"id":"f-t-19","sec":"shop","t":"見ているだけです","say":"みているだけです","roma":"mite iru dake desu","zh":"我只是看看","when":"店員來招呼時"},{"id":"f-t-20","sec":"shop","t":"ほかの色はありますか","say":"ほかの いろは ありますか","roma":"hoka no iro wa arimasu ka","zh":"有其他顏色嗎？","when":"選物店、服飾"},{"id":"f-t-21","sec":"shop","t":"試着してもいいですか","say":"しちゃく しても いいですか","roma":"shichaku shitemo ii desu ka","zh":"可以試穿嗎？","when":"服飾店"},{"id":"f-t-22","sec":"shop","t":"免税できますか","say":"めんぜい できますか","roma":"menzei dekimasu ka","zh":"可以辦免稅（退稅）嗎？","when":"結帳時；2026年11月起是先付含稅價、出境再退"},{"id":"f-t-23","sec":"shop","t":"袋はいりません","say":"ふくろは いりません","roma":"fukuro wa irimasen","zh":"不需要袋子","when":"結帳時店員問要不要袋子（袋子多半要收費）"},{"id":"f-t-24","sec":"shop","t":"プレゼント用に包んでもらえますか","say":"プレゼントように つつんで もらえますか","roma":"purezento-you ni tsutsunde moraemasu ka","zh":"可以幫我包成禮物嗎？","when":"買伴手禮"},{"id":"f-t-25","sec":"transit","t":"戸越駅はどこですか","say":"とごしえきは どこですか","roma":"Togoshi-eki wa doko desu ka","zh":"戶越站在哪裡？","when":"問路"},{"id":"f-t-26","sec":"transit","t":"この電車は戸越に止まりますか","say":"この でんしゃは とごしに とまりますか","roma":"kono densha wa Togoshi ni tomarimasu ka","zh":"這班車有停戶越嗎？","when":"淺草線有急行、特急，不確定時問"},{"id":"f-t-27","sec":"transit","t":"何番線ですか","say":"なんばんせんですか","roma":"nanban-sen desu ka","zh":"在幾號月台？","when":"找月台"},{"id":"f-t-28","sec":"transit","t":"どこで乗り換えますか","say":"どこで のりかえますか","roma":"doko de norikaemasu ka","zh":"在哪裡轉車？","when":"問站務員"},{"id":"f-t-29","sec":"transit","t":"Suicaにチャージしたいです","say":"スイカに チャージしたいです","roma":"Suika ni chaaji shitai desu","zh":"我想幫 Suica 加值","when":"找不到加值機時問站務員"},{"id":"f-t-30","sec":"transit","t":"この住所まで行ってください","say":"この じゅうしょまで いってください","roma":"kono juusho made itte kudasai","zh":"請載我到這個地址","when":"計程車，給司機看地址"},{"id":"f-t-31","sec":"transit","t":"コインロッカーはどこですか","say":"コインロッカーは どこですか","roma":"koin rokkaa wa doko desu ka","zh":"寄物櫃在哪裡？","when":"車站"},{"id":"f-t-32","sec":"shrine","t":"御朱印をいただけますか","say":"ごしゅいんを いただけますか","roma":"goshuin o itadakemasu ka","zh":"可以請領御朱印嗎？","when":"授與所，遞出御朱印帳時"},{"id":"f-t-33","sec":"shrine","t":"書き置きはありますか","say":"かきおきは ありますか","roma":"kakioki wa arimasu ka","zh":"有事先寫好的紙本御朱印嗎？","when":"沒帶御朱印帳時"},{"id":"f-t-34","sec":"shrine","t":"お守りをください","say":"おまもりを ください","roma":"omamori o kudasai","zh":"我要這個御守","when":"買御守"},{"id":"f-t-35","sec":"shrine","t":"中に入ってもいいですか","say":"なかに はいっても いいですか","roma":"naka ni haittemo ii desu ka","zh":"可以進去嗎？","when":"不確定能不能進入某區域"},{"id":"f-t-36","sec":"hotel","t":"チェックインをお願いします","say":"チェックインを おねがいします","roma":"chekku-in o onegaishimasu","zh":"我要辦入住","when":"櫃台"},{"id":"f-t-37","sec":"hotel","t":"予約した〇〇です","say":"よやくした 〇〇です","roma":"yoyaku shita ○○ desu","zh":"我是預約的〇〇","when":"報上訂房姓名"},{"id":"f-t-38","sec":"hotel","t":"荷物を預かってもらえますか","say":"にもつを あずかって もらえますか","roma":"nimotsu o azukatte moraemasu ka","zh":"可以寄放行李嗎？","when":"入住前或退房後"},{"id":"f-t-39","sec":"hotel","t":"Wi-Fiのパスワードは何ですか","say":"ワイファイの パスワードは なんですか","roma":"waifai no pasuwaado wa nan desu ka","zh":"Wi-Fi 密碼是什麼？","when":"入住時"},{"id":"f-t-40","sec":"hotel","t":"タオルをもう一枚ください","say":"タオルを もう いちまい ください","roma":"taoru o mou ichimai kudasai","zh":"請再給我一條毛巾","when":"備品不夠"},{"id":"f-t-41","sec":"park","t":"ここに座ってもいいですか","say":"ここに すわっても いいですか","roma":"koko ni suwattemo ii desu ka","zh":"可以坐這裡嗎？","when":"公園、咖啡店"},{"id":"f-t-42","sec":"park","t":"ゴミはどこに捨てればいいですか","say":"ゴミは どこに すてれば いいですか","roma":"gomi wa doko ni sutereba ii desu ka","zh":"垃圾要丟哪裡？","when":"找不到垃圾桶"},{"id":"f-t-43","sec":"park","t":"桜はもう咲いていますか","say":"さくらは もう さいていますか","roma":"sakura wa mou saite imasu ka","zh":"櫻花已經開了嗎？","when":"問當地人"},{"id":"f-t-44","sec":"park","t":"写真を撮っていただけますか","say":"しゃしんを とって いただけますか","roma":"shashin o totte itadakemasu ka","zh":"可以幫我們拍照嗎？","when":"請路人幫忙拍合照"},{"id":"f-t-45","sec":"emergency","t":"助けてください","say":"たすけてください","roma":"tasukete kudasai","zh":"請幫幫我","when":"緊急狀況"},{"id":"f-t-46","sec":"emergency","t":"救急車を呼んでください","say":"きゅうきゅうしゃを よんでください","roma":"kyuukyuusha o yonde kudasai","zh":"請叫救護車","when":"有人受傷或身體不適（119）"},{"id":"f-t-47","sec":"emergency","t":"財布をなくしました","say":"さいふを なくしました","roma":"saifu o nakushimashita","zh":"我的錢包掉了","when":"去派出所（交番）或車站報失"},{"id":"f-t-48","sec":"emergency","t":"気分が悪いです","say":"きぶんが わるいです","roma":"kibun ga warui desu","zh":"我覺得不舒服","when":"身體不適"},{"id":"f-t-49","sec":"emergency","t":"近くに病院はありますか","say":"ちかくに びょういんは ありますか","roma":"chikaku ni byouin wa arimasu ka","zh":"附近有醫院嗎？","when":"需要看醫生"},{"id":"f-t-50","sec":"emergency","t":"道に迷いました","say":"みちに まよいました","roma":"michi ni mayoimashita","zh":"我迷路了","when":"問路、找交番"},{"id":"f-t-51","sec":"emergency","t":"中国語を話せる人はいますか","say":"ちゅうごくごを はなせる ひとは いますか","roma":"chuugokugo o hanaseru hito wa imasu ka","zh":"有會說中文的人嗎？","when":"溝通不了時"}]}</script>
 <script>/* 東京 2027 共用腳本：不需框架，資料由 _build.py 注入 <script type="application/json"> */
 (function(){
@@ -346,40 +382,81 @@ function initSheet(){
 }
 
 /* ---------- 地點卡片 ---------- */
+// 括號裡的補充（來源、例外）縮小變灰，主資訊比較好讀
+const soft=h=>h.replace(/（([^（）<>]*)）/g,'<span class="aside">（$1）</span>');
+// 可收合的彩色區塊：kind 決定顏色（know 知識・buy 好物・go 交通・src 來源・alt 順路・over 推翻・unv 查不到）
+function fold(kind,icon,title,sub,body){
+  return '<div class="fold f-'+kind+'"><button type="button" class="fold-h" aria-expanded="false" data-fold><span class="fi" aria-hidden="true">'+icon+'</span>'+
+    '<span class="ft"><b>'+title+'</b>'+(sub?'<small>'+sub+'</small>':'')+'</span><span class="fx" aria-hidden="true"></span></button><div class="fold-b" hidden>'+body+'</div></div>';
+}
+function infoBox(p){
+  const rows=[];
+  if(p.hours)rows.push(['🕘','營業',soft(esc(p.hours))]);
+  if(p.closed)rows.push(['💤','公休',soft(esc(p.closed))]);
+  if(p.price)rows.push(['💴','價格',soft(withTwd(p.price))]);
+  if((p.tags||[]).includes('cash-only'))rows.push(['💳','付款','<b>只收現金</b>']);
+  if(!rows.length)return '';
+  return '<dl class="info">'+rows.map(r=>'<div><dt><span aria-hidden="true">'+r[0]+'</span> '+r[1]+'</dt><dd>'+r[2]+'</dd></div>').join('')+'</dl>';
+}
+const ext=(cls,href,main,sub)=>'<a class="bk '+cls+'" href="'+esc(href)+'"'+(href.startsWith('tel:')?'':' target="_blank" rel="noopener"')+'><b>'+main+'</b>'+(sub?'<small>'+sub+'</small>':'')+'</a>';
+function bookBox(p){
+  if(!p.bookable||p.flag==='closed')return '';
+  const stay=p.cat==='stay',q=p.bkq||p.zh||p.name,b=[],notes=[];
+  if(p.url)b.push(ext('bk-off',p.url,'🏛️ 官網',stay?'直接訂房':'直接訂最準'));
+  if(p.tel)b.push(ext('bk-tel','tel:'+p.tel,'📞 打電話',esc(p.tel.replace(/^\+81-/,'0'))));
+  (p.rs||[]).forEach(r=>{
+    if(r==='klook')b.push(ext('bk-klook','https://www.klook.com/zh-TW/search/?query='+encodeURIComponent(q),'Klook','搜尋'));
+    if(r==='kkday')b.push(ext('bk-kkday','https://www.kkday.com/zh-tw/product/productlist?keyword='+encodeURIComponent(q),'KKday','搜尋'));
+  });
+  if(stay&&p.bkq)b.push(ext('bk-booking','https://www.booking.com/searchresults.zh-tw.html?ss='+encodeURIComponent(p.bkq)+'&checkin=2027-03-17&checkout=2027-03-21','Booking.com','搜尋 3/17–21'));
+  if(p.bk)notes.push('📝 '+soft(esc(p.bk)));
+  if(p.bknote)notes.push(esc(p.bknote));
+  if((p.rs||[]).length)notes.push('Klook／KKday 連到的是搜尋結果頁，價格與退改規定各家不同，買之前和官網比一下。');
+  if(stay&&p.bkq)notes.push('Booking.com 預設 3/17 入住、3/21 退房，請改成實際日期；房價依日期變動，先選可免費取消的房型。');
+  if(!b.length&&!p.bk)notes.push('沒有查到線上訂位方式，到現場或請日本朋友幫忙打電話。');
+  // 警告優先：⚠️ 開頭的提醒放在按鈕上面
+  const w=notes.filter(n=>n.startsWith('⚠️')),rest=notes.filter(n=>!n.startsWith('⚠️'));
+  return '<div class="bkbox"><div class="bh">'+(stay?'🛏️ 訂房':'🎟️ 訂位／購票')+'</div>'+w.map(n=>'<p class="bn bw">'+n+'</p>').join('')+(b.length?'<div class="bkbtns">'+b.join('')+'</div>':'')+rest.map(n=>'<p class="bn">'+n+'</p>').join('')+'</div>';
+}
 function card(p){
-  const f=FLAG[p.flag]||FLAG.info, z=p.zone, cat=(P.meta.cats[p.cat]||p.cat);
-  const meta=[];
-  if(p.station)meta.push('<div>🚉 '+esc(p.station)+'</div>');
-  if(p.from_base)meta.push('<div>🏠 從戶越：'+esc(p.from_base)+'</div>');
-  if(p.hours)meta.push('<div><b>營業</b> '+esc(p.hours)+'</div>');
-  if(p.closed)meta.push('<div><b>公休</b> '+esc(p.closed)+'</div>');
-  if(p.price)meta.push('<div><b>價格</b> '+withTwd(p.price)+'</div>');
-  const hasDeep=p.deep&&(p.deep.lead||(p.deep.paras||[]).length);
-  const c=CATS[catOf(p)]||CATS.sight;
+  const f=FLAG[p.flag]||FLAG.info, z=p.zone, c=CATS[catOf(p)]||CATS.sight;
+  const tg=(p.tags||[]).filter(t=>TAGZH[t]&&t!=='cash-only').slice(0,4).map(t=>TAGZH[t]);
+  const folds=[];
+  const d=p.deep;
+  if(d&&(d.lead||(d.paras||[]).length))
+    folds.push(fold('know','💡','知識點',d.lead?esc(d.lead):'',(d.paras||[]).map(x=>'<p>'+rich(x)+'</p>').join('')+((d.tips||[]).length?'<ul class="tips">'+d.tips.map(x=>'<li>'+rich(x)+'</li>').join('')+'</ul>':'')));
+  if((p.buy||[]).length)folds.push(fold('buy','🛍️','推薦好物清單 <span class="cnt">'+p.buy.length+' 項</span>','',
+    '<ul class="buy">'+p.buy.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul>'));
+  const go=[];
+  if(p.station)go.push('<div><b>🚉 最近車站</b><br>'+soft(esc(p.station))+'</div>');
+  if(p.from_base)go.push('<div><b>🏠 從戶越過去</b><br>'+soft(withTwd(p.from_base))+'</div>');
+  if(p.addr)go.push('<div><b>📮 地址</b><br><span lang="ja">'+esc(p.addr)+'</span></div>');
+  if(p.geo_approx)go.push('<div class="approx">📍 網站地圖上的 pin 是大約位置，導航請用 Google Maps 按鈕。</div>');
+  if(go.length)folds.push(fold('go','🚃','怎麼去',p.station?esc(p.station.replace(/（[^）]*）/g,'')):'',go.join('')));
+  if((p.src||[]).length)folds.push(fold('src','📚','資料來源 <span class="cnt">'+p.src.length+'</span>','','<ol class="srcs">'+p.src.map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a></li>').join('')+'</ol>'));
   return '<article class="pc'+(p.flag==='closed'?' closed':'')+'" id="p-'+esc(p.id)+'" style="--zc:'+ZC[z]+';--cc:'+c[2]+'" data-id="'+esc(p.id)+'">'+
    photo(p)+'<div class="in">'+
-   '<div class="hdr"><span class="cdot" aria-hidden="true"></span><div class="t"><h3>'+esc(p.zh||p.name)+'</h3><div class="jp">'+esc(p.name)+'</div></div><span class="badge '+f[0]+'">'+f[1]+'</span></div>'+
-   '<div class="tags" style="gap:6px"><span class="badge b-cat2">'+c[0]+' '+esc(c[1])+'</span><span class="badge b-zone">'+esc(P.meta.zones[z]||z)+'</span><span class="badge b-cat">'+esc(p.town||'')+'</span>'+(p.day?'<span class="badge b-day">🗓 '+dayLabel(p.day)+'</span>':'')+(p.bookable?'<span class="badge b-info">🎟 需預約／購票</span>':'')+'</div>'+
+   '<div class="hdr"><span class="cdot" aria-hidden="true"></span><div class="t"><h3>'+esc(p.zh||p.name)+'</h3><div class="jp" lang="ja">'+esc(p.name)+'</div>'+(tg.length?'<div class="tg">🏷️ '+tg.join('、')+'</div>':'')+'</div><span class="badge '+f[0]+'">'+f[1]+'</span></div>'+
+   '<div class="tags"><span class="badge b-cat2">'+c[0]+' '+esc(c[1])+'</span><span class="badge b-zone">'+esc(P.meta.zones[z]||z)+'</span><span class="badge b-cat">📍 '+esc(p.town||'')+'</span>'+(p.day?'<span class="badge b-day">🗓️ '+dayLabel(p.day)+'</span>':'')+(p.bookable?'<span class="badge b-info">🎟️ 需預約</span>':'')+'</div>'+
    ratingRows(p)+
    (p.warn?'<div class="warnline">'+p.warn.split('\n').map(rich).join('<br>')+'</div>':'')+
    '<p class="note">'+rich(p.note||'')+'</p>'+
-   '<div class="meta">'+meta.join('')+'</div>'+
-   (p.bk?'<div class="meta"><div><b>預約</b> '+esc(p.bk)+'</div></div>':'')+
-   ((p.tags||[]).length?'<div class="tags">'+p.tags.filter(t=>TAGZH[t]).map(t=>'<span>'+TAGZH[t]+'</span>').join('')+'</div>':'')+
-   (p.geo_approx?'<div class="approx">📍 地圖上是大約位置（'+esc(p.geo_src||'')+'），導航請用 Google 地圖按鈕</div>':'')+
+   infoBox(p)+
+   (folds.length?'<div class="folds">'+folds.join('')+'</div>':'')+
+   '<div class="cta">'+bookBox(p)+
    '<div class="acts">'+
      '<button class="ab ab-map" type="button" data-act="locate">🗺️ 在地圖上</button>'+
      '<a class="ab ab-gm" href="'+gmaps(p)+'" target="_blank" rel="noopener">📍 Google Maps</a>'+
-     (p.url?'<a class="ab ab-web" href="'+esc(p.url)+'" target="_blank" rel="noopener">🏛️ 官網</a>':'')+
-     (hasDeep?'<button class="ab ab-deep" type="button" data-act="deep" aria-expanded="false">📖 深入了解 ▾</button>':'')+
-     ((p.buy||[]).length?'<button class="ab ab-buy" type="button" data-act="buy" aria-expanded="false">🛒 購物清單 ▾</button>':'')+
-     ((p.src||[]).length?'<button class="ab ab-src" type="button" data-act="src" aria-expanded="false">📚 來源（'+p.src.length+'）▾</button>':'')+
-   '</div>'+
-   (hasDeep?'<div class="deep" data-part="deep" hidden>'+(p.deep.lead?'<p><b>'+esc(p.deep.lead)+'</b></p>':'')+(p.deep.paras||[]).map(x=>'<p>'+rich(x)+'</p>').join('')+((p.deep.tips||[]).length?'<ul>'+p.deep.tips.map(x=>'<li>'+rich(x)+'</li>').join('')+'</ul>':'')+'</div>':'')+
-   ((p.buy||[]).length?'<div class="deep" data-part="buy" hidden><ul>'+p.buy.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul></div>':'')+
-   ((p.src||[]).length?'<div class="deep srcs" data-part="src" hidden><ol>'+p.src.map(u=>'<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a></li>').join('')+'</ol></div>':'')+
+     (p.url&&!(p.bookable&&p.flag!=='closed')?'<a class="ab ab-web" href="'+esc(p.url)+'" target="_blank" rel="noopener">🏛️ 官網</a>':'')+
+   '</div></div>'+
    '</div></article>';
 }
+// 所有可收合區塊共用（卡片、行程、查證區）
+document.addEventListener('click',e=>{
+  const h=e.target.closest('[data-fold]');if(!h)return;
+  const b=h.nextElementSibling,open=h.getAttribute('aria-expanded')!=='true';
+  h.setAttribute('aria-expanded',open);b.hidden=!open;
+});
 
 /* ---------- 地點瀏覽器（篩選＋清單＋地圖） ---------- */
 function Browser(root){
@@ -496,7 +573,6 @@ function Browser(root){
     const c=t.closest('.pc');if(!c)return;
     const act=t.dataset.act;
     if(act==='locate'){setView('map');const m=markers[c.dataset.id];if(m){map.setView(m.getLatLng(),15);m.openPopup();if(!body.classList.contains('split'))mapEl.scrollIntoView({behavior:'smooth',block:'center'});}return;}
-    if(act){const part=$('[data-part='+act+']',c);const open=part.hidden;part.hidden=!open;t.setAttribute('aria-expanded',open);t.textContent=t.textContent.replace(open?'▾':'▴',open?'▴':'▾');}
   });
   const si=$('.tk-search',root);if(si){let tm;si.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>{st.q=si.value.trim();st.shown=24;render();},150)});}
   if(st.day)$$('[data-day]',root).forEach(b=>b.setAttribute('aria-pressed',(+b.dataset.day||null)===st.day));
@@ -520,7 +596,7 @@ function renderItinerary(root){
       r.options.map(o=>'<div class="opt'+(o.rec?' rec':'')+'"><h3><span class="lab">'+esc(o.label)+'</span>'+esc(o.name)+(o.rec?'<span class="badge b-ok">建議</span>':'')+'</h3>'+
         '<div class="small" style="margin:4px 0">'+esc(o.meta)+'</div><p style="margin:.4rem 0">'+rich(o.desc)+'</p>'+
         '<div class="small"><b>主要停留</b></div><ul class="stops">'+o.main.map(stop).join('')+'</ul>'+
-        (o.alt.length?'<details style="margin-top:8px"><summary class="pill" style="display:inline-flex">順路可加（'+o.alt.length+'）</summary><ul class="stops">'+o.alt.map(stop).join('')+'</ul></details>':'')+
+        (o.alt.length?'<div class="folds" style="margin-top:10px">'+fold('alt','🧭','順路可加 <span class="cnt">'+o.alt.length+' 個</span>','時間有剩再去，點進去看地點卡','<ul class="stops">'+o.alt.map(stop).join('')+'</ul>')+'</div>':'')+
       '</div>').join('')+'</div>'+
       '<p><a class="btn ghost" href="index.html?day='+r.day+'#map">在地圖上看這天的地點</a></p></section>';
   });
@@ -531,9 +607,9 @@ function renderItinerary(root){
 function renderClaims(root){
   if(!F)return;const rs=(root.dataset.r||'').split(',');
   const u=F.unverified.filter(x=>rs.includes(x.r)),o=F.overturned.filter(x=>rs.includes(x.r));
-  root.innerHTML='<h2>查不到、不敢寫的說法</h2><p class="lead">研究時看到但查不到第二個可靠來源、或來源互相矛盾的說法。這些沒有寫進上面的卡片。</p>'+
-   '<details><summary>查證後推翻的常見說法（'+o.length+'）</summary><ul>'+o.map(x=>'<li><b>常見說法：</b>'+esc(x.claim)+'<br><b>實際情況：</b>'+esc(x.truth)+((x.src||[]).length?' <span class="small">（'+x.src.map((s,i)=>'<a href="'+esc(s)+'" target="_blank" rel="noopener">來源'+(i+1)+'</a>').join('、')+'）</span>':'')+'</li>').join('')+'</ul></details>'+
-   '<details><summary>查不到、沒寫進去的說法（'+u.length+'）</summary><ul>'+u.map(x=>'<li>'+esc(x.claim)+'<br><span class="small">原因：'+esc(x.why)+'</span></li>').join('')+'</ul></details>';
+  root.innerHTML='<h2>查不到、不敢寫的說法</h2><p class="lead">研究時看到但查不到第二個可靠來源、或來源互相矛盾的說法。這些沒有寫進上面的卡片。</p><div class="folds">'+
+   (o.length?fold('over','🔄','查證後推翻的常見說法 <span class="cnt">'+o.length+'</span>','研究時看到、查證後發現不對的說法','<ul>'+o.map(x=>'<li><b>常見說法：</b>'+esc(x.claim)+'<br><b>實際情況：</b>'+esc(x.truth)+((x.src||[]).length?' <span class="small">（'+x.src.map((s,i)=>'<a href="'+esc(s)+'" target="_blank" rel="noopener">來源'+(i+1)+'</a>').join('、')+'）</span>':'')+'</li>').join('')+'</ul>'):'')+
+   (u.length?fold('unv','❓','查不到、沒寫進去的說法 <span class="cnt">'+u.length+'</span>','只有單一來源或來源互相矛盾','<ul>'+u.map(x=>'<li>'+esc(x.claim)+'<br><span class="small">原因：'+esc(x.why)+'</span></li>').join('')+'</ul>'):'')+'</div>';
 }
 /* ---------- 已查證事實 ---------- */
 function renderFacts(root){

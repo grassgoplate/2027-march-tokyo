@@ -51,7 +51,7 @@
      "desc":"無印良品銀座店從 B1 的 MUJI Diner 一路逛到樓上，順便逛伊東屋文具，再走到日本橋和福德神社，之後回去拿行李前往機場。",
      "main":["b-muji-ginza","b-ginza-itoya","b-nihonbashi-bridge","b-fukutoku-jinja"],"alt":["c-muji-shinjuku-dori"]},
     {"id":"5b","label":"B","name":"品川一帶，離機場近","meta":"航班較早時","rec":false,
-     "desc":"品川神社、舊東海道品川宿、泉岳寺都在往羽田的路上，大井町的無印良品也可以順路逛。",
+     "desc":"品川神社、舊東海道品川宿、泉岳寺都在往羽田的路上。",
      "main":["a-shinagawa-jinja","a-kyu-tokaido-shinagawa","a-sengakuji","a-muji-atre-oimachi"],"alt":[]}
    ]}
  ]

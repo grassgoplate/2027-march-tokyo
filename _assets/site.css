@@ -39,7 +39,8 @@ h3{font-size:1.12rem;margin:0}
 .scroller.fade-l .track{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px);mask-image:linear-gradient(90deg,transparent 0,#000 28px)}
 .scroller.fade-r .track{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent 100%)}
 .scroller.fade-l.fade-r .track{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 28px,#000 calc(100% - 28px),transparent 100%)}
-.navlink{color:#dfe7f1;text-decoration:none;white-space:nowrap;padding:0 12px;min-height:44px;display:flex;align-items:center;border-radius:10px;font-size:15px}
+.navlink{color:#dfe7f1;text-decoration:none;white-space:nowrap;padding:0 11px;min-height:44px;display:flex;align-items:center;border-radius:10px;font-size:15px}
+.navlink .ni{margin-right:5px;font-size:16px;line-height:1}
 .navlink:hover{background:rgba(255,255,255,.12);color:#fff}
 .navlink:active{background:rgba(255,255,255,.22)}
 .navlink[aria-current=page]{background:#fff;color:var(--ai);font-weight:700}
@@ -116,7 +117,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .plist>*{min-width:0}
 .pc{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;scroll-margin-top:68px}
 .pc.hl{box-shadow:0 0 0 3px var(--shu)}
-.pc .strip{height:6px;background:var(--zc,#999)}
 .pc .in{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
 .pc .hdr{display:flex;gap:8px;align-items:flex-start}
 .pc .hdr .t{flex:1;min-width:0}
@@ -133,20 +133,13 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .b-day{background:var(--sakura);color:#7d2944}
 .warnline{background:var(--warn-bg);color:var(--warn);border-radius:10px;padding:8px 10px;font-size:14px;line-height:1.55}
 .pc.closed .t h3{text-decoration:line-through;text-decoration-color:rgba(0,0,0,.35)}
-.meta{font-size:14px;color:var(--sumi-2);display:grid;gap:2px}
-.meta b{color:var(--sumi);font-weight:600}
 .note{font-size:15px;margin:2px 0}
 .tags{display:flex;flex-wrap:wrap;gap:4px}
 .tags span:not(.badge){font-size:12px;color:var(--sumi-3);background:#f2ede2;border-radius:6px;padding:0 6px}
-.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
-.acts .pill{font-size:13px;padding:0 12px}
-.pc .strip{display:none}
-.deep{border-top:1px dashed var(--line);padding-top:8px;font-size:15px}
-.deep p{margin:.4rem 0}
-.deep ul{margin:.3rem 0;padding-left:1.2em}
-.srcs{font-size:13px;word-break:break-all}
-.srcs ol{margin:.2rem 0;padding-left:1.4em}
-.approx{font-size:12px;color:var(--sumi-3)}
+.cta{margin-top:auto;display:flex;flex-direction:column;gap:8px;padding-top:4px}
+.acts{display:flex;flex-wrap:wrap;gap:6px}
+.acts .ab{padding:0 11px}
+.approx{font-size:13px;color:var(--sumi-3)}
 .more{display:flex;justify-content:center;margin:16px 0}
 .leaflet-popup-content{font:14px/1.5 var(--sans)}
 .leaflet-popup-content .pbtn{display:inline-flex;align-items:center;min-height:36px;margin-top:6px;margin-right:6px;padding:0 10px;border-radius:999px;background:var(--ai-soft);color:var(--ai);text-decoration:none;font-weight:600}
@@ -182,10 +175,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .ab-map{background:#e3edf7;color:#1f3a5f}
 .ab-gm{background:#1f3a5f;color:#fff}
 .ab-web{background:#fff;color:var(--sumi);border-color:var(--line)}
-.ab-deep{background:#fbe7ec;color:#8d2f4c}
-.ab-buy{background:#e5f0df;color:#3f6e3a}
-.ab-src{background:#f1ece2;color:var(--sumi-2)}
-.ab[aria-expanded=true]{box-shadow:inset 0 0 0 2px currentColor}
 
 /* ---- 類別 chip、地圖 pin、圖例 ---- */
 .fchip .pin,.maplegend .pin{width:11px;height:11px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:var(--c);display:inline-block;flex:none}
@@ -204,10 +193,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 .tk-countrow .tk-count{margin:0}
 .seg.sort button{font-size:13px;padding:0 12px}
 
-/* ---- 首頁分頁卡的預覽照片 ---- */
-.pagecards a.hasph{flex-direction:column;padding:0;overflow:hidden;gap:0}
-.pagecards a.hasph .pv{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:#e8e4da}
-.pagecards a.hasph .pvb{display:flex;gap:12px;align-items:flex-start;padding:12px 16px 14px;width:100%}
 
 /* ---- itinerary ---- */
 .day{scroll-margin-top:70px}
@@ -243,14 +228,6 @@ table.cmp tbody th{background:var(--ai-soft);white-space:nowrap}
 
 /* ---- claims section ---- */
 .claims{margin-top:2.5rem}
-.claims details{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);margin:8px 0}
-.claims summary{cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 16px;font-weight:600;list-style:none}
-.claims summary::-webkit-details-marker{display:none}
-.claims summary:after{content:"展開";margin-left:auto;font-size:13px;font-weight:400;border:1px solid var(--line);border-radius:999px;padding:2px 10px}
-.claims details[open] summary:after{content:"收合"}
-.claims summary:hover{background:var(--ai-soft)}
-.claims ul{margin:0;padding:0 16px 14px 34px}
-.claims li{margin:.4rem 0;font-size:15px}
 
 /* ---- footer / tabbar / sheet ---- */
 footer{margin-top:3rem;background:#ebe4d4;padding:24px 0 30px;font-size:14px;color:var(--sumi-2)}
@@ -269,3 +246,62 @@ footer p{margin:.4rem 0}
 .sheet .close{width:100%;margin-top:10px}
 
 @media (max-width:699px){.maplegend{display:none}}
+
+/* ---- 卡片：營業時間・公休・價格 ---- */
+.info{margin:0;display:grid;gap:4px;font-size:14px;line-height:1.5;background:#f7f2e7;border-radius:10px;padding:8px 10px}
+.info>div{display:grid;grid-template-columns:4.4em minmax(0,1fr);gap:6px;align-items:baseline}
+.info dt{color:var(--sumi-2);font-size:13px;white-space:nowrap}
+.info dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.aside{color:var(--sumi-3);font-size:12.5px}
+.pc .jp{line-height:1.45}
+.pc .tg{font-size:12.5px;color:var(--sumi-3);margin-top:1px}
+
+/* ---- 可收合的彩色區塊 ---- */
+.folds{display:flex;flex-direction:column;gap:6px}
+.fold{--fbg:#f5f1e8;--fb:#e2d9c6;--fc:#5a544d;background:var(--fbg);border:1px solid var(--fb);border-left:4px solid var(--fc);border-radius:12px;overflow:hidden;min-width:0}
+.fold-h{font:inherit;width:100%;display:flex;align-items:center;gap:10px;min-height:44px;padding:7px 10px 7px 12px;border:0;background:transparent;cursor:pointer;text-align:left;color:var(--fc)}
+.fold-h:hover{background:rgba(255,255,255,.45)}.fold-h:active{background:rgba(255,255,255,.7)}
+.fold .fi{font-size:19px;line-height:1;flex:none}
+.fold .ft{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.fold .ft b{font-size:15px;line-height:1.35}
+.fold .ft .cnt{font-weight:400;font-size:13px;opacity:.85}
+.fold .ft small{font-size:13px;line-height:1.45;color:var(--sumi-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fold-h[aria-expanded=true] .ft small{display:block}
+.fold .fx{flex:none;font-size:12.5px;font-weight:600;background:rgba(255,255,255,.85);border:1px solid var(--fb);border-radius:999px;padding:2px 10px;white-space:nowrap}
+.fold .fx:after{content:"展開 ▾"}
+.fold-h[aria-expanded=true] .fx:after{content:"收合 ▴"}
+.fold-b{padding:8px 14px 12px;font-size:15px;color:var(--sumi);border-top:1px dashed var(--fb);background:rgba(255,255,255,.4)}
+.fold-b p{margin:.35rem 0}
+.fold-b ul,.fold-b ol{margin:.2rem 0;padding-left:1.3em}
+.fold-b li{margin:.3rem 0}
+.fold-b ul.tips{list-style:none;padding-left:0}
+.fold-b ul.tips li:before{content:"→ ";color:var(--fc);font-weight:700}
+.fold-b ul.buy li::marker{color:var(--fc)}
+.fold-b .srcs{font-size:13px;word-break:break-all}
+.f-go .fold-b>div{margin:.2rem 0 .5rem;font-size:14px}
+.f-go .fold-b b{color:var(--fc);font-size:13px}
+.f-know{--fbg:#fdf5df;--fb:#efd9a2;--fc:#94620a}
+.f-buy{--fbg:#e9f1fb;--fb:#bdd3ec;--fc:#245a96}
+.f-go{--fbg:#edf5e8;--fb:#c8dcbd;--fc:#3f6e3a}
+.f-src{--fbg:#f4f0e8;--fb:#e2d9c6;--fc:#6a635a}
+.f-alt{--fbg:#fbedf1;--fb:#efc6d3;--fc:#9a3557}
+.f-over{--fbg:#fdeee6;--fb:#f1c9b6;--fc:#a8381b}
+.f-unv{--fbg:#f3eef9;--fb:#ddd0ee;--fc:#5b3f86}
+.f-alt .stops a{background:rgba(255,255,255,.75)}
+.claims .folds{gap:8px}
+.claims .fold-b li{font-size:15px}
+
+/* ---- 訂位／購票 ---- */
+.bkbox{background:#f1f6ee;border:1px solid #cfe0c6;border-radius:12px;padding:10px 12px}
+.bkbox .bh{font-weight:700;font-size:14px;color:#2f5d2c;margin-bottom:6px}
+.bkbtns{display:flex;flex-wrap:wrap;gap:6px}
+.bk{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;min-height:48px;min-width:84px;padding:4px 14px;border-radius:12px;text-decoration:none;font-size:14px;line-height:1.25;border:1px solid transparent;transition:filter .15s,transform .05s}
+.bk:hover{filter:brightness(.95)}.bk:active{transform:translateY(1px);filter:brightness(.9)}
+.bk small{font-size:11.5px;font-weight:400;opacity:.92}
+.bk-off{background:#2f6b3a;color:#fff}
+.bk-tel{background:#fff;color:#2f6b3a;border-color:#8fb487}
+.bk-klook{background:#fff1e7;color:#b8410e;border-color:#f4c4a3}
+.bk-kkday{background:#e5f6f7;color:#0b6a73;border-color:#a7dce0}
+.bk-booking{background:#e7eefb;color:#003580;border-color:#b3c6ec}
+.bkbox .bn{font-size:13px;color:var(--sumi-2);margin:6px 0 0;line-height:1.5}
+.bkbox .bn.bw{color:var(--warn);background:var(--warn-bg);border-radius:8px;padding:5px 8px;margin:0 0 8px}
