@@ -53,7 +53,7 @@ for h in sorted(pages):
         if m.group(1) not in pages: err.append(f'{h}: 連到不存在的 {m.group(1)}')
     if re.search(r'<!--(PLACES|FACTS|NAV|TABBAR|FOOT|CULTURE|TALK|APPS)-->', s): err.append(f'{h}: 佔位符沒替換')
     if 'Jess' in s: err.append(f'{h}: 出現本名 Jess')
-    if re.search(r'朋友家[^。]{0,12}(丁目|\d+-\d+)', s): err.append(f'{h}: 朋友家附近出現地址')
+    if re.search(r'(朋友家|貝貝家)[^。]{0,12}(丁目|\d+-\d+)', s): err.append(f'{h}: 朋友家附近出現地址')
 for w in warn: print('WARN', w)
 for e in err: print('ERR ', e)
 print(f"{len(P['places'])} places, {len(pages)} pages, {len(err)} errors, {len(warn)} warnings")
