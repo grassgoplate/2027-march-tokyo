@@ -40,7 +40,7 @@ OKLIC = ('CC0', 'CC BY', 'CC BY-SA', 'Public domain', 'PD')
 for k, v in PH.items():
     if k not in ids: err.append(f'photos: 找不到地點 {k}')
     if not v.get('lic', '').startswith(OKLIC): err.append(f'photos {k}: 授權不在白名單 {v.get("lic")}')
-    if not (v.get('art') and v.get('pg') and v.get('u', '').startswith('https://upload.wikimedia.org/')): err.append(f'photos {k}: 缺作者／來源頁／網址')
+    if not (v.get('art') and v.get('pg') and v.get('u', '').startswith(('https://upload.wikimedia.org/', 'https://live.staticflickr.com/'))): err.append(f'photos {k}: 缺作者／來源頁／網址')
 for p in P['places']:
     g = p.get('gm')
     if g and not (1 <= g['r'] <= 5 and g['c'] >= 1 and g.get('asof') and g.get('pid')): err.append(f"{p['id']}: gm 格式不對")

@@ -24,7 +24,7 @@ def route(r):
     if 'unpkg.com/leaflet@1.9.4/dist/' in u:
         f = u.split('/dist/')[1]
         return r.fulfill(path=os.path.join(LEAF, f), headers={'Access-Control-Allow-Origin': '*'})
-    if 'tile.openstreetmap.org' in u or 'upload.wikimedia.org' in u: return r.fulfill(body=PNG, content_type='image/png')
+    if 'tile.openstreetmap.org' in u or 'upload.wikimedia.org' in u or 'staticflickr.com' in u: return r.fulfill(body=PNG, content_type='image/png')
     if 'fonts.g' in u: return r.fulfill(body='', content_type='text/css')
     if u.startswith(BASE): return r.continue_()
     return r.abort()

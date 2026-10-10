@@ -646,5 +646,148 @@
   "file": "Tokyo_DisneySea-Volcania.jpg",
   "pg": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea-Volcania.jpg",
   "cap": "普羅米修斯火山"
+ },
+ "f-tokyustay-gotanda": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tokyu_Stay_Gotanda.jpg/960px-Tokyu_Stay_Gotanda.jpg",
+  "w": 960,
+  "h": 1275,
+  "lic": "CC0",
+  "art": "Syced",
+  "file": "Tokyu Stay Gotanda.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Tokyu_Stay_Gotanda.jpg",
+  "src": "commons",
+  "cap": ""
+ },
+ "c-mikan-shimokita": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8C%E3%83%9F%E3%82%AB%E3%83%B3%E4%B8%8B%E5%8C%97%E3%80%8D.jpg/960px-%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8C%E3%83%9F%E3%82%AB%E3%83%B3%E4%B8%8B%E5%8C%97%E3%80%8D.jpg",
+  "w": 960,
+  "h": 539,
+  "lic": "CC0",
+  "art": "Souka Kinmei",
+  "file": "商業施設「ミカン下北」.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:%E5%95%86%E6%A5%AD%E6%96%BD%E8%A8%AD%E3%80%8C%E3%83%9F%E3%82%AB%E3%83%B3%E4%B8%8B%E5%8C%97%E3%80%8D.jpg",
+  "src": "commons",
+  "cap": ""
+ },
+ "c-tajimaya-coffee": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Small_street_in_Shinjuku_1-2.jpg/960px-Small_street_in_Shinjuku_1-2.jpg",
+  "w": 960,
+  "h": 720,
+  "lic": "CC BY-SA 3.0",
+  "art": "Hanonimas",
+  "file": "Small street in Shinjuku 1-2.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:Small_street_in_Shinjuku_1-2.jpg",
+  "src": "commons",
+  "cap": "但馬屋珈琲店所在的巷子（2016 年）"
+ },
+ "f-apa-shinagawa-sengakuji": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/APA_Hotels_Shinagawa_Sengakuji_191224.jpg/960px-APA_Hotels_Shinagawa_Sengakuji_191224.jpg",
+  "w": 960,
+  "h": 1439,
+  "lic": "CC BY-SA 4.0",
+  "art": "江戸村のとくぞう",
+  "file": "APA Hotels Shinagawa Sengakuji 191224.jpg",
+  "pg": "https://commons.wikimedia.org/wiki/File:APA_Hotels_Shinagawa_Sengakuji_191224.jpg",
+  "src": "commons",
+  "cap": ""
+ },
+ "f-ours-inn-hankyu": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Ours_Inn_Hankyu.JPG/960px-Ours_Inn_Hankyu.JPG",
+  "w": 960,
+  "h": 720,
+  "lic": "Public domain",
+  "art": "Abasaa",
+  "file": "Ours Inn Hankyu.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Ours_Inn_Hankyu.JPG",
+  "src": "commons",
+  "cap": ""
+ },
+ "f-routeinn-shinagawa-oimachi": {
+  "u": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Routeinn_ShinagawaOoimachi.JPG/960px-Routeinn_ShinagawaOoimachi.JPG",
+  "w": 960,
+  "h": 640,
+  "lic": "CC BY-SA 3.0",
+  "art": "Asasa198",
+  "file": "Routeinn ShinagawaOoimachi.JPG",
+  "pg": "https://commons.wikimedia.org/wiki/File:Routeinn_ShinagawaOoimachi.JPG",
+  "src": "commons",
+  "cap": "2012 年拍攝"
+ },
+ "b-andys-shin-hinomoto": {
+  "u": "https://live.staticflickr.com/574/20842170504_db45305195_b.jpg",
+  "w": 768,
+  "h": 1024,
+  "lic": "CC BY-SA 2.0",
+  "art": "Big Ben in Japan",
+  "file": "A place of respite doesn't necessarily look like much from the outside",
+  "pg": "https://www.flickr.com/photos/74418647@N00/20842170504",
+  "src": "flickr",
+  "cap": "有樂町高架橋下的店門（2015 年）"
+ },
+ "b-hoppy-dori": {
+  "u": "https://live.staticflickr.com/4121/4868431479_7045cb6d77_b.jpg",
+  "w": 1024,
+  "h": 768,
+  "lic": "CC BY 2.0",
+  "art": "Yakinik",
+  "file": "Asakusa Nikomi Street",
+  "pg": "https://www.flickr.com/photos/47256332@N05/4868431479",
+  "src": "flickr",
+  "cap": ""
+ },
+ "b-kaiseiken": {
+  "u": "https://live.staticflickr.com/2812/11530295826_c2eb5fffcd_b.jpg",
+  "w": 1024,
+  "h": 768,
+  "lic": "CC BY 2.0",
+  "art": "jlggb",
+  "file": "kaiseiken-2013",
+  "pg": "https://www.flickr.com/photos/18220837@N03/11530295826",
+  "src": "flickr",
+  "cap": "店內（2013 年）"
+ },
+ "b-muji-ginza": {
+  "u": "https://live.staticflickr.com/65535/48196268756_db67e4fc57_b.jpg",
+  "w": 1024,
+  "h": 682,
+  "lic": "CC BY 2.0",
+  "art": "MIKI Yoshihito",
+  "file": "MUJI Global Flagship Store in Ginza.",
+  "pg": "https://www.flickr.com/photos/7940758@N07/48196268756",
+  "src": "flickr",
+  "cap": "1 樓食品區"
+ },
+ "b-sasashin": {
+  "u": "https://live.staticflickr.com/21/33545378_10a5092443_b.jpg",
+  "w": 1024,
+  "h": 768,
+  "lic": "CC BY-SA 2.0",
+  "art": "ayustety",
+  "file": "むつ？の煮付け (at Sasashin)",
+  "pg": "https://www.flickr.com/photos/25368895@N00/33545378",
+  "src": "flickr",
+  "cap": "笹新的煮魚（2005 年）"
+ },
+ "c-fuglen-tokyo": {
+  "u": "https://live.staticflickr.com/5570/14598514670_1ab068aa64_b.jpg",
+  "w": 1024,
+  "h": 758,
+  "lic": "CC BY 2.0",
+  "art": "Khamis Hammoudeh",
+  "file": "Fuglen Tokyo",
+  "pg": "https://www.flickr.com/photos/49056412@N00/14598514670",
+  "src": "flickr",
+  "cap": ""
+ },
+ "d-hagiso": {
+  "u": "https://live.staticflickr.com/8250/8574392777_1dbcae7e74_b.jpg",
+  "w": 1024,
+  "h": 683,
+  "lic": "CC BY 2.0",
+  "art": "Kentaro Ohno",
+  "file": "HAGISO 萩荘",
+  "pg": "https://www.flickr.com/photos/47335063@N08/8574392777",
+  "src": "flickr",
+  "cap": "館內（2013 年）"
  }
 }
